@@ -11017,7 +11017,7 @@
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
-		"checksum": 3308381042
+		"checksum": 2781960477
 	},
 	{
 		"filename": "data\/descr_standards.txt",
@@ -11085,7 +11085,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 3501450265
+		"checksum": 1946224338
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -11342,10 +11342,6 @@
 	{
 		"filename": "data\/fmv\/lose\/syracuse_eliminated.webm",
 		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/loading_screen\/gude-2026-01-20.log",
-		"checksum": 2394425732
 	},
 	{
 		"filename": "data\/loading_screen\/loading_bar_fill.dds",
@@ -25385,7 +25381,7 @@
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_static_music.txt",
-		"checksum": 1839012116
+		"checksum": 1070287413
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_anims.txt",
@@ -25525,11 +25521,11 @@
 	},
 	{
 		"filename": "data\/sounds\/events.dat",
-		"checksum": 546443679
+		"checksum": 699575183
 	},
 	{
 		"filename": "data\/sounds\/events.idx",
-		"checksum": 3840082872
+		"checksum": 2454830579
 	},
 	{
 		"filename": "data\/sounds\/interface.dat.feral",
@@ -25588,8 +25584,16 @@
 		"checksum": 1996630872
 	},
 	{
+		"filename": "data\/string_overrides\/campaign_descriptions_en.strings",
+		"checksum": 1541989888
+	},
+	{
 		"filename": "data\/string_overrides\/en.strings",
 		"checksum": 2206159494
+	},
+	{
+		"filename": "data\/string_overrides\/expanded_bi_en.strings",
+		"checksum": 3578388066
 	},
 	{
 		"filename": "data\/terrain\/aerial_map\/bases\/forts\/fort_barb_underlay.tga",
@@ -101562,6 +101566,10 @@
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
 		"checksum": 2715582006
+	},
+	{
+		"filename": "data\/world\/maps\/base\/map.rwm",
+		"checksum": 1115825533
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
