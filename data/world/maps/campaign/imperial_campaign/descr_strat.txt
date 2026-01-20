@@ -23459,7 +23459,7 @@ settlement
 	region Nesactium_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator histri
 	building
@@ -23493,9 +23493,8 @@ character_record		Kersos Histri, 	male, command 0, influence 0, management 0, su
 relative 	Suratralis Histri, 	Bendidora,		Kersos Histri,	end
 
 
-
 faction veneti, celtic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level large_town
@@ -23524,7 +23523,7 @@ settlement
 	region Opitergium_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator veneti
 	building
@@ -23559,7 +23558,7 @@ relative 	Eptecentus Veneti, 	Karia,		Kersebleptos Veneti,	end
 
 
 faction	insubres, celtic_passive
-denari	2000
+denari	1900
 settlement
 {
 	level large_town
@@ -23591,6 +23590,10 @@ army
 unit		barb chieftain cavalry early gaul	exp 1 armour 0 weapon_lvl 0
 unit		barbarian warband			exp 0 armour 0 weapon_lvl 0
 unit		barbarian warband			exp 0 armour 0 weapon_lvl 0
+unit		barbarian warband			exp 0 armour 0 weapon_lvl 0
+unit		barbarian warband			exp 0 armour 0 weapon_lvl 0
+unit		barbarian warband			exp 0 armour 0 weapon_lvl 0
+unit		barbarian warband			exp 0 armour 0 weapon_lvl 0
 unit		barbarian cavalry			exp 0 armour 0 weapon_lvl 0
 
 character_record		Cartimandua, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
@@ -23602,7 +23605,7 @@ relative 	Eporedorix Insubri, 	Cartimandua,		Belenus Insubri,	Verctissa,	Virssuc
 
 
 faction	leponti, celtic_passive
-denari	3000
+denari	2000
 settlement
 {
 	level town
@@ -23665,9 +23668,8 @@ character_record		Orgetorix Leponti, 	male, command 0, influence 0, management 0
 relative 	Voteporix Leponti, 	Cuniovenda,		Orgetorix Leponti,	end
 
 
-
 faction	taurini, celtic_passive
-denari	3000
+denari	2100
 settlement
 {
 	level town
@@ -23707,7 +23709,7 @@ relative 	Ceanatis Taurini, 	Esselt,		Praesutagus Taurini,	end
 
 
 faction	ligures, celtic_passive
-denari	3000
+denari	2000
 settlement
 {
 	level town
@@ -23754,7 +23756,7 @@ settlement
 	region Dertona_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator ligures
 	building
@@ -23772,7 +23774,7 @@ settlement
 	region Ingaunum_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator ligures
 	building
@@ -39652,7 +39654,7 @@ settlement
 	region Pataliputra_R
 
 	year_founded 0
-	population 1050
+	population 1035
 	plan_set default_set
 	faction_creator india
 	building
@@ -39707,28 +39709,10 @@ settlement
 settlement
 {
 	level town
-	region Bardaxema_R
-
-	year_founded 0
-	population 800
-	plan_set default_set
-	faction_creator india
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-	level town
 	region Karnasuvarna_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator india
 	building
@@ -42117,11 +42101,6 @@ unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
 ;	Thorax
 character	Taharqa, general, age 20, , x 825, y 206
-army
-unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
-
-;	Bardaxema
-character	Taharqa, general, age 20, , x 808, y 187
 army
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
@@ -46633,6 +46612,26 @@ settlement
 
 	year_founded 0
 	population 380
+	plan_set default_set
+	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Bardaxema_R
+
+	year_founded 0
+	population 550
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
