@@ -2729,7 +2729,6 @@ stat_cost        1, 150, 170, 20, 30, 150
 ownership        carthage, numidia
 ethnicity carthage, Baliares
 ethnicity numidia, Numidia
-ethnicity spain, Taraconenis
  
  
 type             carthaginian archer
@@ -8397,7 +8396,6 @@ stat_food        60, 300
 stat_cost        1, 470, 200, 50, 70, 470
 ownership        slave, carthage
 ethnicity carthage, Sardinia
-ethnicity spain, Sardinia
 ethnicity slave, Sardinia
  
 
@@ -10956,7 +10954,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 550, 120, 60, 90, 550
 ownership        persia;;, macedon
-ethnicity macedon, Scythia
 ethnicity persia, Scythia
 
 
@@ -21404,7 +21401,7 @@ stat_mental      7, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 476, 195, 50, 70, 439
+stat_cost        1, 475, 195, 50, 70, 439
 ownership        seleucid
 
 type             syro hurrian spearmen
@@ -21429,7 +21426,7 @@ stat_mental      5, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 428, 178, 50, 70, 405
+stat_cost        1, 399, 177, 50, 70, 401
 ownership        seleucid
 
 type             spartan royal archer
