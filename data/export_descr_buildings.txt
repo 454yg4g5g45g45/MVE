@@ -8305,7 +8305,7 @@ building hinterland_roads
 				road_level 2
 			}
 			construction  36
-			cost  125000
+			cost  125100
 			settlement_min large_city
 			upgrades
 			{
