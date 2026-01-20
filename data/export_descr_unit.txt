@@ -11141,8 +11141,6 @@ stat_food        60, 300
 stat_cost        1, 450, 170, 50, 70, 450
 ownership        persia;;, macedon
 ethnicity persia, Persis
-ethnicity macedon, Persis
-
 
 type             persian infantry
 dictionary       persian_infantry     ; Persian Infantry
