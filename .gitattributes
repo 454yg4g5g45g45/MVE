@@ -1,2 +1,25 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Ignore EVERYTHING by default
+*
+
+# Allow folders (Git needs this)
+!*/
+
+# Allow text & strings files
+!*.txt
+!*.strings
+
+# Ignore known heavy Rome Remastered assets explicitly
+data/models/**
+data/models_building/**
+data/textures/**
+data/ui/**
+data/terrain/**
+data/animations/**
+data/fmv/**
+data/loading_screen/**
+data/menu/**
+data/feral_textures/**
+data/characters/**
+data/banners/**
+data/modles_strat/**
+data/sprites/**

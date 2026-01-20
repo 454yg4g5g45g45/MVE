@@ -1,0 +1,24 @@
+script
+declare_counter loop
+set_counter loop 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;; Slave Faction -40000 Denarii Penalty
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionType slave
+
+console_command add_money slave -900000
+
+console_command add_money maurya -15000
+
+console_command add_money romans_julii -5000
+
+console_command add_money seleucid -4000
+
+end_monitor
+
+while I_CompareCounter loop = 0
+end_while
+
+end_script

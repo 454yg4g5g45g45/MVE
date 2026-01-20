@@ -1,0 +1,235 @@
+
+{blacksmith_parthia_desc}
+A blacksmith provides superior quality weaponry for any troops trained in the settlement. His skills in metal working are exceptional, far beyond those of ordinary smiths who make agricultural implements.\n\nHe is an important man in the community, as good weapons are always valued by the men who have to use them. A Blacksmith who can make a strong sword that won't break or bend in combat is a great asset to his people.
+
+{blacksmith_parthia_desc_short}
+A blacksmith provides superior quality weaponry for any troops trained in the settlement. This building can be developed further.
+
+{smiths_workshop_parthia_desc}
+An armourer works closely with a blacksmith, and produces fine armour to match the smith's weaponry. His work is highly valued by military men - well-made armour can often mean the difference between life and death! When his skills are added to those of a blacksmith in producing weapons, the armourer ensures that any troops trained in this settlement will be equipped to a very high standard. 
+
+{smiths_workshop_parthia_desc_short}
+An armourer works closely with a blacksmith, and produces fine armour to match the smith's superior weapons.
+
+{foundry_parthia_desc}
+A foundry is the final metalworking development found only in the larger cities: a factory where very high quality armour and weaponry can be produced quickly, and in quantity.\n\nAny troops trained in this city will be equipped to the highest standard possible, making them formidable in combat, providing of course, that they are well motivated and properly commanded!
+
+{foundry_parthia_desc_short}
+A foundry is the final metalworking development found only in the larger cities: a factory where very high quality armour and weaponry can be produced quickly, and in quantity. 
+
+
+
+{port_parthia_desc}
+A port brings trade and wealth to a settlement, and allows the construction of simple ships. Access to the sea is vital for all long distance trade. The sea lanes are the true highways of the world, and carrying goods by ship is the only way to move them cheaply enough to make a profit. Indeed, it is usually cheaper and quicker to send a cargo halfway across the world by sea than to the next city in a cart!\n\nMilitarily, ports are important because they have the men and equipment needed to build a fleet.
+
+{port_parthia_desc_short}
+A port brings trade and wealth to a settlement, and allows the construction of simple ships.
+
+{shipwright_parthia_desc}
+A shipwright can build the warships needed for a strong fleet, while the improved port facilities allow more goods to be landed at and forwarded from the settlement.\n\nAs a port grows wealth flows into the town, and all manner of goods become available to the people.\n\nMilitarily, the improvements in ship-building usually lead to better ship-handling and tactics.
+
+{shipwright_parthia_desc_short}
+A shipwright can build the warships needed for a strong fleet, while the improved port facilities allow more goods to be landed at and forwarded from the settlement.
+
+{dockyard_parthia_desc}
+A Dockyard has the equipment and skilled craftsmen needed to construct the largest and most advanced warships afloat, while the port can speedily handle many merchant vessels.\n\nThe city's merchants can easily send their cargoes to any port in the world, adding greatly to the wealth of the city and in return exotic goods from all over the world pass through the docks.\n\nThe Dockyard can produce any warship required by the fleet, and even provide the crews of slave rowers required by these large and powerful ships.
+
+{dockyard_parthia_desc_short}
+A Dockyard has the equipment and skilled craftsmen needed to construct the largest and most advanced warships afloat, while the port can speedily handle many merchant vessels.
+
+
+
+{aqueduct_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{aqueduct_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+{city_plumbing_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{city_plumbing_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+
+
+{farms_parthia}	Land Clearance
+
+{farms_parthia_desc}
+An improvement on slash-and-burn farming around a settlement, land clearances allow a surplus of food and encourage population growth.\n\nSubsistence farming, where people can only just feed themselves and their families, does not free people to do anything more than scrabble for a living. However, if agriculture improves even marginally, there will be growth in a settlement.\n\nThis kind of farming can be upgraded as the settlement grows.
+
+{farms_parthia_desc_short}
+An improvement on slash-and-burn farming around a settlement, land clearances allow a surplus of food and encourage growth.
+
+{farms+1_parthia}	Communal Farming
+
+{farms+1_parthia_desc}
+Once slash-and-burn agriculture has worn out the land, one response is for farming communities to organise, and work collectively. Communal farming produces a surplus through minor economies of scale: tools and resources are pooled, and everyone works as a team to gather the harvest. Individual failures are minimised by these methods, and the increased output adds to population growth.\n\nThis kind of farming can be upgraded as the settlement grows.
+
+{farms+1_parthia_desc_short}
+Communal farming produces a surplus that goes to market and this always ends up in a settlement, encouraging growth. People won't stay where there isn't enough to eat!
+
+{farms+2_parthia}	Crop Rotation
+
+{farms+2_parthia_desc}
+Crop rotation and basic land management techniques stop farms from becoming rapidly exhausted. By changing field usage every year and allowing land to lie fallow or be used as pasture, the goodness of the land is slowly restored. Crop yields and surpluses improve as a result, and the increased output adds to population growth. Slave labour also helps, as peasant farmers generally keep more produce for themselves.\n\nThis kind of farming can be upgraded as the settlement grows.
+
+{farms+2_parthia_desc_short}
+Crop rotation and basic land management techniques stop farms from becoming rapidly exhausted; yields and surpluses improve as a result.
+
+{farms+3_parthia}	Irrigation
+
+{farms+3_parthia_desc}
+Damming rivers and using waterwheels to raise water to fields is labour intensive, but the pay offs can be spectacular. In some parts of the world it's even possible to gather more than one harvest a year when irrigation is used. Overall, extensive irrigation systems improve all farm production, creating even larger surpluses that can be sent to support a growing urban population.
+
+{farms+3_parthia_desc_short}
+Extensive irrigation systems improve farm production, creating larger surpluses that can be sent to support a growing urban population.
+
+
+
+{roads_parthia_desc}
+These minor roads have been made usable by the military only where necessary, and for the most part they are ancient tracks worn into the landscape, created over generations.\n\nMilitary engineers improve these ancient ways a little with simple bridges, a stony roadbed in marshy spots and by cutting back vegetation. They are not ideal but are certainly better than nothing.\n\nIn addition, tolls can be collected at certain key crossings.
+
+{roads_parthia_desc_short}
+Roads are vital to territorial defence, allowing armies to move to meet any threat.
+
+{paved_roads_parthia_desc}
+These improved roads allow armies to assemble and then meet approaching enemies swiftly. Paved roads are built for military use first and foremost. They are carefully surveyed and constructed, often including cuttings and extensive causeways. They will not degenerate into muddy rivers in winter or dusty tracks in summer, no matter how hard the usage.\n\nWith these better conditions, tolls can be collected more efficiently and at more locations on the road.
+
+{paved_roads_parthia_desc_short}
+These improved roads allow armies to assemble swiftly and then march great distances to meet approaching enemies.
+
+{highways_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{highways_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+
+
+{mines_parthia_desc}
+Mines are needed to exploit the natural wealth of a province, although the dangerous underground work costs the lives of many slaves.\n\nMost mines are not very deep, as they are dug by back-breaking labour and follow the richest seams of ore into hillsides (drift mining), rather than having vertical mine shafts.\n\nWhere gold and silver are to be found, mining is sure to be a priority of the land's overlords.
+
+{mines_parthia_desc_short}
+Mines are needed to exploit the natural wealth of a province, although the dangerous underground work costs the lives of many slaves.
+
+{mines+1_parthia_desc}
+These deeper Mines exploit the wealth of a region more efficiently, allowing seams of ore to be dug out even below the water table.\n\nIn addition to the miners, teams of slaves are used to lift water out of the workings using treadmill-powered waterwheels. Working in a mine like this is usually a deferred death sentence.\n\nThe wealth extracted by these mines is more than enough to make a handsome profit and pay for a constant influx of new slave labourers.
+
+{mines+1_parthia_desc_short}
+These deeper Mines exploit the wealth of a region more efficiently, allowing seams of ore to be dug out even below the water table.
+
+
+
+{academy_parthia_desc}
+The Academy is a training school where leaders can acquire the basic skills of government before they assume the weighty responsibilities of command. Teaching ranges from the purely philosophical to the practical skills of waging war and producing good governance.\n\nTowns with an Academy will tend to be well run because of the pool of educated men that is produced.\n\nAn Academy can be upgraded as the settlement grows.
+
+{academy_parthia_desc_short}
+The Academy is a training school where leaders can acquire the basic skills of government before they assume weighty responsibilities.
+
+{scriptorium_parthia_desc}
+A Scriptorium holds many laboriously copied books, and the learning to be gained here can improve the skills of present and future leaders alike. Built upon the solid educational foundations of an Academy, this place brings together many teachers and thinkers who, through cogent argument and disputation, impart knowledge to all those willing to listen and learn.\n\nA city with a Scriptorium will tend to be efficiently governed because of the educated men that are drawn here.\n\nThis building can be upgraded as the settlement grows.
+
+{scriptorium_parthia_desc_short}
+A Scriptorium holds many laboriously copied books, and the learning to be gained here can improve the skills of present and future leaders alike.
+
+{ludus_magnus_parthia_desc}
+The Great School attracts wise teachers, keen to pass on their learning to all potential leaders who know that greatness is found in the mind as well as the sword-arm. This kind of educational establishment is only found in the largest cities of an empire and represents the very finest training ground for the ruling elite. Individuals trained here will gain a solid understanding of all human wisdom, including the arts of war, statesmanship and good government.\n\nA great city with a Ludus Magna will tend to be superbly run because of the talented and educated men that can always be found here.
+
+{ludus_magnus_parthia_desc_short}
+The Great School attracts wise teachers, who can pass on their learning to all potential leaders who know that greatness is found in the mind as well as the sword-arm.
+
+
+
+{theatre_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{theatre_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+{stone_amphitheatre_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{stone_amphitheatre_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+{urban_amphitheatre_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{urban_amphitheatre_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+{great_amphitheatre_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{great_amphitheatre_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+
+
+{odeon_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{odeon_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+{lyceum_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{lyceum_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+
+
+
+{execution_square_parthia_desc}
+An Execution Square does much to quell all rebellious spirits, and introduces a certain happiness with their lot to the common folk.\n\nFear is a splendid way of ensuring public loyalty and ensuring obedience. The loss of one or even a hundred people as object lessons in obedience is regrettable, but the remainder will learn that obedience to the established order brings... old age.\n\nAn Execution Square can be upgraded as the town grows and the need for further law and order measures becomes pressing.
+
+{execution_square_parthia_desc_short}
+An Execution Square does much to quell all rebellious spirits. Fear is a splendid way of ensuring public loyalty.
+
+{secret_police_hq_parthia_desc}
+The Secret Police make sure that foolish and rebellious people simply disappear. Peace, good order and tranquility are maintained. But sometimes it is not enough simply to execute naysayers and the disloyal. Those who question the order of things must be rooted out before they can cause their fellow subjects to become unhappy.\n\nThe Secret Police can be improved as the city grows in size.
+
+{secret_police_hq_parthia_desc_short}
+The Secret Police make sure that foolish and rebellious people simply disappear. Peace and tranquility are maintained.
+
+{secret_police_network_parthia_desc}
+Better even than the Secret Police are a network of informers. Far better to have hidden servants listening to the words - and watching for the deeds - that betray unhappiness. And when anyone might be a servant of the state, everyone watches: failure to report on disloyalty can be construed as disloyalty also. Good order is thus maintained and enhanced by these unsung heroes of the people: the rebellious tongue remains still when it may be cut off!
+
+{secret_police_network_parthia_desc_short}
+Better even than the Secret Police are a network of informers. When anyone may be listening, the disloyal and rebellious tongue remains still.
+
+
+
+{caravan_parthia_desc}
+Goods from the mysterious East are carried across the trackless wastes by a Caravan, increasing the trading wealth of the settlement. Exotic goods from as far away as the Indus and China reach the Mediterranean world carried on the backs of long camel trains.\n\nA Caravan can be upgraded as the settlement grows in size and importance.
+
+{caravan_parthia_desc_short}
+Goods from the mysterious East are carried across the trackless wastes by a Caravan, increasing the trading wealth of the settlement.
+
+{frankincense_rd_parthia_desc}
+A handful of nutmeg can make a man wealthy for the rest of his days. That the spice has to be carried across the world to gain these riches is unimportant. The 'Spice Road' trade route from the East brings some of this trading wealth to a town.\n\nSpices - thanks to their rarity - are a valuable, transportable commodity, and their use is a sign of sophistication and wealth. The demand for exotic tastes and flavours cannot be sated, even by the many camel loads of spice that make the risky journey West.\n\nA Spice Road trading route can be upgraded as the city increases in size. 
+
+{frankincense_rd_parthia_desc_short}
+A handful of nutmeg can make a man wealthy for the rest of his days. The 'Spice Road' trade route  to the East brings some of this wealth to a town.
+
+{silk_rd_parthia_desc}
+The 'Silk Road' trade route brings all the finest of goods from the distant East to a city. Silks are only part of the trade: rare spices, ivory, precious gems and all kinds of exotic items are carried in camel loads to be traded in the West. Men can grow fabulously rich on the proceeds of this trade, and their wealth trickles down through society. It can also be lucratively taxed, because 'protecting' all that wealth can be an expensive business!
+
+{silk_rd_parthia_desc_short}
+The 'Silk Road' trade route brings all the finest of goods from the distant East to a city. Men can grow fabulously rich on the proceeds of this trade.
+
+
+
+{tavern_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{tavern_parthia_desc_short}
+WARNING! This text should never appear on screen!
+
+{bardic_circle_parthia_desc}
+WARNING! This text should never appear on screen!
+
+{bardic_circle_parthia_desc_short}
+WARNING! This text should never appear on screen!

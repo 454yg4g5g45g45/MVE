@@ -1,0 +1,2512 @@
+script
+
+include_script scripts\6_turns_per_year_script.txt
+
+;;;;;;;;;;;;;;;;;;;; GLOSSARY ;;;;;;;;;;;;;;;;;;;;
+;;
+;;;;; 1. Faction intros
+;;;;; 1a. Sparta intro
+;;;;; 1b. Macedon intro
+;;
+;;;;; 2. Starting protectorates
+;;
+;;;;; 3. Colonial recruitment script
+;;
+;;;;; 4. Capital hidden resource script (from RIS)
+;;
+;;;;; 5. Government building checkers
+;;
+;;;;; 6. AI automerge units script (from RIS)
+;;
+;;;;; 7. Siege and blockade effects (inspired by RIS)
+;;
+;;
+;;;;; 9.
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;1. INTROS;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;took them out for the time being
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;INTROS END;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;2. RELATIONS SETUP;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+          and I_TurnNumber = 1
+
+	console_command become_protector seleucid bactria
+	console_command become_protector seleucid pergamon
+	console_command become_protector seleucid cappadocia
+	console_command become_protector seleucid antiochea_taocene
+
+	console_command become_protector egypt cyprus
+
+	console_command become_protector macedon argos
+	console_command become_protector macedon arcadia
+	;;console_command become_protector macedon thessaly
+
+	console_command become_protector romans_julii picentes
+
+	console_command become_protector germans marcomanni
+	console_command become_protector germans lombardi
+
+	console_command become_protector aedui senones
+	console_command become_protector aedui parisii
+	
+	console_command become_protector carthage libya
+
+    terminate_monitor
+
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;RELATIONS SETUP END;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionType slave
+
+console_command add_money slave -1999999999
+
+console_command add_money all -14099
+
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;3. COLONIAL RECRUITMENT;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+declare_counter turns_since_recruited
+
+monitor_event SettlementTurnStart TrueCondition
+	retrieve_counter turns_since_recruited_city settlement turns_since_recruited
+	
+	if HasResource colonists_recruited
+		inc_counter turns_since_recruited 1
+		
+		if I_CompareCounter turns_since_recruited = 4
+			remove_hidden_resource local colonists_recruited
+			add_hidden_resource local colonists_recruitable
+			set_counter turns_since_recruited 0
+		end_if
+		
+		store_counter turns_since_recruited settlement turns_since_recruited_city
+	end_if
+	
+end_monitor
+
+;;doesnt work
+;;monitor_event RecruitmentItemClicked RecruitmentItemClicked greek colonist
+;;	remove_hidden_resource local colonists_recruitable	
+;;end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;4. CAPITAL FLAG SCRIPT;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;check and set capitals for each faction
+monitor_event FactionTurnStart TrueCondition
+
+	for_each settlement in faction
+		if not IsCapital
+		&& HasResource capital
+			remove_hidden_resource local capital
+		end_if
+		
+		if IsCapital
+		&& not HasResource capital
+			add_hidden_resource local capital
+		end_if
+	end_for
+	
+end_monitor
+
+;;check and set capital for player
+monitor_event SettlementSelected
+
+	for_each settlement in faction
+		if IsCapital
+		&& not HasResource capital
+			add_hidden_resource local capital
+		end_if
+	end_for
+	
+	terminate_monitor
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;; 5. GOVERNMENT BUILDING CHECKERS ;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;5a. ROMAN GOVT CHECKERS;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event SettlementTurnStart TrueCondition
+		
+		;;;;;;;;;; Delete any other govt building, its hidden resource, and add the built building hidden resource
+		;;;;;;;;;; Also check and delete if owner is not roman
+	
+		if SettlementBuildingExists = roman_civitas
+		
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_civitas
+				if HasResource roman_civitas
+					remove_hidden_resource local roman_civitas
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if not HasResource roman_civitas
+				add_hidden_resource local roman_civitas
+			end_if
+		end_if
+		
+		;;;;; Checker for libera building
+		
+		if SettlementBuildingExists = roman_civitas_libera
+		
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_civitas_libera
+				if HasResource roman_civitas
+					remove_hidden_resource local roman_civitas
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if not HasResource roman_civitas
+				add_hidden_resource local roman_civitas
+			end_if
+		end_if
+		
+		;;;;; Checker for foederata building
+		
+		if SettlementBuildingExists = roman_civitas_foederata
+		
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_civitas_foederata
+				if HasResource roman_civitas
+					remove_hidden_resource local roman_civitas
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if not HasResource roman_civitas
+				add_hidden_resource local roman_civitas
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for prefecture building
+		
+		if SettlementBuildingExists = roman_praefectura
+		
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_praefectura
+				if HasResource roman_praefectura
+					remove_hidden_resource local roman_praefectura
+				end_if
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_praefectura
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_praefectura
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_praefectura
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_praefectura
+			end_if
+			
+			if not HasResource roman_praefectura
+				add_hidden_resource local roman_praefectura
+			end_if
+		end_if
+				
+		;;;;; Checker for municipia building
+		
+		if SettlementBuildingExists = roman_municipium	
+		
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_municipium
+				if HasResource roman_municipium
+					remove_hidden_resource local roman_municipium
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if not HasResource roman_municipium
+				add_hidden_resource local roman_municipium
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for municipia building 2
+		
+		if SettlementBuildingExists = roman_municipium_2 
+		
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_municipium_2
+				if HasResource roman_municipium
+					remove_hidden_resource local roman_municipium
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if not HasResource roman_municipium
+				add_hidden_resource local roman_municipium
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for colonia latina building
+		
+		if SettlementBuildingExists = roman_colonia_latina
+		
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_colonia_latina
+				if HasResource roman_colonia_latina
+					remove_hidden_resource local roman_colonia_latina
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_colonia_latina
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_colonia_latina
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_colonia_latina
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_colonia_latina
+			end_if
+			
+			if not HasResource roman_colonia_latina
+				add_hidden_resource local roman_colonia_latina
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for colonia romana building
+		
+		if SettlementBuildingExists = roman_colonia
+		
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_colonia
+				if HasResource roman_colonia
+					remove_hidden_resource local roman_colonia
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_colonia
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_colonia
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_colonia
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_colonia
+			end_if
+			
+			if not HasResource roman_colonia
+				add_hidden_resource local roman_colonia
+			end_if
+		end_if
+		
+;;;end_monitor
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		;;;;;;;5b. GREEK GOVT CHECKERS;;;;;;
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;monitor_event SettlementTurnStart TrueCondition
+
+		;;;;; Checker for greek phrourion
+		
+		if SettlementBuildingExists = greek_phrourion
+		
+			if not I_SettlementOwnerCulture local = greek
+				destroy_building "local" greek_phrourion
+				if HasResource greek_phrourion
+					remove_hidden_resource local greek_phrourion
+				end_if
+			end_if
+			
+			if HasResource greek_katoikia
+				if SettlementBuildingExists = greek_katoikia
+					destroy_building "local" greek_katoikia
+				end_if
+				remove_hidden_resource local greek_katoikia
+				add_hidden_resource local greek_phrourion
+			end_if
+			
+			if HasResource greek_klerouchia
+				if SettlementBuildingExists = greek_klerouchia
+					destroy_building "local" greek_klerouchia
+				end_if
+				remove_hidden_resource local greek_klerouchia
+				remove_hidden_resource local colonists_recruitable
+				remove_hidden_resource local colonists_recruited
+				add_hidden_resource local greek_phrourion
+			end_if
+			
+			if HasResource greek_polis
+				if SettlementBuildingExists = greek_polis
+					destroy_building "local" greek_polis
+				end_if
+				remove_hidden_resource local greek_polis
+				add_hidden_resource local greek_phrourion
+			end_if
+			
+			if not HasResource greek_phrourion
+				add_hidden_resource local greek_phrourion
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for greek katoikia
+		
+		if SettlementBuildingExists = greek_katoikia
+		
+			if not I_SettlementOwnerCulture local = greek
+				destroy_building "local" greek_katoikia
+				if HasResource greek_katoikia
+					remove_hidden_resource local greek_katoikia
+				end_if
+			end_if
+			
+			if HasResource greek_phrourion
+				if SettlementBuildingExists = greek_phrourion
+					destroy_building "local" greek_phrourion
+				end_if
+				remove_hidden_resource local greek_phrourion
+				add_hidden_resource local greek_katoikia
+			end_if
+			
+			if HasResource greek_klerouchia
+				if SettlementBuildingExists = greek_klerouchia
+					destroy_building "local" greek_klerouchia
+				end_if
+				remove_hidden_resource local greek_klerouchia
+				remove_hidden_resource local colonists_recruitable
+				remove_hidden_resource local colonists_recruited
+				add_hidden_resource local greek_katoikia
+			end_if
+			
+			if HasResource greek_polis
+				if SettlementBuildingExists = greek_polis
+					destroy_building "local" greek_polis
+				end_if
+				remove_hidden_resource local greek_polis
+				add_hidden_resource local greek_katoikia
+			end_if
+			
+			if not HasResource greek_katoikia
+				add_hidden_resource local greek_katoikia
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for greek klerouchia
+		
+		if SettlementBuildingExists = greek_klerouchia
+
+			if not I_SettlementOwnerCulture local = greek
+				destroy_building "local" greek_klerouchia
+				if HasResource greek_klerouchia
+					remove_hidden_resource local greek_klerouchia
+					remove_hidden_resource local colonists_recruitable
+					remove_hidden_resource local colonists_recruited
+				end_if
+			end_if
+			
+			if HasResource greek_phrourion
+				if SettlementBuildingExists = greek_phrourion
+					destroy_building "local" greek_phrourion
+				end_if
+				remove_hidden_resource local greek_phrourion
+				add_hidden_resource local greek_klerouchia
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource greek_katoikia
+				if SettlementBuildingExists = greek_katoikia
+					destroy_building "local" greek_katoikia
+				end_if
+				remove_hidden_resource local greek_katoikia
+				add_hidden_resource local greek_klerouchia
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource greek_polis
+				if SettlementBuildingExists = greek_polis
+					destroy_building "local" greek_polis
+				end_if
+				remove_hidden_resource local greek_polis
+				add_hidden_resource local greek_klerouchia
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if not HasResource greek_klerouchia
+				add_hidden_resource local greek_klerouchia
+				add_hidden_resource local colonists_recruitable
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for greek polis
+		
+		if SettlementBuildingExists = greek_polis
+		
+			if not I_SettlementOwnerCulture local = greek
+				destroy_building "local" greek_polis
+				if HasResource greek_polis
+					remove_hidden_resource local greek_polis
+				end_if
+			end_if
+			
+			if HasResource greek_phrourion
+				if SettlementBuildingExists = greek_phrourion
+					destroy_building "local" greek_phrourion
+				end_if
+				remove_hidden_resource local greek_phrourion
+				add_hidden_resource local greek_polis
+			end_if
+			
+			if HasResource greek_katoikia
+				if SettlementBuildingExists = greek_katoikia
+					destroy_building "local" greek_katoikia
+				end_if
+				remove_hidden_resource local greek_katoikia
+				add_hidden_resource local greek_polis
+			end_if
+			
+			if HasResource greek_klerouchia
+				if SettlementBuildingExists = greek_klerouchia
+					destroy_building "local" greek_klerouchia
+				end_if
+				remove_hidden_resource local greek_klerouchia
+				remove_hidden_resource local colonists_recruitable
+				remove_hidden_resource local colonists_recruited
+				add_hidden_resource local greek_polis
+			end_if
+			
+			if not HasResource greek_polis
+				add_hidden_resource local greek_polis
+			end_if
+		end_if
+		
+		
+		
+		
+		
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		;;;;;;5c. GENERIC GOVT CHECKERS;;;;;
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		
+		;;;;; Checker for military occupation
+		
+		if SettlementBuildingExists = military_occupation		
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if not HasResource gov_military_occupation
+				add_hidden_resource local gov_military_occupation
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for military administration
+		
+		if SettlementBuildingExists = military_administration		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if not HasResource gov_military_administration
+				add_hidden_resource local gov_military_administration
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for early colony
+		
+		if SettlementBuildingExists = early_colony		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_early_colony
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_early_colony
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				add_hidden_resource local gov_early_colony
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_early_colony
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_early_colony
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_early_colony
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_early_colony
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_early_colony
+			end_if
+			
+			if not HasResource gov_early_colony
+				add_hidden_resource local gov_early_colony
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for full colony
+		
+		if SettlementBuildingExists = full_colony		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_full_colony
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_full_colony
+			end_if
+			
+			if not HasResource gov_full_colony
+				add_hidden_resource local gov_full_colony
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for integrated state
+		
+		if SettlementBuildingExists = integrated_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_integrated_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if not HasResource gov_integrated_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for core state
+		
+		if SettlementBuildingExists = core_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_core_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if not HasResource gov_core_state
+				add_hidden_resource local gov_core_state
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for free state
+		
+		if SettlementBuildingExists = free_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_free_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if not HasResource gov_free_state
+				add_hidden_resource local gov_free_state
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for allied state
+		
+		if SettlementBuildingExists = allied_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_allied_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if not HasResource gov_allied_state
+				add_hidden_resource local gov_allied_state
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for tributary state
+		
+		if SettlementBuildingExists = tributary_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_tributary_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if not HasResource gov_tributary_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+		end_if
+		
+end_monitor
+
+
+;;;;; Automatically delete every government building when a city is captured (inspired by RIS)
+monitor_event GeneralCaptureSettlement
+
+		;;; destroy all generic government buildings
+		destroy_building "local" military_occupation
+		destroy_building "local" military_administration
+		destroy_building "local" early_colony
+		destroy_building "local" full_colony
+		destroy_building "local" integrated_state
+		destroy_building "local" core_state
+		destroy_building "local" free_state
+		destroy_building "local" allied_state
+		destroy_building "local" tributary_state
+		remove_hidden_resource local gov_military_occupation
+		remove_hidden_resource local gov_military_administration
+		remove_hidden_resource local gov_early_colony
+		remove_hidden_resource local gov_full_colony
+		remove_hidden_resource local gov_integrated_state
+		remove_hidden_resource local gov_core_state
+		remove_hidden_resource local gov_free_state
+		remove_hidden_resource local gov_allied_state
+		remove_hidden_resource local gov_tributary_state
+
+		;;; destroy all greek government buildings
+		destroy_building "local" greek_phrourion
+		destroy_building "local" greek_katoikia
+		destroy_building "local" greek_klerouchia
+		destroy_building "local" greek_polis
+		remove_hidden_resource local greek_phrourion
+		remove_hidden_resource local greek_katoikia
+		remove_hidden_resource local greek_klerouchia
+		remove_hidden_resource local colonists_recruitable
+		remove_hidden_resource local colonists_recruited
+		remove_hidden_resource local greek_polis
+		
+		;;; destroy all roman government buildings if non-roman
+		if not FactionCultureType roman
+			destroy_building "local" roman_praefectura
+			destroy_building "local" roman_civitas
+			destroy_building "local" roman_civitas_libera
+			destroy_building "local" roman_civitas_foederata
+			destroy_building "local" roman_municipium
+			destroy_building "local" roman_municipium_2
+			destroy_building "local" roman_colonia_latina
+			destroy_building "local" roman_colonia
+			destroy_building "local" roman_urbs_roma
+			remove_hidden_resource local roman_praefectura
+			remove_hidden_resource local roman_civitas
+			remove_hidden_resource local roman_municipium
+			remove_hidden_resource local roman_colonia_latina
+			remove_hidden_resource local roman_colonia
+		end_if
+		
+		;;; remove capital resource
+		remove_hidden_resource local capital
+		
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;GOVT CHECKER END;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;6. AUTOMERGE SCRIPT;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event CharacterSelected not FactionIsLocal
+	call_object_shortcut campaign_hud automerge_units
+end_monitor
+
+monitor_event SettlementSelected not FactionIsLocal
+	call_object_shortcut campaign_hud automerge_units
+end_monitor
+
+monitor_event FactionTurnStart not FactionIsLocal
+	call_object_shortcut campaign_hud automerge_units
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;7. SIEGES/BLOCKADES;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event SettlementTurnStart TrueCondition
+	if SettlementOrderLevel besieged > 0
+		&& not HasResource besieged
+		
+		add_hidden_resource local besieged
+	end_if
+
+	if SettlementOrderLevel besieged = 0
+		&& HasResource besieged
+		
+		remove_hidden_resource local besieged
+	end_if
+
+	if SettlementOrderLevel blockaded > 0
+		&& not HasResource blockaded
+		
+		add_hidden_resource local blockaded
+	end_if
+
+	if SettlementOrderLevel blockaded = 0
+		&& HasResource blockaded
+		
+		remove_hidden_resource local blockaded
+	end_if
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;##############################################
+;##### START OF SCRIPT 
+;##############################################
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;9. Shoebopp AI money script;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+while I_TurnNumber < 9999
+    suspend_unscripted_advice true
+end_while
+
+end_script
+end_monitor
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;3. COLONIAL RECRUITMENT;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+declare_counter turns_since_recruited
+
+monitor_event SettlementTurnStart TrueCondition
+	retrieve_counter turns_since_recruited_city settlement turns_since_recruited
+	
+	if HasResource colonists_recruited
+		inc_counter turns_since_recruited 1
+		
+		if I_CompareCounter turns_since_recruited = 4
+			remove_hidden_resource local colonists_recruited
+			add_hidden_resource local colonists_recruitable
+			set_counter turns_since_recruited 0
+		end_if
+		
+		store_counter turns_since_recruited settlement turns_since_recruited_city
+	end_if
+	
+end_monitor
+
+;;doesnt work
+;;monitor_event RecruitmentItemClicked RecruitmentItemClicked greek colonist
+;;	remove_hidden_resource local colonists_recruitable	
+;;end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;4. CAPITAL FLAG SCRIPT;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;check and set capitals for each faction
+monitor_event FactionTurnStart TrueCondition
+
+	for_each settlement in faction
+		if not IsCapital
+		&& HasResource capital
+			remove_hidden_resource local capital
+		end_if
+		
+		if IsCapital
+		&& not HasResource capital
+			add_hidden_resource local capital
+		end_if
+	end_for
+	
+end_monitor
+
+;;check and set capital for player
+monitor_event SettlementSelected
+
+	for_each settlement in faction
+		if IsCapital
+		&& not HasResource capital
+			add_hidden_resource local capital
+		end_if
+	end_for
+	
+	terminate_monitor
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;; 5. GOVERNMENT BUILDING CHECKERS ;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;5a. ROMAN GOVT CHECKERS;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event SettlementTurnStart TrueCondition
+		
+		;;;;;;;;;; Delete any other govt building, its hidden resource, and add the built building hidden resource
+		;;;;;;;;;; Also check and delete if owner is not roman
+	
+		if SettlementBuildingExists = roman_civitas
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_civitas
+				if HasResource roman_civitas
+					remove_hidden_resource local roman_civitas
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if not HasResource roman_civitas
+				add_hidden_resource local roman_civitas
+			end_if
+		end_if
+		
+		;;;;; Checker for libera building
+		
+		if SettlementBuildingExists = roman_civitas_libera
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_civitas_libera
+				if HasResource roman_civitas
+					remove_hidden_resource local roman_civitas
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if not HasResource roman_civitas
+				add_hidden_resource local roman_civitas
+			end_if
+		end_if
+		
+		;;;;; Checker for foederata building
+		
+		if SettlementBuildingExists = roman_civitas_foederata
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_civitas_foederata
+				if HasResource roman_civitas
+					remove_hidden_resource local roman_civitas
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_civitas
+			end_if
+			
+			if not HasResource roman_civitas
+				add_hidden_resource local roman_civitas
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for prefecture building
+		
+		if SettlementBuildingExists = roman_praefectura
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_praefectura
+				if HasResource roman_praefectura
+					remove_hidden_resource local roman_praefectura
+				end_if
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_praefectura
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_praefectura
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_praefectura
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_praefectura
+			end_if
+			
+			if not HasResource roman_praefectura
+				add_hidden_resource local roman_praefectura
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for municipia building
+		
+		if SettlementBuildingExists = roman_municipium	
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_municipium
+				if HasResource roman_municipium
+					remove_hidden_resource local roman_municipium
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if not HasResource roman_municipium
+				add_hidden_resource local roman_municipium
+			end_if
+		end_if
+		
+		
+		if SettlementBuildingExists = roman_municipium_2 
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_municipium_2
+				if HasResource roman_municipium
+					remove_hidden_resource local roman_municipium
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_municipium
+			end_if
+			
+			if not HasResource roman_municipium
+				add_hidden_resource local roman_municipium
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for colonia latina building
+		
+		if SettlementBuildingExists = roman_colonia_latina
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_colonia_latina
+				if HasResource roman_colonia_latina
+					remove_hidden_resource local roman_colonia_latina
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_colonia_latina
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_colonia_latina
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_colonia_latina
+			end_if
+			
+			if HasResource roman_colonia
+				if SettlementBuildingExists = roman_colonia
+					destroy_building "local" roman_colonia
+				end_if
+				remove_hidden_resource local roman_colonia
+				add_hidden_resource local roman_colonia_latina
+			end_if
+			
+			if not HasResource roman_colonia_latina
+				add_hidden_resource local roman_colonia_latina
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for colonia romana building
+		
+		if SettlementBuildingExists = roman_colonia
+			if not I_SettlementOwner local = romans_julii
+				&& not I_SettlementOwner local = romans_brutii
+				&& not I_SettlementOwner local = romans_scipii
+				&& not I_SettlementOwner local = romans_senate
+				destroy_building "local" roman_colonia
+				if HasResource roman_colonia
+					remove_hidden_resource local roman_colonia
+				end_if
+			end_if
+			
+			if HasResource roman_praefectura
+				if SettlementBuildingExists = roman_praefectura
+					destroy_building "local" roman_praefectura
+				end_if
+				remove_hidden_resource local roman_praefectura
+				add_hidden_resource local roman_colonia
+			end_if
+			
+			if HasResource roman_civitas
+				if SettlementBuildingExists = roman_civitas
+					destroy_building "local" roman_civitas
+				end_if
+				if SettlementBuildingExists = roman_civitas_libera
+					destroy_building "local" roman_civitas_libera
+				end_if
+				if SettlementBuildingExists = roman_civitas_foederata
+					destroy_building "local" roman_civitas_foederata
+				end_if
+				remove_hidden_resource local roman_civitas
+				add_hidden_resource local roman_colonia
+			end_if
+			
+			if HasResource roman_municipium
+				if SettlementBuildingExists = roman_municipium
+					destroy_building "local" roman_municipium
+				end_if
+				if SettlementBuildingExists = roman_municipium_2
+					destroy_building "local" roman_municipium_2
+				end_if
+				remove_hidden_resource local roman_municipium
+				add_hidden_resource local roman_colonia
+			end_if
+			
+			if HasResource roman_colonia_latina
+				if SettlementBuildingExists = roman_colonia_latina
+					destroy_building "local" roman_colonia_latina
+				end_if
+				remove_hidden_resource local roman_colonia_latina
+				add_hidden_resource local roman_colonia
+			end_if
+			
+			if not HasResource roman_colonia
+				add_hidden_resource local roman_colonia
+			end_if
+		end_if
+		
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;5b. GREEK GOVT CHECKERS;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event SettlementTurnStart TrueCondition
+
+;;;;; Checker for greek phrourion
+		
+		if SettlementBuildingExists = greek_phrourion
+			if not I_SettlementOwnerCulture local = greek
+				destroy_building "local" greek_phrourion
+				if HasResource greek_phrourion
+					remove_hidden_resource local greek_phrourion
+				end_if
+			end_if
+			
+			if HasResource greek_katoikia
+				if SettlementBuildingExists = greek_katoikia
+					destroy_building "local" greek_katoikia
+				end_if
+				remove_hidden_resource local greek_katoikia
+				add_hidden_resource local greek_phrourion
+			end_if
+			
+			if HasResource greek_klerouchia
+				if SettlementBuildingExists = greek_klerouchia
+					destroy_building "local" greek_klerouchia
+				end_if
+				remove_hidden_resource local greek_klerouchia
+				remove_hidden_resource local colonists_recruitable
+				remove_hidden_resource local colonists_recruited
+				add_hidden_resource local greek_phrourion
+			end_if
+			
+			if HasResource greek_polis
+				if SettlementBuildingExists = greek_polis
+					destroy_building "local" greek_polis
+				end_if
+				remove_hidden_resource local greek_polis
+				add_hidden_resource local greek_phrourion
+			end_if
+			
+			if not HasResource greek_phrourion
+				add_hidden_resource local greek_phrourion
+			end_if
+		end_if
+		
+;;;;; Checker for greek katoikia
+		
+		if SettlementBuildingExists = greek_katoikia
+			if not I_SettlementOwnerCulture local = greek
+				destroy_building "local" greek_katoikia
+				if HasResource greek_katoikia
+					remove_hidden_resource local greek_katoikia
+				end_if
+			end_if
+			
+			if HasResource greek_phrourion
+				if SettlementBuildingExists = greek_phrourion
+					destroy_building "local" greek_phrourion
+				end_if
+				remove_hidden_resource local greek_phrourion
+				add_hidden_resource local greek_katoikia
+			end_if
+			
+			if HasResource greek_klerouchia
+				if SettlementBuildingExists = greek_klerouchia
+					destroy_building "local" greek_klerouchia
+				end_if
+				remove_hidden_resource local greek_klerouchia
+				remove_hidden_resource local colonists_recruitable
+				remove_hidden_resource local colonists_recruited
+				add_hidden_resource local greek_katoikia
+			end_if
+			
+			if HasResource greek_polis
+				if SettlementBuildingExists = greek_polis
+					destroy_building "local" greek_polis
+				end_if
+				remove_hidden_resource local greek_polis
+				add_hidden_resource local greek_katoikia
+			end_if
+			
+			if not HasResource greek_katoikia
+				add_hidden_resource local greek_katoikia
+			end_if
+		end_if
+		
+;;;;; Checker for greek klerouchia
+		
+		if SettlementBuildingExists = greek_klerouchia
+			if not I_SettlementOwnerCulture local = greek
+				destroy_building "local" greek_klerouchia
+				if HasResource greek_klerouchia
+					remove_hidden_resource local greek_klerouchia
+					remove_hidden_resource local colonists_recruitable
+					remove_hidden_resource local colonists_recruited
+				end_if
+			end_if
+			
+			if HasResource greek_phrourion
+				if SettlementBuildingExists = greek_phrourion
+					destroy_building "local" greek_phrourion
+				end_if
+				remove_hidden_resource local greek_phrourion
+				add_hidden_resource local greek_klerouchia
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource greek_katoikia
+				if SettlementBuildingExists = greek_katoikia
+					destroy_building "local" greek_katoikia
+				end_if
+				remove_hidden_resource local greek_katoikia
+				add_hidden_resource local greek_klerouchia
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource greek_polis
+				if SettlementBuildingExists = greek_polis
+					destroy_building "local" greek_polis
+				end_if
+				remove_hidden_resource local greek_polis
+				add_hidden_resource local greek_klerouchia
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if not HasResource greek_klerouchia
+				add_hidden_resource local greek_klerouchia
+				add_hidden_resource local colonists_recruitable
+			end_if
+		end_if
+		
+;;;;; Checker for greek polis
+		
+		if SettlementBuildingExists = greek_polis
+			if not I_SettlementOwnerCulture local = greek
+				destroy_building "local" greek_polis
+				if HasResource greek_polis
+					remove_hidden_resource local greek_polis
+				end_if
+			end_if
+			
+			if HasResource greek_phrourion
+				if SettlementBuildingExists = greek_phrourion
+					destroy_building "local" greek_phrourion
+				end_if
+				remove_hidden_resource local greek_phrourion
+				add_hidden_resource local greek_polis
+			end_if
+			
+			if HasResource greek_katoikia
+				if SettlementBuildingExists = greek_katoikia
+					destroy_building "local" greek_katoikia
+				end_if
+				remove_hidden_resource local greek_katoikia
+				add_hidden_resource local greek_polis
+			end_if
+			
+			if HasResource greek_klerouchia
+				if SettlementBuildingExists = greek_klerouchia
+					destroy_building "local" greek_klerouchia
+				end_if
+				remove_hidden_resource local greek_klerouchia
+				remove_hidden_resource local colonists_recruitable
+				remove_hidden_resource local colonists_recruited
+				add_hidden_resource local greek_polis
+			end_if
+			
+			if not HasResource greek_polis
+				add_hidden_resource local greek_polis
+			end_if
+		end_if
+		
+end_monitor
+
+
+
+;;;;; Automatically delete every government building when a city is captured (inspired by RIS)
+monitor_event GeneralCaptureSettlement
+
+		;;; destroy all greek government buildings
+		destroy_building "local" greek_phrourion
+		destroy_building "local" greek_katoikia
+		destroy_building "local" greek_klerouchia
+		destroy_building "local" greek_polis
+		remove_hidden_resource local greek_phrourion
+		remove_hidden_resource local greek_katoikia
+		remove_hidden_resource local greek_klerouchia
+		remove_hidden_resource local colonists_recruitable
+		remove_hidden_resource local colonists_recruited
+		remove_hidden_resource local greek_polis
+		
+		;;; destroy all roman government buildings if non-roman
+		if not FactionCultureType roman
+			destroy_building "local" roman_praefectura
+			destroy_building "local" roman_civitas
+			destroy_building "local" roman_civitas_libera
+			destroy_building "local" roman_civitas_foederata
+			destroy_building "local" roman_municipium
+			destroy_building "local" roman_municipium_2
+			destroy_building "local" roman_colonia_latina
+			destroy_building "local" roman_colonia
+			destroy_building "local" roman_urbs_roma
+			remove_hidden_resource local roman_praefectura
+			remove_hidden_resource local roman_civitas
+			remove_hidden_resource local roman_municipium
+			remove_hidden_resource local roman_colonia_latina
+			remove_hidden_resource local roman_colonia
+		end_if
+		
+		;;; remove capital resource
+		remove_hidden_resource local capital
+		
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;GOVT CHECKER END;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;6. AUTOMERGE SCRIPT;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event CharacterSelected not FactionIsLocal
+	call_object_shortcut campaign_hud automerge_units
+end_monitor
+
+monitor_event SettlementSelected not FactionIsLocal
+	call_object_shortcut campaign_hud automerge_units
+end_monitor
+
+monitor_event FactionTurnStart not FactionIsLocal
+	call_object_shortcut campaign_hud automerge_units
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;7. SIEGES/BLOCKADES;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event SettlementTurnStart TrueCondition
+	if SettlementOrderLevel besieged > 0
+		&& not HasResource besieged
+		
+		add_hidden_resource local besieged
+	end_if
+
+	if SettlementOrderLevel besieged = 0
+		&& HasResource besieged
+		
+		remove_hidden_resource local besieged
+	end_if
+
+	if SettlementOrderLevel blockaded > 0
+		&& not HasResource blockaded
+		
+		add_hidden_resource local blockaded
+	end_if
+
+	if SettlementOrderLevel blockaded = 0
+		&& HasResource blockaded
+		
+		remove_hidden_resource local blockaded
+	end_if
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;##############################################
+;##### START OF SCRIPT 
+;##############################################
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;9. Shoebopp AI money script;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;monitor_event NewTurnStart
+;;	for_each faction in world
+;;		if not FactionIsLocal
+;;			and not FactionType slave
+;;			declare_counter num_units
+;;			set_counter num_units 0
+;;			for_each unit in faction
+;;				inc_counter num_units 1
+;;			end_for
+;;			declare_counter num_regions
+;;			set_counter num_regions 0
+;;			for_each settlement in faction
+;;				inc_counter num_regions 1
+;;			end_for
+;;			declare_counter units_per_region
+;;			set_counter units_per_region 0
+;;			if I_CompareCounter num_regions > 0
+;;				counter_operation units_per_region = num_units / num_regions
+;;			end_if	 
+;;			if I_CompareCounter units_per_region <= 12
+;;				holding_while Treasury < 20000
+;;					console_command add_money local, 20000
+;;				end_while
+;;				holding_while Treasury > 40000
+;;					console_command add_money local, -20000
+;;				end_while
+;;			end_if	
+;;			if I_CompareCounter units_per_region > 12
+;;				holding_while Treasury < 0
+;;					console_command add_money local, 20000
+;;				end_while
+;;				holding_while Treasury > 20000
+;;					console_command add_money local, -20000
+;;				end_while
+;;			end_if
+;;			for_each settlement in faction
+;;				console_command add_money local, 300
+;;			end_for
+;;		end_if
+;;	end_for
+;;end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+while I_TurnNumber < 9999
+    suspend_unscripted_advice true
+end_while
+
+end_script
