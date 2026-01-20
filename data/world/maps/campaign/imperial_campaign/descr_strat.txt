@@ -52144,7 +52144,7 @@ settlement
 	region TerraIncognita3_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -52227,7 +52227,6 @@ unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 ;	Geva
 character	sub_faction numidia, Akbar, general, age 20, , x 237, y 61
 army
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
