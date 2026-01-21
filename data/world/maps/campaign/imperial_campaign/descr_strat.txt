@@ -35232,7 +35232,7 @@ character_record		Marcuui, 	male, command 0, influence 0, management 0, subterfu
 relative 	Hanhavaldi, 	Veleda,		Marcuui,	end
 
 faction	venedi, germanic_passive
-denari	4100
+denari	1000
 settlement
 {
 	level town
