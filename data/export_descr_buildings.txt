@@ -4940,7 +4940,7 @@ building defenses
 				taxable_income_bonus bonus -45 requires size9
 				taxable_income_bonus bonus -56 requires size10
 			}
-			construction  64
+			construction  68
 			cost  64000		;;this is the highest price for the epic stone wall that is confirmed to work. do not increase.
 			settlement_min huge_city
 			upgrades
@@ -4969,6 +4969,7 @@ building barracks
 				taxable_income_bonus bonus -2 requires factions { all, }
 				taxable_income_bonus bonus -559997550 requires factions { slave, }
 				taxable_income_bonus bonus -512 requires factions { slave, }
+				trade_base_income_bonus bonus -4 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				recruit "barb infantry briton"  0
@@ -5005,8 +5006,7 @@ building barracks
 				recruit "syro hurrian spearmen"  0
 				recruit "syro hurrian swordsmen" 0
 				recruit "spartan medium aichmetai"  0
-				
-				
+
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;   roman    ;;;;;;;;;;;;
 				recruit "roman city militia"  0  requires roman_has_gov or not roman_faction
@@ -5039,7 +5039,7 @@ building barracks
 				taxable_income_bonus bonus -6 requires size10
 			}
 			construction  3 
-			cost  3000 
+			cost  4000 
 			settlement_min town
 			upgrades
 			{
