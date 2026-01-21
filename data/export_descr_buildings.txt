@@ -18457,10 +18457,10 @@ building greco_persian_palatial_estates
 				taxable_income_bonus bonus -9986550 requires factions { slave, }
 				taxable_income_bonus bonus -9 requires factions { slave, }
 				taxable_income_bonus bonus 4 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
-				trade_base_income_bonus bonus 22 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
+				trade_base_income_bonus bonus 23 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
 				taxable_income_bonus bonus -71799 requires not factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
 
-				law_bonus bonus 7 requires factions { seleucid, bactria, pergamon, antiochea_taocene, agyrion, }
+				law_bonus bonus 9 requires factions { seleucid, bactria, pergamon, antiochea_taocene, agyrion, }
 				law_bonus bonus -1 requires factions { cappadocia, persis, gedrosia, gedrosia, ferghana, } ;;Harder to keep Hellenized systems and infastructure but profitable
 				happiness_bonus bonus -2 requires factions { seleucid, bactria, pergamon, antiochea_taocene, agyrion, } ;; Signifiant bloat to Hellenic in origin nations
 				happiness_bonus bonus 4 requires factions { cappadocia, persis, gedrosia, gedrosia, ferghana, } ;;Provides More Loyalty with people who universalled liked the infastructure
@@ -18503,8 +18503,8 @@ building greco_persian_palatial_estates
 				taxable_income_bonus bonus -6 requires size9
 				taxable_income_bonus bonus -10 requires size10
 			}
-			construction 22
-			cost  189990 
+			construction 24
+			cost  200000 
 			settlement_min village
 			upgrades
 			{
