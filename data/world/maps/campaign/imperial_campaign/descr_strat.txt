@@ -33085,7 +33085,7 @@ settlement
 	region Volcaeum_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator volcae
 	building
@@ -33103,7 +33103,7 @@ settlement
 	region Redintuinum_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator volcae
 	building
@@ -33184,7 +33184,7 @@ settlement
 	region Bergium_R
 
 	year_founded 0
-	population 800
+	population 750
 	plan_set default_set
 	faction_creator volcae
 	building
@@ -33261,7 +33261,6 @@ unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 ;	Coridorgis
 character	Vercingetorix, general, age 20, , x 229, y 433 
 army
-unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
 unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 
 ;	Redintuinum
@@ -33317,10 +33316,8 @@ relative 	Voteporix Tectosagi, 	Huctia,		Eporedorix Tectosagi,	end
 relative 	Cadeyrn Volci, 	Cuniovenda,	end
 relative 	Maglocunus Arecomici, 	Iseult,	end
 
-
-
 faction	elusates, celtic_passive
-denari	5000
+denari	2000
 settlement
 {
 	level town
@@ -33359,9 +33356,8 @@ character_record		Cogidubnus Leuci, 	male, command 0, influence 0, management 0,
 relative 	Berdic Leuci, 	Keyne,		Cogidubnus Leuci,	end
 
 
-
 faction	tarbelli, celtic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
@@ -33408,7 +33404,7 @@ settlement
 	region Tarba_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator tarbelli
 	building
@@ -33426,7 +33422,7 @@ settlement
 	region LugdunumConvenarum_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator tarbelli
 	building
@@ -33471,23 +33467,19 @@ character_record		Taximagulus Tarbelli, 	male, command 0, influence 0, managemen
 
 relative 	Catavignus Tarbelli, 	Verica,		Taximagulus Tarbelli,	end
 
-
-
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;            13# GERMANIA                ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	anglii, germanic_passive
-denari	5000
+denari	4000
 settlement
 {
 	level town
 	region Tribus_Saxones
 
 	year_founded 0
-	population 720
+	population 710
 	plan_set default_set
 	faction_creator anglii
 	building
@@ -33519,7 +33511,7 @@ character_record		Adalmun Angli, 	male, command 0, influence 0, management 0, su
 relative 	Dodonis Angli, 	Althilt,		Adalmun Angli,	end
 
 faction	hermunduri, germanic_passive
-denari	4303
+denari	4103
 settlement
 {
 	level town
@@ -33559,7 +33551,7 @@ character_record		Gaiobomarus Chasuari, 	male, command 0, influence 0, managemen
 relative 	Aelric Chasuari, 	Asuui,		Gaiobomarus Chasuari,	end
 
 faction	bructeri, germanic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
