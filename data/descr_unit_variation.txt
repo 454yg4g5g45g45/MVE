@@ -10162,6 +10162,19 @@ region
 			distribution 100
 		}
 	}
+	Syme_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 96
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 4
+		}
+	}
 	Karthaea_R
 	{
 		variant

@@ -4514,7 +4514,7 @@ Sicilia_Romanus
 	sicily, greek_colony
 	5
 	8
-	greek 20 italic 80
+	greek 40 italic 60
 	
 Melita_R
 	legion: Siciliae
@@ -4527,7 +4527,6 @@ Melita_R
 	6
 	phoenician 100
 
-	
 ; *********************************************************
 ; *********************************************************
 ; . Sardinia & Corsica
@@ -17501,6 +17500,17 @@ Telos_R
 	5
 	3
 	greek 70 anatolian 30
+
+Syme_R
+	legion: Macedonica
+	Syme
+	rhodes
+	Ionians
+	220 113 113
+	greece
+	5
+	3
+	greek 55 anatolian 40 phoenician 5
 
 Lepreon_R
 	legion: Macedonica

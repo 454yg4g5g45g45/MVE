@@ -7778,19 +7778,19 @@ soldier          desert_infantry, 60, 0, 1
 attributes       sea_faring, hide_improved_forest, hardy, can_sap, can_swim
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         16, 2, no, 0, 0, melee, simple, piercing, spear, 25 ,0.73
+stat_pri         15, 2, no, 0, 0, melee, simple, piercing, spear, 25 ,0.73
 stat_pri_attr    spear, spear_bonus_8
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
 stat_sec_attr    no
-stat_pri_armour  1, 1, 5, flesh, wood
+stat_pri_armour  2, 1, 5, flesh, wood
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      2, 1, 0, -1
-stat_mental      15, normal, trained
+stat_mental      14, normal, trained
 stat_charge_dist 60
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 401, 200, 46, 78, 452
+stat_cost        1, 401, 200, 46, 78, 432
 ownership        antiochea_taocene
 ethnicity antiochea_taocene, Siraf_R
  
@@ -7866,7 +7866,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 380, 130, 40, 60, 380
 ownership        slave, thrace
-ethnicity macedon, Illyria
 ethnicity thrace, Illyria
 rebalance_statblock
 soldier          greek_heavy_peltast_merc, 60, 0, 1

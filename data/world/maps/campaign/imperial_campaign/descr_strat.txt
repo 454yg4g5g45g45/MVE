@@ -6956,7 +6956,7 @@ end
 ;-------------- 4$a - Romans ---------------
 faction	romans_julii, comfortable_caesar
 superfaction romans_senate
-denari	400
+denari	200
 settlement
 {
 	level large_town
@@ -6997,7 +6997,7 @@ settlement
 	region Corfinium_R
 
 	year_founded 0
-	population 2500
+	population 2200
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -7031,7 +7031,7 @@ settlement
 	region Volaterrae_R
 
 	year_founded 0
-	population 1700
+	population 1300
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -7075,7 +7075,7 @@ settlement
 	region Iguvium_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -7097,7 +7097,7 @@ settlement
 	region Cosa_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -7123,7 +7123,7 @@ settlement
 	region AriminumCity_R
 
 	year_founded 0
-	population 1500
+	population 1400
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -7189,7 +7189,7 @@ settlement
 	region Reate_R
 
 	year_founded 0
-	population 600
+	population 550
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -7398,10 +7398,9 @@ relative 	Lucius AemiliusBarbula, 	Clodia,		Titiana AemiliusBarbula,	Marcus Aemi
 relative 	Lucius JuliusCaesar, 	Turia,		Sextus JuliusCaesar,	end
 relative 	Sextus JuliusCaesar, 	Servia,		Vopiscus JuliusCaesar,	end
 
-
 faction	romans_brutii, balanced_stalin
 superfaction romans_senate
-denari	400
+denari	300
 settlement
 {
 	level large_town
@@ -25185,7 +25184,7 @@ settlement
 	region Potidaion_R
 
 	year_founded 0
-	population 900
+	population 800
 	plan_set default_set
 	faction_creator rhodes
 	building
@@ -25207,7 +25206,7 @@ settlement
 	region Telos_R
 
 	year_founded 0
-	population 302
+	population 301
 	plan_set default_set
 	faction_creator rhodes
 	garrisoned_army
@@ -25231,30 +25230,80 @@ settlement
 		type defenses wooden_pallisade
 	}
 }
+settlement
+{
+	level town
+	region Syme_R
+
+	year_founded 0
+	population 300
+	plan_set default_set
+	faction_creator rhodes
+	garrisoned_army
+	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type hinterland_greek_klerouchia greek_klerouchia
+	}
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
 
 ;	Rhodes
 character	Megakles Aeschylides, named character, leader, age 40, , x 374, y 273 
-traits GoodCommander 2, GoodAdministrator 2
+traits GoodCommander 3, GoodAdministrator 2
 army
-unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early		exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite					exp 4 armour 0 weapon_lvl 0
+unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		merc rhodian slingers			exp 1 armour 0 weapon_lvl 0
 unit		merc rhodian slingers			exp 1 armour 0 weapon_lvl 0
 unit		merc rhodian slingers			exp 1 armour 0 weapon_lvl 0
 
 ;	Potidaion
-character	Molon, general, age 20, , x 366, y 261
+character	Diophantus Xuthides, named character, age 23, , x 366, y 261
+traits GoodCommander 5, GoodAdministrator 3
 army
+unit		greek general's guard cavalry early		exp 5 armour 1 weapon_lvl 1
+unit		greek hoplite					exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Rhodes Harbor
 character	Polydoros Chrysippides, admiral, age 36, , x 375, y 270
 army
+unit		naval biremes					exp 3 armour 0 weapon_lvl 0
+unit		naval biremes					exp 3 armour 0 weapon_lvl 0
+unit		naval biremes					exp 1 armour 0 weapon_lvl 0
+unit		naval biremes					exp 1 armour 0 weapon_lvl 0
+unit		naval biremes					exp 1 armour 0 weapon_lvl 0
 unit		naval biremes					exp 1 armour 0 weapon_lvl 0
 unit		naval biremes					exp 1 armour 0 weapon_lvl 0
 unit		naval biremes					exp 1 armour 0 weapon_lvl 0
@@ -25267,7 +25316,7 @@ character_record		Gorgias Aeschylides, 	male, command 0, influence 0, management
 relative 	Megakles Aeschylides, 	Timandra,		Gorgias Aeschylides,	end
 
 faction	paeonia, greek_passive
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
@@ -46591,7 +46640,7 @@ settlement
 	region Aganagara_R
 
 	year_founded 0
-	population 380
+	population 350
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
@@ -46611,7 +46660,7 @@ settlement
 	region Bardaxema_R
 
 	year_founded 0
-	population 500
+	population 400
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
@@ -46631,7 +46680,7 @@ settlement
 	region Bhokardan_R
 
 	year_founded 0
-	population 404
+	population 401
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
@@ -46651,7 +46700,7 @@ settlement
 	region Baharak_R
 
 	year_founded 0
-	population 305
+	population 302
 	plan_set default_set
 	faction_creator ferghana
 	building

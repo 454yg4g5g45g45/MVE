@@ -1,4 +1,4 @@
-Abalessa
+﻿Abalessa
 Abalessa_R
 Abdera
 Abdera_R
@@ -3077,3 +3077,5 @@ Parsha_R
 Parsha
 Dayya_R
 Dayya
+Syme_R
+Syme
