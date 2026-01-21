@@ -31666,7 +31666,7 @@ settlement
 	region Aquitania
 
 	year_founded 0
-	population 1400
+	population 1200
 	plan_set default_set
 	faction_creator pictones
 	building
@@ -31721,10 +31721,8 @@ character_record		Wotecorix Pictavi, 	male, command 0, influence 0, management 0
 
 relative 	Erbin Pictavi, 	Boudecea,		Wotecorix Pictavi,	end
 
-
-
 faction	redones, celtic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
@@ -31762,10 +31760,8 @@ character_record		Ceanatis Redoni, 	male, command 0, influence 0, management 0, 
 
 relative 	Senaculus Redoni, 	Cunoarda,		Ceanatis Redoni,	end
 
-
-
 faction	ruteni, celtic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
@@ -31803,10 +31799,8 @@ character_record		Cadwaladur Ruteni, 	male, command 0, influence 0, management 0
 
 relative 	Bolgios Ruteni, 	Esselt,		Cadwaladur Ruteni,	end
 
-
-
 faction	santones, celtic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
