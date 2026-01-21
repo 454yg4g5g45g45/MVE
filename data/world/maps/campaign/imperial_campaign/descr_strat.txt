@@ -31982,9 +31982,8 @@ character_record		Cynan Senoni, 	male, command 0, influence 0, management 0, sub
 relative 	Conan Senoni, 	Keyne,		Cynan Senoni,	end
 
 
-
 faction	turones, celtic_passive
-denari	3000
+denari	2000
 settlement
 {
 	level town
@@ -32023,9 +32022,8 @@ character_record		Segovax Turoni, 	male, command 0, influence 0, management 0, s
 relative 	Virssuccius Turoni, 	Boudecea,		Segovax Turoni,	end
 
 
-
 faction	unelli, celtic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level large_town
@@ -32054,7 +32052,7 @@ settlement
 	region Ingena_R
 
 	year_founded 0
-	population 1100
+	population 700
 	plan_set default_set
 	faction_creator unelli
 	building
@@ -32093,9 +32091,8 @@ relative 	Drustan Venelli, 	Boudicca,		Dumnorix Venelli,	end
 relative 	Brennus Abrincatui, 	Eudaf,	end
 
 
-
 faction	veneti_gaul, celtic_passive
-denari	6000
+denari	1000
 settlement
 {
 	level town
@@ -32133,10 +32130,9 @@ character_record		Ambiorix Veneti, 	male, command 0, influence 0, management 0, 
 
 relative 	Cadwaladur Veneti, 	Keyne,		Ambiorix Veneti,	end
 
-
 ;	Petrocori
 faction	vivisci, celtic_passive
-denari	6000
+denari	1000
 settlement
 {
 	level town
@@ -32174,10 +32170,8 @@ character_record		Wotecorix Petrocori, 	male, command 0, influence 0, management
 
 relative 	Senaculus Petrocori, 	Boudecea,		Wotecorix Petrocori,	end
 
-
-
 faction	vocontii, celtic_passive
-denari	6000
+denari	1000
 settlement
 {
 	level town
@@ -32206,7 +32200,7 @@ settlement
 	region Novaria_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator vocontii
 	building
@@ -32224,7 +32218,7 @@ settlement
 	region Eburodunum_R
 
 	year_founded 0
-	population 600
+	population 750
 	plan_set default_set
 	faction_creator vocontii
 	building
@@ -32272,9 +32266,8 @@ relative 	Tasciovanus Vertamocori, 	Boudicca,	end
 relative 	Cadwaladur Caturigi, 	Verica,	end
 
 
-
 faction	nori, celtic_passive
-denari	6000
+denari	3000
 ;--------- Noricum ----------
 settlement
 {
@@ -32322,7 +32315,7 @@ settlement
 	region Vindobona_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator nori
 	building
@@ -32340,7 +32333,7 @@ settlement
 	region Noricum
 
 	year_founded 0
-	population 900
+	population 500
 	plan_set default_set
 	faction_creator nori
 	building
@@ -32514,10 +32507,8 @@ relative 	Mandubracius Taurisci, 	Esselt,	end
 relative 	Prasutagus Ambidrani, 	Cunoarda,	end
 relative 	Tancogeistla Teurisci, 	Boudecea,	end
 
-
-
 faction	boii, celtic_passive
-denari	8000
+denari	2000
 ;--------- Boihaemum ----------
 settlement
 {
@@ -32547,7 +32538,7 @@ settlement
 	region Boihaemum
 
 	year_founded 0
-	population 1200
+	population 800
 	plan_set default_set
 	faction_creator boii
 	building
@@ -32565,7 +32556,7 @@ settlement
 	region Boiodurum_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator boii
 	building
@@ -32583,7 +32574,7 @@ settlement
 	region Mediolanium_Racataea_R
 
 	year_founded 0
-	population 1000
+	population 600
 	plan_set default_set
 	faction_creator boii
 	building
@@ -32601,7 +32592,7 @@ settlement
 	region Furgisatis_R
 
 	year_founded 0
-	population 1000
+	population 890
 	plan_set default_set
 	faction_creator boii
 	building
