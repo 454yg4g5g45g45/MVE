@@ -21093,7 +21093,7 @@ settlement
 	region Peparethos_R
 
 	year_founded 0
-	population 380
+	population 330
 	plan_set default_set
 	faction_creator athens
 	garrisoned_army
@@ -21101,9 +21101,6 @@ settlement
 	unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
 	unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
 	unit		greek hoplite					exp 1 armour 0 weapon_lvl 0
-    unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-    unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-    unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
     unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
     unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
     unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -21367,7 +21364,7 @@ relative 	Pytharatus Aeropides, 	Damia,		Perikles Aeropides,	Chryseis,	Phoebe, e
 
 ;	Bosporan Kingdom
 faction	bosporus, sailor_napoleon
-denari	3000
+denari	2000
 settlement
 {
 	level large_town
@@ -22353,7 +22350,7 @@ relative 	Arcesilaus Battides, 	Milo,		Ophelestes Battides, end
 
 
 faction	celtiberia, fortified_mao
-denari	2400
+denari	2100
 settlement
 {
 	level large_town
@@ -22390,7 +22387,7 @@ settlement
 	region Termes_R
 
 	year_founded 0
-	population 1000
+	population 890
 	plan_set default_set
 	faction_creator celtiberia
 	garrisoned_army
@@ -23123,14 +23120,14 @@ relative 	Segovax Vacomagi, 	Cuniovenda,	end
 
 faction	persia, eastern_passive
 dead_until_resurrected
-denari	-3000
+denari	-33000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;              2# ITALIA                 ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	brutii, greek_passive
-denari	1000
+denari	400
 settlement
 {
 	level town
@@ -46594,7 +46591,7 @@ settlement
 	region Uragapura_R
 
 	year_founded 0
-	population 490
+	population 450
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
@@ -46614,7 +46611,7 @@ settlement
 	region Peperine_R
 
 	year_founded 0
-	population 400
+	population 350
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
