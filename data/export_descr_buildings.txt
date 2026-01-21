@@ -4828,7 +4828,7 @@ building defenses
 				taxable_income_bonus bonus -18 requires size10
 			}
 			construction  6 
-			cost  15590 
+			cost  15595 
 			settlement_min large_town
 			upgrades
 			{
@@ -4865,7 +4865,7 @@ building defenses
 				taxable_income_bonus bonus -30 requires size10
 			}
 			construction  9 
-			cost  29980 
+			cost  29985 
 			settlement_min city
 			upgrades
 			{
