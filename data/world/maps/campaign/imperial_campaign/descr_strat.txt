@@ -34762,7 +34762,7 @@ relative 	Heriman Osi, 	Amalberga,	end
 
 
 faction	rugii, germanic_passive
-denari	5000
+denari	2000
 settlement
 {
 	level town
