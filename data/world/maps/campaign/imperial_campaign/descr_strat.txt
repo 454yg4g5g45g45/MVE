@@ -31259,7 +31259,7 @@ relative 	Caratawc Aulerci, 	Cunoarda,	end
 relative 	Mabon Eburovici, 	Verctissa,	end
 
 faction	helvetii, celtic_passive
-denari	5000
+denari	3000
 settlement
 {
 	level town
@@ -31288,7 +31288,7 @@ settlement
 	region Turicum_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator helvetii
 	building
@@ -31378,10 +31378,8 @@ relative 	Dejotarus Tigurini, 	Eudaf,		Glasobrin Tigurini,	end
 relative 	Amminos Raurici, 	Cartimandua,		Geraint Raurici,	end
 relative 	Tancogeistla Verbigeni, 	Keyne,		end
 
-
-
 faction	lemovices, celtic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
