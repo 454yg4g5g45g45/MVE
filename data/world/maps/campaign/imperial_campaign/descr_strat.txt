@@ -34791,7 +34791,7 @@ settlement
 	region Locus_Gothi
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator rugii
 	building
@@ -34877,9 +34877,8 @@ relative 	Reudilo Ulmerugi, 	Ramis,		Rodulf Ulmerugi,	end
 relative 	Gundioc Rugi, 	Ludwiga,	end
 
 
-
 faction	sugambri, germanic_passive
-denari	4500
+denari	2300
 settlement
 {
 	level town
