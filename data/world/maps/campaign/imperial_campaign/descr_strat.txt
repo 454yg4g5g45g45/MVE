@@ -20974,14 +20974,14 @@ relative 	Hyrtacus Aleuides, 	Canace,		Phrynikos Aleuides,	end
 relative 	Democritus Scopaides, 	Euphrosyne,		Ennomus Scopaides,	end
 
 faction	athens, athens_passive
-denari	5700
+denari	5300
 settlement
 {
 	level city
 	region Attica
 
 	year_founded 0
-	population 7220
+	population 7210
 	plan_set default_set
 	faction_creator athens
 	building
@@ -21027,7 +21027,7 @@ settlement
 	region Hephaistia_R
 
 	year_founded 0
-	population 500
+	population 450
 	plan_set default_set
 	faction_creator athens
 	building
@@ -21392,7 +21392,7 @@ relative 	Pytharatus Aeropides, 	Damia,		Perikles Aeropides,	Chryseis,	Phoebe, e
 
 ;	Bosporan Kingdom
 faction	bosporus, sailor_napoleon
-denari	4000
+denari	3000
 settlement
 {
 	level large_town
@@ -22812,7 +22812,7 @@ relative 	Tincommius Tolistobogi, 	Esselt,		Cuniovenda Tolistobogi,	end
 
 
 faction	saka, balanced_genghis
-denari	5100
+denari	5020
 settlement
 {
 	level large_town
@@ -23527,7 +23527,7 @@ relative 	Rhaskos, 	Cerzula,		Skaris,	end
 relative 	Markos, 	Birkita,		Palacus,	end
 
 faction histri, celtic_passive
-denari	3000
+denari	2000
 settlement
 {
 	level town
