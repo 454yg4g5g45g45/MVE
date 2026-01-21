@@ -18435,7 +18435,7 @@ relative 	Byzas Odrysi, 	Cerzula,		Gaidres Odrysi,	Mokasokos,	Bryzos Odrysi,	end
 
 ;	Chatti
 faction	alemanni, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -18500,7 +18500,7 @@ relative 	Nasua Chatti, 	Eva,		Inguiomerus Chatti,	end
 
 
 faction	burgundii, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -24771,7 +24771,7 @@ relative 	Aristotimus Theophrastides, 	Kyra,		Diagoras Theophrastides,	end
 
 
 faction	messene, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -24951,7 +24951,7 @@ relative 	Elasus Menesthides, 	Arethusa,		Odysseus Menesthides,	end
 
 
 faction	knossos, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -24997,7 +24997,7 @@ relative 	Telephus Marsyides, 	Leucothea,		Aetion Marsyides,	end
 
 
 faction	kydonia, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -25043,7 +25043,7 @@ relative 	Cronos Agapides, 	Phylace,		Kritodemos Agapides,	end
 
 
 faction	melos, athens_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -25367,7 +25367,7 @@ relative 	Leon Derroni, 	Dentysyka,		Dropion Derroni,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	bessi, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -25434,7 +25434,7 @@ relative 	Ketriporis Bessi, 	Karia,		Desakenthos Bessi,	end
 
 
 faction	bithynia, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -25566,7 +25566,7 @@ relative 	Nicomedes Boteirides, 	Etazeta,			Ziaelas Boteirides,		end
 
 
 faction	byzantion, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -25950,7 +25950,7 @@ relative 	Pleuratus Pleuratides, 	Dentysyka,		Agron Pleuratides,	end
 
 
 faction	daorsi, dacian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -25991,7 +25991,7 @@ relative 	Skaris Daorsi, 	Ketripora,		Brinkainos Daorsi,	end
 
 
 faction	dardania, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -26203,7 +26203,7 @@ relative 	Rescuturme Dalmati, 	Cerzula,		Iptacens Dalmati,	end
 
 
 faction	balari, dacian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -26292,7 +26292,7 @@ relative 	Eptenis Liburni, 	Eptarys,		Skaris Liburni,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	breuci, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -26356,7 +26356,7 @@ relative 	Diazelmis Breuci, 	Eptesyka,		Kersebleptos Breuci,	end
 
 
 faction	daesitiates, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -26570,7 +26570,7 @@ relative 	Caratacus Hercuniati, 	Cartimandua,		end
 
 
 faction	scordisci, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -26665,7 +26665,7 @@ relative 	Erbin Celegeri, 	Barita,		end
 
 
 faction	iazyges, nomad_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -26788,7 +26788,7 @@ relative 	Scyles Apuli, 	Birkita,	Fallon,	Scylurus Apuli,	end
 
 
 faction	biephi, dacian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -26853,7 +26853,7 @@ relative 	Deceneu Biephi, 	Branka,		Scylurus Biephi,	end
 
 
 faction	buridenses, dacian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -26894,7 +26894,7 @@ relative 	Comosicus Buridensi, 	Devnet,		Atheas Buridensi,	end
 
 
 faction	peucitans, dacian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -27020,7 +27020,7 @@ relative 	Duras Rhadacensi, 	Dita,		Saulius Rhadacensi,	end
 
 
 faction	anartes, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -28242,7 +28242,7 @@ relative	Damiskos Basilides, 	Khloris Diodotides,	end
 
 
 faction	cappadocia, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -28466,7 +28466,7 @@ relative 	Ariaramnes Ariaratha, 	Esther,		Ariarathes Ariaratha,		end
 
 
 faction	cyprus, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -28753,7 +28753,7 @@ relative 	Pelias Aschinides, 	Callianessa,		end
 
 
 faction	albania, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -29194,7 +29194,7 @@ relative 	Gaumata Odaenathus, 	Arxa,		Zabbai Odaenathus,		end
 
 
 faction	paphlagonia, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -29488,7 +29488,7 @@ relative 	Skunxa, 	Martiya,		Uvaxshtra,		end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	colchis, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -29655,7 +29655,7 @@ relative 	Saulaces Phasishvili, 	Karo,		Atheas Phasishvili,	end
 
 ;	Heraclea Pontica
 faction	heraclea, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -29918,7 +29918,7 @@ relative 	Phrixos Atraxidae, 	Pelopia,		end
 
 
 faction	sinope, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -30486,7 +30486,7 @@ character_record		Catavignus Corieltauvi, 		male, command 0, influence 0, manage
 relative 	Cintugnatus Corieltauvi, 	Cartimandua,		Catavignus Corieltauvi,	end
 
 faction	demetae, british_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -30589,7 +30589,7 @@ relative 	Cynfawr Dumnoni, 	Eudaf,		Sennianus Dumnoni,	Drustan Dumnoni,	end
 
 
 faction	belgae, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -30630,7 +30630,7 @@ relative 	Vindomorucius Regni, 	Keyne,		Togodumnus Regni,	end
 
 
 faction	catuvellauni, british_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -30688,7 +30688,7 @@ relative 	Rhydderch Damnoni, 	Cuniovenda,		Enestinus Damnoni,	end
 
 
 faction	eblani, british_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -30735,7 +30735,7 @@ relative 	Morirex Eblani, 	Cunoarda,		Erbin Eblani,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	aedui, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -31099,7 +31099,7 @@ relative 	Brycham Carnuti, 	Verica,		Aneirin Carnuti,	end
 
 
 faction	cavari, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -34494,16 +34494,15 @@ character_record		Clovis Juti, 	male, command 0, influence 0, management 0, subt
 relative 	Gundahar Juti, 	Johanna,		Clovis Juti,	end
 
 
-
 faction	nahanarvali, germanic_passive
-denari	6000
+denari	4000
 settlement
 {
 	level town
 	region Leucaristus_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator nahanarvali
 	building
@@ -34525,7 +34524,7 @@ settlement
 	region Calisia_R
 
 	year_founded 0
-	population 800
+	population 750
 	plan_set default_set
 	faction_creator nahanarvali
 	building
@@ -34567,9 +34566,8 @@ relative 	Ariogaisus Nahanarvali, 	Thusnelda,		Vannius Nahanarvali,	Amalberga,	O
 relative 	Gaiobomarus Diduni, 	Ulrike,	end
 
 
-
 faction	marcomanni, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -34634,7 +34632,7 @@ relative 	Bertgarda Marcomanni, 	Alba,		Odovacar Marcomanni,	end
 
 
 faction	nemetes, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -34675,7 +34673,7 @@ relative 	Fulcaris Nemeti, 	Bescela,		Reudilo Nemeti,	end
 
 
 faction	quadi, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -34884,7 +34882,7 @@ relative 	Gundioc Rugi, 	Ludwiga,	end
 
 
 faction	sugambri, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -34925,7 +34923,7 @@ relative 	Fulcaris Sicambri, 	Othelhildis,		Dodonis Sicambri,	end
 
 
 faction	suiones, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -34987,7 +34985,7 @@ relative 	Theodoric Suioni, 	Ramis,		Clovis Suioni,	end
 
 
 faction	tencteri, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35028,7 +35026,7 @@ relative 	Oza Tencteri, 	Eberharde,		Athanaric Tencteri,	end
 
 
 faction	ubii, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35069,7 +35067,7 @@ relative 	Kuonrad Ubi, 	Ethelmoda,		Gaiobomarus Ubi,	end
 
 
 faction	vangiones, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35111,7 +35109,7 @@ relative 	Gundioc Vangioni, 	Johanna,		Athanaric Vangioni,	end
 
 ;	Varini
 faction	varini, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35180,7 +35178,7 @@ relative 	Gunderic Farodini, 	Eva,	end
 
 
 faction	aestii, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35354,7 +35352,7 @@ relative 	Bertgarda, 	Johanna,		Hrodgar,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	atrebates, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35399,7 +35397,7 @@ relative 	Caratawc Atrebati, 	Iseult,		Vercassivellaunos Atrebati,	end
 
 
 faction	bellovaci, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35440,7 +35438,7 @@ relative 	Brigomaglos Bellovaci, 	Verica,		Aneirin Bellovaci,	end
 
 
 faction	eburones, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35630,7 +35628,7 @@ relative 	Vortigern Nervi, 	Cuniovenda,		Belenus Nervi,	end
 
 
 faction	parisii, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35671,7 +35669,7 @@ relative 	Maglocunus Parisi, 	Esselt,		Vindex Parisi,	end
 
 
 faction	remi, celtic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35733,7 +35731,7 @@ relative 	Sennianus Remi, 	Eudaf,		Enestinus Remi,	end
 
 
 faction	treverii, germanic_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35780,7 +35778,7 @@ relative 	Glasobrin Treveri, 	Verctissa,		Barrivendos Treveri,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	bastetani, iberian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -35916,7 +35914,7 @@ relative 	Ilixo Cessetani, 	Esselta,		Danel Cessetani,	end
 
 
 faction	edetani, iberian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -36368,7 +36366,7 @@ relative 	Edrigu Blendi, 	Cunoarda,		Zorion Blendi,	end
 
 
 faction	carpetani, iberian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -36433,7 +36431,7 @@ relative 	Ander Carpetani, 	Cuniovenda,		Inaki Carpetani,	end
 
 
 faction	celtici, iberian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -36530,7 +36528,7 @@ relative 	Diviciacus Mirobrigensi, 	Eudaf,	end
 
 
 faction	gallaeci, iberian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -36652,7 +36650,7 @@ relative 	Cador Egovarri, 	Keyne,	end
 
 
 faction	vaccaei, iberian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -36731,7 +36729,7 @@ relative 	Asentzio Cauci, 	Barita,		end
 
 
 faction	turdetani, iberian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -36854,7 +36852,7 @@ relative 	Gergori Tartessi, 	Barita,		Aingeru Tartessi,	end
 
 
 faction	vascones, iberian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -36895,7 +36893,7 @@ relative 	Bingen Vasconi, 	Cunoarda,		Lon Vasconi,	end
 
 
 faction	vettones, iberian_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -36992,7 +36990,7 @@ relative 	Kerbasi Calontiensi, 	Cartimandua,	end
 
 
 faction	emporion, greek_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -37115,7 +37113,7 @@ relative 	Ambiorix Suessetani, 	Huctia,		Dejotarus Suessetani,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	gaetuli, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -37305,7 +37303,7 @@ relative 	Hiempsal, 	Kahina,		Zimrida,	end
 
 
 faction	garamantes, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -37402,7 +37400,7 @@ relative 	Ashtzaph, 	Althaia,		Philosir,	end
 
 
 faction	massylii, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -37588,7 +37586,7 @@ relative 	Zelalsen, 	Polymede,		Gaia,	Oesalces,	end
 
 
 faction	mauri, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -37797,7 +37795,7 @@ relative 	Jubal, 	Muttunbaal,		Ahiram,	end
 
 
 faction	nasamones, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -37868,7 +37866,7 @@ relative 	Mastanabal, 	Thais,		Khilletzbal,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	gerrha, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -38009,7 +38007,7 @@ relative 	Niptasan, 	Thyia,		Bodeshmun,		end
 
 
 faction	hadhramaut, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -38170,7 +38168,7 @@ relative 	Yad_ab Gaylan, 	Elissa,		Yad_il Gaylan,		end
 
 
 faction	lihyan, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -38283,7 +38281,7 @@ relative 	Balshillek Karab, 	Protogonia,		Tabnit Karab,		end
 
 
 faction	mascat, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -38421,7 +38419,7 @@ relative 	Zamir Yashur, 	Polymede,		Karib Yashur,		end
 
 
 faction	minaea, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -38534,7 +38532,7 @@ relative 	Yitha_il Riyam, 	Raisa,		Ilyafa Riyam,		end
 
 
 faction	saba, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -38661,7 +38659,7 @@ relative 	Dhamar Yuha_min, 	Althaia,		Nasha_karib Yuha_min,		end
 
 
 faction	thamud, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -38750,7 +38748,7 @@ relative 	Karib_il Yakkuf, 	Hakeema,		Dari_karib Yakkuf,		end
 
 
 faction	qataban, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -38888,7 +38886,7 @@ relative 	Yad_ab Yagil, 	Xanthe,		Sahr Yagil,		end
 
 
 faction	qedar, desert_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -42607,7 +42605,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Tissa M
 
 
 faction	chola, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -42746,7 +42744,7 @@ relative 	Kochaet Chola, 	Sivali,		Ilanjaetcenni Chola,	end
 
 
 faction	chera, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -42889,7 +42887,7 @@ relative 	Kottu Chera, 	Kopperundevi,		end
 
 
 faction	pandya, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level city
@@ -43010,7 +43008,7 @@ relative 	Netunceliyan Pandya, 	Durdhara,		Pudappandiyan Pandya,	end
 
 
 faction	anuradhapura, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -43322,7 +43320,7 @@ relative 	Mahasiva Vijaya, 	Karuvaki,		end
 
 
 faction	athiyaman, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -43436,7 +43434,7 @@ relative 	Illam Athiyaman, 	Ramadattha,		Karikala Athiyaman,	end
 
 
 faction	ay, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -43526,7 +43524,7 @@ relative 	Andiran Ay, 	Veliyan,		Selva Ay,	end
 
 
 faction	kalinga, eastern_passive
-denari	6000
+denari	4500
 settlement
 {
 	level city
@@ -44618,7 +44616,7 @@ relative 	Rumo, 	Fallon,		Usafer,	end
 
 
 faction	huns, nomad_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -44699,7 +44697,7 @@ relative 	Charaton, 	Dita,		Muyun,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	agyrion, nomad_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -44845,7 +44843,7 @@ relative 	Siamak Naptya, 	Haldita,		Vindarna Naptya,		end
 
 
 faction	ferghana, nomad_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -44975,7 +44973,7 @@ relative 	Cishpi Farzaneh, 	Arkha,		Sherh Farzaneh,		end
 
 
 faction	kashgar, nomad_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -45100,7 +45098,7 @@ relative 	Uguluy, 	Fallon,		Datan,		end
 
 
 faction	kucha, nomad_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
@@ -45246,7 +45244,7 @@ relative 	Karidach, 	Dana,		Basyk,		end
 
 
 faction	aorsi, nomad_passive
-denari	6000
+denari	4500
 settlement
 {
 	level large_town
@@ -45376,7 +45374,7 @@ relative 	Mundzuk, 	Branka,		Tengiz,		end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	agathyrsi, nomad_passive
-denari	6000
+denari	4500
 settlement
 {
 	level town
