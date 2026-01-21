@@ -33662,7 +33662,7 @@ settlement
 	region Osiorum_R
 
 	year_founded 0
-	population 700
+	population 500
 	plan_set default_set
 	faction_creator buri
 	building
@@ -33702,9 +33702,8 @@ character_record		Virssuccius Buri, 	male, command 0, influence 0, management 0,
 relative 	Togodumnus Buri, 	Keyne,		Virssuccius Buri,	end
 
 
-
 faction	chamavi, germanic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
