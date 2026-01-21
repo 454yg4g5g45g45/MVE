@@ -21501,6 +21501,6 @@ stat_mental      3, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 297, 179, 50, 70, 349
+stat_cost        1, 295, 179, 50, 70, 349
 ownership        acarnania
 ethnicity        acarnania, Laconia

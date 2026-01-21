@@ -345,7 +345,7 @@ aggresiveness 100
 ;;additions
 
 diplomatic_priority cruel_asf
-aggresiveness 350
+aggresiveness 400
 
 diplomatic_priority very_mean
 aggresiveness 175
