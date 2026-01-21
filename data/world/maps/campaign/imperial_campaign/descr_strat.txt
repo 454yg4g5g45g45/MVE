@@ -32899,7 +32899,7 @@ settlement
 	region Sorviodurum_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator vindelici
 	building
@@ -32959,9 +32959,8 @@ relative 	Cunobelinos Rucanti, 	Esselt,	end
 relative 	Cocolitanus Consuaneti, 	Huctia,	end
 
 
-
 faction	volcae, celtic_passive
-denari	6000
+denari	1000
 ;--------- Gaul ----------
 settlement
 {
@@ -33009,7 +33008,7 @@ settlement
 	region Nemasus_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator volcae
 	building
