@@ -34355,7 +34355,7 @@ settlement
 	region Budorigum_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator helveconae
 	building
@@ -34414,10 +34414,8 @@ character_record		Cimberius Helveconi, 	male, command 0, influence 0, management
 relative 	Hrodgar Helveconi, 	Edith,		Cimberius Helveconi,	end
 relative 	Eutlinde Marsigni, 	Ramis,	end
 
-
-
 faction	heruli, germanic_passive
-denari	6000
+denari	3000
 settlement
 {
 	level town
