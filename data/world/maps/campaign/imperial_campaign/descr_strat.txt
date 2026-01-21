@@ -33742,9 +33742,8 @@ character_record		Rodulf Chamavi, 	male, command 0, influence 0, management 0, s
 relative 	Adalwolf Chamavi, 	Eberharde,		Rodulf Chamavi,	end
 
 
-
 faction	chauci, germanic_passive
-denari	6000
+denari	1000
 settlement
 {
 	level town
@@ -33773,7 +33772,7 @@ settlement
 	region Phleum_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator chauci
 	building
@@ -33807,9 +33806,8 @@ character_record		Maroboduus Cauci, 	male, command 0, influence 0, management 0,
 relative 	Badeloga Cauci, 	Biua,		Maroboduus Cauci,	end
 
 
-
 faction	cherusci, germanic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
