@@ -34300,9 +34300,8 @@ relative 	Bava Hari, 	Althilt,		Ricbolda Hari,	end
 relative 	Badeloga Corconti, 	Ulrike,	end
 
 
-
 faction	helisii, germanic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
