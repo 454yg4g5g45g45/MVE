@@ -31807,7 +31807,7 @@ settlement
 	region Mediolanum_Santonum_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator santones
 	building
@@ -31839,9 +31839,8 @@ character_record		Vortigern Santoni, 	male, command 0, influence 0, management 0
 relative 	Prasutagus Santoni, 	Eudaf,		Vortigern Santoni,	end
 
 
-
 faction	sequani, celtic_passive
-denari	6000
+denari	1000
 settlement
 {
 	level town
@@ -31904,9 +31903,8 @@ character_record		Orgetorix Sequani, 	male, command 0, influence 0, management 0
 relative 	Enemnogenus Sequani, 	Iseult,		Orgetorix Sequani,	end
 
 
-
 faction	segusiavi, celtic_passive
-denari	6000
+denari	2000
 settlement
 {
 	level town
@@ -31944,10 +31942,8 @@ character_record		Cassivellaunus Segusiavi, 	male, command 0, influence 0, manag
 
 relative 	Enestinus Segusiavi, 	Barita,		Cassivellaunus Segusiavi,	end
 
-
-
 faction	senones, celtic_passive
-denari	6000
+denari	3000
 settlement
 {
 	level town
