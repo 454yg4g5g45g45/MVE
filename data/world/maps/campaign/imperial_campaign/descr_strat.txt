@@ -33836,7 +33836,7 @@ settlement
 	region Tulisurgium_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator cherusci
 	building
@@ -33854,7 +33854,7 @@ settlement
 	region Stereontium_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator cherusci
 	building
@@ -33894,9 +33894,8 @@ character_record		Adalmun Cherusci, 	male, command 0, influence 0, management 0,
 relative 	Alaric Cherusci, 	Gisela,		Adalmun Cherusci,	end
 
 
-
 faction	cimbri, germanic_passive
-denari	6000
+denari	1000
 settlement
 {
 	level town
