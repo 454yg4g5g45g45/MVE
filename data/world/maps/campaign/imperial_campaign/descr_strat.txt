@@ -19231,7 +19231,7 @@ settlement
 	region Zarax_R
 
 	year_founded 0
-	population 320
+	population 310
 	plan_set default_set
 	faction_creator acarnania
 	building
@@ -19333,6 +19333,7 @@ settlement
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
+	unit	spartan youths		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -19349,7 +19350,7 @@ settlement
 
 ;	Crete
 character	Areus Agides, named character, leader, age 48, , x 318, y 277
-traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 4 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries wrestler, comedian, merchant
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
@@ -19362,7 +19363,7 @@ unit		spartan greek hoplite		exp 0 armour 0 weapon_lvl 0
 unit		spartan greek hoplite		exp 5 armour 1 weapon_lvl 2
 unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 2
-unit		helot spearmen				exp 0 armour 0 weapon_lvl 2
+unit		helot spearmen				exp 2 armour 0 weapon_lvl 2
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		merc cretan archers			exp 1 armour 0 weapon_lvl 2
 unit		merc cretan archers			exp 1 armour 0 weapon_lvl 1
@@ -19370,7 +19371,7 @@ unit		merc rhodian slingers		exp 1 armour 0 weapon_lvl 0
 
 ;	Sparta
 character	AcrotatusB Agides, named character, heir, age 26, , x 318, y 276
-traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries playwright, shieldbearer
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
@@ -19392,7 +19393,7 @@ unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 
 ;	Kythera
 character	Eudamidas Eurypontides, named character, age 39, , x 325, y 266
-traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries poet, shieldbearer
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
@@ -19406,13 +19407,14 @@ unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
 unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
-unit		helot spearmen				exp 0 armour 0 weapon_lvl 0
+unit		spartan youths				exp 0 armour 0 weapon_lvl 0
+unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 unit		spartan youths				exp 0 armour 0 weapon_lvl 0
 
 ;	Zarax
 character	Eutychus Deukalides, named character, age 20, , x 326, y 269
-traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 3 , Austere 2 , Intelligent 3 , Warlord 4 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries poet, shieldbearer
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
@@ -19433,7 +19435,7 @@ unit		merc cretan archers			exp 1 armour 0 weapon_lvl 2
 
 ;	Kynouria
 character	Bryzos Deukalides, named character, age 19, , x 321, y 279
-traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 2 , GoodDefender 5 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , StrategicSkill 2 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries poet, shieldbearer
 army
 unit		spartan royal guard				exp 9 armour 9 weapon_lvl 9
@@ -20075,7 +20077,7 @@ settlement
 	region Scodra_R
 
 	year_founded 0
-	population 900
+	population 700
 	plan_set default_set
 	faction_creator ardiaei
 	garrisoned_army
@@ -20100,7 +20102,8 @@ character	Monounios Bardylides, named character, leader, age 50, , x 286, y 327
 traits GoodCommander 1 , NaturalMilitarySkill 1 , GoodDefender 1 , Austere 1
 ancillaries veteran_warrior, wine_steward, exotic_slave
 army
-unit		illyrian generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		illyrian generals guard cavalry early	exp 2 armour 0 weapon_lvl 0
+unit		illyrian greek hoplite			exp 1 armour 0 weapon_lvl 0
 unit		illyrian greek hoplite			exp 1 armour 0 weapon_lvl 0
 unit		illyrian greek hoplite			exp 1 armour 0 weapon_lvl 0
 unit		greek light axemen illyria		exp 1 armour 0 weapon_lvl 0
@@ -20136,8 +20139,8 @@ relative 	Glaucias Bardylides, 	Beroea,		Monounios Bardylides,	end
 relative 	Monounios Bardylides, 	Dita,		Mytilos Bardylides,	end
 relative 	Mytilos Bardylides, 	Telephassa,		BardylisB Bardylides,	Ino Bardylides,	Aegon Bardylides,	end
 
-faction	epirus, balanced_smith_crazy
-denari	21800
+faction	epirus, comfortable_napoleon_2
+denari	13800
 ;--------- Greece ----------
 settlement
 {
@@ -20145,7 +20148,7 @@ settlement
 	region Ambracia_R
 
 	year_founded 0
-	population 3855
+	population 3835
 	plan_set default_set
 	faction_creator epirus
 	building
@@ -20202,6 +20205,7 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -20244,7 +20248,7 @@ settlement
 	garrisoned_army
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -20282,6 +20286,7 @@ settlement
 	plan_set default_set
 	faction_creator epirus
 	garrisoned_army
+	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
@@ -20324,7 +20329,7 @@ settlement
 	region Tricca_R
 
 	year_founded 0
-	population 1500
+	population 1400
 	plan_set default_set
 	faction_creator thessaly
 	building
@@ -20390,7 +20395,7 @@ settlement
 	region Thessalia
 
 	year_founded 0
-	population 2900
+	population 2700
 	plan_set default_set
 	faction_creator thessaly
 	building
@@ -20438,13 +20443,13 @@ settlement
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
+	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -20481,10 +20486,10 @@ settlement
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 2 armour 1 weapon_lvl 2
+	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -20513,23 +20518,23 @@ settlement
 	plan_set default_set
 	faction_creator epirus
 	garrisoned_army
-	unit	greek hoplite militia		exp 5 armour 0 weapon_lvl 2
+	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
+	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
-	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
+	unit	greek pikemen	exp 9 armour 3 weapon_lvl 3
+	unit	greek pikemen	exp 9 armour 3 weapon_lvl 3
+	unit	greek pikemen	exp 9 armour 3 weapon_lvl 3
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 5 armour 0 weapon_lvl 2
-	unit	greek hoplite militia		exp 5 armour 0 weapon_lvl 2
-	unit	greek peltast		exp 5 armour 0 weapon_lvl 3
+	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
+	unit	greek peltast		exp 7 armour 1 weapon_lvl 3
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -20548,7 +20553,7 @@ settlement
 ;---- Epirote -----
 ;	Pella
 character	Pyrrhus Aeacides, named character, leader, age 46, , x 315, y 322, portrait pyrrhus
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , StrategicSkill 4 , Austere 1 , AeacidaeHero 3, GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 2 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , StrategicSkill 4 , Austere 1 , AeacidaeHero 3 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 2 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries mentor, shieldbearer, poet
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
@@ -20560,21 +20565,21 @@ unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 2 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 2 weapon_lvl 3
-unit		greek levy pikemen				exp 8 armour 2 weapon_lvl 3
-unit		greek levy pikemen				exp 8 armour 1 weapon_lvl 3
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
 unit		merc samnite					exp 9 armour 3 weapon_lvl 3
 unit		merc samnite					exp 8 armour 3 weapon_lvl 3
-unit		greek elephant african			exp 9 armour 1 weapon_lvl 3
+unit		greek elephant african			exp 9 armour 3 weapon_lvl 3
 unit		greek archer					exp 9 armour 3 weapon_lvl 3
 
 ;	Passaron
 character	Ptolemy Aeacides, named character, age 23, , x 300, y 307 
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , StrategicSkill 4 , Austere 1 , AeacidaeHero 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , StrategicSkill 4 , Austere 1 , AeacidaeHero 3 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries architect, poet, bodyguard
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
@@ -20591,41 +20596,41 @@ unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 2 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 2 weapon_lvl 3
-unit		merc samnite					exp 8 armour 2 weapon_lvl 3
-unit		merc samnite					exp 9 armour 2 weapon_lvl 3
+unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
+unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
+unit		merc samnite					exp 8 armour 3 weapon_lvl 3
+unit		merc samnite					exp 9 armour 3 weapon_lvl 3
 unit		greek elephant african			exp 9 armour 9 weapon_lvl 9
-unit		greek archer					exp 9 armour 2 weapon_lvl 3
+unit		greek archer					exp 9 armour 3 weapon_lvl 3
 
 ;	Messapia (outside Brundisium)
 character	AlexanderB Aeacides, named character, heir, age 22, , x 273, y 314 
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 4 , Warlord 4 , AeacidaeHero 3, GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 4 , Warlord 4 , AeacidaeHero 3 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries architect, shieldbearer, bodyguard
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
-unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 5 armour 1 weapon_lvl 1
-unit		merc samnite					exp 9 armour 2 weapon_lvl 3
-unit		merc samnite					exp 9 armour 1 weapon_lvl 3
-unit		greek elephant african			exp 9 armour 2 weapon_lvl 1
-unit		greek archer					exp 9 armour 2 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		merc samnite					exp 9 armour 3 weapon_lvl 3
+unit		merc samnite					exp 9 armour 3 weapon_lvl 3
+unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
+unit		greek archer					exp 9 armour 3 weapon_lvl 3
 
 ;	Messapia (1)
 character	Deipylus Aeacides, named character, age 40, , x 273, y 313 ;; Fictional
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 4 , Warlord 4 , Austere 1 , AeacidaeHero 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 4 , Warlord 4 , Austere 1 , AeacidaeHero 3 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries bodyguard, shieldbearer, poet
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
@@ -20638,46 +20643,46 @@ unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 1 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 1 weapon_lvl 3
-unit		merc samnite					exp 7 armour 1 weapon_lvl 3
-unit		merc samnite					exp 7 armour 2 weapon_lvl 3
-unit		greek elephant african			exp 9 armour 0 weapon_lvl 1
-unit		greek archer					exp 7 armour 1 weapon_lvl 3
+unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
+unit		merc samnite					exp 9 armour 3 weapon_lvl 3
+unit		merc samnite					exp 9 armour 3 weapon_lvl 3
+unit		merc samnite					exp 9 armour 3 weapon_lvl 3
+unit		greek elephant african			exp 9 armour 3 weapon_lvl 3
+unit		greek archer					exp 8 armour 3 weapon_lvl 3
 
 ;	Messapia (2)
 character	Ketriporis Epictetides, named character, age 30, , x 273, y 312 ;; Fictional
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , AeacidaeHero 2 , StrategicSkill 4 , GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , AeacidaeHero 3 , StrategicSkill 4 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries bodyguard, shieldbearer, exotic_slave
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 2 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 2 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
 unit		merc samnite					exp 9 armour 3 weapon_lvl 3
-unit		merc samnite					exp 9 armour 2 weapon_lvl 3
-unit		greek elephant african			exp 9 armour 2 weapon_lvl 2
-unit		greek archer					exp 9 armour 1 weapon_lvl 3
+unit		merc samnite					exp 9 armour 3 weapon_lvl 3
+unit		greek elephant african			exp 9 armour 3 weapon_lvl 3
+unit		greek archer					exp 9 armour 3 weapon_lvl 3
 
 ;	Messapia (3)
 character	Pittheus Ardalidae, named character, age 27, , x 272, y 312 ;; Fictional
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , AeacidaeHero 3 , Warlord 4 , StrategicSkill 4 , Austere 2 , GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , AeacidaeHero 3 , Warlord 4 , StrategicSkill 4 , Austere 2 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries bodyguard, shieldbearer, exotic_slave
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
@@ -20688,22 +20693,22 @@ unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek pikemen				exp 9 armour 2 weapon_lvl 3
-unit		greek pikemen				exp 9 armour 2 weapon_lvl 3
-unit		greek pikemen				exp 9 armour 2 weapon_lvl 3
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
-unit		greek light axemen epirus			exp 9 armour 2 weapon_lvl 3
-unit		greek light axemen epirus			exp 9 armour 2 weapon_lvl 3
-unit		greek light axemen epirus			exp 9 armour 2 weapon_lvl 3
-unit		greek heavy onager					exp 8 armour 3 weapon_lvl 3
-unit		greek light axemen epirus			exp 9 armour 2 weapon_lvl 3
-unit		greek light axemen epirus			exp 8 armour 2 weapon_lvl 3
+unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
+unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
+unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
+unit		greek heavy onager					exp 9 armour 3 weapon_lvl 3
+unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
+unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		hellenic royal hypaspists				exp 9 armour 3 weapon_lvl 3
 
 ;	Messapia (5)
 character	Onamakritos of Ambracia, named character, age 20, , x 275, y 311 ;; Fictional
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , AeacidaeHero 2 , Warlord 4 , StrategicSkill 4 , Austere 2 , GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , AeacidaeHero 3 , Warlord 4 , StrategicSkill 4 , Austere 2 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries bodyguard, shieldbearer, exotic_slave
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
@@ -20719,42 +20724,42 @@ unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
-unit		greek light axemen epirus			exp 8 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
-unit		greek heavy onager					exp 8 armour 2 weapon_lvl 2
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
-unit		greek light axemen epirus			exp 9 armour 2 weapon_lvl 3
+unit		greek heavy onager					exp 9 armour 3 weapon_lvl 3
+unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
+unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		hellenic royal hypaspists				exp 9 armour 3 weapon_lvl 3
 
 ;	Ambracia
 character	Helenus Aeacides, named character, age 20, , x 303, y 300 
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , AeacidaeHero 3 , StrategicSkill 4 , GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , AeacidaeHero 3 , StrategicSkill 4 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries dancer, shieldbearer, bodyguard
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
+unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
-unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		hellenic royal hypaspists				exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
-unit		greek heavy onager					exp 8 armour 2 weapon_lvl 3
-unit		greek light axemen epirus			exp 9 armour 2 weapon_lvl 3
+unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
+unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		hellenic royal hypaspists				exp 9 armour 3 weapon_lvl 3
-unit		greek archer					exp 9 armour 1 weapon_lvl 3
+unit		greek archer					exp 9 armour 3 weapon_lvl 3
 
 ;	Messapia (4)
 character	Pegasos of Segesta, named character, age 22, , x 270, y 313 ;; Fictional
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , AeacidaeHero 3 , StrategicSkill 4 , Austere 2 , GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , Warlord 4 , AeacidaeHero 3 , StrategicSkill 4 , Austere 2 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries bodyguard, shieldbearer, exotic_slave
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
@@ -20766,20 +20771,21 @@ unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
+unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek archer					exp 9 armour 3 weapon_lvl 3
 unit		greek archer					exp 9 armour 3 weapon_lvl 3
 
 ;	outside Pella
 character	Cleonymus Agides, named character, age 58, , x 313, y 320
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 3 , AeacidaeHero 3 , GoodDefender 5 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 3 , AeacidaeHero 3 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries architect, shieldbearer, exotic_slave
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
@@ -20791,9 +20797,9 @@ unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
 unit		greek light axemen epirus			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
@@ -20803,13 +20809,14 @@ unit		greek elephant african			exp 9 armour 3 weapon_lvl 3
 
 ;	outside Pella
 character	Panaetios of Thessalonica, named character, age 29, , x 313, y 319
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 4 , GoodDefender 5 , Austere 2 , Intelligent 3 , AeacidaeHero 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 4 , Austere 2 , Intelligent 3 , AeacidaeHero 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 ancillaries bodyguard, shieldbearer
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 8 armour 3 weapon_lvl 3
@@ -20818,10 +20825,10 @@ unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 2 weapon_lvl 3
-unit		merc samnite					exp 9 armour 2 weapon_lvl 2
-unit		merc samnite					exp 9 armour 2 weapon_lvl 2
-unit		greek archer					exp 9 armour 2 weapon_lvl 3
+unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
+unit		merc samnite					exp 9 armour 3 weapon_lvl 3
+unit		merc samnite					exp 9 armour 3 weapon_lvl 3
+unit		greek archer					exp 9 armour 3 weapon_lvl 3
 
 ;	Epirus Coast
 character	Aristandros, admiral, age 25, , x 297, y 299 
@@ -20835,14 +20842,14 @@ unit		naval biremes					exp 9 armour 3 weapon_lvl 3
 unit		naval biremes					exp 9 armour 3 weapon_lvl 3
 unit		naval biremes					exp 9 armour 3 weapon_lvl 3
 unit		naval biremes					exp 9 armour 3 weapon_lvl 3
-unit		naval biremes					exp 9 armour 2 weapon_lvl 2
-unit		naval biremes					exp 5 armour 2 weapon_lvl 1
+unit		naval biremes					exp 9 armour 3 weapon_lvl 3
+unit		naval biremes					exp 7 armour 2 weapon_lvl 1
 unit		naval biremes					exp 6 armour 2 weapon_lvl 3
-unit		naval biremes					exp 2 armour 2 weapon_lvl 3
-unit		naval biremes					exp 2 armour 2 weapon_lvl 1
-unit		naval biremes					exp 4 armour 2 weapon_lvl 2
-unit		naval biremes					exp 3 armour 1 weapon_lvl 1
-unit		naval biremes					exp 3 armour 1 weapon_lvl 2
+unit		naval biremes					exp 2 armour 3 weapon_lvl 3
+unit		naval biremes					exp 9 armour 3 weapon_lvl 3
+unit		naval biremes					exp 4 armour 2 weapon_lvl 3
+unit		naval biremes					exp 4 armour 1 weapon_lvl 3
+unit		naval biremes					exp 5 armour 1 weapon_lvl 2
 
 ;	outside Passaron
 character	Nikomachos, diplomat, age 20, , x 298, y 308
@@ -20851,47 +20858,45 @@ traits GoodDiplomat 4
 ;---- Allied -----
 ;	Larissa
 character	Hyrtacus Aleuides, named character, age 33, , x 316, y 307 
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 3 ,  GoodDefender 5 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 4 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
+unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 2 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 2 weapon_lvl 3
+unit		greek levy pikemen				exp 8 armour 2 weapon_lvl 3
+unit		greek levy pikemen				exp 8 armour 1 weapon_lvl 3
+unit		greek levy pikemen				exp 8 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 2 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 2 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 3
-unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 1
-unit		merc samnite					exp 7 armour 1 weapon_lvl 2
+unit		merc samnite					exp 9 armour 1 weapon_lvl 2
 unit		merc samnite					exp 7 armour 2 weapon_lvl 2
 unit		greek elephant african			exp 3 armour 1 weapon_lvl 1
 unit		greek archer					exp 9 armour 1 weapon_lvl 3
 
 ;	Tricca
 character	Democritus Scopaides, named character, age 41, , x 310, y 307 
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 2 , GoodDefender 5 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 3 , StrategicSkill 4 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 9 armour 3 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 7 armour 1 weapon_lvl 3
-unit		greek hoplite militia			exp 9 armour 3 weapon_lvl 3
+unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
+unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
 unit		greek white shield pikemen				exp 9 armour 9 weapon_lvl 9
@@ -20901,26 +20906,26 @@ unit		greek elephant african			exp 9 armour 3 weapon_lvl 3
 
 ;	Pharsalos (outside Tricca)
 character	Ennomus Scopaides, named character, age 22, , x 313, y 303 
-traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 2 , StrategicSkill 3 , GoodDefender 5 , Austere 2 , Intelligent 2 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
+traits GoodCommander 5 , NaturalMilitarySkill 4 , HatesRoman 2 , StrategicSkill 4 , Austere 2 , Intelligent 3 , GoodAttacker 5 , GoodAdministrator 4 , Brave 2 , PublicFaith 1 , GoodInfantryGeneral 3 , GoodAmbusher 1 , GoodTrader 2 , GoodRiskyAttacker 3 , BattleScarred 2 , GoodBuilder 1 , Just 2 , GoodMiner 2 , Noctophilia 3 , Scout 2
 army
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek general's guard cavalry early		exp 9 armour 9 weapon_lvl 9
 unit		greek levy pikemen				exp 8 armour 2 weapon_lvl 3
+unit		greek levy pikemen				exp 8 armour 2 weapon_lvl 3
+unit		greek levy pikemen				exp 9 armour 2 weapon_lvl 3
+unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
+unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 2 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 2 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek levy pikemen				exp 5 armour 1 weapon_lvl 3
-unit		greek hoplite militia			exp 4 armour 0 weapon_lvl 2
-unit		greek hoplite militia			exp 7 armour 2 weapon_lvl 1
+unit		greek levy pikemen				exp 8 armour 1 weapon_lvl 3
+unit		greek levy pikemen				exp 8 armour 1 weapon_lvl 3
+unit		greek hoplite militia			exp 8 armour 1 weapon_lvl 2
+unit		greek hoplite militia			exp 8 armour 2 weapon_lvl 3
 unit		greek hoplite militia			exp 5 armour 2 weapon_lvl 2
 unit		greek archer					exp 9 armour 2 weapon_lvl 3
 
@@ -20946,7 +20951,7 @@ character_record		NeoptolemusB Aeacides, 	male, command 0, influence 0, manageme
 character_record		Nisos Aeacides, 	male, command 0, influence 0, management 0, subterfuge 0, age 48, dead, never_a_leader
 character_record		Canace, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
 character_record		Euphrosyne, 	female, command 0, influence 0, management 0, subterfuge 0, age 37, alive, never_a_leader
-character_record		Phrynikos Aleuides, 	male, command 2, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
+character_record		Phrynikos Aleuides, 	male, command 5, influence 5, management 7, subterfuge 0, age 12, alive, never_a_leader
 character_record		Eurypylos Aeacides, 	male, command 9, influence 9, management 9, subterfuge 9, age 13, alive, never_a_leader
 character_record		Axylus Aeacides, 	male, command 9, influence 9, management 9, subterfuge 9, age 10, alive, never_a_leader
 character_record		Eudorus Aeacides, 	male, command 9, influence 9, management 9, subterfuge 9, age 9, alive, never_a_leader
@@ -20969,7 +20974,7 @@ relative 	Hyrtacus Aleuides, 	Canace,		Phrynikos Aleuides,	end
 relative 	Democritus Scopaides, 	Euphrosyne,		Ennomus Scopaides,	end
 
 faction	athens, athens_passive
-denari	9010
+denari	8700
 settlement
 {
 	level city
@@ -21022,7 +21027,7 @@ settlement
 	region Hephaistia_R
 
 	year_founded 0
-	population 510
+	population 500
 	plan_set default_set
 	faction_creator athens
 	building
@@ -21048,7 +21053,7 @@ settlement
 	region Imbros_R
 
 	year_founded 0
-	population 500
+	population 480
 	plan_set default_set
 	faction_creator athens
 	building
@@ -21085,9 +21090,6 @@ settlement
     unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
     unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
 	unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-    unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-	unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-    unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
     unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
     unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
     unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -23959,9 +23961,8 @@ relative 	Praesutagus Ingauni, 	Cartimandua,		end
 relative 	Cogidubnus Dectumini, 	Boudecea,		end
 relative 	Togodumnus Bagienni, 	Huctia,		end
 
-
 faction raeti, celtic_passive
-denari	5300
+denari	4300
 settlement
 {
 	level town
@@ -35232,7 +35233,7 @@ character_record		Marcuui, 	male, command 0, influence 0, management 0, subterfu
 relative 	Hanhavaldi, 	Veleda,		Marcuui,	end
 
 faction	venedi, germanic_passive
-denari	1000
+denari	900
 settlement
 {
 	level town
@@ -35271,7 +35272,7 @@ settlement
 	region Sudinium_R
 
 	year_founded 0
-	population 700
+	population 550
 	plan_set default_set
 	faction_creator venedi
 	building
@@ -35336,21 +35337,19 @@ character_record		Hrodgar, 	male, command 0, influence 0, management 0, subterfu
 relative 	Bertgarda, 	Johanna,		Hrodgar,	end
 
 
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             14# BELGICA                ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	atrebates, celtic_passive
-denari	4500
+denari	4000
 settlement
 {
 	level town
 	region Nemetacum_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator atrebates
 	building
@@ -35385,10 +35384,8 @@ character_record		Vercassivellaunos Atrebati, 	male, command 0, influence 0, man
 
 relative 	Caratawc Atrebati, 	Iseult,		Vercassivellaunos Atrebati,	end
 
-
-
 faction	bellovaci, celtic_passive
-denari	4500
+denari	3000
 settlement
 {
 	level town
@@ -35426,10 +35423,8 @@ character_record		Aneirin Bellovaci, 	male, command 0, influence 0, management 0
 
 relative 	Brigomaglos Bellovaci, 	Verica,		Aneirin Bellovaci,	end
 
-
-
 faction	eburones, germanic_passive
-denari	4500
+denari	4000
 settlement
 {
 	level town
@@ -35905,7 +35900,7 @@ relative 	Ilixo Cessetani, 	Esselta,		Danel Cessetani,	end
 
 
 faction	edetani, iberian_passive
-denari	4500
+denari	4000
 settlement
 {
 	level large_town
@@ -36718,9 +36713,8 @@ relative 	Dunixi Vaccaei, 	Cartimandua,		Iker Vaccaei,	end
 relative 	Asentzio Cauci, 	Barita,		end
 
 
-
 faction	turdetani, iberian_passive
-denari	4500
+denari	3500
 settlement
 {
 	level large_town
@@ -54994,6 +54988,14 @@ faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, 
 faction_agression	romans_brutii,		700	carthage
 faction_agression	romans_julii,		700	carthage
 faction_agression	romans_scipii,		700	carthage
+;
+faction_agression	romans_brutii,		700	epirus
+faction_agression	romans_julii,		700	epirus
+faction_agression	romans_scipii,		700	epirus
+;
+faction_agression	epirus,		700	romans_brutii
+faction_agression	epirus, 		700	romans_julii
+faction_agression	epirus, 		700	romans_scipii
 ;
 faction_agression	carthage,		700	romans_brutii
 faction_agression	carthage, 		700	romans_julii

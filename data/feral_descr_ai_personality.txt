@@ -339,16 +339,16 @@ sally_desperate 65
 attack_risk_taker 2
 subterfuge_risk_taker 6
 
-diplomatic_priority default
-aggresiveness 100
-
-;;additions
-
 diplomatic_priority cruel_asf
 aggresiveness 400
 
 diplomatic_priority very_mean
 aggresiveness 175
+
+diplomatic_priority default
+aggresiveness 100
+
+;;additions
 
 diplomatic_priority main
 aggresiveness 100
@@ -382,6 +382,11 @@ building_priority Balanced
 military_priority smith
 diplomatic_priority cruel_asf
 
+personality balanced_caesar_crazy
+building_priority Balanced
+military_priority caesar
+diplomatic_priority cruel_asf
+
 personality religious_smith
 building_priority Religious
 military_priority smith
@@ -401,6 +406,11 @@ personality comfortable_napoleon
 building_priority Comfortable
 military_priority napoleon
 diplomatic_priority default
+
+personality comfortable_napoleon_2
+building_priority Comfortable
+military_priority napoleon
+diplomatic_priority very_mean
 
 personality fortified_napoleon
 building_priority Fortified

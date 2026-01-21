@@ -5884,7 +5884,7 @@ Trait AeacidaeHero
         Effect Influence  3
         Effect InfantryCommand 2
         Effect CavalryCommand  1
-        Effect HitPoints  2
+        Effect HitPoints  4
         Effect Combat_V_Roman  4
 
     Level AeacidaeHero_3
@@ -5892,14 +5892,14 @@ Trait AeacidaeHero
         EffectsDescription AeacidaeHero_3_effects_desc
         Threshold  3
 
-        Effect TroopMorale  16
-        Effect Attack  7 
-        Effect Command  8 
-        Effect Influence  6
-        Effect InfantryCommand 3
-        Effect CavalryCommand  3
-        Effect HitPoints  7
-        Effect Combat_V_Roman  10
+        Effect TroopMorale  22
+        Effect Attack  12 
+        Effect Command  10 
+        Effect Influence  9
+        Effect InfantryCommand 13
+        Effect CavalryCommand  4
+        Effect HitPoints  14
+        Effect Combat_V_Roman  25
 
 
 ;------------------------------------------
