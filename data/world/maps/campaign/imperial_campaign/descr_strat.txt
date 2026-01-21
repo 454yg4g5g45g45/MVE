@@ -34070,7 +34070,7 @@ settlement
 	region Vagautium_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator ostrogoths
 	building
@@ -34129,7 +34129,7 @@ relative 	Gaiseric Gauti, 	Ludwiga,		Thelonius Gauti,	end
 
 
 faction	harii, germanic_passive
-denari	3000
+denari	1000
 settlement
 {
 	level town
@@ -34176,7 +34176,7 @@ settlement
 	region Hirrium_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator harii
 	building
@@ -34221,7 +34221,7 @@ relative 	Badeloga Corconti, 	Ulrike,	end
 
 
 faction	helisii, germanic_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -34250,7 +34250,7 @@ settlement
 	region Setovia_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator helisii
 	building
