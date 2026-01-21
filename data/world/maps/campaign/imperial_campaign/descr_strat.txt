@@ -33026,7 +33026,7 @@ settlement
 	region Eburomagus_R
 
 	year_founded 0
-	population 1100
+	population 800
 	plan_set default_set
 	faction_creator volcae
 	building
@@ -33045,7 +33045,7 @@ settlement
 	region Casurgis_R
 
 	year_founded 0
-	population 1500
+	population 1100
 	plan_set default_set
 	faction_creator volcae
 	building
@@ -33067,7 +33067,7 @@ settlement
 	region Coridorgis_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator volcae
 	building
