@@ -2184,7 +2184,7 @@ building core_building
 			{
 				taxable_income_bonus bonus -2 requires factions { all, }
 				taxable_income_bonus bonus -1 requires factions { india, }
-				taxable_income_bonus bonus -45596550 requires factions { slave, }
+				taxable_income_bonus bonus -82 requires factions { slave, }
 				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
@@ -2391,7 +2391,7 @@ building core_building
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -76550 requires factions { slave, }
+				taxable_income_bonus bonus -256 requires factions { slave, }
 				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
@@ -2606,7 +2606,7 @@ building core_building
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -96550 requires factions { slave, }
+				taxable_income_bonus bonus -128 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				recruit "barb peasant briton"  0
@@ -3298,7 +3298,7 @@ building core_building
 			capability
 			{
 				taxable_income_bonus bonus -5 requires factions { all, }
-				taxable_income_bonus bonus -40000 requires factions { slave, }
+				taxable_income_bonus bonus -256 requires factions { slave, }
 				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus 7
 				trade_base_income_bonus bonus 2
@@ -3736,7 +3736,7 @@ building hinterland_gov_military_1
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -956550 requires factions { slave, }
+				taxable_income_bonus bonus -128 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				law_bonus bonus 5
@@ -3802,7 +3802,7 @@ building hinterland_gov_military_2
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -96550 requires factions { slave, }
+				taxable_income_bonus bonus -64 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				law_bonus bonus 10
@@ -3869,7 +3869,7 @@ building hinterland_gov_colony_1
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -87550 requires factions { slave, }
+				taxable_income_bonus bonus -256 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				law_bonus bonus 1
@@ -4726,7 +4726,7 @@ building hinterland_greek_polis
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -96550 requires factions { slave, }
+				taxable_income_bonus bonus -82 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				law_bonus bonus 7
@@ -4804,7 +4804,7 @@ building defenses
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -122000 requires factions { slave, }
+				taxable_income_bonus bonus -256 requires factions { slave, }
 				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
@@ -4877,7 +4877,9 @@ building defenses
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -656550 requires factions { slave, }
+				taxable_income_bonus bonus -1 requires factions { all, }
+				taxable_income_bonus bonus -1 requires factions { slave, }
+				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				wall_level 3
@@ -9056,7 +9058,8 @@ building temple_of_religion
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -89550 requires factions { slave, }
+				taxable_income_bonus bonus -1 requires factions { slave, }
+				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus 7
 				trade_base_income_bonus bonus 1
 				recruit "barb druids gaul"  0
@@ -9085,7 +9088,6 @@ building temple_of_religion
 				law_bonus bonus 6
 				population_growth_bonus 3
 				population_health_bonus 1
-				
 
 				;;;;;building rework;;;;;
 
@@ -9142,8 +9144,8 @@ building temple_of_religion
 				taxable_income_bonus bonus -25 requires size9
 				taxable_income_bonus bonus -34 requires size10
 			}
-			construction  12 
-			cost  48530 
+			construction  14 
+			cost  48730 
 			settlement_min village
 			upgrades
 			{
@@ -17460,7 +17462,7 @@ building temple_of_violence
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -76550 requires factions { slave, }
+				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 
@@ -18363,7 +18365,7 @@ building temple_of_alexander
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -76550 requires factions { slave, }
+				taxable_income_bonus bonus -82 requires factions { slave, }
 				taxable_income_bonus bonus -100 requires factions { slave, }
 				taxable_income_bonus bonus -100 requires factions { india, }
 				taxable_income_bonus bonus 62
@@ -18454,11 +18456,11 @@ building greco_persian_palatial_estates
 			capability
 			{
 				taxable_income_bonus bonus 13 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
-				taxable_income_bonus bonus -9986550 requires factions { slave, }
+				taxable_income_bonus bonus -124 requires factions { slave, }
 				taxable_income_bonus bonus -9 requires factions { slave, }
 				taxable_income_bonus bonus 4 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
 				trade_base_income_bonus bonus 23 requires factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
-				taxable_income_bonus bonus -71799 requires not factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
+				taxable_income_bonus bonus -82 requires not factions { seleucid, cappadocia, bactria, pergamon, antiochea_taocene, persis, gedrosia, agyrion, ferghana, }
 
 				law_bonus bonus 9 requires factions { seleucid, bactria, pergamon, antiochea_taocene, agyrion, }
 				law_bonus bonus -1 requires factions { cappadocia, persis, gedrosia, gedrosia, ferghana, } ;;Harder to keep Hellenized systems and infastructure but profitable

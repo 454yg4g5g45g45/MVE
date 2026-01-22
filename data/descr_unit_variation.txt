@@ -1173,6 +1173,15 @@ region
 		}
 	}
 
+	Macedonia_R
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
 	Elimiotis_R
 	{
 		variant
@@ -1667,6 +1676,54 @@ region
 		variant
 		{
 			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Dassaretis_R
+	{
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Macedon_R
+	{
+
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+
+	Gynaecopolites_R
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 100
+		}
+	}
+
+	Ba_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
+	Zhongdi_R
+	{
+
+		variant
+		{
+			ethnicity eastasian
 			distribution 100
 		}
 	}
@@ -7963,6 +8020,15 @@ region
 ;;;;;;;;;;. Italia & Sicilia;;;;;;;;;;
 	Acragas_R
 	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Abellinum_R
+	{
+
 		variant
 		{
 			ethnicity mediterranean
@@ -23769,8 +23835,7 @@ region
 		}
 	}
 
-Lhoka
-	Yangbajain_R
+	Lhoka
 	{
 		variant
 		{
@@ -23791,6 +23856,15 @@ Lhoka
 		{
 			ethnicity indian
 			distribution 2
+		}
+	}
+
+	Yangbajain_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
 		}
 	}
 
@@ -24346,7 +24420,25 @@ Lhoka
 		}
 	}
 
-Xiaoyuezhi
+	Xiaoyuezhi
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+
 	Bailan_R
 	{
 		variant
@@ -26071,7 +26163,6 @@ Xiaoyuezhi
 		}
 	}
 
-Mingan
 	Zhongdi_R
 	{
 		variant
@@ -26099,7 +26190,15 @@ Mingan
 		}
 	}
 
-Hanzhong_
+	Hanzhong_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
 	Guling_R
 	{
 		variant
@@ -26172,7 +26271,15 @@ Hanzhong_
 		}
 	}
 
-Jiangyang
+	Jiangyang
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+
 	Ba_R
 	{
 		variant
@@ -26191,7 +26298,15 @@ Jiangyang
 		}
 	}
 
-Guanghan_
+	Guanghan_R
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+		
 	Qianwei_R
 	{
 		variant

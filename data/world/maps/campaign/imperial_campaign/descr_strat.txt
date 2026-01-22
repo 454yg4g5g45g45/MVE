@@ -54153,8 +54153,11 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 ;	Serdica
 character	sub_faction gauls, Erbin, general, age 20, , x 321, y 347
 army
-unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
@@ -54205,7 +54208,7 @@ unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
-unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
+unit		rebel amazon chariots				exp 4 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;------------------- #$ Diplomacy Section --------------------
