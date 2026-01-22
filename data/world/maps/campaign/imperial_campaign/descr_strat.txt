@@ -29744,14 +29744,14 @@ relative 	Saulaces Phasishvili, 	Karo,		Atheas Phasishvili,	end
 
 ;	Heraclea Pontica
 faction	heraclea, greek_passive
-denari	4500
+denari	4000
 settlement
 {
 	level large_town
 	region HeracleaPontica_R
 
 	year_founded 0
-	population 2800
+	population 2600
 	plan_set default_set
 	faction_creator heraclea
 	building
@@ -29765,10 +29765,6 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
-	}
-	building
-	{
-		type port_buildings port
 	}
 	building
 	{
@@ -30136,10 +30132,6 @@ settlement
 	building
 	{
 		type barracks muster_field
-	}
-	building
-	{
-		type port_buildings port
 	}
 }
 
