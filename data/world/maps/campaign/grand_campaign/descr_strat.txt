@@ -68,7 +68,7 @@
 campaign		grand_campaign
 ;;---unused options
 ;;options +defeat_movie_bi_style
-options bi
+;;options bi
 playable
 	romans_julii
 	romans_brutii
@@ -124,13 +124,14 @@ playable
 	taras
 	tylis
 	veneti
+	psyllia
 	antiochea_taocene
 end
 unlockable
 end
 nonplayable
-	romans_senate
 	slave
+	romans_senate
 	;------- WARNING -------
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
@@ -356,8 +357,8 @@ trigger_status camillan_reforms, true
 trigger_status antigonid_reforms, true
 rebelling_characters_active
 night_battles_enabled
-brigand_spawn_value 290
-pirate_spawn_value 2
+brigand_spawn_value 300
+pirate_spawn_value 10
 ;;---unused settings
 ;gladiator_uprising_disabled
 ;show_date_as_turns_remaining
