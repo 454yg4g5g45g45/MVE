@@ -1709,7 +1709,7 @@ region
 		}
 	}
 
-	Ba_R
+	Mingan_R
 	{
 		variant
 		{
@@ -26171,15 +26171,6 @@ region
 		}
 	}
 
-	Zhongdi_R
-	{
-		variant
-		{
-			ethnicity eastasian
-			distribution 100
-		}
-	}
-
 	Hanxing_R
 	{
 		variant
@@ -26279,7 +26270,7 @@ region
 		}
 	}
 
-	Jiangyang
+	Jiangyang_R
 	{
 		variant
 		{

@@ -9145,7 +9145,7 @@ building temple_of_religion
 				taxable_income_bonus bonus -34 requires size10
 			}
 			construction  14 
-			cost  48730 
+			cost  49730 
 			settlement_min village
 			upgrades
 			{

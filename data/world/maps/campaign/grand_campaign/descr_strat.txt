@@ -22755,7 +22755,7 @@ settlement
 settlement
 {
 	level town
-	region Mingan
+	region Mingan_R
 
 	year_founded 0
 	population 1400
