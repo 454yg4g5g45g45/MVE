@@ -15880,10 +15880,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/menu\/textures\/feral_banners.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/menu\/textures\/menu_marble_frame.tga",
 		"checksum": "Blacklisted"
 	},
@@ -35429,7 +35425,7 @@
 	},
 	{
 		"filename": "data\/text\/campaign_descriptions.txt",
-		"checksum": 3232349872
+		"checksum": 1901300044
 	},
 	{
 		"filename": "data\/text\/climates.txt",
