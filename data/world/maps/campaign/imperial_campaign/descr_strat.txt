@@ -45239,9 +45239,8 @@ character_record		Datan, 	male, command 0, influence 0, management 0, subterfuge
 relative 	Uguluy, 	Fallon,		Datan,		end
 
 
-
 faction	kucha, nomad_passive
-denari	4500
+denari	3500
 settlement
 {
 	level town
@@ -45291,7 +45290,7 @@ settlement
 	region Palliana_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator kucha
 	garrisoned_army
@@ -45333,7 +45332,7 @@ settlement
 	region Luntai_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator kucha
 	garrisoned_army
