@@ -25984,7 +25984,7 @@ settlement
 	region Daorson_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator daorsi
 	building
@@ -26016,9 +26016,8 @@ character_record		Brinkainos Daorsi, 	male, command 0, influence 0, management 0
 relative 	Skaris Daorsi, 	Ketripora,		Brinkainos Daorsi,	end
 
 
-
 faction	dardania, celtic_passive
-denari	2500
+denari	1500
 settlement
 {
 	level town
@@ -26065,7 +26064,7 @@ settlement
 	region Naissus_R
 
 	year_founded 0
-	population 1500
+	population 1100
 	plan_set default_set
 	faction_creator dardania
 	building
