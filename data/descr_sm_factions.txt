@@ -16990,8 +16990,7 @@
 		"culture":   "numidian",
 		"ethnicity": "berber",
 
-		;;tags for faction groups
-		"tags": [ "fgroup_farming_temple", ],
+		"tags": [ ],
 
 		;;namelists
 		"namelists":
@@ -17011,7 +17010,7 @@
 			"rebel standard index": 22,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
-			"logo index":       22,
+			"logo index":       302,
 			"rebel logo index": 22,
 
 			;;flag models to be used on the strat map when a settlement is unoccupied

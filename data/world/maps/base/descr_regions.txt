@@ -17460,7 +17460,7 @@ Syme_R
 	greece
 	5
 	3
-	greek 55 anatolian 40 phoenician 5
+	greek 90 anatolian 10
 
 Lepreon_R
 	legion: Macedonica

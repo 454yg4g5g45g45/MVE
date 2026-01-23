@@ -10917,7 +10917,7 @@
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
-		"checksum": 798640918
+		"checksum": 839673513
 	},
 	{
 		"filename": "data\/descr_faction_groups.txt",
@@ -11069,7 +11069,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 555369475
+		"checksum": 4039887631
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -11081,7 +11081,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 187613754
+		"checksum": 1770575074
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -62152,6 +62152,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/gerrha\/east_generals_cavalry_early_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/gerrha\/east_generals_cavalry_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -62681,6 +62685,10 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/hadhramaut\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/hadhramaut\/east_generals_cavalry_early_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -65404,6 +65412,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/lihyan\/east_generals_cavalry_early_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/lihyan\/east_generals_cavalry_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -66249,6 +66261,10 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/mascat\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/mascat\/east_generals_cavalry_early_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -69624,6 +69640,126 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/persis\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/east_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/east_generals_cavalry_early_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/east_generals_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/east_heavy_cataphract_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/east_heavy_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/east_horse_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/east_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/east_onager_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/east_peasant_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/generic_rebel_general_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_generals_guard_cavalry_early_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_generals_guard_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_heavy_peltast_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_hoplite_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_hoplite_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_medium_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_onagers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_peasant_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/greek_peltast_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/hoplites_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/merchant_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/naval_bireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/naval_quinquireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/naval_trireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/spy_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/persis\/thorax_swordsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/peucitans\/assassin_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -72473,6 +72609,10 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/saba\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/saba\/east_generals_cavalry_early_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -75917,6 +76057,10 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/thamud\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/thamud\/east_generals_cavalry_early_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -89708,7 +89852,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/gerrha\/#east_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/gerrha\/#east_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gerrha\/#east_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gerrha\/#east_heavy_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gerrha\/#east_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gerrha\/#east_horse_archer.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -90236,7 +90400,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/hadhramaut\/#east_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/hadhramaut\/#east_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/hadhramaut\/#east_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/hadhramaut\/#east_heavy_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/hadhramaut\/#east_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/hadhramaut\/#east_horse_archer.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -92884,7 +93068,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/lihyan\/#east_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/lihyan\/#east_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lihyan\/#east_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lihyan\/#east_heavy_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lihyan\/#east_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lihyan\/#east_horse_archer.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -93752,7 +93956,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/mascat\/#east_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/mascat\/#east_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mascat\/#east_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mascat\/#east_heavy_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mascat\/#east_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mascat\/#east_horse_archer.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -95017,6 +95241,10 @@
 	},
 	{
 		"filename": "data\/ui\/units\/minaea\/#east_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/minaea\/#east_generals_cavalry_early.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -97732,6 +97960,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/qataban\/#east_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/qataban\/#east_horse_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/qataban\/#east_onager.tga",
 		"checksum": "Blacklisted"
 	},
@@ -97813,6 +98049,14 @@
 	},
 	{
 		"filename": "data\/ui\/units\/qedar\/#east_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/qedar\/#east_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/qedar\/#east_horse_archer.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -100120,7 +100364,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/saba\/#east_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/saba\/#east_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/saba\/#east_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/saba\/#east_heavy_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/saba\/#east_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/saba\/#east_horse_archer.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -103580,7 +103844,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/thamud\/#east_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/thamud\/#east_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/thamud\/#east_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/thamud\/#east_heavy_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/thamud\/#east_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/thamud\/#east_horse_archer.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -105777,15 +106061,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 709902797
+		"checksum": 776428024
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
 		"checksum": 2715582006
-	},
-	{
-		"filename": "data\/world\/maps\/base\/map.rwm",
-		"checksum": 4289099692
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -105949,11 +106229,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 4274153241
+		"checksum": 776428024
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 596597583
+		"checksum": 1545831043
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -106061,10 +106341,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_nabataea.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_nervii.tga",
 		"checksum": "Blacklisted"
 	},
 	{
