@@ -27061,7 +27061,7 @@ settlement
 	region Tribus_Iazyges
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator anartes
 	building
@@ -27117,7 +27117,6 @@ character_record		Keyne, 	female, command 0, influence 0, management 0, subterfu
 character_record		Virssuccius Anarti, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
 
 relative 	Togodumnus Anarti, 	Keyne,		Virssuccius Anarti,	end
-
 
 faction	bastarnae, dacian_passive
 denari	2000
@@ -27241,7 +27240,7 @@ relative 	Aioulfus, 	Eva,	end
 
 ;-------------- Media Atropatene ---------------
 faction	atropatene, eastern_passive
-denari	3000
+denari	1000
 ;--------- Settlements ----------
 settlement
 {
