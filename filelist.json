@@ -10913,7 +10913,7 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 1946607734
+		"checksum": 3202617389
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
@@ -10937,11 +10937,11 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 176370736
+		"checksum": 3030190867
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
-		"checksum": 2308050855
+		"checksum": 2138534029
 	},
 	{
 		"filename": "data\/descr_mount.txt",
@@ -10989,7 +10989,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 3406930414
+		"checksum": 4291909873
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -105782,6 +105782,10 @@
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
 		"checksum": 2715582006
+	},
+	{
+		"filename": "data\/world\/maps\/base\/map.rwm",
+		"checksum": 4289099692
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
