@@ -10937,7 +10937,7 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 3480771317
+		"checksum": 1438802791
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
@@ -105933,7 +105933,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 1615455393
+		"checksum": 2816531330
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_events.txt",
@@ -105949,7 +105949,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 922404305
+		"checksum": 1381905791
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -105977,10 +105977,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/feral_radar_map_winter.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_ardiaei.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -106045,10 +106041,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_macedon.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_macedon1.tga",
 		"checksum": "Blacklisted"
 	},
 	{
