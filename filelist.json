@@ -10989,7 +10989,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 3843358034
+		"checksum": 203439111
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -106057,11 +106057,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 3620043894
+		"checksum": 13927574
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 776428024
+		"checksum": 1671216907
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
@@ -106228,10 +106228,6 @@
 		"checksum": 3297858914
 	},
 	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 776428024
-	},
-	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
 		"checksum": 1545831043
 	},
@@ -106241,7 +106237,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
-		"checksum": 2778720399
+		"checksum": 1405701773
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description.txt",
