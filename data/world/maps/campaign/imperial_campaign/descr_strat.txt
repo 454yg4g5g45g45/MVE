@@ -27332,7 +27332,7 @@ settlement
 	region Atra_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -27350,7 +27350,7 @@ settlement
 	region Cyropolis_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -27372,7 +27372,7 @@ settlement
 	region Gabris_R
 
 	year_founded 0
-	population 1200
+	population 800
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -27390,7 +27390,7 @@ settlement
 	region Kapouta_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -27408,7 +27408,7 @@ settlement
 	region Morunda_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -40811,24 +40811,6 @@ settlement
 settlement
 {
 	level town
-	region Vamanasthali_R
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator india
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-	level town
 	region Vallabhipura_R
 
 	year_founded 0
@@ -42352,11 +42334,6 @@ unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
 ;	Kanthi
 character	Taharqa, general, age 20, , x 813, y 193
-army
-unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
-
-;	Vamanasthali
-character	Taharqa, general, age 20, , x 831, y 181
 army
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 
@@ -46604,10 +46581,30 @@ settlement
 settlement
 {
 	level town
+	region Vamanasthali_R
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
 	region Kantakasola_R
 
 	year_founded 0
-	population 350
+	population 320
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
@@ -46628,7 +46625,7 @@ settlement
 	region Modogulla_R
 
 	year_founded 0
-	population 600
+	population 570
 	plan_set default_set
 	faction_creator india
 	garrisoned_army

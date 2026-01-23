@@ -105949,15 +105949,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2550127858
+		"checksum": 2463315313
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
 		"checksum": 2715582006
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
-		"checksum": 811418163
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description.txt",
@@ -105985,10 +105981,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_armenia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_athens.tga",
 		"checksum": "Blacklisted"
 	},
 	{
