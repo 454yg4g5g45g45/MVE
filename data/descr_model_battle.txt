@@ -25567,7 +25567,7 @@ no_variation model Indian data/characters/greek_peasant_seleucid_Indian_no_varia
 model Mediterranean data/characters/roman_male_peasant_Mediterranean
 no_variation model Mediterranean data/characters/roman_male_peasant_Mediterranean_no_variation
 
-type bi_01_runaway_slave_spearmen
+type runaway_slave_spearmen
 skeleton	fs_semi_fast_spearman
 male
 body Default
