@@ -43567,14 +43567,14 @@ character_record		Karikala Athiyaman, 	male, command 0, influence 0, management 
 relative 	Illam Athiyaman, 	Ramadattha,		Karikala Athiyaman,	end
 
 faction	ay, eastern_passive
-denari	1000
+denari	900
 settlement
 {
 	level town
 	region Aykudi_R
 
 	year_founded 0
-	population 1400
+	population 1100
 	plan_set default_set
 	faction_creator ay
 	building
