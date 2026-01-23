@@ -22357,7 +22357,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 873, 204, 100, 150, 970
-ownership        goths, ostrogot
+ownership        goths, ostrogoths
 
 type             steppe nobles
 dictionary       steppe_nobles      ; Steppe Nobles
