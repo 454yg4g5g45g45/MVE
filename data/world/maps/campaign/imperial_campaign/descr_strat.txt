@@ -43566,10 +43566,8 @@ character_record		Karikala Athiyaman, 	male, command 0, influence 0, management 
 
 relative 	Illam Athiyaman, 	Ramadattha,		Karikala Athiyaman,	end
 
-
-
 faction	ay, eastern_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -44111,9 +44109,8 @@ character_record		Boz, 	male, command 0, influence 0, management 0, subterfuge 0
 
 relative 	Rasparaganus, 	Branka,		Boz,	end
 
-
 faction	dahae, nomad_passive
-denari	3000
+denari	1000
 settlement
 {
 	level town
@@ -44324,7 +44321,7 @@ relative 	Belnirari, 	Branka,		Saulius,	end
 
 
 faction	thyssagetae, nomad_passive
-denari	120
+denari	110
 settlement
 {
 	level town
@@ -45230,7 +45227,7 @@ character_record		Datan, 	male, command 0, influence 0, management 0, subterfuge
 relative 	Uguluy, 	Fallon,		Datan,		end
 
 faction	kucha, nomad_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -46112,7 +46109,7 @@ relative 	Mukaporis Bendva, 	Arxa,		Dataphernes Bendva,	    Niphates Bendva,	end
 
 ;-------------- Gedrosia ---------------
 faction	gedrosia, eastern_passive
-denari	1062
+denari	962
 settlement
 {
 	level town
