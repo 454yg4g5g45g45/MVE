@@ -26253,7 +26253,7 @@ settlement
 	region Apsarus_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator balari
 	building
@@ -26317,7 +26317,7 @@ relative 	Eptenis Liburni, 	Eptarys,		Skaris Liburni,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	breuci, celtic_passive
-denari	2500
+denari	1000
 settlement
 {
 	level town
