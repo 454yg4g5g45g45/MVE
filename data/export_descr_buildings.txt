@@ -5258,7 +5258,6 @@ building barracks
 				recruit "barb infantry allied"  0  requires location_barbarian and not is_player
 				recruit "greek hoplite militia allied"  0  requires location_greek_etruria and not is_player
 				
-				
 				;;stats
 				;;;;;building rework;;;;;
 
@@ -5275,7 +5274,7 @@ building barracks
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  6895 
+			cost  7000 
 			settlement_min large_town
 			upgrades
 			{
