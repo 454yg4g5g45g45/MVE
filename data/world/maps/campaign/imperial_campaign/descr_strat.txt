@@ -114,7 +114,6 @@ playable
 	etruscans
 	iolei				; sardi
 	kush
-	nervii
 	saba
 	tylis
 end
@@ -134,6 +133,7 @@ nonplayable
 	antiochea_taocene
 	psyllia
 	persis
+	nervii
 	veneti
 	massagetae
 	colchis
@@ -16676,7 +16676,7 @@ relative 	Belenus Catuvellauni, 	Cartimandua,		Calpornus Catuvellauni,	end
 
 
 faction	armenia, fortified_henry
-denari	9900
+denari	6900
 settlement
 {
 	level large_town

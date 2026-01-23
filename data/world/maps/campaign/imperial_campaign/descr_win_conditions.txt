@@ -139,11 +139,6 @@ take_rome
 short_campaign outlive_factions 
 thrace
 
-nervii
-take_rome
-short_campaign outlive_factions 
-parisii treverii
-
 colchis
 take_rome
 short_campaign outlive_factions 
@@ -203,11 +198,6 @@ veneti
 take_rome
 short_campaign outlive_factions 
 insubres boii
-
-insubres
-take_rome
-short_campaign outlive_factions 
-veneti ligures
 
 iolei
 take_rome
