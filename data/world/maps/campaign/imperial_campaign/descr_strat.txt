@@ -39896,7 +39896,7 @@ settlement
 	region Pertalis_R
 
 	year_founded 0
-	population 1200
+	population 1100
 	plan_set default_set
 	faction_creator india
 	building
