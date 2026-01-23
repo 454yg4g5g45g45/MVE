@@ -13002,7 +13002,6 @@ stat_cost        2, 477, 150, 60, 80, 530
 ownership        boii
 ethnicity boii, Noricum
 
-
 type             hounds of culann
 dictionary       hounds_of_culann      ; Hounds of Culann
 category         infantry
@@ -13030,7 +13029,6 @@ ownership        boii
 ethnicity boii, Culann, don't_allow_mixed
 tattoo_color gold
 hair_color purple
-
 
 type             noble clansmen celt
 dictionary       noble_clansmen_celt      ; Noble Clansmen
@@ -23463,32 +23461,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 279, 134, 40, 50, 310
 ownership        slave, alemanni, lombardi, burgundii
-
-type             hounds of culann
-dictionary       hounds_of_culann      ; Hounds of Culann
-category         infantry
-class            heavy
-voice_type       Heavy_1
-voice_indexes    0 1 2
-soldier          hounds_of_culann, 16, 0, 3.25, 0.6, 2.2
-attributes       sea_faring, hide_forest, frighten_foot, very_hardy, can_swim, warcry
-formation        1.7, 1.7, 2.4, 2.4, 2, square
-stat_health      2, 0
-stat_pri         11, 7, no, 0, 0, melee, blade, blunt, mace, 25 ,1
-stat_pri_attr    ap
-stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
-stat_sec_attr    no
-stat_pri_armour  0, 5, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, -2, 3, 2
-stat_mental      15, berserker, untrained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        2, 621, 180, 70, 110, 690
-ownership        boii
-hair_color purple
  
 type             noble cavalry alemanni
 dictionary       noble_cavalry_alemanni      ; Barbarian Noble Cavalry
