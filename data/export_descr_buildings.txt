@@ -5177,7 +5177,6 @@ building barracks
 				;; BI Expansion 1
 				recruit "gothic spearmen"  0
 				recruit "saxon keels"  0
-				recruit "foederati infantry"  0
 				recruit "steppe swordsmen hun"  0   
 				recruit "steppe spearmen vandal"  1   
 				recruit "steppe swordsmen vandal"  0
@@ -5186,8 +5185,7 @@ building barracks
 				recruit "sword heerbann"  0
 				recruit "bosphoran infantry"  0
 				recruit "gothic warriors"  0
-				recruit "saxon hearth troops"  0
-				recruit "saxon hearth troops"  0
+				recruit "saxom hearth troops" 0
 				recruit "golden band"  0
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
@@ -5415,7 +5413,6 @@ building barracks
 				;; BI Expansion 1
 				recruit "gothic spearmen"  0
 				recruit "saxon keels"  0
-				recruit "foederati infantry"  0
 				recruit "steppe swordsmen hun"  0   
 				recruit "steppe spearmen vandal"  1   
 				recruit "steppe swordsmen vandal"  0
@@ -5424,8 +5421,7 @@ building barracks
 				recruit "sword heerbann"  0
 				recruit "bosphoran infantry"  0
 				recruit "gothic warriors"  0
-				recruit "saxon hearth troops"  0
-				recruit "saxon hearth troops"  0
+				recruit "saxom hearth troops" 0
 				recruit "golden band"  0
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
@@ -5710,7 +5706,6 @@ building barracks
 				;; BI Expansion 1
 				recruit "gothic spearmen"  0
 				recruit "saxon keels"  0
-				recruit "foederati infantry"  0
 				recruit "steppe swordsmen hun"  0   
 				recruit "steppe spearmen vandal"  1   
 				recruit "steppe swordsmen vandal"  0
@@ -5719,8 +5714,7 @@ building barracks
 				recruit "sword heerbann"  0
 				recruit "bosphoran infantry"  0
 				recruit "gothic warriors"  0
-				recruit "saxon hearth troops"  0
-				recruit "saxon hearth troops"  0
+				recruit "saxom hearth troops" 0
 				recruit "golden band"  0
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
@@ -6024,7 +6018,6 @@ building barracks
 				;; BI Expansion 1
 				recruit "gothic spearmen"  0
 				recruit "saxon keels"  0
-				recruit "foederati infantry"  0
 				recruit "steppe swordsmen hun"  0   
 				recruit "steppe spearmen vandal"  1   
 				recruit "steppe swordsmen vandal"  0
@@ -6033,8 +6026,7 @@ building barracks
 				recruit "sword heerbann"  0
 				recruit "bosphoran infantry"  0
 				recruit "gothic warriors"  0
-				recruit "saxon hearth troops"  0
-				recruit "saxon hearth troops"  0
+				recruit "saxom hearth troops" 0
 				recruit "golden band"  0
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1

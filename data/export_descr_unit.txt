@@ -8493,7 +8493,6 @@ stat_food        60, 300
 stat_cost        1, 500, 282, 40, 60, 400
 ownership        slave
  
- 
 type             merc bosphoran infantry
 dictionary       merc_bosphoran_infantry      ; Bosphoran Mercenaries
 category         infantry
