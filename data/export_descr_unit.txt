@@ -21955,7 +21955,6 @@ stat_cost        1, 295, 179, 50, 70, 349
 ownership        acarnania
 ethnicity        acarnania, Laconia
 
-
 type             roman female peasant
 dictionary       roman_female_peasant      ; Roman Civilians
 category         non_combatant
@@ -24027,4 +24026,3 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 72, 28, 20, 30, 80
 ownership        slave, alemanni, lombardi, burgundii
-

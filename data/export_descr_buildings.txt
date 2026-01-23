@@ -2211,7 +2211,6 @@ building core_building
 				recruit "peasant gothic"  0
 				recruit "peasant vandal"  0
 				recruit "herdsmen sarmatian"  0
-				recruit "western peasant"  0
 
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
@@ -3362,7 +3361,6 @@ building core_building
 				recruit "peasant gothic"  0
 				recruit "peasant vandal"  0
 				recruit "herdsmen sarmatian"  0
-				recruit "western peasant"  0
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;unit rework;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
