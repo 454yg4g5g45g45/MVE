@@ -7247,7 +7247,6 @@ building missiles
 				recruit "libyan peltast"  0
 				recruit "nomad noble archer warband"  0
 
-				
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
 				;;;;;;;;;;;   roman    ;;;;;;;;;;;;
 				;;;;non-marian
