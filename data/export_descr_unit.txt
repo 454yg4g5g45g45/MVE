@@ -23405,6 +23405,9 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 342, 126, 40, 60, 380
 ownership        alemanni, lombardi, burgundii
+ethnicity alemanni, Tribus_Alemanni
+ethnicity burgundii, Tribus_Burgundii
+ethnicity lombardi, Tribus_Lombardi
 tattoo_color black
 
 type             noble warriors frank
