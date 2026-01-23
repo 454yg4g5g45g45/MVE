@@ -26409,7 +26409,7 @@ settlement
 	region Illyria
 
 	year_founded 0
-	population 1700
+	population 1500
 	plan_set default_set
 	faction_creator daesitiates
 	building
