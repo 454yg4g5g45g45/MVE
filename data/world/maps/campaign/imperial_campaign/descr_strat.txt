@@ -37596,7 +37596,7 @@ character_record		Baramunes Qkhepersptahikid, 	male, command 8, influence 1, man
 relative 	Tefneferas Qkhepersptahikid, 	Gurkheperta Feramunika, 	Nankhsptahos Qkhepersptahikid, 	Lemkheperes Qkhepersptahikid, 	Qasraaios Qkhepersptahikid, 	Baramunes Qkhepersptahikid, 	end
 
 faction	massylii, desert_passive
-denari	700
+denari	600
 settlement
 {
 	level town
