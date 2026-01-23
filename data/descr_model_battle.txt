@@ -306,7 +306,6 @@ no_variation model_flexi		data/animals/mount_horse_lod2.cas, 60
 no_variation model_flexi		data/animals/mount_horse_lod3.cas, max
 
 
-
 type							horse_medium
 skeleton						fs_medium_horse
 male
@@ -26071,7 +26070,6 @@ male
 body Default
 angry_face yes
 medieval_features yes
-medieval_features no
 tired No
 aged 0.00
 pbr_texture data/characters/textures/BI_steppe_horde_chosen_warriors_roxolani_pbr.tga
@@ -27097,7 +27095,6 @@ male
 body Default
 angry_face no
 angry_face corieltauvi, yes
-angry_face sassanids, yes
 medieval_features no
 tired VeryTired
 tired slavs, No
