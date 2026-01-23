@@ -5185,7 +5185,6 @@ building barracks
 				recruit "sword heerbann"  0
 				recruit "bosphoran infantry"  0
 				recruit "gothic warriors"  0
-				recruit "saxom hearth troops" 0
 				recruit "golden band"  0
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
@@ -5420,7 +5419,6 @@ building barracks
 				recruit "sword heerbann"  0
 				recruit "bosphoran infantry"  0
 				recruit "gothic warriors"  0
-				recruit "saxom hearth troops" 0
 				recruit "golden band"  0
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
@@ -5713,7 +5711,6 @@ building barracks
 				recruit "sword heerbann"  0
 				recruit "bosphoran infantry"  0
 				recruit "gothic warriors"  0
-				recruit "saxom hearth troops" 0
 				recruit "golden band"  0
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
@@ -6025,7 +6022,6 @@ building barracks
 				recruit "sword heerbann"  0
 				recruit "bosphoran infantry"  0
 				recruit "gothic warriors"  0
-				recruit "saxom hearth troops" 0
 				recruit "golden band"  0
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
