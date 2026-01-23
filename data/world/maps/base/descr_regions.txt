@@ -7111,7 +7111,7 @@ Amisus_R
 	pontus
 	5
 	7
-	anatolian 99 iranian 2
+	anatolian 99 iranian 1
 	
 ComanaPontica_R
 	legion: Pontica
@@ -14771,7 +14771,7 @@ Bamanghati_R
 	india
 	5
 	5
-	tamil 60 indian 35 iranian 5
+	indian 100
 
 ; *********************************************************
 ; *********************************************************
@@ -17152,7 +17152,7 @@ Pylamnus_Aethiopis_R
 	nubia
 	5
 	4
-	ethiopian 90 arab 9 mesopotamian 2
+	ethiopian 98 arab 2
 
 Kynouria_R
 	legion: Macedonica
@@ -17163,7 +17163,7 @@ Kynouria_R
 	greece
 	5
 	4
-	greek 98 anatolian 2
+	greek 94 anatolian 6
 
 Latake_Psyllia_R
 	legion: Cyrenaica

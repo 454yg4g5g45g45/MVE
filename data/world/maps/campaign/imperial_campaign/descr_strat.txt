@@ -16266,7 +16266,7 @@ relative 	Herakles Mithridatides, 	Antonia,		Dionysos Mithridatides,	Rhescuporis
 
 ;-------------- 4$h - Gauls ---------------
 faction	gauls, religious_smith
-denari	5000
+denari	3000
 ;--------- 4$h.a - Gaul ---------
 settlement
 {
@@ -17603,7 +17603,7 @@ relative 	Tanakwa, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 
 ;-------------- 4$? - Scythia ---------------
 faction	scythia, trader_smith
-denari	5000
+denari	3000
 ;--------- 4$?.a - Scythia ----------
 settlement
 {
@@ -17637,7 +17637,7 @@ settlement
 	region Amadoca_R
 
 	year_founded 0
-	population 1800
+	population 1200
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -17797,7 +17797,7 @@ settlement
 	region Clepidava_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -17897,7 +17897,7 @@ settlement
 	region Sarbacum_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -17915,7 +17915,7 @@ settlement
 	region Sarum_R
 
 	year_founded 0
-	population 800
+	population 760
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -17933,7 +17933,7 @@ settlement
 	region Tracana_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -18494,10 +18494,8 @@ character_record		Inguiomerus Chatti, 	male, command 0, influence 0, management 
 
 relative 	Nasua Chatti, 	Eva,		Inguiomerus Chatti,	end
 
-
-
 faction	burgundii, germanic_passive
-denari	2500
+denari	1200
 settlement
 {
 	level town
@@ -18526,7 +18524,7 @@ settlement
 	region Manimium_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator burgundii
 	building
@@ -18587,10 +18585,9 @@ character_record		Fulcaris Burgundi, 	male, command 0, influence 0, management 0
 relative 	Odovacar Burgundi, 	Olga,		Eutlinde Burgundi,	end
 relative 	Eutlinde Burgundi, 	Othelhildis,		Fulcaris Burgundi,	end
 
-
 ;	Batavi
 faction	franks, germanic_passive
-denari	5000
+denari	4000
 settlement
 {
 	level town
@@ -18629,7 +18626,7 @@ character_record		Adelhaide Batavi, 	male, command 0, influence 0, management 0,
 relative 	Eraric Batavi, 	Eberharde,		Adelhaide Batavi,	end
 
 faction	goths, germanic_passive
-denari	5000
+denari	3000
 settlement
 {
 	level town
@@ -18658,7 +18655,7 @@ settlement
 	region Soulonium_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator goths
 	building
@@ -18693,7 +18690,7 @@ character_record		Maroboduus Guti, 	male, command 0, influence 0, management 0, 
 relative 	Hanhavaldi Guti, 	Priska,		Maroboduus Guti,	end
 
 faction	lombardi, germanic_passive
-denari	5000
+denari	2000
 settlement
 {
 	level town
@@ -24724,7 +24721,7 @@ relative 	Diagoras Hermides, 	Nephele,		end
 
 
 faction	elis, greek_passive
-denari	5000
+denari	3000
 settlement
 {
 	level large_town
@@ -24903,7 +24900,7 @@ character_record		Hicetaon Theopompides, 	male, command 0, influence 0, manageme
 relative 	Mantios Theopompides, 	Drosis,		Hicetaon Theopompides,	end
 
 faction	gortyn, greek_passive
-denari	5000
+denari	3000
 ;;BIGMAP
 settlement
 {
@@ -26157,7 +26154,7 @@ relative 	Iptacens Galabri, 	Bendidora,	end
 relative 	Cersobleptes Thunati, 	Cerzula,	end
 
 faction	delmatae, dacian_passive
-denari	5000
+denari	3000
 settlement
 {
 	level town
@@ -27023,7 +27020,7 @@ character_record		Roles Costoboci, 	male, command 0, influence 0, management 0, 
 relative 	Dnestr Costoboci, 	Dana,		Roles Costoboci,	end
 
 faction	daunians, dacian_passive
-denari	5000
+denari	3000
 settlement
 {
 	level town
@@ -27275,7 +27272,7 @@ relative 	Aioulfus, 	Eva,	end
 
 ;-------------- Media Atropatene ---------------
 faction	atropatene, eastern_passive
-denari	5000
+denari	3000
 ;--------- Settlements ----------
 settlement
 {
@@ -29383,7 +29380,7 @@ character_record		Sosimenes Eneti, 	male, command 0, influence 0, management 0, 
 relative 	Kambyses Eneti, 	Bardiya,		Sosimenes Eneti,		end
 
 faction	chorasmia, nomad_passive
-denari	5000
+denari	3000
 settlement
 {
 	level large_town
@@ -30380,7 +30377,7 @@ relative 	Aripharnes, 	Fallon,		Madyes,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	brigantes, british_passive
-denari	5000
+denari	3000
 settlement
 {
 	level town
@@ -35582,7 +35579,7 @@ relative 	Rianorix Mediomatrici, 	Boudicca,		Diviciacus Mediomatrici,	end
 
 
 faction	morini, celtic_passive
-denari	5000
+denari	3000
 settlement
 {
 	level town
@@ -36264,7 +36261,7 @@ relative 	Etor Germani, 	Huctia,	end
 
 
 faction	astures, iberian_passive
-denari	5000
+denari	3000
 settlement
 {
 	level town
@@ -37123,7 +37120,7 @@ relative 	Linus Amphides, 	Hermine,		Pittacus Amphides,	end
 
 ;	Suessetani
 faction	suessiones, celtic_passive
-denari	5000
+denari	3000
 settlement
 {
 	level town
@@ -39505,7 +39502,7 @@ relative 	Tamal, 	Mkehnye,		Isemne,		end
 
 
 faction	kush, desert_passive
-denari	5000
+denari	3000
 settlement
 {
 	level large_town
