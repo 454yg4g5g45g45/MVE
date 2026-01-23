@@ -110,7 +110,6 @@ playable
 	ardiaei
 	bactria
 	boii
-	chola
 	etruscans
 	iolei				; sardi
 	kush
@@ -128,6 +127,7 @@ nonplayable
 	alemanni			; chatti
 	taras
 	india
+	chola
 	boetia
 	greek_cities        ; andros
 	antiochea_taocene
@@ -16057,7 +16057,7 @@ relative 	Phraotes Aparni, 	Nabunaita,		Thuxra Aparni,	end
 
 ;-------------- 4$g - Pontus ---------------
 faction	pontus, trader_napoleon
-denari	4530
+denari	3530
 ;--------- 4$g.a - Anatolia ---------
 settlement
 {
@@ -16065,7 +16065,7 @@ settlement
 	region Amaseia_R
 
 	year_founded 0
-	population 3500
+	population 3400
 	plan_set default_set
 	faction_creator pontus
 	building
@@ -16091,7 +16091,7 @@ settlement
 	region Amastris_R
 
 	year_founded 0
-	population 1800
+	population 1700
 	plan_set default_set
 	faction_creator pontus
 	building
@@ -46112,7 +46112,7 @@ relative 	Mukaporis Bendva, 	Arxa,		Dataphernes Bendva,	    Niphates Bendva,	end
 
 ;-------------- Gedrosia ---------------
 faction	gedrosia, eastern_passive
-denari	1162
+denari	1062
 settlement
 {
 	level town
@@ -46542,7 +46542,7 @@ denari	700
 
 faction	umbri, greek_passive
 dead_until_resurrected
-denari	300
+denari	200
 
 faction	volsci, greek_passive
 dead_until_resurrected
