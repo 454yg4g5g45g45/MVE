@@ -5028,7 +5028,8 @@ building barracks
 				recruit "steppe spearmen vandal"  0 
 				recruit "celtic spearman"  0   
 				recruit "levy spearman frank"  0   
-				recruit "levy spearman saxon"  0   
+				recruit "levy spearman saxon"  0 
+				recruit "saxon hearth troops" 0  
 				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0
@@ -5116,7 +5117,8 @@ building barracks
 				recruit "steppe spearmen vandal"  0 
 				recruit "celtic spearman"  0   
 				recruit "levy spearman frank"  0   
-				recruit "levy spearman saxon"  0   
+				recruit "levy spearman saxon"  0 
+				recruit "saxon hearth troops" 0  
 				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0
@@ -5299,7 +5301,8 @@ building barracks
 				recruit "steppe spearmen vandal"  0 
 				recruit "celtic spearman"  0   
 				recruit "levy spearman frank"  0   
-				recruit "levy spearman saxon"  0   
+				recruit "levy spearman saxon"  0 
+				recruit "saxon hearth troops" 0  
 				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0
@@ -5560,7 +5563,8 @@ building barracks
 				recruit "steppe spearmen vandal"  0 
 				recruit "celtic spearman"  0   
 				recruit "levy spearman frank"  0   
-				recruit "levy spearman saxon"  0   
+				recruit "levy spearman saxon"  0 
+				recruit "saxon hearth troops" 0  
 				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0
@@ -5870,7 +5874,8 @@ building barracks
 				recruit "steppe spearmen vandal"  0 
 				recruit "celtic spearman"  0   
 				recruit "levy spearman frank"  0   
-				recruit "levy spearman saxon"  0   
+				recruit "levy spearman saxon"  0 
+				recruit "saxon hearth troops" 0  
 				;; End
 				recruit "warband spear german"  0
 				recruit "barb horse archers scythian"  0

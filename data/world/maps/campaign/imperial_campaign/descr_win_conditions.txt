@@ -277,7 +277,7 @@ cyrene garamantes
 psyllia
 take_rome
 short_campaign outlive_factions 
-cyrene garamantes libya nasamones
+cyrene garamantes
 
 saka
 take_rome
