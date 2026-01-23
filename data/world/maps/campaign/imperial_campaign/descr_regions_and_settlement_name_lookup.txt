@@ -3140,6 +3140,8 @@ Leuktra_R
 Leuktra
 Telos_R
 Telos
+Syme_R
+Syme
 Lepreon_R
 Lepreon
 Samothrake_R
@@ -3152,5 +3154,3 @@ Kythnos_R
 Kythnos
 Syros_R
 Syros
-Syme_R
-Syme

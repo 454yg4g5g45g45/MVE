@@ -12891,7 +12891,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 270, 150, 30, 50, 300
-ownership        slave, huns, goths, ostrogoths, roxolani, sarmatians, vandals
+ownership        slave, sarmatians, roxolani, huns, goths, ostrogoths
 
 type             celtic kerns
 dictionary       celtic_kerns      ; Kerns

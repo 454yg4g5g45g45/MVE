@@ -7332,7 +7332,7 @@ building missiles
 				taxable_income_bonus bonus -18 requires size10
 			}
 			construction  4 
-			cost  9600 
+			cost  9700 
 			settlement_min city
 			upgrades
 			{
@@ -9999,7 +9999,7 @@ building temple_of_religion
 			capability
 			{
 				taxable_income_bonus bonus -1 requires factions { all, }
-				taxable_income_bonus bonus -19956550 requires factions { slave, }
+				taxable_income_bonus bonus -512 requires factions { slave, }
 				taxable_income_bonus bonus 6
 				trade_base_income_bonus bonus 1
 				recruit "barb druids gaul"  0
