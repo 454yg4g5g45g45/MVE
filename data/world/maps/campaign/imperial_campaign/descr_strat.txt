@@ -26620,7 +26620,7 @@ settlement
 	region Sirmium_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator scordisci
 	building
@@ -26638,7 +26638,7 @@ settlement
 	region Capedunum_R
 
 	year_founded 0
-	population 1000
+	population 600
 	plan_set default_set
 	faction_creator scordisci
 	building
@@ -26683,10 +26683,8 @@ character_record		Calpornus Scordisci, 	male, command 0, influence 0, management
 relative 	Rianorix Scordisci, 	Huctia,		Calpornus Scordisci,	end
 relative 	Erbin Celegeri, 	Barita,		end
 
-
-
 faction	iazyges, nomad_passive
-denari	2500
+denari	1500
 settlement
 {
 	level town
