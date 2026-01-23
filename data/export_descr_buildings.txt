@@ -5189,7 +5189,7 @@ building barracks
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
 				;; Carthage Greek Hoplites ;;
-				recruit "merc greek hoplites" requires factions { carthage, slave, }
+				recruit "merc greek hoplites" 0
 				recruit "spartan medium aichmetai"  0
 
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
@@ -5423,7 +5423,7 @@ building barracks
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
 				;; Carthage Greek Hoplites ;;
-				recruit "merc greek hoplites" requires factions { carthage, slave, }
+				recruit "merc greek hoplites" 0
 				recruit "spartan medium aichmetai"  0
 
 				
@@ -5715,7 +5715,7 @@ building barracks
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
 				;; Carthage Greek Hoplites ;;
-				recruit "merc greek hoplites" requires factions { carthage, slave, }
+				recruit "merc greek hoplites" 0
 				recruit "spartan medium aichmetai"  0
 				recruit "thorax swordsmen hellenic"  0
 
@@ -6026,7 +6026,7 @@ building barracks
 				recruit "steppe heavy spearmen vandal"  0
 				recruit "steppe heavy spearmen hun"  1
 				;; Carthage Greek Hoplites ;;
-				recruit "merc greek hoplites" requires factions { carthage, slave, }
+				recruit "merc greek hoplites" 0
 				recruit "spartan medium aichmetai"  0
 				recruit "thorax swordsmen hellenic"  0
 				
