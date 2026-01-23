@@ -11081,7 +11081,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 100440474
+		"checksum": 669640315
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -106053,10 +106053,6 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_nabataea.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_nervii.tga",
 		"checksum": "Blacklisted"
 	},
 	{

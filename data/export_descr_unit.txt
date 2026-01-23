@@ -12628,7 +12628,6 @@ stat_food        60, 300
 stat_cost        1, 405, 180, 50, 70, 450
 ownership        gerrha, hadhramaut, lihyan, mascat, minaea, saba, thamud, qataban, qedar, axum, blemmyes, slave
 
-
 type             camel raiders
 dictionary       camel_raiders      ; Camel Raiders
 category         cavalry
