@@ -16594,7 +16594,7 @@ relative 	Odovacar Butoni, 	Johanna,	end
 
 
 faction	britons, trader_henry
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
@@ -18587,7 +18587,7 @@ relative 	Eutlinde Burgundi, 	Othelhildis,		Fulcaris Burgundi,	end
 
 ;	Batavi
 faction	franks, germanic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -22137,7 +22137,7 @@ relative 	Nikias Iphiclides, 	Limnoreia,		Thyrsos Iphiclides,	end
 
 
 faction	cyrene, balanced_smith
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
@@ -23294,7 +23294,7 @@ relative 	Mamarce Velchana, 	Pevtha,		Sethre Velchana,	end
 relative 	Cuinte Leprna, 	Fastia,		end
 
 faction	mamertines, greek_passive
-denari	500
+denari	400
 settlement
 {
 	level large_town
@@ -23334,9 +23334,8 @@ character_record		Sergius, 	male, command 0, influence 0, management 0, subterfu
 
 relative 	Flaminius, 	Domitilla,		Sergius,	end
 
-
 faction	picentes, greek_passive
-denari	1000
+denari	900
 settlement
 {
 	level town
@@ -23380,7 +23379,7 @@ relative 	Secundus Porcius, 	Lepida,		Gnaeus Porcius,	end
 
 
 faction	taras, greek_passive
-denari	760
+denari	720
 settlement
 {
 	level large_town
@@ -23445,9 +23444,8 @@ character_record		Megistias Phalanthides, 	male, command 0, influence 0, managem
 
 relative 	Eurylochos Phalanthides, 	Phyllis,		Megistias Phalanthides,	end
 
-
 faction messapians, dacian_passive
-denari	3000
+denari	1000
 settlement
 {
 	level town
@@ -24051,7 +24049,7 @@ relative 	Caratacus Breuni, 	Eudaf,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	corsi, iberian_passive
-denari	4600
+denari	3600
 settlement
 {
 	level town
@@ -24498,7 +24496,7 @@ character_record		Pigres Artylides, 	male, command 0, influence 0, management 0,
 relative 	Comeas Artylides, 	Dione,		Pigres Artylides,	end
 
 faction	argos, greek_passive
-denari	3000
+denari	1000
 settlement
 {
 	level large_town
@@ -24718,9 +24716,8 @@ character_record		Thestor Lykomedides, 	male, command 0, influence 0, management
 relative 	Mikkos Lykomedides, 	Maiandria,		Thestor Lykomedides,	end
 relative 	Diagoras Hermides, 	Nephele,		end
 
-
 faction	elis, greek_passive
-denari	3000
+denari	1000
 settlement
 {
 	level large_town
@@ -24899,7 +24896,7 @@ character_record		Hicetaon Theopompides, 	male, command 0, influence 0, manageme
 relative 	Mantios Theopompides, 	Drosis,		Hicetaon Theopompides,	end
 
 faction	gortyn, greek_passive
-denari	3000
+denari	1000
 ;;BIGMAP
 settlement
 {
@@ -24944,9 +24941,8 @@ character_record		Odysseus Menesthides, 	male, command 0, influence 0, managemen
 relative 	Elasus Menesthides, 	Arethusa,		Odysseus Menesthides,	end
 
 
-
 faction	knossos, greek_passive
-denari	2500
+denari	1500
 settlement
 {
 	level large_town
@@ -24990,9 +24986,8 @@ character_record		Aetion Marsyides, 	male, command 0, influence 0, management 0,
 relative 	Telephus Marsyides, 	Leucothea,		Aetion Marsyides,	end
 
 
-
 faction	kydonia, greek_passive
-denari	2500
+denari	2100
 settlement
 {
 	level large_town
@@ -25038,7 +25033,7 @@ relative 	Cronos Agapides, 	Phylace,		Kritodemos Agapides,	end
 
 
 faction	melos, athens_passive
-denari	2500
+denari	2100
 settlement
 {
 	level large_town
@@ -25476,16 +25471,15 @@ character_record		Desakenthos Bessi, 	male, command 0, influence 0, management 0
 
 relative 	Ketriporis Bessi, 	Karia,		Desakenthos Bessi,	end
 
-
 faction	bithynia, greek_passive
-denari	2500
+denari	2100
 settlement
 {
 	level large_town
 	region Bithynia
 
 	year_founded 0
-	population 2900
+	population 2800
 	plan_set default_set
 	faction_creator bithynia
 	building
@@ -25511,7 +25505,7 @@ settlement
 	region Nicaea_R
 
 	year_founded 0
-	population 1600
+	population 1300
 	plan_set default_set
 	faction_creator bithynia
 	building
@@ -25529,7 +25523,7 @@ settlement
 	region Bithynium_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator bithynia
 	garrisoned_army
@@ -25552,7 +25546,7 @@ settlement
 	region Cius_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator bithynia
 	garrisoned_army
@@ -25607,10 +25601,8 @@ character_record		Ziaelas Boteirides, 	male, command 0, influence 0, management 
 relative 	Zipoetes Boteirides, 	Lila,			Nicomedes Boteirides,	ZipoetesB Boteirides,	end
 relative 	Nicomedes Boteirides, 	Etazeta,			Ziaelas Boteirides,		end
 
-
-
 faction	byzantion, greek_passive
-denari	2500
+denari	2000
 settlement
 {
 	level large_town
@@ -25647,7 +25639,7 @@ settlement
 	region Chalcedon_R
 
 	year_founded 0
-	population 1400
+	population 1200
 	plan_set default_set
 	faction_creator byzantion
 	building
@@ -25669,7 +25661,7 @@ settlement
 	region Perinthus_R
 
 	year_founded 0
-	population 1400
+	population 1300
 	plan_set default_set
 	faction_creator byzantion
 	building
@@ -25715,7 +25707,7 @@ relative 	Boethus Tirynthides, 	Lasthena,		Anaxagoras Tirynthides,	end
 
 
 faction	caeni, greek_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -25756,7 +25748,7 @@ relative 	Bryzos Caeni, 	Eptesyka,		Medistas Caeni,	end
 
 
 faction	krobyzi, dacian_passive
-denari	4001
+denari	3001
 settlement
 {
 	level town
@@ -25822,7 +25814,7 @@ settlement
 	region Montanesium_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator triballi
 	building
@@ -25840,7 +25832,7 @@ settlement
 	region Giridava_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator triballi
 	building
@@ -25879,10 +25871,8 @@ character_record		Lugotorix Triballi, 	male, command 0, influence 0, management 
 
 relative 	Motius Triballi, 	Verctissa,		Lugotorix Triballi,	end
 
-
-
 faction	tylis, celtic_passive
-denari	8000
+denari	900
 settlement
 {
 	level large_town
@@ -25928,17 +25918,13 @@ character_record		Cavarus, 	male, command 0, influence 0, management 0, subterfu
 relative 	Comontorius, 	Verctissa,		Cavarus,	end
 
 
-
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;              6# ILLYRIA                ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-
 faction	ardiaei, greek_passive
-denari	8000
+denari	3000
 settlement
 {
 	level large_town
@@ -25990,9 +25976,8 @@ character_record		Agron Pleuratides, 	male, command 0, influence 0, management 0
 
 relative 	Pleuratus Pleuratides, 	Dentysyka,		Agron Pleuratides,	end
 
-
 faction	daorsi, dacian_passive
-denari	4000
+denari	1000
 settlement
 {
 	level town
@@ -27150,7 +27135,7 @@ relative 	Togodumnus Anarti, 	Keyne,		Virssuccius Anarti,	end
 
 
 faction	bastarnae, dacian_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -29043,7 +29028,7 @@ relative 	Vrtanes Eruandid, 	Ariyamna,		Merkhavan Eruandid,		end
 
 ;	Iberia / Kartli
 faction	iberia, eastern_passive
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
@@ -29738,7 +29723,7 @@ relative 	Saulaces Phasishvili, 	Karo,		Atheas Phasishvili,	end
 
 ;	Heraclea Pontica
 faction	heraclea, greek_passive
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
@@ -30480,7 +30465,7 @@ relative 	Prasutagus Cantiaci, 	Esselt,		Iseult,	Verica,	Wotecorix Cantiaci,	end
 
 
 faction	corieltauvi, british_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -30600,7 +30585,7 @@ character_record		Orgetorix Demeti, 		male, command 0, influence 0, management 0
 relative 	Matugenus Demeti, 	Cuniovenda,		Orgetorix Demeti,	end
 
 faction	dumnonii, british_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -30885,7 +30870,7 @@ character_record		Matugenus Aedui, 	male, command 0, influence 0, management 0, 
 relative 	Brennus Aedui, 	Huctia,		Matugenus Aedui,	end
 
 faction	allobroges, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -31109,7 +31094,7 @@ character_record		Maglocunus Cadurci, 	male, command 0, influence 0, management 
 relative 	Adcobrovatus Cadurci, 	Cunoarda,		Maglocunus Cadurci,	end
 
 faction	carnutes, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -31213,7 +31198,7 @@ character_record		Caratacus Cavari, 	male, command 0, influence 0, management 0,
 relative 	Vellocatus Cavari, 	Boudicca,		Caratacus Cavari,	end
 
 faction	cenomanni, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -31454,7 +31439,7 @@ relative 	Amminos Raurici, 	Cartimandua,		Geraint Raurici,	end
 relative 	Tancogeistla Verbigeni, 	Keyne,		end
 
 faction	lemovices, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -31671,7 +31656,7 @@ character_record		Matugenus Namneti, 	male, command 0, influence 0, management 0
 relative 	Tasciovanus Namneti, 	Keyne,		Matugenus Namneti,	end
 
 faction	osismii, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -31734,7 +31719,7 @@ character_record		Morirex Osismi, 	male, command 0, influence 0, management 0, s
 relative 	Diviciacus Osismi, 	Boudicca,		Morirex Osismi,	end
 
 faction	pictones, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -31797,7 +31782,7 @@ character_record		Wotecorix Pictavi, 	male, command 0, influence 0, management 0
 relative 	Erbin Pictavi, 	Boudecea,		Wotecorix Pictavi,	end
 
 faction	redones, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -33547,7 +33532,7 @@ relative 	Catavignus Tarbelli, 	Verica,		Taximagulus Tarbelli,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	anglii, germanic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -33626,7 +33611,7 @@ character_record		Gaiobomarus Chasuari, 	male, command 0, influence 0, managemen
 relative 	Aelric Chasuari, 	Asuui,		Gaiobomarus Chasuari,	end
 
 faction	bructeri, germanic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -34570,7 +34555,7 @@ relative 	Gundahar Juti, 	Johanna,		Clovis Juti,	end
 
 
 faction	nahanarvali, germanic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -35416,7 +35401,7 @@ relative 	Bertgarda, 	Johanna,		Hrodgar,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	atrebates, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -35498,7 +35483,7 @@ character_record		Aneirin Bellovaci, 	male, command 0, influence 0, management 0
 relative 	Brigomaglos Bellovaci, 	Verica,		Aneirin Bellovaci,	end
 
 faction	eburones, germanic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -35538,7 +35523,7 @@ relative 	Cadeyrn Eburoni, 	Barita,		Lucco Eburoni,	end
 
 
 faction	mediomatrici, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -35934,7 +35919,7 @@ relative 	Ambon Deitani, 	Boudecea,	end
 
 
 faction	cessetani, iberian_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -35974,7 +35959,7 @@ relative 	Ilixo Cessetani, 	Esselta,		Danel Cessetani,	end
 
 
 faction	edetani, iberian_passive
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
@@ -36055,7 +36040,7 @@ relative 	Avaros Sedetani, 	Verctissa,	end
 
 
 faction	ilercavones, iberian_passive
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
@@ -36161,7 +36146,7 @@ relative 	Rhetogenes Ilergeti, 	Iseulta,		Kerbasi Ilergeti,	end
 
 
 faction	oretani, iberian_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -39155,7 +39140,7 @@ relative 	Abdeshmun, 	Roxane,		Galussa,		end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	axum, desert_passive
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
@@ -42711,7 +42696,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Tissa M
 
 
 faction	chola, eastern_passive
-denari	4000
+denari	2000
 settlement
 {
 	level large_town
