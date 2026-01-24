@@ -11081,7 +11081,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 1770575074
+		"checksum": 278581723
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -35465,7 +35465,7 @@
 	},
 	{
 		"filename": "data\/text\/grand_campaign_regions_and_settlement_names.txt",
-		"checksum": 3829436388
+		"checksum": 2702926206
 	},
 	{
 		"filename": "data\/text\/historic_battles_subtitles.txt",
@@ -106033,7 +106033,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 13927574
+		"checksum": 3059739252
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
@@ -106042,6 +106042,10 @@
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
 		"checksum": 2715582006
+	},
+	{
+		"filename": "data\/world\/maps\/base\/gude-2026-01-24.log",
+		"checksum": 1091939639
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -106109,15 +106113,15 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_regions.txt",
-		"checksum": 1569539223
+		"checksum": 2798905932
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 2671126669
+		"checksum": 2224417024
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_strat.txt",
-		"checksum": 4014456421
+		"checksum": 3360629846
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_terrain.txt",
@@ -106142,6 +106146,10 @@
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/feral_radar_map_winter.tga",
 		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/grand_campaign\/gude-2026-01-24.log",
+		"checksum": 3963423726
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_climates.tga",
@@ -106205,7 +106213,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 57013308
+		"checksum": 3785258975
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -106594,9 +106602,5 @@
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/scripts\/6_turns_per_year_script.txt",
 		"checksum": 3267479921
-	},
-	{
-		"filename": "data\/world\/maps\/descr_strat.txt",
-		"checksum": 2105326834
 	}
 ]
