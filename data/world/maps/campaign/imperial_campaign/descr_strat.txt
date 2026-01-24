@@ -25035,7 +25035,7 @@ settlement
 	region Naxos_R
 
 	year_founded 0
-	population 1300
+	population 1100
 	plan_set default_set
 	faction_creator melos
 	building
