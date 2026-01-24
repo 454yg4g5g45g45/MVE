@@ -403,18 +403,16 @@ end
 ; >>>> start of factions section <<<<
 
 ;-------------- 4$a - Romans ---------------
-
-;; House of Julii
 faction	romans_julii, comfortable_caesar
 superfaction romans_senate
-denari	200
+denari	100
 settlement
 {
 	level large_town
 	region Etruria
 
 	year_founded 0
-	population 3800
+	population 3700
 	plan_set default_set
 	faction_creator romans_julii
 	building
