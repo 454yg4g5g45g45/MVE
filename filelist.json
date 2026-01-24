@@ -11081,7 +11081,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 278581723
+		"checksum": 1644931712
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -106044,8 +106044,8 @@
 		"checksum": 2715582006
 	},
 	{
-		"filename": "data\/world\/maps\/base\/gude-2026-01-24.log",
-		"checksum": 1091939639
+		"filename": "data\/world\/maps\/base\/map.rwm",
+		"checksum": 335230097
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -106121,7 +106121,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_strat.txt",
-		"checksum": 3360629846
+		"checksum": 3223075146
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_terrain.txt",
@@ -106146,10 +106146,6 @@
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/feral_radar_map_winter.tga",
 		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/grand_campaign\/gude-2026-01-24.log",
-		"checksum": 3963423726
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/map_climates.tga",
@@ -106213,7 +106209,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 3785258975
+		"checksum": 2773187946
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",

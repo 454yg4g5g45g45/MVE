@@ -112,7 +112,6 @@ playable
 	boii
 	etruscans
 	saba
-	tylis
 end
 unlockable
 end
@@ -123,6 +122,7 @@ nonplayable
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
 	alemanni			; chatti
+	tylis
 	taras
 	iolei			; sardi
 	india
@@ -446,41 +446,7 @@ settlement
 	region Corfinium_R
 
 	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type hinterland_roman_municipium roman_municipium
-	}
-	building
-	{
-		type barracks militia_barracks
-	}
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-settlement
-{
-	level large_town
-	region Umbria
-
-	year_founded 0
-	population 1800
+	population 600
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -489,7 +455,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field 
+		type barracks muster_field
 	}
 	building
 	{
@@ -501,15 +467,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
 		type hinterland_farms farms
-	}
-	building
-	{
-		type port_buildings port
 	}
 }
 settlement
@@ -518,7 +476,7 @@ settlement
 	region Volaterrae_R
 
 	year_founded 0
-	population 700
+	population 400
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -551,19 +509,14 @@ settlement
 	{
 		type core_building governors_house
 	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
 }
-
 settlement
 {
-	level large_town
+	level town
 	region Alsium_R
 
 	year_founded 0
-	population 310
+	population 300
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -572,41 +525,23 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field 
-	}
-	building
-	{
-		type core_building governors_villa
+		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
 
 settlement
 {
-	level large_town
+	level town
 	region Tarquinii_R
 
 	year_founded 0
-	population 310
+	population 305
 	plan_set default_set
 	faction_creator romans_julii
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman triarii				exp 1 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas_libera
@@ -617,35 +552,22 @@ settlement
 	}
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_house
 	}
 	building
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
-
 settlement
 {
 	level town
 	region Pyrgium_R
 
 	year_founded 0
-	population 500
+	population 300
 	plan_set default_set
 	faction_creator romans_julii
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -662,12 +584,9 @@ settlement
 	region Statonia_R
 
 	year_founded 0
-	population 370
+	population 300
 	plan_set default_set
 	faction_creator romans_julii
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -684,12 +603,9 @@ settlement
 	region Aquae_Apollinares_R
 
 	year_founded 0
-	population 350
+	population 310
 	plan_set default_set
 	faction_creator romans_julii
-;;;;;;;;;Garrison;;;;;;;;;
-	garrisoned_army
-	unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_roman_municipium roman_municipium
@@ -702,52 +618,113 @@ settlement
 
 ;;; LEADERS / FAMILIES = HOUSE JULII
 
-;	Outside Arretium
-character	Vibius Julius, named character, age 28, , x 149, y 258, portrait_index 334
-traits GoodCommander 3 , PoliticsSkill 2 , GoodAdministrator 3 , MathematicsSkill 1
-ancillaries merchant
-army
-unit		roman generals guard cavalry early	exp 3 armour 0 weapon_lvl 1
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman velite				exp 1 armour 0 weapon_lvl 0
-unit		roman triarii				exp 1 armour 0 weapon_lvl 0
-unit		roman archer				exp 1 armour 0 weapon_lvl 0
-
-; 	 Arretium
-character	Flavius Julius, named character, leader, age 47, , x 149, y 257, portrait_index 000
-traits GoodCommander 4 , NaturalMilitarySkill 1 , GoodDefender 1 , PoliticsSkill 3 , GoodAdministrator 3 , Austere 1
+;	Arretium
+character	Marcus ClaudiusMarcellus, named character, leader, age 61, , x 149, y 257, portrait_index 000
+traits isClaudiaGens 1 , GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , PoliticsSkill 3 , GoodAdministrator 2 , Austere 1
 ancillaries aged_retainer
 army
-unit		roman generals guard cavalry early	exp 5 armour 3 weapon_lvl 4
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
-unit		roman triarii				exp 1 armour 0 weapon_lvl 0
-unit		roman archer				exp 1 armour 0 weapon_lvl 0
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman leves						exp 1 armour 0 weapon_lvl 0
 
-;	Alsium
-character	Quintus Julius, named character, age 29, , x 151, y 246
-traits NaturalMilitarySkill 3 , GoodAttacker 1 , Energetic 1
-ancillaries drillmaster
-army
-unit		roman generals guard cavalry early	exp 1 armour 1 weapon_lvl 0
-unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-unit		roman city militia			exp 0 armour 0 weapon_lvl 0
-
-;	outside Alsium
-character	Lucius Julius, named character, heir, age 31, , x 152, y 246
-traits GoodCommander 3 , PoliticsSkill 2 , GoodAdministrator 3 , Energetic 2
+;	Corfinium
+character	Gaius ClaudiusCanina, named character, heir, age 59, , x 163, y 246, portrait_index 334
+traits isClaudiaGens 1 , GoodCommander 1 , PoliticsSkill 2 , GoodAdministrator 3 , Energetic 2
 ancillaries freeman_clerk
 army
-unit		roman generals guard cavalry early	exp 2 armour 4 weapon_lvl 2
-unit		roman hastati				exp 5 armour 0 weapon_lvl 1
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	outside Corfinium
+character	AppiusB ClaudiusCaudex, named character, age 47, , x 163, y 247
+traits isClaudiaGens 1 , GoodCommander 1 , PoliticsSkill 2 , GoodAdministrator 2 , MathematicsSkill 1
+ancillaries merchant
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+
+;	outside Arretium
+character	Marcus ClaudiusCanina, named character, age 40, , x 149, y 258
+traits isClaudiaGens 1 , NaturalMilitarySkill 3 , GoodAttacker 1 , Energetic 1
+ancillaries drillmaster
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati spear				exp 1 armour 0 weapon_lvl 0
+unit		roman triarii clipeus			exp 1 armour 0 weapon_lvl 0
+unit		roman archer					exp 1 armour 0 weapon_lvl 0
+
+;	Aquae Apollinares
+character	Tiberius ClaudiusNero, named character, age 33, , x 148, y 252
+traits isClaudiaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Tarquinii
+character	MarcusB ClaudiusMarcellus, named character, age 30, , x 149, y 332494
+traits isClaudiaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Statonia
+character	Publius ClaudiusPulcher, named character, age 28, , x 158, y 248
+traits isClaudiaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Volaterrae
+character	Marcus AemiliusLepidus, named character, age 55, , x 143, y 256
+traits isAemiliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Pyrgium
+character	Lucius AemiliusLepidus, named character, age 27, , x 146, y 249
+traits isAemiliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Ilva
+character	Marcus AemiliusPaullus, named character, age 26, , x 139, y 251
+traits isAemiliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Alsium
+character	Lucius AemiliusBarbula, named character, age 51, , x 151, y 246
+traits isAemiliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Outside Ilva
+character	Lucius JuliusCaesar, named character, age 47, , x 140, y 251
+traits isJuliaGens 1 , isJuliaLibo 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+
+;	Ariminum
+character	Sextus JuliusCaesar, named character, age 26, , x 152, y 257
+traits isJuliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
+unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 
 ;	inside Arretium
 character	Sextus Antio, diplomat, age 29, , x 149, y 257,
@@ -758,36 +735,68 @@ character	Decius Curtius, spy, age 29, , x 149, y 257,
 traits GoodSpy 4
 
 ;	outside Rome
-character	Oppius Clausus, admiral, age 29, , x 153, y 240
+character	Oppius Clausus, admiral, age 29, , x 152, y 242
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
-character_record		Amulius Julius, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
-character_record		Manius Julius, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
-character_record		Decius Julius, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
-character_record		Marcus Julius, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
-character_record		Faustina, 	female, command 0, influence 0, management 0, subterfuge 0, age 48, alive, never_a_leader
-character_record		Poppaea, 	female, command 0, influence 0, management 0, subterfuge 0, age 29, alive, never_a_leader
-character_record		Alypia, 	female, command 0, influence 0, management 0, subterfuge 0, age 29, alive, never_a_leader
-character_record		Claudia, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
-character_record		Fadia, 	female, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
+character_record		Publius ClaudiusCanina, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		Appius ClaudiusCanina, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		TiberiusB ClaudiusNero, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		PubliusB ClaudiusNero, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		MarcusC ClaudiusMarcellus, 	male, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+character_record		Vopiscus JuliusCaesar, 	male, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
+character_record		MarcusB AemiliusLepidus, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+character_record		AppiusD ClaudiusPulcher, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Lucius AemiliusPaullus, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Marcus AemiliusBarbula, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Sulpicia, 	female, command 0, influence 0, management 0, subterfuge 0, age 58, alive, never_a_leader
+character_record		Tulla, 	female, command 0, influence 0, management 0, subterfuge 0, age 57, alive, never_a_leader
+character_record		Vibia, 	female, command 0, influence 0, management 0, subterfuge 0, age 52, alive, never_a_leader
+character_record		Turia, 	female, command 0, influence 0, management 0, subterfuge 0, age 45, alive, never_a_leader
+character_record		Sabina, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, alive, never_a_leader
+character_record		Clodia, 	female, command 0, influence 0, management 0, subterfuge 0, age 38, alive, never_a_leader
+character_record		Magia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
+character_record		Tullia, 	female, command 0, influence 0, management 0, subterfuge 0, age 31, alive, never_a_leader
+character_record		Claudia ClaudiusCaudex, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
+character_record		Marcella, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
+character_record		Matidia, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
+character_record		Domitia, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
+character_record		Procula, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
+character_record		Servia, 	female, command 0, influence 0, management 0, subterfuge 0, age 22, alive, never_a_leader
+character_record		Ancharia ClaudiusCanina, 	female, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
+character_record		Alypia ClaudiusNero, 	female, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Mettia ClaudiusNero, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+character_record		Julia ClaudiusMarcellus, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Titiana AemiliusBarbula, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
+character_record		Arria AemiliusPaullus, 	female, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+character_record		Mino ClaudiusPulcher, 	female, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+character_record		Tranquillina AemiliusLepidus, 	female, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
 
-relative 	Flavius Julius, 	Faustina,		Lucius Julius,	Quintus Julius,	Vibius Julius,	end
-relative 	Lucius Julius, 	Poppaea,		Fadia,	Decius Julius,	Marcus Julius,	end
-relative 	Quintus Julius, 	Alypia,		Amulius Julius,	end
-relative 	Vibius Julius, 	Claudia,		Manius Julius,	end
+relative 	Marcus ClaudiusMarcellus, 	Tulla,		MarcusB ClaudiusMarcellus,	end
+relative 	AppiusB ClaudiusCaudex, 	Sabina,		Claudia ClaudiusCaudex,	end
+relative 	Gaius ClaudiusCanina, 	Sulpicia,		Marcus ClaudiusCanina,	end
+relative 	Marcus ClaudiusCanina, 	Magia,		Publius ClaudiusCanina,	Appius ClaudiusCanina,	Ancharia ClaudiusCanina,	end
+relative 	Tiberius ClaudiusNero, 	Tullia,		TiberiusB ClaudiusNero,	Alypia ClaudiusNero,	PubliusB ClaudiusNero,	Mettia ClaudiusNero,	end
+relative 	Publius ClaudiusPulcher, 	Domitia,		Mino ClaudiusPulcher,	AppiusD ClaudiusPulcher,	end
+relative 	MarcusB ClaudiusMarcellus, 	Matidia,		MarcusC ClaudiusMarcellus,	Julia ClaudiusMarcellus,	end
+relative 	Marcus AemiliusLepidus, 	Vibia,		Lucius AemiliusLepidus,	end
+relative 	Lucius AemiliusLepidus, 	Marcella,		MarcusB AemiliusLepidus,	Tranquillina AemiliusLepidus,	end
+relative 	Marcus AemiliusPaullus, 	Procula,		Arria AemiliusPaullus,	Lucius AemiliusPaullus,	end
+relative 	Lucius AemiliusBarbula, 	Clodia,		Titiana AemiliusBarbula,	Marcus AemiliusBarbula,	end
+relative 	Lucius JuliusCaesar, 	Turia,		Sextus JuliusCaesar,	end
+relative 	Sextus JuliusCaesar, 	Servia,		Vopiscus JuliusCaesar,	end
 
 faction	romans_brutii, balanced_stalin
 superfaction romans_senate
-denari	2000
+denari	135
 settlement
 {
 	level large_town
 	region Arpi_R
 
 	year_founded 0
-	population 3400
+	population 2600
 	plan_set default_set
 	faction_creator romans_brutii
 	building
@@ -1280,7 +1289,6 @@ settlement
 		type defenses wooden_pallisade
 	}
 }
-
 
 settlement
 {
@@ -8016,6 +8024,45 @@ relative 	Lysias Assandrides, 	Lampito,		Androdamos Assandrides,	end
 
 faction	slave, balanced_smith
 denari	-2099999990
+
+settlement
+{
+	level large_town
+	region Umbria
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator romans_julii
+	building
+	{
+		type hinterland_roman_civitas roman_civitas_foederata
+	}
+	building
+	{
+		type barracks muster_field 
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
 
 settlement
 {

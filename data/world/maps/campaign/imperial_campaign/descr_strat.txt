@@ -111,9 +111,7 @@ playable
 	bactria
 	boii
 	etruscans
-	iolei			; sardi
 	saba
-	tylis
 end
 unlockable
 end
@@ -124,6 +122,8 @@ nonplayable
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
 	alemanni			; chatti
+	tylis
+	iolei			; sardi
 	taras
 	india
 	kush
@@ -25873,10 +25873,8 @@ character_record		Lugotorix Triballi, 	male, command 0, influence 0, management 
 
 relative 	Motius Triballi, 	Verctissa,		Lugotorix Triballi,	end
 
-
-
 faction	tylis, celtic_passive
-denari	8000
+denari	1000
 settlement
 {
 	level large_town
@@ -30099,14 +30097,14 @@ relative 	Damasithymos Ceides, 	Maiandria,		Hipparinos Ceides,	end
 relative 	Tharybis Phineides, 	Circe,	end
 
 faction	teion, greek_passive
-denari	2000
+denari	200
 settlement
 {
 	level town
 	region Teion_R
 
 	year_founded 0
-	population 1009
+	population 600
 	plan_set default_set
 	faction_creator teion
 	building
@@ -30127,9 +30125,8 @@ settlement
 character	Echelaos Acamides, named character, leader, age 40, , x 416, y 345
 traits GoodCommander 4, GoodAdministrator 4, GoodTrader 2, GoodInfantryGeneral 2
 army
-unit		greek general's guard cavalry early	exp 5 armour 9 weapon_lvl 3
+unit		greek general's guard cavalry early	exp 4 armour 9 weapon_lvl 3
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 2
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 3 armour 0 weapon_lvl 3
 
 ;	Outside Teion
@@ -30137,7 +30134,6 @@ character	Madduwatta Acamides, named character, heir, age 16, , x 416, y 344
 traits GoodCommander 4, GoodAdministrator 4, GoodTrader 2, Intelligent 1, Austere 1, GoodDefender 2
 army
 unit		greek general's guard cavalry early	exp 8 armour 9 weapon_lvl 9
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 
 character_record		Maiandria, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
@@ -30156,7 +30152,7 @@ settlement
 	region Troezen_R
 
 	year_founded 0
-	population 700
+	population 500
 	plan_set default_set
 	faction_creator troezen
 	building
@@ -30189,9 +30185,6 @@ army
 unit		greek general's guard cavalry early	exp 8 armour 3 weapon_lvl 3
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-
 character_record		Maiandria, 	female, command 0, influence 0, management 0, subterfuge 0, age 36, alive, never_a_leader
 character_record		Circe, 	female, command 0, influence 0, management 0, subterfuge 0, age 16, alive, never_a_leader
 character_record		Sautes Demophonidae, 	male, command 0, influence 9, management 9, subterfuge 9, age 15, alive, never_a_leader
@@ -30202,7 +30195,7 @@ relative 	Thymoetes Demophonidae, 	Circe,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	siraces, nomad_passive
-denari	3000
+denari	1200
 settlement
 {
 	level large_town
