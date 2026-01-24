@@ -24560,7 +24560,7 @@ settlement
 	region Stymphalos_R
 
 	year_founded 0
-	population 34
+	population 300
 	plan_set default_set
 	faction_creator argos
 	garrisoned_army
@@ -24598,14 +24598,14 @@ relative 	Aristippus Aristomachides, 	Cilla,		Menalcas Aristomachides,	end
 
 
 faction	boetia, greek_passive
-denari	7100
+denari	2100
 settlement
 {
 	level large_town
 	region Orchomenus_R
 
 	year_founded 0
-	population 2300
+	population 2000
 	plan_set default_set
 	faction_creator boetia
 	building
@@ -24635,7 +24635,7 @@ settlement
 	region ThebesBoeotia_R
 
 	year_founded 0
-	population 1230
+	population 1030
 	plan_set default_set
 	faction_creator boetia
 	building
@@ -24658,7 +24658,7 @@ settlement
 	region Lamia_R
 
 	year_founded 0
-	population 1210
+	population 1010
 	plan_set default_set
 	faction_creator boetia
 	garrisoned_army
@@ -24711,9 +24711,8 @@ character_record		Thestor Lykomedides, 	male, command 0, influence 0, management
 relative 	Mikkos Lykomedides, 	Maiandria,		Thestor Lykomedides,	end
 relative 	Diagoras Hermides, 	Nephele,		end
 
-
 faction	elis, greek_passive
-denari	3000
+denari	1000
 settlement
 {
 	level large_town
@@ -24757,9 +24756,8 @@ character_record		Diagoras Theophrastides, 	male, command 0, influence 0, manage
 relative 	Aristotimus Theophrastides, 	Kyra,		Diagoras Theophrastides,	end
 
 
-
 faction	messene, greek_passive
-denari	2000
+denari	1000
 settlement
 {
 	level large_town
@@ -24793,7 +24791,7 @@ settlement
 	region Lepreon_R
 
 	year_founded 0
-	population 302
+	population 300
 	plan_set default_set
 	faction_creator messene
 	garrisoned_army
@@ -24824,7 +24822,7 @@ settlement
 	region Pylos_R
 
 	year_founded 0
-	population 550
+	population 400
 	plan_set default_set
 	faction_creator messene
 	garrisoned_army
@@ -24855,7 +24853,7 @@ settlement
 	region Leuktra_R
 
 	year_founded 0
-	population 501
+	population 450
 	plan_set default_set
 	faction_creator rhodes
 	garrisoned_army
@@ -24936,16 +24934,15 @@ character_record		Odysseus Menesthides, 	male, command 0, influence 0, managemen
 
 relative 	Elasus Menesthides, 	Arethusa,		Odysseus Menesthides,	end
 
-
 faction	knossos, greek_passive
-denari	3400
+denari	3100
 settlement
 {
 	level large_town
 	region Knossos_R
 
 	year_founded 0
-	population 2030
+	population 2010
 	plan_set default_set
 	faction_creator knossos
 	building
@@ -25038,7 +25035,7 @@ settlement
 	region Naxos_R
 
 	year_founded 0
-	population 1500
+	population 1300
 	plan_set default_set
 	faction_creator melos
 	building
@@ -25064,7 +25061,7 @@ settlement
 	region Pharos_R
 
 	year_founded 0
-	population 550
+	population 520
 	plan_set default_set
 	faction_creator melos
 	garrisoned_army
