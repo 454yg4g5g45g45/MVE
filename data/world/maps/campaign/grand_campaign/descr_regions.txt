@@ -3914,7 +3914,7 @@ Samos_R
 	Samos
 	egypt
 	Ionians
-	201 174 213
+	232 128 128
 	greece
 	5
 	3
@@ -4420,7 +4420,7 @@ LaodiceaLycus_R
 	LaodiceaLycus
 	seleucid
 	Cilicians
-	15 21 136
+	15 21 138
 	caria, greek_colony
 	5
 	7

@@ -24085,7 +24085,7 @@ character_record		Caraunios Venacini, 	male, command 0, influence 0, management 
 relative 	Erromon Venacini, 	Verctissa,		Caraunios Venacini,	end
 
 faction iolei, iberian_passive
-denari	1150
+denari	1010
 settlement
 {
 	level town
@@ -24114,7 +24114,7 @@ settlement
 	region Macopsissa_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator iolei
 	building
@@ -24158,7 +24158,7 @@ relative 	Urtzi Lugudonensi, 	Euda,		Ixaka Lugudonensi,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	achea, greek_passive
-denari	2800
+denari	2100
 settlement
 {
 	level large_town
@@ -24192,7 +24192,7 @@ settlement
 	region Sikyon_R
 
 	year_founded 0
-	population 478
+	population 458
 	plan_set default_set
 	faction_creator achea
 	garrisoned_army
@@ -24244,7 +24244,7 @@ relative 	Cleinias Cleinides,	Chlo,		Aratos Cleinides,	end
 
 ;	Acarnanian League (not Aetolia)
 faction	aetolia, greek_passive
-denari	3000
+denari	2000
 settlement
 {
 	level large_town
@@ -24348,7 +24348,7 @@ settlement
 	region Same_R
 
 	year_founded 0
-	population 576
+	population 536
 	plan_set default_set
 	faction_creator aetolia
 	garrisoned_army
@@ -24370,7 +24370,7 @@ settlement
 	region Zakynthos_R
 
 	year_founded 0
-	population 430
+	population 410
 	plan_set default_set
 	faction_creator aetolia
 	garrisoned_army
@@ -24420,7 +24420,6 @@ character_record		Kaenas Phillipides, 	male, command 0, influence 0, management 
 
 relative 	Mantios Phillipides, 	Dione,		Kalchas Phillipides,	Megara,	Demetrios Phillipides,	end
 relative 	Kalchas Phillipides, 	Theophane,		Kaenas Phillipides,	end
-
 
 faction	arcadia, greek_passive
 denari	1000
@@ -24492,7 +24491,7 @@ character_record		Pigres Artylides, 	male, command 0, influence 0, management 0,
 relative 	Comeas Artylides, 	Dione,		Pigres Artylides,	end
 
 faction	argos, greek_passive
-denari	3000
+denari	2000
 settlement
 {
 	level large_town
@@ -24530,7 +24529,7 @@ settlement
 	region Mycenae_R
 
 	year_founded 0
-	population 305
+	population 301
 	plan_set default_set
 	faction_creator argos
 	garrisoned_army
@@ -24561,7 +24560,7 @@ settlement
 	region Stymphalos_R
 
 	year_founded 0
-	population 324
+	population 34
 	plan_set default_set
 	faction_creator argos
 	garrisoned_army
