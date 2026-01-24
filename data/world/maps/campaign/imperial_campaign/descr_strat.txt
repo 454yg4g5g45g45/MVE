@@ -24084,16 +24084,15 @@ character_record		Caraunios Venacini, 	male, command 0, influence 0, management 
 
 relative 	Erromon Venacini, 	Verctissa,		Caraunios Venacini,	end
 
-
 faction iolei, iberian_passive
-denari	5150
+denari	1150
 settlement
 {
 	level town
 	region Uselis_R
 
 	year_founded 0
-	population 900
+	population 600
 	plan_set default_set
 	faction_creator iolei
 	building
