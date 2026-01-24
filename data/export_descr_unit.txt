@@ -4679,7 +4679,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 680, 330, 70, 110, 680
 ownership        kush, slave
-ethnicity egypt, Nile_Delta
 rebalance_statblock
 soldier          egyptian_archer_elite_new, 60, 0, 1
 attributes       sea_faring, hide_forest, can_sap, hardy
@@ -4769,7 +4768,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 170, 40, 60, 360
 ownership        kush, slave
-ethnicity egypt, Nile_Delta
  
  
 type             egyptian infantry
@@ -4797,7 +4795,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 200, 40, 60, 370
 ownership        kush, slave
-ethnicity egypt, Nile_Delta
 rebalance_statblock
 soldier          egyptian_infantry, 60, 0, 1
 attributes       sea_faring, hide_forest, can_sap
@@ -4949,7 +4946,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 570, 190, 60, 90, 570
 ownership        kush, slave
-ethnicity egypt, Nile_Delta
  
  
 type             egyptian bedouin
@@ -5009,7 +5005,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 660, 330, 70, 100, 660
 ownership        kush, slave
-ethnicity egypt, Nile_Delta
 rebalance_statblock
 soldier          egyptian_chariot_crew, 27, 9, 1
 mount            egyptian chariot reduced hitbox
@@ -5058,7 +5053,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 650, 330, 70, 100, 650
 ownership        kush, slave
-ethnicity egypt, Nile_Delta
 rebalance_statblock
 soldier          egyptian_chariot_archer, 27, 9, 1
 mount            egyptian chariot reduced hitbox
@@ -5166,7 +5160,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 990, 130, 100, 150, 990
 ownership        kush, slave
-ethnicity egypt, Nile_Delta
 rebalance_statblock
 soldier          egyptian_chariot_archer, 12, 6, 0.8
 mount            egyptian chariot reduced hitbox
@@ -5215,7 +5208,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 830, 80, 90, 130, 830
 ownership        kush, slave
-ethnicity egypt, Nile_Delta
  
  
 type             greek peasant
