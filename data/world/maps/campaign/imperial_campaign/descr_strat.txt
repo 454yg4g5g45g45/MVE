@@ -8748,11 +8748,6 @@ character	Carpus of Pylos, diplomat, age 20, , x 319, y 322
 traits GoodDiplomat 3
 ancillaries wine_steward
 
-;	outside Pella
-character	Aegisthes of Larissa, spy, age 20, , x 313, y 321
-traits GoodSpy 2
-ancillaries dancer
-
 ;--------- 4$b/f Family Info ---------
 character_record		Antigonos Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 110, dead, past_leader
 character_record		Demetrius Antigonides, 	male, command 0, influence 0, management 0, subterfuge 0, age 65, dead, past_leader
@@ -8783,10 +8778,9 @@ relative 	DemetriusB Antigonides, 	Olympias,		AntigonosC Antigonides,	Echecrates
 relative 	Gyras Antigonides,	Doris,		Damasos Antigonides,	end
 relative 	Ameinias Iolaides, 	Caleope Antigonides,	end
 
-
 ;-------------- 4$c - Ptolemaic Egypt ---------------
 faction	egypt, religious_caesar
-denari	6800
+denari	4800
 ;--------- 4$c.a - Lower Egypt ----------
 settlement
 {
@@ -29555,15 +29549,12 @@ character_record		Uvaxshtra, 	male, command 0, influence 0, management 0, subter
 relative 	Skunxa, 	Martiya,		Uvaxshtra,		end
 
 
-
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             10# BLACK SEA              ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	colchis, greek_passive
-denari	2000
+denari	1000
 settlement
 {
 	level large_town
@@ -30145,7 +30136,7 @@ relative 	Madduwatta Acamides, 	Circe,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction troezen, greek_passive
-denari	300
+denari	200
 settlement
 {
 	level town
@@ -30175,7 +30166,6 @@ traits GoodCommander 2, GoodAdministrator 2, GoodTrader 2, GoodInfantryGeneral 2
 army
 unit		greek general's guard cavalry early	exp 5 armour 1 weapon_lvl 1
 unit		greek hoplite militia			exp 4 armour 0 weapon_lvl 2
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 3 armour 0 weapon_lvl 3
 
 ;	Outside Troezen
@@ -30185,6 +30175,7 @@ army
 unit		greek general's guard cavalry early	exp 8 armour 3 weapon_lvl 3
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
+
 character_record		Maiandria, 	female, command 0, influence 0, management 0, subterfuge 0, age 36, alive, never_a_leader
 character_record		Circe, 	female, command 0, influence 0, management 0, subterfuge 0, age 16, alive, never_a_leader
 character_record		Sautes Demophonidae, 	male, command 0, influence 9, management 9, subterfuge 9, age 15, alive, never_a_leader
@@ -30195,7 +30186,7 @@ relative 	Thymoetes Demophonidae, 	Circe,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	siraces, nomad_passive
-denari	1200
+denari	1020
 settlement
 {
 	level large_town
@@ -30224,7 +30215,7 @@ settlement
 	region Uspe_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator siraces
 	building
@@ -30278,7 +30269,7 @@ settlement
 	region Helmia_R
 
 	year_founded 0
-	population 580
+	population 510
 	plan_set default_set
 	faction_creator siraces
 	building
@@ -30296,7 +30287,7 @@ settlement
 	region Navaris_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator siraces
 	building
@@ -30343,7 +30334,6 @@ character	Ziaelas, general, age 20, , x 463, y 394
 army
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
 unit		barbarian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 
 ;	Navaris
 character	Ziaelas, general, age 20, , x 480, y 427
@@ -30362,14 +30352,14 @@ relative 	Aripharnes, 	Fallon,		Madyes,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	brigantes, british_passive
-denari	3000
+denari	700
 settlement
 {
 	level town
 	region Rigodonum_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator brigantes
 	building
@@ -30391,7 +30381,7 @@ settlement
 	region Galacum_R
 
 	year_founded 0
-	population 870
+	population 580
 	plan_set default_set
 	faction_creator brigantes
 	garrisoned_army
@@ -30421,16 +30411,15 @@ character_record		Vellocatus Briganti, 		male, command 0, influence 0, managemen
 
 relative 	Cocolitanus Briganti, 	Verica,		Vellocatus Briganti,	end
 
-
 faction	cantiaci, british_passive
-denari	890
+denari	590
 settlement
 {
 	level town
 	region Durovernum_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator cantiaci
 	building
@@ -30586,7 +30575,7 @@ character_record		Orgetorix Demeti, 		male, command 0, influence 0, management 0
 relative 	Matugenus Demeti, 	Cuniovenda,		Orgetorix Demeti,	end
 
 faction	dumnonii, british_passive
-denari	4000
+denari	1200
 settlement
 {
 	level town
@@ -30648,9 +30637,8 @@ character_record		Eudaf, 	female, command 0, influence 0, management 0, subterfu
 relative 	Cynfawr Dumnoni, 	Eudaf,		Sennianus Dumnoni,	Drustan Dumnoni,	end
 
 
-
 faction	belgae, celtic_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -30863,7 +30851,6 @@ character	Maglocunus of Lemonum, general, age 20, , x 137, y 393
 army
 unit		barbarian warband			exp 0 armour 0 weapon_lvl 0
 unit		barbarian warband			exp 0 armour 0 weapon_lvl 0
-unit		barbarian warband			exp 0 armour 0 weapon_lvl 0
 
 character_record		Huctia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
 character_record		Matugenus Aedui, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
@@ -30871,7 +30858,7 @@ character_record		Matugenus Aedui, 	male, command 0, influence 0, management 0, 
 relative 	Brennus Aedui, 	Huctia,		Matugenus Aedui,	end
 
 faction	allobroges, celtic_passive
-denari	4000
+denari	1000
 settlement
 {
 	level town
@@ -30960,9 +30947,8 @@ character_record		Aneirin Allobrogi, 	male, command 0, influence 0, management 0
 relative 	Geraint Allobrogi, 	Barita,		Aneirin Allobrogi,	end
 
 
-
 faction	bituriges, celtic_passive
-denari	3000
+denari	1000
 settlement
 {
 	level town
@@ -31056,7 +31042,7 @@ relative 	Custennyn Vivisci, 	Esselt,		Brigomaglos Vivisci,	end
 
 
 faction	cadurci, celtic_passive
-denari	2400
+denari	2010
 settlement
 {
 	level town
@@ -31095,7 +31081,7 @@ character_record		Maglocunus Cadurci, 	male, command 0, influence 0, management 
 relative 	Adcobrovatus Cadurci, 	Cunoarda,		Maglocunus Cadurci,	end
 
 faction	carnutes, celtic_passive
-denari	4000
+denari	1000
 settlement
 {
 	level town
@@ -31158,9 +31144,8 @@ character_record		Aneirin Carnuti, 	male, command 0, influence 0, management 0, 
 relative 	Brycham Carnuti, 	Verica,		Aneirin Carnuti,	end
 
 
-
 faction	cavari, celtic_passive
-denari	2000
+denari	1000
 settlement
 {
 	level town
@@ -31190,7 +31175,6 @@ traits GoodCommander 2, GoodAdministrator 2
 army
 unit		barb chieftain cavalry early gaul	exp 1 armour 0 weapon_lvl 0
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
-unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
 unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 
 character_record		Boudicca, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
@@ -31199,14 +31183,14 @@ character_record		Caratacus Cavari, 	male, command 0, influence 0, management 0,
 relative 	Vellocatus Cavari, 	Boudicca,		Caratacus Cavari,	end
 
 faction	cenomanni, celtic_passive
-denari	4000
+denari	1000
 settlement
 {
 	level town
 	region Brixia_R
 
 	year_founded 0
-	population 1500
+	population 1000
 	plan_set default_set
 	faction_creator cenomanni
 	building
@@ -31228,7 +31212,7 @@ settlement
 	region Cremona_R
 
 	year_founded 0
-	population 1500
+	population 1000
 	plan_set default_set
 	faction_creator cenomanni
 	building
@@ -31246,7 +31230,7 @@ settlement
 	region Suidinum_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator cenomanni
 	building
@@ -31264,7 +31248,7 @@ settlement
 	region MediolanumAulercorum_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator cenomanni
 	building
@@ -31440,7 +31424,7 @@ relative 	Amminos Raurici, 	Cartimandua,		Geraint Raurici,	end
 relative 	Tancogeistla Verbigeni, 	Keyne,		end
 
 faction	lemovices, celtic_passive
-denari	4000
+denari	2000
 settlement
 {
 	level town
@@ -31657,7 +31641,7 @@ character_record		Matugenus Namneti, 	male, command 0, influence 0, management 0
 relative 	Tasciovanus Namneti, 	Keyne,		Matugenus Namneti,	end
 
 faction	osismii, celtic_passive
-denari	4000
+denari	1000
 settlement
 {
 	level town

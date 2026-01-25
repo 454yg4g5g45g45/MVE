@@ -72,13 +72,13 @@ end_monitor
 ;;;;;;;;RELATIONS SETUP END;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-monitor_event FactionTurnStart FactionType slave
+;monitor_event FactionTurnStart FactionType slave
 
-console_command add_money slave -1999999999
+;console_command add_money slave -1999999999
 
-console_command add_money all -6075
+;console_command add_money all -6075
 
-end_monitor
+;end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;3. COLONIAL RECRUITMENT;;;;;;;
@@ -10161,7 +10161,6 @@ set_counter global_plague_denominator 6
 
 ; attrition settings
 set_counter enable_attrition 1
-
 
 
 ;##############################################
