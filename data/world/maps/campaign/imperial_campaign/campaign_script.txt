@@ -72,13 +72,32 @@ end_monitor
 ;;;;;;;;RELATIONS SETUP END;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;monitor_event FactionTurnStart FactionType slave
+declare_counter money_cycle
 
-;console_command add_money slave -1999999999
+; initialize counter once
+monitor_event FactionTurnStart FactionType slave
+	if I_CompareCounter money_cycle = 0
+		set_counter money_cycle 11
+	end_if
+end_monitor
 
-;console_command add_money all -6075
-
-;end_monitor
+; main script – only fires when counter hits 1
+monitor_event FactionTurnStart FactionType slave
+	if I_CompareCounter money_cycle = 1
+		console_command add_money slave -100999999
+		;;; Starting Big Empire Penalty ;;
+		console_command add_money carthage -2050
+		console_command add_money india -7000
+		console_command add_money seleucid -3200
+		console_command add_money egypt -980
+		;; Base Penalty ;;
+		console_command add_money all -8290
+		; reset the cycle
+		set_counter money_cycle 11
+	end_if
+	; decrement counter every turn
+	inc_counter money_cycle -1
+end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;3. COLONIAL RECRUITMENT;;;;;;;
