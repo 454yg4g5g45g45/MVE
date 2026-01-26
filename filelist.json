@@ -10913,7 +10913,7 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 401480035
+		"checksum": 344286393
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
@@ -100101,7 +100101,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 1443422841
+		"checksum": 352208965
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_events.txt",
@@ -100113,7 +100113,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2232675206
+		"checksum": 4086990916
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
