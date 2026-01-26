@@ -30080,7 +30080,7 @@ relative 	Thymoetes Demophonidae, 	Circe,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	siraces, nomad_passive
-denari	1020
+denari	1000
 settlement
 {
 	level large_town
