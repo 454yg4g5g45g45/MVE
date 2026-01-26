@@ -10274,10 +10274,10 @@ settlement
 ;--------- 4$c/a Historical Characters ----------
 ;	Alexandria
 character	PtolemyC Ptolemeides, named character, leader, age 37, , x 398, y 214, portrait_index 082
-traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2
+traits GoodCommander 3 , NaturalMilitarySkill 2 , PublicFaith 2 , MathematicsSkill 2
 ancillaries librarian, master_embalmer
 army
-unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early egypt	exp 3 armour 0 weapon_lvl 0
 unit		greek pikemen						exp 1 armour 0 weapon_lvl 0
 unit		greek pikemen						exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
@@ -10288,10 +10288,10 @@ unit		egyptian peasant					exp 0 armour 0 weapon_lvl 0
 
 ;	Memphis
 character	Meleager Ptolemeides, named character, heir, age 44, , x 412, y 200
-traits StrategicSkill 2 , NaturalMilitarySkill 1 , PublicFaith 3
+traits StrategicSkill 2 , NaturalMilitarySkill 3 , PublicFaith 3
 ancillaries magician
 army
-unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early egypt	exp 3 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer						exp 0 armour 0 weapon_lvl 0
 unit		egyptian peasant					exp 0 armour 0 weapon_lvl 0
@@ -10315,9 +10315,9 @@ unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
 
 ;	outside Alexandria
 character	Sosibius Pixodarides, named character, age 32, , x 402, y 210
-traits GoodCommander 2, NaturalMilitarySkill 1
+traits GoodCommander 2, NaturalMilitarySkill 2
 army
-unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early egypt	exp 2 armour 0 weapon_lvl 0
 
 ;	Halicarnassus
 character	Pelops Alexandrides, named character, age 27, , x 366, y 280
@@ -10370,7 +10370,6 @@ army
 unit		greek general's guard cavalry early egypt	exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen			exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
-unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$c/b Generals ----------
 ;--------- 4$c/c Captains ----------
@@ -10604,7 +10603,7 @@ relative 	Ptolemy Lysimachides, 	Iphigenia,		LysimachusC Lysimachides,	Epigonus 
 faction	seleucid, balanced_stalin
 ai_do_not_attack_faction antiochea_taocene
 ai_do_not_attack_faction bactria
-denari	7810
+denari	6885
 ;--------- 4$d.a - Syria ----------
 settlement
 {
@@ -10612,7 +10611,7 @@ settlement
 	region Syria
 
 	year_founded 0
-	population 13190
+	population 12790
 	plan_set default_set
 	faction_creator seleucid
 	building
@@ -15982,7 +15981,7 @@ relative 	Phraotes Aparni, 	Nabunaita,		Thuxra Aparni,	end
 
 ;-------------- 4$g - Pontus ---------------
 faction	pontus, trader_napoleon
-denari	2530
+denari	2230
 ;--------- 4$g.a - Anatolia ---------
 settlement
 {
@@ -16189,7 +16188,7 @@ relative 	Herakles Mithridatides, 	Antonia,		Dionysos Mithridatides,	Rhescuporis
 
 ;-------------- 4$h - Gauls ---------------
 faction	gauls, religious_smith
-denari	2100
+denari	1500
 ;--------- 4$h.a - Gaul ---------
 settlement
 {
@@ -16197,7 +16196,7 @@ settlement
 	region Gergovia_R
 
 	year_founded 0
-	population 1500
+	population 1400
 	plan_set default_set
 	faction_creator gauls
 	building
@@ -16212,10 +16211,6 @@ settlement
 	{
 		type barracks muster_field
 	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
 settlement
 {
@@ -16223,7 +16218,7 @@ settlement
 	region Ruessium_R
 
 	year_founded 0
-	population 1200
+	population 800
 	plan_set default_set
 	faction_creator gauls
 	building
@@ -16281,7 +16276,7 @@ relative 	Cadeyrn Gabali, 	Boudecea,	end
 
 ;-------------- 4$i - Germans ---------------
 faction	germans, balanced_mao
-denari	3100
+denari	2310
 settlement
 {
 	level large_town
@@ -16329,10 +16324,6 @@ settlement
 	{
 		type barracks muster_field
 	}
-	building
-	{
-		type hinterland_farms farms
-	}
 }
 settlement
 {
@@ -16340,7 +16331,7 @@ settlement
 	region Bicurgium_R
 
 	year_founded 0
-	population 1000
+	population 560
 	plan_set default_set
 	faction_creator germans
 	building
@@ -16398,7 +16389,7 @@ settlement
 	region Cistuia_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator germans
 	building
@@ -16416,7 +16407,7 @@ settlement
 	region Colancorum_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator germans
 	building
@@ -16515,7 +16506,7 @@ relative 	Inguiomerus Sidini, 	Edith,	end
 relative 	Odovacar Butoni, 	Johanna,	end
 
 faction	britons, trader_henry
-denari	900
+denari	730
 settlement
 {
 	level large_town
@@ -17267,7 +17258,7 @@ relative 	Dnestr Piephigi, 	Eptarys,	end
 relative 	Mukaporis Cotensi, 	Cerzula,	end
 
 faction	numidia, balanced_henry
-denari	2300
+denari	2200
 settlement
 {
 	level large_town
@@ -26717,7 +26708,7 @@ settlement
 	region Zurobara_R
 
 	year_founded 0
-	population 900
+	population 700
 	plan_set default_set
 	faction_creator biephi
 	building
@@ -26739,7 +26730,7 @@ settlement
 	region Partiskon_R
 
 	year_founded 0
-	population 900
+	population 600
 	plan_set default_set
 	faction_creator biephi
 	building
@@ -26772,10 +26763,8 @@ character_record		Scylurus Biephi, 	male, command 0, influence 0, management 0, 
 
 relative 	Deceneu Biephi, 	Branka,		Scylurus Biephi,	end
 
-
-
 faction	buridenses, dacian_passive
-denari	1000
+denari	900
 settlement
 {
 	level town
@@ -26816,7 +26805,7 @@ relative 	Comosicus Buridensi, 	Devnet,		Atheas Buridensi,	end
 
 
 faction	peucitans, dacian_passive
-denari	1000
+denari	800
 settlement
 {
 	level town
@@ -26841,7 +26830,7 @@ settlement
 	region Petrodava_R
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator peucitans
 	building
@@ -26899,7 +26888,7 @@ character_record		Roles Costoboci, 	male, command 0, influence 0, management 0, 
 relative 	Dnestr Costoboci, 	Dana,		Roles Costoboci,	end
 
 faction	daunians, dacian_passive
-denari	2300
+denari	1000
 settlement
 {
 	level town
@@ -26940,7 +26929,6 @@ character_record		Saulius Rhadacensi, 	male, command 0, influence 0, management 
 relative 	Duras Rhadacensi, 	Dita,		Saulius Rhadacensi,	end
 
 
-
 faction	anartes, germanic_passive
 denari	1000
 settlement
@@ -26971,7 +26959,7 @@ settlement
 	region Tribus_Iazyges
 
 	year_founded 0
-	population 1100
+	population 800
 	plan_set default_set
 	faction_creator anartes
 	building
@@ -26989,7 +26977,7 @@ settlement
 	region Bormanum_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator anartes
 	building
@@ -27030,14 +27018,14 @@ relative 	Togodumnus Anarti, 	Keyne,		Virssuccius Anarti,	end
 
 
 faction	bastarnae, dacian_passive
-denari	1400
+denari	1030
 settlement
 {
 	level town
 	region Maetonium_R
 
 	year_founded 0
-	population 1000
+	population 600
 	plan_set default_set
 	faction_creator bastarnae
 	building
@@ -27059,7 +27047,7 @@ settlement
 	region Arsietaeum_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator bastarnae
 	building
@@ -27077,7 +27065,7 @@ settlement
 	region Carrodunum_R
 
 	year_founded 0
-	population 700
+	population 400
 	plan_set default_set
 	faction_creator bastarnae
 	building
@@ -27130,7 +27118,6 @@ unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 character	Arminius, general, age 20, , x 315, y 436 
 army
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
-unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 
 ;	Arsietaeum
 character	Arminius, general, age 20, , x 336, y 438 
@@ -27151,7 +27138,7 @@ relative 	Aioulfus, 	Eva,	end
 
 ;-------------- Media Atropatene ---------------
 faction	atropatene, eastern_passive
-denari	2300
+denari	2100
 ;--------- Settlements ----------
 settlement
 {
@@ -27159,7 +27146,7 @@ settlement
 	region Gazaca_R
 
 	year_founded 0
-	population 2700
+	population 2210
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -27189,7 +27176,7 @@ settlement
 	region Atropatene
 
 	year_founded 0
-	population 1500
+	population 1100
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -27207,7 +27194,7 @@ settlement
 	region Aganzana_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -27225,7 +27212,7 @@ settlement
 	region Alinza_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -27261,7 +27248,7 @@ settlement
 	region Cyropolis_R
 
 	year_founded 0
-	population 1200
+	population 1120
 	plan_set default_set
 	faction_creator atropatene
 	building
@@ -27466,7 +27453,8 @@ relative 	Artabazanes Atropates, 	Lila,		Mithridates Atropates,	end
 
 ;--------------- Bactria ---------------
 faction	bactria, balanced_stalin
-denari	6000
+ai_do_not_attack_faction seleucid
+denari	3050
 ;---------- Settlements ----------
 settlement
 {
@@ -37146,7 +37134,7 @@ settlement
 	region NigritaeCamp_R
 
 	year_founded 0
-	population 600
+	population 510
 	plan_set default_set
 	faction_creator gaetuli
 	building
@@ -37896,21 +37884,19 @@ relative 	Mastanabal, 	Thais,		Khilletzbal,	end
 
 
 
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;              18# ARABIA                ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	gerrha, desert_passive
-denari	1000
+denari	800
 settlement
 {
 	level large_town
 	region Gerrha_R
 
 	year_founded 0
-	population 1800
+	population 1700
 	plan_set default_set
 	faction_creator gerrha
 	building
@@ -38563,7 +38549,6 @@ character_record		Ilyafa Riyam, 	male, command 0, influence 0, management 0, sub
 relative 	Yitha_il Riyam, 	Raisa,		Ilyafa Riyam,		end
 
 
-
 faction	saba, desert_passive
 denari	1000
 settlement
@@ -38598,7 +38583,7 @@ settlement
 	region Sanaa_R
 
 	year_founded 0
-	population 1300
+	population 1100
 	plan_set default_set
 	faction_creator saba
 	building
@@ -39269,7 +39254,7 @@ relative 	Kalas Asgad, 	Awsena,		Satyo Asgad,		end
 
 
 faction	blemmyes, desert_passive
-denari	6050
+denari	1050
 settlement
 {
 	level town
@@ -39334,7 +39319,7 @@ character_record		Isemne, 	male, command 0, influence 0, management 0, subterfug
 relative 	Tamal, 	Mkehnye,		Isemne,		end
 
 faction	kush, desert_passive
-denari	1900
+denari	1540
 settlement
 {
 	level large_town
@@ -42690,7 +42675,7 @@ relative 	Kochaet Chola, 	Sivali,		Ilanjaetcenni Chola,	end
 
 
 faction	chera, eastern_passive
-denari	2300
+denari	2000
 settlement
 {
 	level large_town
@@ -43832,7 +43817,6 @@ unit		Indian Javelin Men		exp 0 armour 0 weapon_lvl 0
 character	Ambhi, general, age 20, , x 972, y 220
 army
 unit		Indian Spearmen			exp 0 armour 0 weapon_lvl 0
-unit		Indian Javelin Men		exp 0 armour 0 weapon_lvl 0
 
 ;	Alosygni
 character	Ambhi, general, age 20, , x 946, y 149
@@ -43852,20 +43836,19 @@ character_record		Vijai, 	female, command 0, influence 0, management 0, subterfu
 relative 	Brahmadatta Kalinga, 	Kusumavah,		Aditya Kalinga,	end
 relative 	Aditya Kalinga, 	Vijai,		end
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             21# STEPPES                ;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	budini, nomad_passive
-denari	1090
+denari	900
 settlement
 {
 	level town
 	region OudaeCamp_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator budini
 	building
@@ -43884,7 +43867,7 @@ settlement
 	region Msandar_R
 
 	year_founded 0
-	population 600
+	population 500
 	plan_set default_set
 	faction_creator budini
 	building
@@ -43940,7 +43923,7 @@ settlement
 	region Touschoiopolis_R
 
 	year_founded 0
-	population 890
+	population 710
 	plan_set default_set
 	faction_creator dahae
 	building
@@ -43957,7 +43940,6 @@ unit		barb chieftain cavalry early scythian	exp 1 armour 0 weapon_lvl 0
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
 unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
-unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 
 ;	Touschon Kome
 character	Phillipos, general, age 20, , x 529, y 376
@@ -43972,14 +43954,14 @@ relative 	Galat, 	Fallon,		Amage,	end
 
 
 faction	massagetae, nomad_passive
-denari	5200
+denari	1000
 settlement
 {
 	level large_town
 	region Khavrana_R
 
 	year_founded 0
-	population 2400
+	population 2200
 	plan_set default_set
 	faction_creator massagetae
 	building
@@ -44001,7 +43983,7 @@ settlement
 	region MassagetaeCamp_R
 
 	year_founded 0
-	population 1100
+	population 600
 	plan_set default_set
 	faction_creator massagetae
 	building
@@ -44019,7 +44001,7 @@ settlement
 	region Roksanaki_R
 
 	year_founded 0
-	population 1100
+	population 600
 	plan_set default_set
 	faction_creator massagetae
 	building
@@ -44037,7 +44019,7 @@ settlement
 	region ApasiacaeKome_R
 
 	year_founded 0
-	population 1000
+	population 600
 	plan_set default_set
 	faction_creator massagetae
 	building
@@ -44051,7 +44033,7 @@ settlement
 	region AugasiiKome_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator massagetae
 	building
@@ -44065,16 +44047,12 @@ settlement
 	region Davaba_R
 
 	year_founded 0
-	population 400
+	population 350
 	plan_set default_set
 	faction_creator massagetae
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 }
 
@@ -44091,7 +44069,6 @@ unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 ;	Massagetae Kome
 character	Phillipos, general, age 20, , x 649, y 479
 army
-unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 
 ;	Roxanace
@@ -44128,7 +44105,6 @@ character_record		Saulius, 	male, command 0, influence 0, management 0, subterfu
 
 relative 	Belnirari, 	Branka,		Saulius,	end
 
-
 faction	thyssagetae, nomad_passive
 denari	110
 settlement
@@ -44155,16 +44131,12 @@ settlement
 	region AbiaeKome_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator thyssagetae
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type barracks muster_field
 	}
 }
 settlement
@@ -44173,7 +44145,7 @@ settlement
 	region DerbicesKome_R
 
 	year_founded 0
-	population 560
+	population 350
 	plan_set default_set
 	faction_creator thyssagetae
 	building
@@ -44202,7 +44174,6 @@ unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 character	Phillipos, general, age 20, , x 577, y 443
 army
 unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
-unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 
 ;	outside Thyssagetae Kome
 character	Idanthyrsus, diplomat, age 25, , x 571, y 493
@@ -44213,16 +44184,15 @@ character_record		Anacharsis, 	male, command 0, influence 0, management 0, subte
 
 relative 	Madyes, 	Scylurus,		Anacharsis,	end
 
-
 faction	roxolani, nomad_passive
-denari	2300
+denari	2000
 settlement
 {
 	level town
 	region Tribus_Alanni
 
 	year_founded 0
-	population 1500
+	population 1400
 	plan_set default_set
 	faction_creator roxolani
 	building
@@ -44262,16 +44232,12 @@ settlement
 	region CoraxiKome_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator roxolani
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type barracks muster_field
 	}
 }
 settlement
@@ -44280,7 +44246,7 @@ settlement
 	region ScymnitaeKome_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator roxolani
 	building
@@ -44294,16 +44260,12 @@ settlement
 	region IaxamataeKome_R
 
 	year_founded 0
-	population 700
+	population 500
 	plan_set default_set
 	faction_creator roxolani
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type barracks muster_field
 	}
 }
 
@@ -44354,14 +44316,14 @@ relative 	Palacus, 	Dita,		Scylurus,	end
 relative 	Zinafer, 	Devnet,		Atheas,	end
 
 faction	sarmatians, nomad_passive
-denari	1100
+denari	1030
 settlement
 {
 	level town
 	region Tribus_Sarmatae
 
 	year_founded 0
-	population 1800
+	population 1500
 	plan_set default_set
 	faction_creator sarmatians
 	building
@@ -44401,16 +44363,12 @@ settlement
 	region PerierbidiCamp_R
 
 	year_founded 0
-	population 1400
+	population 1000
 	plan_set default_set
 	faction_creator sarmatians
 	building
 	{
 		type core_building governors_house
-	}
-	building
-	{
-		type equestrian stables
 	}
 }
 settlement
@@ -44419,7 +44377,7 @@ settlement
 	region TaniataeCamp_R
 
 	year_founded 0
-	population 600
+	population 540
 	plan_set default_set
 	faction_creator sarmatians
 	building
@@ -44448,7 +44406,6 @@ unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 character	Phillipos, general, age 20, , x 500, y 442
 army
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
-unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 unit		barbarian horse archers			exp 0 armour 0 weapon_lvl 0
 
 ;	Tanaitae Kome
@@ -44464,14 +44421,14 @@ relative 	Saulius, 	Hestia,		Idanthyrsus,	end
 
 
 faction	slavs, nomad_passive
-denari	700
+denari	800
 settlement
 {
 	level town
 	region Pripet
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator slavs
 	building
@@ -44493,7 +44450,7 @@ settlement
 	region Cariscus_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator slavs
 	building
@@ -44511,7 +44468,7 @@ settlement
 	region Gerrhos_R
 
 	year_founded 0
-	population 800
+	population 550
 	plan_set default_set
 	faction_creator slavs
 	building
@@ -44554,7 +44511,7 @@ relative 	Rumo, 	Fallon,		Usafer,	end
 
 
 faction	huns, nomad_passive
-denari	1000
+denari	950
 settlement
 {
 	level town
@@ -45564,14 +45521,14 @@ relative 	Isho Tsenpo, 	Droza,		Motsun Tsenpo,		end
 
 ;-------------- Persis ---------------
 faction	persis, eastern_passive
-denari	6083
+denari	1083
 settlement
 {
 	level huge_city
 	region Persepolis_R
 
 	year_founded 0
-	population 8611
+	population 8111
 	plan_set default_set
 	faction_creator persis
 	building
@@ -45615,10 +45572,6 @@ settlement
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 5 armour 1 weapon_lvl 0
-	unit	east infantry		exp 5 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -45647,8 +45600,6 @@ settlement
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -45665,12 +45616,10 @@ settlement
 	region Pasargadae_R
 
 	year_founded 0
-	population 600
+	population 550
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
@@ -45689,15 +45638,11 @@ settlement
 	region Pantyene_R
 
 	year_founded 0
-	population 650
+	population 610
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 1
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -45718,11 +45663,10 @@ settlement
 	region Issatis_R
 
 	year_founded 0
-	population 600
+	population 550
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -45753,12 +45697,6 @@ settlement
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -45775,21 +45713,10 @@ settlement
 	region Pasa_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -45812,11 +45739,6 @@ settlement
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
@@ -45835,14 +45757,11 @@ settlement
 	region Siraf_R		;;;;; Ausinza
 
 	year_founded 0
-	population 700
+	population 620
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
@@ -45861,19 +45780,11 @@ settlement
 	region Harmozeia_R
 
 	year_founded 0
-	population 1050
+	population 600
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -45891,17 +45802,9 @@ traits GoodCommander 5, GoodAdministrator 4, Warlord 4, NaturalMilitarySkill 2
 army
 unit		east generals cavalry early		exp 8 armour 3 weapon_lvl 3
 unit		east generals cavalry early		exp 6 armour 2 weapon_lvl 3
-unit		east infantry				exp 7 armour 0 weapon_lvl 1
+unit		east infantry				exp 8 armour 0 weapon_lvl 1
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -45916,7 +45819,7 @@ relative 	Mukaporis Bendva, 	Arxa,		Dataphernes Bendva,	    Niphates Bendva,	end
 
 ;-------------- Gedrosia ---------------
 faction	gedrosia, eastern_passive
-denari	962
+denari	952
 settlement
 {
 	level town
@@ -45947,13 +45850,6 @@ settlement
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -45970,22 +45866,10 @@ settlement
 	region Bagisara_R
 
 	year_founded 0
-	population 350
+	population 300
 	plan_set default_set
 	faction_creator gedrosia
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
@@ -46003,21 +45887,10 @@ settlement
 	region Fannazbur_R
 
 	year_founded 0
-	population 470
+	population 310
 	plan_set default_set
 	faction_creator gedrosia
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
@@ -46036,13 +45909,10 @@ settlement
 	region Pura_R
 
 	year_founded 0
-	population 330
+	population 300
 	plan_set default_set
 	faction_creator gedrosia
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 1 armour 0 weapon_lvl 0
 	building
@@ -46061,14 +45931,10 @@ traits GoodCommander 5, GoodAdministrator 4, Warlord 4, NaturalMilitarySkill 3
 army
 unit		east generals cavalry early		exp 9 armour 3 weapon_lvl 3
 unit		east generals cavalry early		exp 6 armour 2 weapon_lvl 3
-unit		east infantry				exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east archer					exp 4 armour 0 weapon_lvl 1
+unit		east archer					exp 1 armour 0 weapon_lvl 0
 
 character_record		Arxa, 	female, command 0, influence 0, management 0, subterfuge 0, age 37, alive, never_a_leader
 character_record		Narai of Gedrosia, 	male, command 6, influence 5, management 8, subterfuge 0, age 15, alive, never_a_leader
@@ -46080,7 +45946,7 @@ relative 	Satres of Gedrosia, 	Arxa,		Narai of Gedrosia,	    Orontobates of Gedr
 faction	antiochea_taocene, greek_passive
 ai_do_not_attack_faction seleucid
 ai_do_not_attack_faction bactria
-denari	2115
+denari	1015
 settlement
 {
 	level town
@@ -46114,20 +45980,11 @@ settlement
 	faction_creator antiochea_taocene
 	garrisoned_army
 	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek hoplite		exp 5 armour 2 weapon_lvl 3
-	unit	greek hoplite		exp 5 armour 2 weapon_lvl 3
-	unit	greek hoplite		exp 5 armour 2 weapon_lvl 3
-	unit	greek hoplite		exp 5 armour 2 weapon_lvl 3
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
+	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 0
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	east archer		exp 4 armour 0 weapon_lvl 3
@@ -46155,17 +46012,11 @@ settlement
 	plan_set default_set
 	faction_creator antiochea_taocene
 	garrisoned_army
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek hoplite		exp 5 armour 2 weapon_lvl 3
 	unit	greek hoplite		exp 5 armour 2 weapon_lvl 3
 	unit	east infantry		exp 2 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -46189,16 +46040,6 @@ settlement
 	plan_set default_set
 	faction_creator antiochea_taocene
 	garrisoned_army
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek hoplite		exp 4 armour 2 weapon_lvl 3
-	unit	east infantry		exp 2 armour 0 weapon_lvl 0
-	unit	east infantry		exp 2 armour 0 weapon_lvl 0
-	unit	east infantry		exp 2 armour 0 weapon_lvl 0
-	unit	east infantry		exp 2 armour 0 weapon_lvl 0
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -46226,22 +46067,6 @@ settlement
 	plan_set default_set
 	faction_creator antiochea_taocene
 	garrisoned_army
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
@@ -46263,24 +46088,15 @@ traits GoodCommander 5, GoodAdministrator 4, Warlord 4, NaturalMilitarySkill 4, 
 army
 unit		greek general's guard cavalry early		exp 9 armour 3 weapon_lvl 3
 unit		greek general's guard cavalry early		exp 9 armour 3 weapon_lvl 3
-unit		greek general's guard cavalry early		exp 9 armour 3 weapon_lvl 3
 unit		greek medium cavalry		exp 8 armour 2 weapon_lvl 3
 unit		greek medium cavalry		exp 8 armour 2 weapon_lvl 3
 unit		greek hoplite		exp 7 armour 2 weapon_lvl 3
 unit		taoceneian irregulars		exp 9 armour 2 weapon_lvl 2
-unit		taoceneian irregulars		exp 9 armour 1 weapon_lvl 2
-unit		taoceneian irregulars		exp 9 armour 1 weapon_lvl 3
-unit		taoceneian irregulars		exp 8 armour 1 weapon_lvl 2
-unit		taoceneian irregulars		exp 6 armour 1 weapon_lvl 2
-unit		taoceneian irregulars		exp 6 armour 1 weapon_lvl 2
-unit		taoceneian irregulars		exp 5 armour 1 weapon_lvl 2
-unit		taoceneian irregulars		exp 5 armour 1 weapon_lvl 1
-unit		taoceneian irregulars		exp 5 armour 0 weapon_lvl 1
-unit		taoceneian irregulars		exp 4 armour 1 weapon_lvl 1
-unit		taoceneian irregulars		exp 3 armour 0 weapon_lvl 1
-unit		taoceneian irregulars		exp 3 armour 0 weapon_lvl 1
+unit		taoceneian irregulars		exp 0 armour 0 weapon_lvl 0
+unit		taoceneian irregulars		exp 0 armour 0 weapon_lvl 0
+unit		taoceneian irregulars		exp 0 armour 0 weapon_lvl 0
+unit		taoceneian irregulars		exp 0 armour 0 weapon_lvl 0
 unit		east archer		exp 9 armour 2 weapon_lvl 3
-unit		east archer		exp 9 armour 1 weapon_lvl 3
 
 character_record		Arxa, 	female, command 0, influence 0, management 0, subterfuge 0, age 36, alive, never_a_leader
 character_record		Herakles of Epardus, 	male, command 9, influence 9, management 9, subterfuge 9, age 15, alive, never_a_leader
@@ -46322,7 +46138,7 @@ denari	-2300
 
 faction	akragas, greek_passive
 dead_until_resurrected
-denari	200
+denari	100
 
 faction	italiotes, greek_passive
 dead_until_resurrected
@@ -46342,7 +46158,7 @@ denari	500
 
 faction	samnites, greek_passive
 dead_until_resurrected
-denari	700
+denari	200
 
 faction	umbri, greek_passive
 dead_until_resurrected

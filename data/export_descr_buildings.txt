@@ -2391,7 +2391,7 @@ building core_building
 				population_growth_bonus bonus 5 requires roman_faction and is_player and not roman_has_gov
 			}
 			construction  4 
-			cost  9880 
+			cost  9980 
 			settlement_min village
 			upgrades
 			{
@@ -4063,7 +4063,7 @@ building hinterland_gov_colony_2
 				
 			}
 			construction  2 
-			cost  5620 
+			cost  6820 
 			settlement_min village
 			upgrades
 			{
@@ -4390,7 +4390,7 @@ building hinterland_roman_praefectura
 				taxable_income_bonus bonus -5
 			}
 			construction  1 
-			cost  1210 
+			cost  1410 
 			settlement_min village
 			upgrades
 			{
@@ -9662,7 +9662,7 @@ building taverns
 				taxable_income_bonus bonus -10 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -10557,8 +10557,8 @@ building temple_of_battle
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -10642,7 +10642,7 @@ building temple_of_battle
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -10984,8 +10984,8 @@ building temple_of_battleforge
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -11069,7 +11069,7 @@ building temple_of_battleforge
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -11418,8 +11418,8 @@ building temple_of_farming
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -11501,7 +11501,7 @@ building temple_of_farming
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -11841,8 +11841,8 @@ building temple_of_fertility
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -11927,7 +11927,7 @@ building temple_of_fertility
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -12277,8 +12277,8 @@ building temple_of_forge
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -12361,7 +12361,7 @@ building temple_of_forge
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -12706,8 +12706,8 @@ building temple_of_fun
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -12788,7 +12788,7 @@ building temple_of_fun
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -13124,8 +13124,8 @@ building temple_of_governors
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -13207,7 +13207,7 @@ building temple_of_governors
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -13547,8 +13547,8 @@ building temple_of_healing
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -13630,7 +13630,7 @@ building temple_of_healing
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -13975,8 +13975,8 @@ building temple_of_horse
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -14058,7 +14058,7 @@ building temple_of_horse
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -14404,8 +14404,8 @@ building temple_of_hunting
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -14487,7 +14487,7 @@ building temple_of_hunting
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -14832,8 +14832,8 @@ building temple_of_justice
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -14916,7 +14916,7 @@ building temple_of_justice
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -15271,8 +15271,8 @@ building temple_of_law
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -15354,7 +15354,7 @@ building temple_of_law
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -15696,8 +15696,8 @@ building temple_of_leadership
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -15780,7 +15780,7 @@ building temple_of_leadership
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -16122,8 +16122,8 @@ building temple_of_love
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -16206,7 +16206,7 @@ building temple_of_love
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -16554,8 +16554,8 @@ building temple_of_naval
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -16636,7 +16636,7 @@ building temple_of_naval
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -16974,8 +16974,8 @@ building temple_of_one_god
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -17057,7 +17057,7 @@ building temple_of_one_god
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -17396,8 +17396,8 @@ building temple_of_trade
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -17481,7 +17481,7 @@ building temple_of_trade
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -17835,8 +17835,8 @@ building temple_of_victory
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -17920,7 +17920,7 @@ building temple_of_victory
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -18271,8 +18271,8 @@ building temple_of_violence
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -18354,7 +18354,7 @@ building temple_of_violence
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -18698,8 +18698,8 @@ building temple_of_viking
 				taxable_income_bonus bonus -5 requires size9
 				taxable_income_bonus bonus -6 requires size10
 			}
-			construction  2 
-			cost  1600 
+			construction  3 
+			cost  2050 
 			settlement_min town
 			upgrades
 			{
@@ -18782,7 +18782,7 @@ building temple_of_viking
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -19040,7 +19040,7 @@ building temple_of_horse_2
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
@@ -19303,7 +19303,7 @@ building temple_of_alexander
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  3200 
+			cost  3600 
 			settlement_min large_town
 			upgrades
 			{
