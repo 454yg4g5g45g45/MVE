@@ -5317,6 +5317,7 @@ building barracks
 				recruit "syro hurrian swordsmen" 0
 				;; BI Expansion 1
 				recruit "gothic spearmen"  0
+				recruit "burgundian heavy spearmen 1"  0
 				recruit "saxon keels"  0
 				recruit "steppe swordsmen hun"  0   
 				recruit "steppe spearmen vandal"  1   
@@ -5414,7 +5415,7 @@ building barracks
 				taxable_income_bonus bonus -12 requires size10
 			}
 			construction  4 
-			cost  7000 
+			cost  8000 
 			settlement_min large_town
 			upgrades
 			{
@@ -5556,6 +5557,7 @@ building barracks
 				recruit "syro hurrian swordsmen" 0
 				;; BI Expansion 1
 				recruit "gothic spearmen"  0
+				recruit "burgundian heavy spearmen 1"  0
 				recruit "saxon keels"  0
 				recruit "steppe swordsmen hun"  0   
 				recruit "steppe spearmen vandal"  1   
@@ -5680,7 +5682,7 @@ building barracks
 				taxable_income_bonus bonus -18 requires size10
 			}
 			construction  6 
-			cost  10600 
+			cost  10815 
 			settlement_min city
 			upgrades
 			{
@@ -5853,6 +5855,7 @@ building barracks
 				recruit "syro hurrian swordsmen" 0
 				;; BI Expansion 1
 				recruit "gothic spearmen"  0
+				recruit "burgundian heavy spearmen 1"  0
 				recruit "saxon keels"  0
 				recruit "steppe swordsmen hun"  0   
 				recruit "steppe spearmen vandal"  1   
@@ -5971,10 +5974,6 @@ building barracks
 				recruit "greek hoplite militia allied"  1  requires location_greek_etruria and not is_player
 				recruit "greek hoplite allied"  0  requires location_greek_etruria and not is_player
 				
-				
-				
-				
-				
 				;;stats
 				;;;;;building rework;;;;;
 
@@ -5991,7 +5990,7 @@ building barracks
 				taxable_income_bonus bonus -24 requires size10
 			}
 			construction  8 
-			cost  42000 
+			cost  43000 
 			settlement_min large_city
 			upgrades
 			{
@@ -6170,6 +6169,7 @@ building barracks
 				recruit "syro hurrian swordsmen" 0
 				;; BI Expansion 1
 				recruit "gothic spearmen"  0
+				recruit "burgundian heavy spearmen 1"  0
 				recruit "saxon keels"  0
 				recruit "steppe swordsmen hun"  0   
 				recruit "steppe spearmen vandal"  1   
@@ -10725,7 +10725,7 @@ building temple_of_battle
 				taxable_income_bonus bonus -18 requires size10
 			}
 			construction  6 
-			cost  6400 
+			cost  6800 
 			settlement_min city
 			upgrades
 			{

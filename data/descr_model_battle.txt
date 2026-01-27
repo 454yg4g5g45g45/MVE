@@ -21161,13 +21161,6 @@ model Mediterranean data/characters/Alex_persian_slinger_Mediterranean
 no_variation model Mediterranean data/characters/Alex_persian_slinger_Mediterranean
 
 
-
-
-
-
-
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;     TALES OF ANTIQUITY MODDED UNITS     ;;;;;;;;;
@@ -28342,3 +28335,31 @@ no_variation model boii, Mediterranean data/characters/BI_barb_crew_celts_Medite
 no_variation model lombardi, Mediterranean data/characters/BI_barb_crew_lombardi_Mediterranean_no_variation
 no_variation model roxolani, Mediterranean data/characters/BI_barb_crew_roxolani_Mediterranean_no_variation
 no_variation model persis, Mediterranean data/characters/BI_barb_crew_sassanids_Mediterranean_no_variation
+
+type burgundian_heavy_spearman_1
+;;--------------------------------------
+skeleton			fs_s1_javelinman, fs_slow_spearman
+male
+body Default
+angry_face no
+medieval_features no
+tired VeryTired
+aged 0.00
+pbr_texture data/characters/textures/generic_pbr.tga
+texture data/characters/textures/burgundian_heavy_spearmen_1_slave.tga
+texture slave, data/characters/textures/burgundian_heavy_spearmen_1_slave.tga
+texture burgundii, data/characters/textures/burgundian_heavy_spearmen_1_burgundii.tga
+model African data/characters/burgundian_heavy_spearmen_1
+no_variation model African data/characters/burgundian_heavy_spearmen_1
+model Arabic data/characters/burgundian_heavy_spearmen_1
+no_variation model Arabic data/characters/burgundian_heavy_spearmen_1
+model Caucasian data/characters/burgundian_heavy_spearmen_1
+no_variation model Caucasian data/characters/burgundian_heavy_spearmen_1
+model EastAsian data/characters/burgundian_heavy_spearmen_1
+no_variation model EastAsian data/characters/burgundian_heavy_spearmen_1
+model Egyptian data/characters/burgundian_heavy_spearmen_1
+no_variation model Egyptian data/characters/burgundian_heavy_spearmen_1
+model Indian data/characters/burgundian_heavy_spearmen_1
+no_variation model Indian data/characters/burgundian_heavy_spearmen_1
+model Mediterranean data/characters/burgundian_heavy_spearmen_1
+no_variation model Mediterranean data/characters/burgundian_heavy_spearmen_1

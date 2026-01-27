@@ -18405,7 +18405,7 @@ relative 	Nasua Chatti, 	Eva,		Inguiomerus Chatti,	end
 
 
 faction	burgundii, germanic_passive
-denari	1000
+denari	2700
 settlement
 {
 	level town
@@ -18452,7 +18452,7 @@ settlement
 	region Burgundium_R
 
 	year_founded 0
-	population 600
+	population 520
 	plan_set default_set
 	faction_creator burgundii
 	building
@@ -18467,7 +18467,7 @@ settlement
 
 ;	Burgundium
 character	Odovacar Burgundi, named character, leader, age 63, , x 232, y 516 
-traits GoodCommander 2, GoodAdministrator 2
+traits GoodCommander 3, GoodAdministrator 2
 army
 unit		barb chieftain cavalry early german		exp 1 armour 0 weapon_lvl 0
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
@@ -18479,13 +18479,16 @@ character	Eutlinde Burgundi, named character, heir, age 36, , x 249, y 478
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit		barb chieftain cavalry early german		exp 1 armour 0 weapon_lvl 0
+unit		burgundian heavy spearmen 1				exp 3 armour 0 weapon_lvl 0
+unit		burgundian heavy spearmen 1				exp 3 armour 0 weapon_lvl 0
+unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
 unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
 unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 
 ;	Manimium
 character	Arminius, general, age 20, , x 245, y 466
 army
-unit		barbarian warband				exp 0 armour 0 weapon_lvl 0
+unit		burgundian heavy spearmen 1				exp 3 armour 0 weapon_lvl 0
 unit		barbarian archer warband		exp 0 armour 0 weapon_lvl 0
 
 character_record		Othelhildis, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
@@ -44421,7 +44424,7 @@ relative 	Saulius, 	Hestia,		Idanthyrsus,	end
 
 
 faction	slavs, nomad_passive
-denari	800
+denari	500
 settlement
 {
 	level town
@@ -44868,14 +44871,14 @@ relative 	Cishpi Farzaneh, 	Arkha,		Sherh Farzaneh,		end
 
 
 faction	kashgar, nomad_passive
-denari	1000
+denari	600
 settlement
 {
 	level large_town
 	region Kasia_R
 
 	year_founded 0
-	population 1500
+	population 1100
 	plan_set default_set
 	faction_creator kashgar
 	building

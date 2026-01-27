@@ -19754,7 +19754,7 @@
 
 			"family tree":
 			{
-				"background":      [  155, 145, 1,   ],
+				"background":      [  155, 145, 120,   ],
 				"font":            [  255, 255, 255, ],
 
 				"selected line":   [  255, 255, 255, ],

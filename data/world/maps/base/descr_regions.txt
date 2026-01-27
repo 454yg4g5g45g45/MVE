@@ -2279,7 +2279,7 @@ Limisdunum_R
 	legion: Germanica
 	Limisdunum
 	burgundii
-	Saxones
+	Burgundiones
 	194 158 197
 	germania
 	5
@@ -2312,7 +2312,7 @@ Manimium_R
 	legion: Germanica
 	Manimium
 	burgundii
-	Saxones
+	Burgundiones
 	62 63 220
 	germania
 	5
@@ -2565,7 +2565,7 @@ Viritium_R
 	legion: Germanica
 	Viritium
 	burgundii
-	Goths
+	Burgundiones
 	25 78 147
 	germania
 	5
@@ -2742,7 +2742,7 @@ Burgundium_R
 	legion: Scandica
 	Burgundium
 	burgundii
-	Saxones
+	Burgundiones
 	214 225 45
 	scandia
 	5
@@ -2753,7 +2753,7 @@ Castrum_Gautorum_R
 	legion: Scandica
 	Castrum_Gautorum
 	ostrogoths
-	Saxones
+	Burgundiones
 	158 152 95
 	scandia
 	5
@@ -2764,7 +2764,7 @@ Chaedinium_R
 	legion: Scandica
 	Chaedinium
 	rugii
-	Saxones
+	Burgundiones
 	137 168 183
 	scandia
 	5
