@@ -8582,7 +8582,7 @@ settlement
 	faction_creator macedon
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -16645,7 +16645,7 @@ settlement
 	plan_set default_set
 	faction_creator armenia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -16705,8 +16705,8 @@ settlement
 	plan_set default_set
 	faction_creator armenia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	unit	east horse archer		exp 0 armour 0 weapon_lvl 0
@@ -16750,7 +16750,7 @@ settlement
 	plan_set default_set
 	faction_creator armenia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -16789,8 +16789,8 @@ settlement
 	plan_set default_set
 	faction_creator armenia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	building
@@ -16812,8 +16812,8 @@ settlement
 	plan_set default_set
 	faction_creator armenia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	unit	east horse archer		exp 0 armour 0 weapon_lvl 0
 	building
@@ -16835,7 +16835,7 @@ settlement
 	plan_set default_set
 	faction_creator armenia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -16898,7 +16898,7 @@ settlement
 	plan_set default_set
 	faction_creator armenia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	unit	east horse archer		exp 0 armour 0 weapon_lvl 0
@@ -16942,7 +16942,7 @@ settlement
 	plan_set default_set
 	faction_creator armenia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -21878,7 +21878,7 @@ settlement
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -21907,7 +21907,7 @@ settlement
 	faction_creator syracuse
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -21970,7 +21970,7 @@ settlement
 	faction_creator syracuse
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -24246,7 +24246,7 @@ settlement
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type core_building governors_house
@@ -24431,7 +24431,7 @@ settlement
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -24562,7 +24562,7 @@ settlement
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type core_building governors_house
@@ -28468,7 +28468,7 @@ settlement
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -28555,7 +28555,7 @@ settlement
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -28584,7 +28584,7 @@ settlement
 	faction_creator cyprus
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -28609,7 +28609,7 @@ settlement
 	faction_creator cyprus
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -28634,7 +28634,7 @@ settlement
 	faction_creator cyprus
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -44637,8 +44637,8 @@ settlement
 	plan_set default_set
 	faction_creator agyrion
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44658,10 +44658,10 @@ settlement
 	plan_set default_set
 	faction_creator bactria
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east archer
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44682,8 +44682,8 @@ settlement
 	plan_set default_set
 	faction_creator agyrion
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44703,8 +44703,8 @@ settlement
 	plan_set default_set
 	faction_creator agyrion
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44724,7 +44724,7 @@ settlement
 	plan_set default_set
 	faction_creator agyrion
 	garrisoned_army
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44783,8 +44783,8 @@ settlement
 	plan_set default_set
 	faction_creator ferghana
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44808,8 +44808,8 @@ settlement
 	plan_set default_set
 	faction_creator ferghana
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44829,8 +44829,8 @@ settlement
 	plan_set default_set
 	faction_creator ferghana
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44850,8 +44850,8 @@ settlement
 	plan_set default_set
 	faction_creator ferghana
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44913,8 +44913,8 @@ settlement
 	plan_set default_set
 	faction_creator kashgar
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44934,8 +44934,8 @@ settlement
 	plan_set default_set
 	faction_creator kashgar
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44955,8 +44955,8 @@ settlement
 	plan_set default_set
 	faction_creator kashgar
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -44976,8 +44976,8 @@ settlement
 	plan_set default_set
 	faction_creator kashgar
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45036,8 +45036,8 @@ settlement
 	plan_set default_set
 	faction_creator kucha
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45057,8 +45057,8 @@ settlement
 	plan_set default_set
 	faction_creator kucha
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45078,8 +45078,8 @@ settlement
 	plan_set default_set
 	faction_creator kucha
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45099,8 +45099,8 @@ settlement
 	plan_set default_set
 	faction_creator kucha
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45120,8 +45120,8 @@ settlement
 	plan_set default_set
 	faction_creator kucha
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45182,8 +45182,8 @@ settlement
 	plan_set default_set
 	faction_creator aorsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45203,8 +45203,8 @@ settlement
 	plan_set default_set
 	faction_creator aorsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45224,8 +45224,8 @@ settlement
 	plan_set default_set
 	faction_creator aorsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45245,8 +45245,8 @@ settlement
 	plan_set default_set
 	faction_creator aorsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45312,8 +45312,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45333,8 +45333,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45354,8 +45354,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45375,8 +45375,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45396,8 +45396,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45421,8 +45421,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45442,8 +45442,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45463,8 +45463,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45484,8 +45484,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45505,8 +45505,8 @@ settlement
 	plan_set default_set
 	faction_creator agathyrsi
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -45584,9 +45584,9 @@ settlement
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 5 armour 1 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45607,11 +45607,11 @@ settlement
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45632,8 +45632,8 @@ settlement
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45655,10 +45655,10 @@ settlement
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 1
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45679,9 +45679,9 @@ settlement
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45703,12 +45703,12 @@ settlement
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45729,7 +45729,7 @@ settlement
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45751,8 +45751,8 @@ settlement
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45774,8 +45774,8 @@ settlement
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45797,7 +45797,7 @@ settlement
 	faction_creator persis
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45862,7 +45862,7 @@ settlement
 	garrisoned_army
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45882,8 +45882,8 @@ settlement
 	plan_set default_set
 	faction_creator gedrosia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45903,8 +45903,8 @@ settlement
 	plan_set default_set
 	faction_creator gedrosia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -45925,7 +45925,7 @@ settlement
 	plan_set default_set
 	faction_creator gedrosia
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east infantry		exp 1 armour 0 weapon_lvl 0
 	building
 	{
@@ -45994,9 +45994,9 @@ settlement
 	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
 	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 0
 	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	unit	east archer		exp 4 armour 0 weapon_lvl 3
@@ -46026,8 +46026,8 @@ settlement
 	garrisoned_army
 	unit	greek hoplite		exp 5 armour 2 weapon_lvl 3
 	unit	east infantry		exp 2 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
 	building
 	{
@@ -46190,7 +46190,7 @@ denari	-2000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced_smith
-denari	-5999999999
+denari	-19999999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
@@ -46263,7 +46263,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46283,8 +46283,8 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46304,8 +46304,8 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46325,8 +46325,8 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46346,8 +46346,8 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46367,7 +46367,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46387,8 +46387,8 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46408,7 +46408,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46428,7 +46428,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46448,7 +46448,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46468,7 +46468,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46523,8 +46523,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator india
-	garrisoned_army
-	unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46580,7 +46578,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46600,7 +46598,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46620,15 +46618,15 @@ settlement
 	plan_set default_set
 	faction_creator axum
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	greek peltast
 	building
 	{
 		type core_building governors_house
@@ -46648,8 +46646,8 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46669,8 +46667,8 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46690,22 +46688,22 @@ settlement
 	plan_set default_set
 	faction_creator axum
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46743,11 +46741,11 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46768,9 +46766,9 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46791,7 +46789,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46812,10 +46810,10 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46836,9 +46834,9 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46859,24 +46857,24 @@ settlement
 	plan_set default_set
 	faction_creator axum
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east archer
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -46898,7 +46896,7 @@ settlement
 	faction_creator india
 	garrisoned_army
 	unit	east infantry		exp 1 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46940,15 +46938,15 @@ settlement
 	plan_set default_set
 	faction_creator axum
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east archer
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -46968,9 +46966,9 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -46990,22 +46988,22 @@ settlement
 	plan_set default_set
 	faction_creator gerrha
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east archer
+	unit	east archer
 	building
 	{
 		type core_building governors_house
@@ -47025,15 +47023,15 @@ settlement
 	plan_set default_set
 	faction_creator gerrha
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -47053,16 +47051,16 @@ settlement
 	plan_set default_set
 	faction_creator gerrha
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -47082,13 +47080,13 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -47108,8 +47106,8 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
@@ -51028,8 +51026,8 @@ settlement
 	plan_set default_set
 	faction_creator colchis
 	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
