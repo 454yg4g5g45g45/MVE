@@ -1879,7 +1879,7 @@ alias tributary_state_present
 	requires building_present_min_level hinterland_gov_allied_3 tributary_state
 }
 
-any_indirect_present
+alias any_indirect_present
 {
 	requires free_state_present or allied_state_present or tributary_state_present
 }
