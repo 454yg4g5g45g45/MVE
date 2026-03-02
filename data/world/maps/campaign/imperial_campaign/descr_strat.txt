@@ -46895,7 +46895,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 1 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east infantry
 	building
 	{
@@ -46917,7 +46917,7 @@ settlement
 	plan_set default_set
 	faction_creator india
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
+	unit	east infantry
 	building
 	{
 		type core_building governors_house
