@@ -94,48 +94,6 @@ alias antigonid
 	requires major_event "antigonid_reforms"
 }
 
-;;;;;;;;;; Greek government ;;;;;;;;;;
-
-alias greek_phrourion
-{
-	requires building_present hinterland_greek_phrourion
-}
-
-alias greek_katoikia
-{
-	requires building_present hinterland_greek_katoikia
-}
-
-alias greek_klerouchia
-{
-	requires building_present hinterland_greek_klerouchia
-}
-
-alias greek_polis
-{
-	requires building_present hinterland_greek_polis
-}
-
-alias greek_faction_phrourion_greece
-{
-	requires greek_faction and greek_phrourion and location_greek
-}
-
-alias greek_faction_katoikia_not_greece
-{
-	requires greek_faction and greek_katoikia
-}
-
-alias greek_has_gov
-{
-	requires greek_phrourion or greek_katoikia or greek_klerouchia or greek_polis
-}
-
-alias not_greek_has_gov
-{
-	requires not greek_has_gov
-}
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; FACTION ALIASES ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2256,6 +2214,47 @@ alias size3+
 	requires size3 or size4 or size5 or size6 or size7 or size8 or size9 or size10
 }
 
+;;;;;;;;;; Greek government ;;;;;;;;;;
+
+alias greek_phrourion
+{
+	requires building_present hinterland_greek_phrourion
+}
+
+alias greek_katoikia
+{
+	requires building_present hinterland_greek_katoikia
+}
+
+alias greek_klerouchia
+{
+	requires building_present hinterland_greek_klerouchia
+}
+
+alias greek_polis
+{
+	requires building_present hinterland_greek_polis
+}
+
+alias greek_faction_phrourion_greece
+{
+	requires greek_faction and greek_phrourion and location_greek
+}
+
+alias greek_faction_katoikia_not_greece
+{
+	requires greek_faction and greek_katoikia
+}
+
+alias greek_has_gov
+{
+	requires greek_phrourion or greek_katoikia or greek_klerouchia or greek_polis
+}
+
+alias not_greek_has_gov
+{
+	requires not greek_has_gov
+}
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;BUILDINGS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
