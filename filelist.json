@@ -17665,7 +17665,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 3416628893
+		"checksum": 1614601083
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -33412,7 +33412,39 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/corner.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/corner_n.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/corner_s.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/edge.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/edge_n.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/edge_s.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/terrain\/campaign\/base\/frame\/frame.cas",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/original\/corner.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/base\/frame\/original\/edge.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -39192,7 +39224,39 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/corner.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/corner_n.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/corner_s.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/edge.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/edge_n.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/edge_s.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/frame.cas",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/original\/corner.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/original\/edge.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -112993,7 +113057,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 247650776
+		"checksum": 2984095936
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",

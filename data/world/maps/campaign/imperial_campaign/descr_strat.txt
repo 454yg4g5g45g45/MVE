@@ -357,8 +357,8 @@ trigger_status camillan_reforms, true
 trigger_status antigonid_reforms, true
 rebelling_characters_active
 night_battles_enabled
-brigand_spawn_value 190
-pirate_spawn_value 16
+brigand_spawn_value 750
+pirate_spawn_value 64
 ;;---unused settings
 ;gladiator_uprising_disabled
 ;show_date_as_turns_remaining
@@ -41758,7 +41758,7 @@ settlement
 	region Sabana_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator india
 	building
