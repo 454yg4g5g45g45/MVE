@@ -105,13 +105,7 @@ playable
 	saka
 	caledonia
 	; Generic factions made playable
-	saxons
-	anuradhapura
-	ardiaei
 	bactria
-	boii
-	etruscans
-	saba
 end
 unlockable
 end
@@ -130,6 +124,12 @@ nonplayable
 	chola
 	boetia
 	greek_cities        ; andros
+	boii
+	etruscans
+	saba
+	saxons
+	anuradhapura
+	ardiaei
 	antiochea_taocene
 	psyllia
 	persis
