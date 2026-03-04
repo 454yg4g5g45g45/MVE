@@ -2830,7 +2830,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 240, 170, 30, 40, 240
-ownership        iberian, carthage, celtiberia, astures, cantabri, carpetani, vaccaei, slave
+ownership        iberian, carthage, celtiberia, astures, cantabri, carpetani, vaccaei, libya, slave
 ethnicity carthage, Africa
 ethnicity spain, Taraconenis
 ethnicity celtiberia, Celtiberia

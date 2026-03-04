@@ -103,9 +103,7 @@ playable
 	celtiberia
 	galatia
 	saka
-	caledonia
 	; Generic factions made playable
-	bactria
 end
 unlockable
 end
@@ -116,6 +114,8 @@ nonplayable
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
 	alemanni			; chatti
+	caledonia
+	bactria
 	tylis
 	taras
 	india
@@ -8481,12 +8481,12 @@ settlement
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -8532,8 +8532,8 @@ settlement
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -8557,7 +8557,7 @@ settlement
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -8581,7 +8581,7 @@ settlement
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -8604,8 +8604,8 @@ settlement
 	faction_creator macedon
 	garrisoned_army
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -8627,7 +8627,7 @@ settlement
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -8908,7 +8908,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -8936,7 +8936,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -8964,7 +8964,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -8992,7 +8992,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -9016,7 +9016,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -9040,7 +9040,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -9064,8 +9064,8 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -9089,7 +9089,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -9113,7 +9113,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -9137,7 +9137,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -9161,7 +9161,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -9185,7 +9185,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -9213,7 +9213,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -9284,7 +9284,7 @@ settlement
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	egyptian peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -9333,7 +9333,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -9357,7 +9357,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -10197,7 +10197,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -10221,7 +10221,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -10245,7 +10245,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -10269,7 +10269,7 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -10697,7 +10697,7 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -10725,10 +10725,10 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -10760,8 +10760,8 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -10799,7 +10799,7 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -10850,8 +10850,8 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1		
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -10879,8 +10879,8 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -10908,11 +10908,11 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -10966,8 +10966,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -10991,12 +10991,12 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11022,7 +11022,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
@@ -11051,10 +11051,10 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
@@ -11088,9 +11088,9 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	building
 	{
@@ -11115,10 +11115,10 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	building
 	{
@@ -11143,7 +11143,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11167,7 +11167,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11191,10 +11191,10 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11218,9 +11218,9 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	building
 	{
@@ -11245,9 +11245,9 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
 	building
 	{
@@ -11349,12 +11349,12 @@ settlement
 	unit	greek hoplite militia		exp 9 armour 2 weapon_lvl 3
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	building
 	{
@@ -11383,11 +11383,11 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 9 armour 2 weapon_lvl 3
 	unit	greek hoplite militia		exp 9 armour 2 weapon_lvl 3
 	unit	greek hoplite militia		exp 9 armour 2 weapon_lvl 3
@@ -11414,7 +11414,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11464,7 +11464,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11504,7 +11504,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11528,7 +11528,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11552,7 +11552,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11576,7 +11576,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11600,7 +11600,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11624,7 +11624,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -11648,7 +11648,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11672,7 +11672,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11700,7 +11700,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11724,7 +11724,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11748,7 +11748,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -11822,7 +11822,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11868,7 +11868,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11892,7 +11892,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11916,8 +11916,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11941,7 +11941,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11965,7 +11965,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -11989,8 +11989,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12036,7 +12036,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -12060,7 +12060,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -12084,7 +12084,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12108,7 +12108,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12132,8 +12132,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12157,7 +12157,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12181,7 +12181,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12205,7 +12205,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12229,8 +12229,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12254,7 +12254,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12278,7 +12278,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -12304,8 +12304,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -12383,7 +12383,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12408,8 +12408,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12433,7 +12433,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -12457,7 +12457,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -12481,8 +12481,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -12510,7 +12510,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -12534,7 +12534,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -12558,9 +12558,9 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -12584,10 +12584,10 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12611,11 +12611,11 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -12639,10 +12639,10 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12666,7 +12666,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -12690,7 +12690,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -12714,9 +12714,9 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12740,9 +12740,9 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -12766,7 +12766,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -12790,7 +12790,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -12814,8 +12814,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -12839,7 +12839,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12863,7 +12863,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -12887,10 +12887,10 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -12936,7 +12936,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -12960,7 +12960,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -12984,7 +12984,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13008,11 +13008,11 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13036,7 +13036,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -13060,7 +13060,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13084,7 +13084,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13108,7 +13108,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13132,7 +13132,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -13156,7 +13156,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13182,8 +13182,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -13235,8 +13235,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -13260,7 +13260,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -13284,8 +13284,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -13309,7 +13309,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -13333,12 +13333,12 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13362,8 +13362,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13387,7 +13387,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13411,7 +13411,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13435,7 +13435,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13459,7 +13459,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13483,8 +13483,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13508,7 +13508,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13532,8 +13532,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13557,7 +13557,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13581,7 +13581,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13605,7 +13605,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13629,7 +13629,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13653,7 +13653,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13677,7 +13677,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13701,8 +13701,8 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -13726,7 +13726,7 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13750,10 +13750,10 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_katoikia greek_katoikia
@@ -13777,11 +13777,11 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_phrourion greek_phrourion
@@ -19485,9 +19485,9 @@ settlement
 	plan_set default_set
 	faction_creator pergamon
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -19512,11 +19512,11 @@ settlement
 	plan_set default_set
 	faction_creator pergamon
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek archer		exp 4 armour 0 weapon_lvl 1
 	building
 	{
@@ -19542,13 +19542,13 @@ settlement
 	plan_set default_set
 	faction_creator pergamon
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -20093,19 +20093,19 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -20138,17 +20138,17 @@ settlement
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	building
 	{
@@ -20181,14 +20181,14 @@ settlement
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -20331,17 +20331,17 @@ settlement
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -20372,15 +20372,15 @@ settlement
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 2 armour 1 weapon_lvl 2
 	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 4 armour 0 weapon_lvl 0
 	building
 	{
@@ -20410,15 +20410,15 @@ settlement
 	unit	greek hoplite militia		exp 2 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 2
-	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek pikemen	exp 9 armour 3 weapon_lvl 3
 	unit	greek pikemen	exp 9 armour 3 weapon_lvl 3
 	unit	greek pikemen	exp 9 armour 3 weapon_lvl 3
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 5 armour 0 weapon_lvl 2
 	unit	greek hoplite militia		exp 5 armour 1 weapon_lvl 2
 	unit	greek peltast		exp 7 armour 1 weapon_lvl 3
@@ -21378,17 +21378,17 @@ settlement
 	faction_creator bosporus
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -21413,12 +21413,12 @@ settlement
 	plan_set default_set
 	faction_creator bosporus
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -21740,7 +21740,7 @@ settlement
 	plan_set default_set
 	faction_creator massalia
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	barb peltast gaul			exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -21765,7 +21765,7 @@ settlement
 	plan_set default_set
 	faction_creator massalia
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	barb peltast gaul			exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -21876,8 +21876,8 @@ settlement
 	plan_set default_set
 	faction_creator syracuse
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -21906,7 +21906,7 @@ settlement
 	plan_set default_set
 	faction_creator syracuse
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -21969,7 +21969,7 @@ settlement
 	plan_set default_set
 	faction_creator syracuse
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -22074,7 +22074,7 @@ settlement
 	plan_set default_set
 	faction_creator cyrene
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	libyan peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -22125,7 +22125,7 @@ settlement
 	plan_set default_set
 	faction_creator cyrene
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	libyan peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -22150,7 +22150,7 @@ settlement
 	plan_set default_set
 	faction_creator cyrene
 	garrisoned_army
-	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	libyan peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -22197,7 +22197,7 @@ settlement
 	plan_set default_set
 	faction_creator cyrene
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -24088,12 +24088,12 @@ settlement
 	plan_set default_set
 	faction_creator achea
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -24196,10 +24196,10 @@ settlement
 	plan_set default_set
 	faction_creator aetolia
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
@@ -24244,7 +24244,7 @@ settlement
 	plan_set default_set
 	faction_creator aetolia
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
 	unit	greek peltast
 	building
@@ -24266,11 +24266,11 @@ settlement
 	plan_set default_set
 	faction_creator aetolia
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type core_building governors_house
@@ -24353,9 +24353,9 @@ settlement
 	faction_creator arcadia
 	garrisoned_army
 	unit	greek hoplite militia		exp 3 armour 0 weapon_lvl 1
-	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type core_building governors_house
@@ -24425,12 +24425,12 @@ settlement
 	plan_set default_set
 	faction_creator argos
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -24456,9 +24456,9 @@ settlement
 	plan_set default_set
 	faction_creator argos
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_polis greek_polis
@@ -24554,13 +24554,13 @@ settlement
 	plan_set default_set
 	faction_creator boetia
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
 	unit	greek peltast
 	building
@@ -24986,7 +24986,7 @@ settlement
 	plan_set default_set
 	faction_creator melos
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 1
 	building
@@ -25331,12 +25331,12 @@ settlement
 	plan_set default_set
 	faction_creator bessi
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type core_building governors_house
@@ -25419,8 +25419,8 @@ settlement
 	plan_set default_set
 	faction_creator bithynia
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek peltast				exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -25442,8 +25442,8 @@ settlement
 	plan_set default_set
 	faction_creator bithynia
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek peltast				exp 0 armour 0 weapon_lvl 0
 	building
 	{
@@ -28466,8 +28466,8 @@ settlement
 	plan_set default_set
 	faction_creator cyprus
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -28553,8 +28553,8 @@ settlement
 	plan_set default_set
 	faction_creator cyprus
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -28583,7 +28583,7 @@ settlement
 	plan_set default_set
 	faction_creator cyprus
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -28608,7 +28608,7 @@ settlement
 	plan_set default_set
 	faction_creator cyprus
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -28633,7 +28633,7 @@ settlement
 	plan_set default_set
 	faction_creator cyprus
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
 	unit	greek peltast
 	building
 	{
@@ -28658,13 +28658,13 @@ settlement
 	plan_set default_set
 	faction_creator cyprus
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type core_building governors_house
@@ -36942,8 +36942,8 @@ settlement
 	plan_set default_set
 	faction_creator emporion
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	unit	greek peltast			exp 1 armour 0 weapon_lvl 0
 	building
 	{
@@ -45702,7 +45702,7 @@ settlement
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east infantry
 	unit	east infantry
 	unit	east infantry
@@ -45750,7 +45750,7 @@ settlement
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east infantry
 	unit	east infantry
 	building
@@ -45773,7 +45773,7 @@ settlement
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east infantry
 	unit	east infantry
 	building
@@ -45796,7 +45796,7 @@ settlement
 	plan_set default_set
 	faction_creator persis
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
+	unit	east infantry
 	unit	east infantry
 	building
 	{
@@ -45831,7 +45831,7 @@ relative 	Mukaporis Bendva, 	Arxa,		Dataphernes Bendva,	    Niphates Bendva,	end
 
 ;-------------- Gedrosia ---------------
 faction	gedrosia, eastern_passive
-denari	952
+denari	940
 settlement
 {
 	level town
@@ -45860,8 +45860,8 @@ settlement
 	plan_set default_set
 	faction_creator gedrosia
 	garrisoned_army
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	east infantry
 	unit	east infantry
 	building
 	{
@@ -45958,7 +45958,7 @@ relative 	Satres of Gedrosia, 	Arxa,		Narai of Gedrosia,	    Orontobates of Gedr
 faction	antiochea_taocene, greek_passive
 ai_do_not_attack_faction seleucid
 ai_do_not_attack_faction bactria
-denari	1015
+denari	900
 settlement
 {
 	level town
@@ -45991,16 +45991,14 @@ settlement
 	plan_set default_set
 	faction_creator antiochea_taocene
 	garrisoned_army
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 3
-	unit	greek medium cavalry	exp 8 armour 2 weapon_lvl 0
-	unit	east infantry		exp 3 armour 0 weapon_lvl 0
+	unit	greek medium cavalry
+	unit	greek medium cavalry
 	unit	east infantry
 	unit	east infantry
 	unit	east infantry
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	east archer		exp 4 armour 0 weapon_lvl 3
-	unit	east archer		exp 4 armour 0 weapon_lvl 3
+	unit	east infantry
+	unit	greek hoplite militia
+	unit	east archer
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -46024,11 +46022,11 @@ settlement
 	plan_set default_set
 	faction_creator antiochea_taocene
 	garrisoned_army
-	unit	greek hoplite		exp 5 armour 2 weapon_lvl 3
-	unit	east infantry		exp 2 armour 0 weapon_lvl 0
+	unit	greek hoplite
 	unit	east infantry
 	unit	east infantry
-	unit	greek hoplite militia		exp 1 armour 0 weapon_lvl 0
+	unit	east infantry
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -46052,10 +46050,8 @@ settlement
 	plan_set default_set
 	faction_creator antiochea_taocene
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -46079,8 +46075,8 @@ settlement
 	plan_set default_set
 	faction_creator antiochea_taocene
 	garrisoned_army
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
-	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
+	unit	greek hoplite militia
+	unit	greek hoplite militia
 	building
 	{
 		type hinterland_greek_klerouchia greek_klerouchia
@@ -46150,7 +46146,7 @@ denari	-2300
 
 faction	akragas, greek_passive
 dead_until_resurrected
-denari	100
+denari	50
 
 faction	italiotes, greek_passive
 dead_until_resurrected

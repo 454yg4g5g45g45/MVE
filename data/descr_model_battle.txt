@@ -4033,6 +4033,7 @@ texture carthage, data/characters/textures/carthaginian_cavalry_carthage.tga
 texture slave, data/characters/textures/carthaginian_cavalry_slave.tga
 texture spain, data/characters/textures/carthaginian_cavalry_spain.tga
 texture celtiberia, data/characters/textures/carthaginian_cavalry_celtiberia.tga
+texture libya, data/characters/textures/carthaginian_cavalry_libya.tga
 model African data/characters/carthaginian_infantry_carthage_African
 model spain, African data/characters/carthaginian_infantry_spain_African
 no_variation model African data/characters/carthaginian_infantry_carthage_African_no_variation
