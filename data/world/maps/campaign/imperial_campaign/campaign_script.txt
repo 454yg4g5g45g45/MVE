@@ -72,26 +72,6 @@ end_monitor
 ;;;;;;;;RELATIONS SETUP END;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-declare_counter money_cycle
-
-; initialize counter once
-monitor_event FactionTurnStart FactionType slave
-	if I_CompareCounter money_cycle = 0
-		set_counter money_cycle 11
-	end_if
-end_monitor
-
-; main script – only fires when counter hits 1
-monitor_event FactionTurnStart FactionType slave
-	if I_CompareCounter money_cycle = 1
-		console_command add_money slave -107999999
-		; reset the cycle
-		set_counter money_cycle 11
-	end_if
-	; decrement counter every turn
-	inc_counter money_cycle -1
-end_monitor
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;3. COLONIAL RECRUITMENT;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -119,6 +99,25 @@ end_monitor
 ;;monitor_event RecruitmentItemClicked RecruitmentItemClicked greek colonist
 ;;	remove_hidden_resource local colonists_recruitable	
 ;;end_monitor
+
+;;detect when a colonist is trained, swap populations
+monitor_event UnitTrained UnitType greek colonist
+	
+	console_command destroy_unit local_settlement "greek colonist" 1
+	console_command add_population local 300
+	add_religion greek local 3
+	
+	remove_hidden_resource local colonists_recruitable
+	add_hidden_resource local colonists_recruited
+	
+	for_each settlement in faction
+		if HasResource capital
+			console_command add_population local -300
+			break
+		end_if
+	end_for
+
+end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -640,200 +639,18 @@ monitor_event SettlementTurnStart TrueCondition
 		end_if
 		
 ;;;end_monitor
-		
-		
-		
-		
-		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-		;;;;;;;5b. GREEK GOVT CHECKERS;;;;;;
-		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;;;monitor_event SettlementTurnStart TrueCondition
 
-		;;;;; Checker for greek phrourion
-		
-		if SettlementBuildingExists = greek_phrourion
-		
-			if not I_SettlementOwnerCulture local = greek
-				destroy_building "local" greek_phrourion
-				if HasResource greek_phrourion
-					remove_hidden_resource local greek_phrourion
-				end_if
-			end_if
-			
-			if HasResource greek_katoikia
-				if SettlementBuildingExists = greek_katoikia
-					destroy_building "local" greek_katoikia
-				end_if
-				remove_hidden_resource local greek_katoikia
-				add_hidden_resource local greek_phrourion
-			end_if
-			
-			if HasResource greek_klerouchia
-				if SettlementBuildingExists = greek_klerouchia
-					destroy_building "local" greek_klerouchia
-				end_if
-				remove_hidden_resource local greek_klerouchia
-				remove_hidden_resource local colonists_recruitable
-				remove_hidden_resource local colonists_recruited
-				add_hidden_resource local greek_phrourion
-			end_if
-			
-			if HasResource greek_polis
-				if SettlementBuildingExists = greek_polis
-					destroy_building "local" greek_polis
-				end_if
-				remove_hidden_resource local greek_polis
-				add_hidden_resource local greek_phrourion
-			end_if
-			
-			if not HasResource greek_phrourion
-				add_hidden_resource local greek_phrourion
-			end_if
-		end_if
-		
-		
-		
-		;;;;; Checker for greek katoikia
-		
-		if SettlementBuildingExists = greek_katoikia
-		
-			if not I_SettlementOwnerCulture local = greek
-				destroy_building "local" greek_katoikia
-				if HasResource greek_katoikia
-					remove_hidden_resource local greek_katoikia
-				end_if
-			end_if
-			
-			if HasResource greek_phrourion
-				if SettlementBuildingExists = greek_phrourion
-					destroy_building "local" greek_phrourion
-				end_if
-				remove_hidden_resource local greek_phrourion
-				add_hidden_resource local greek_katoikia
-			end_if
-			
-			if HasResource greek_klerouchia
-				if SettlementBuildingExists = greek_klerouchia
-					destroy_building "local" greek_klerouchia
-				end_if
-				remove_hidden_resource local greek_klerouchia
-				remove_hidden_resource local colonists_recruitable
-				remove_hidden_resource local colonists_recruited
-				add_hidden_resource local greek_katoikia
-			end_if
-			
-			if HasResource greek_polis
-				if SettlementBuildingExists = greek_polis
-					destroy_building "local" greek_polis
-				end_if
-				remove_hidden_resource local greek_polis
-				add_hidden_resource local greek_katoikia
-			end_if
-			
-			if not HasResource greek_katoikia
-				add_hidden_resource local greek_katoikia
-			end_if
-		end_if
-		
-		
-		
-		;;;;; Checker for greek klerouchia
-		
-		if SettlementBuildingExists = greek_klerouchia
 
-			if not I_SettlementOwnerCulture local = greek
-				destroy_building "local" greek_klerouchia
-				if HasResource greek_klerouchia
-					remove_hidden_resource local greek_klerouchia
-					remove_hidden_resource local colonists_recruitable
-					remove_hidden_resource local colonists_recruited
-				end_if
-			end_if
-			
-			if HasResource greek_phrourion
-				if SettlementBuildingExists = greek_phrourion
-					destroy_building "local" greek_phrourion
-				end_if
-				remove_hidden_resource local greek_phrourion
-				add_hidden_resource local greek_klerouchia
-				add_hidden_resource local colonists_recruitable
-			end_if
-			
-			if HasResource greek_katoikia
-				if SettlementBuildingExists = greek_katoikia
-					destroy_building "local" greek_katoikia
-				end_if
-				remove_hidden_resource local greek_katoikia
-				add_hidden_resource local greek_klerouchia
-				add_hidden_resource local colonists_recruitable
-			end_if
-			
-			if HasResource greek_polis
-				if SettlementBuildingExists = greek_polis
-					destroy_building "local" greek_polis
-				end_if
-				remove_hidden_resource local greek_polis
-				add_hidden_resource local greek_klerouchia
-				add_hidden_resource local colonists_recruitable
-			end_if
-			
-			if not HasResource greek_klerouchia
-				add_hidden_resource local greek_klerouchia
-				add_hidden_resource local colonists_recruitable
-			end_if
-		end_if
-		
-		
-		
-		;;;;; Checker for greek polis
-		
-		if SettlementBuildingExists = greek_polis
-		
-			if not I_SettlementOwnerCulture local = greek
-				destroy_building "local" greek_polis
-				if HasResource greek_polis
-					remove_hidden_resource local greek_polis
-				end_if
-			end_if
-			
-			if HasResource greek_phrourion
-				if SettlementBuildingExists = greek_phrourion
-					destroy_building "local" greek_phrourion
-				end_if
-				remove_hidden_resource local greek_phrourion
-				add_hidden_resource local greek_polis
-			end_if
-			
-			if HasResource greek_katoikia
-				if SettlementBuildingExists = greek_katoikia
-					destroy_building "local" greek_katoikia
-				end_if
-				remove_hidden_resource local greek_katoikia
-				add_hidden_resource local greek_polis
-			end_if
-			
-			if HasResource greek_klerouchia
-				if SettlementBuildingExists = greek_klerouchia
-					destroy_building "local" greek_klerouchia
-				end_if
-				remove_hidden_resource local greek_klerouchia
-				remove_hidden_resource local colonists_recruitable
-				remove_hidden_resource local colonists_recruited
-				add_hidden_resource local greek_polis
-			end_if
-			
-			if not HasResource greek_polis
-				add_hidden_resource local greek_polis
-			end_if
-		end_if
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-		;;;;;;5c. GENERIC GOVT CHECKERS;;;;;
+		;;;;;;5b. GENERIC GOVT CHECKERS;;;;;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 		
 		;;;;; Checker for military occupation
@@ -853,6 +670,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" early_colony
 				end_if
 				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_military_occupation
 			end_if
 			
@@ -861,6 +679,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" full_colony
 				end_if
 				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_military_occupation
 			end_if
 			
@@ -928,6 +747,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" early_colony
 				end_if
 				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_military_administration
 			end_if
 			
@@ -936,6 +756,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" full_colony
 				end_if
 				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_military_administration
 			end_if
 			
@@ -996,6 +817,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_military_occupation
 				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 		
 			if HasResource gov_military_administration
@@ -1004,6 +826,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_military_administration
 				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_full_colony
@@ -1011,7 +834,9 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" full_colony
 				end_if
 				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_integrated_state
@@ -1020,6 +845,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_integrated_state
 				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_core_state
@@ -1028,6 +854,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_core_state
 				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_free_state
@@ -1036,6 +863,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_free_state
 				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_allied_state
@@ -1044,6 +872,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_allied_state
 				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_tributary_state
@@ -1052,10 +881,12 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_tributary_state
 				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if not HasResource gov_early_colony
 				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 		end_if
 		
@@ -1071,6 +902,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_military_occupation
 				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 		
 			if HasResource gov_military_administration
@@ -1079,6 +911,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_military_administration
 				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_early_colony
@@ -1086,7 +919,9 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" early_colony
 				end_if
 				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_integrated_state
@@ -1095,6 +930,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_integrated_state
 				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_core_state
@@ -1103,6 +939,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_core_state
 				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_free_state
@@ -1111,6 +948,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_free_state
 				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_allied_state
@@ -1119,6 +957,7 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_allied_state
 				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if HasResource gov_tributary_state
@@ -1127,10 +966,12 @@ monitor_event SettlementTurnStart TrueCondition
 				end_if
 				remove_hidden_resource local gov_tributary_state
 				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 			
 			if not HasResource gov_full_colony
 				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
 			end_if
 		end_if
 		
@@ -1161,6 +1002,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" early_colony
 				end_if
 				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_integrated_state
 			end_if
 			
@@ -1169,6 +1011,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" full_colony
 				end_if
 				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_integrated_state
 			end_if
 			
@@ -1236,6 +1079,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" early_colony
 				end_if
 				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_core_state
 			end_if
 			
@@ -1244,6 +1088,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" full_colony
 				end_if
 				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_core_state
 			end_if
 			
@@ -1311,6 +1156,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" early_colony
 				end_if
 				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_free_state
 			end_if
 			
@@ -1319,6 +1165,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" full_colony
 				end_if
 				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_free_state
 			end_if
 			
@@ -1386,6 +1233,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" early_colony
 				end_if
 				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_allied_state
 			end_if
 			
@@ -1394,6 +1242,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" full_colony
 				end_if
 				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_allied_state
 			end_if
 			
@@ -1461,6 +1310,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" early_colony
 				end_if
 				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_tributary_state
 			end_if
 			
@@ -1469,6 +1319,7 @@ monitor_event SettlementTurnStart TrueCondition
 					destroy_building "local" full_colony
 				end_if
 				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
 				add_hidden_resource local gov_tributary_state
 			end_if
 			
@@ -1508,66 +1359,6 @@ monitor_event SettlementTurnStart TrueCondition
 				add_hidden_resource local gov_tributary_state
 			end_if
 		end_if
-		
-end_monitor
-
-
-
-;;;;; Automatically delete every government building when a city is captured (inspired by RIS)
-monitor_event GeneralCaptureSettlement
-
-		;;; destroy all generic government buildings
-		destroy_building "local" military_occupation
-		destroy_building "local" military_administration
-		destroy_building "local" early_colony
-		destroy_building "local" full_colony
-		destroy_building "local" integrated_state
-		destroy_building "local" core_state
-		destroy_building "local" free_state
-		destroy_building "local" allied_state
-		destroy_building "local" tributary_state
-		remove_hidden_resource local gov_military_occupation
-		remove_hidden_resource local gov_military_administration
-		remove_hidden_resource local gov_early_colony
-		remove_hidden_resource local gov_full_colony
-		remove_hidden_resource local gov_integrated_state
-		remove_hidden_resource local gov_core_state
-		remove_hidden_resource local gov_free_state
-		remove_hidden_resource local gov_allied_state
-		remove_hidden_resource local gov_tributary_state
-
-		;;; destroy all greek government buildings
-		destroy_building "local" greek_phrourion
-		destroy_building "local" greek_katoikia
-		destroy_building "local" greek_klerouchia
-		destroy_building "local" greek_polis
-		remove_hidden_resource local greek_phrourion
-		remove_hidden_resource local greek_katoikia
-		remove_hidden_resource local greek_klerouchia
-		remove_hidden_resource local colonists_recruitable
-		remove_hidden_resource local colonists_recruited
-		remove_hidden_resource local greek_polis
-		
-		;;; destroy all roman government buildings if non-roman
-		if not FactionCultureType roman
-			destroy_building "local" roman_praefectura
-			destroy_building "local" roman_civitas
-			destroy_building "local" roman_civitas_libera
-			destroy_building "local" roman_civitas_foederata
-			destroy_building "local" roman_municipium
-			destroy_building "local" roman_municipium_2
-			destroy_building "local" roman_colonia_latina
-			destroy_building "local" roman_colonia
-			destroy_building "local" roman_urbs_roma
-			remove_hidden_resource local roman_praefectura
-			remove_hidden_resource local roman_civitas
-			remove_hidden_resource local roman_municipium
-			remove_hidden_resource local roman_colonia_latina
-			remove_hidden_resource local roman_colonia
-		end_if
-		
-		;;; remove capital resource
-		remove_hidden_resource local capital
 		
 end_monitor
 
@@ -1630,8 +1421,3491 @@ end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;; 8. Dagovax plague script ;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;; 8. GOVERNMENT BUILDING DESTRUCTION ;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;; Automatically delete every government building when a city is captured (inspired by RIS)
+monitor_event GeneralCaptureSettlement
+
+		;;; destroy all generic government buildings
+		destroy_building "local" military_occupation
+		destroy_building "local" military_administration
+		destroy_building "local" early_colony
+		destroy_building "local" full_colony
+		destroy_building "local" integrated_state
+		destroy_building "local" core_state
+		destroy_building "local" free_state
+		destroy_building "local" allied_state
+		destroy_building "local" tributary_state
+		remove_hidden_resource local gov_military_occupation
+		remove_hidden_resource local gov_military_administration
+		remove_hidden_resource local gov_early_colony
+		remove_hidden_resource local gov_full_colony
+		remove_hidden_resource local gov_integrated_state
+		remove_hidden_resource local gov_core_state
+		remove_hidden_resource local gov_free_state
+		remove_hidden_resource local gov_allied_state
+		remove_hidden_resource local gov_tributary_state
+		
+		
+		;;; destroy all roman government buildings if non-roman
+		if not FactionCultureType roman
+			destroy_building "local" roman_praefectura
+			destroy_building "local" roman_civitas
+			destroy_building "local" roman_civitas_libera
+			destroy_building "local" roman_civitas_foederata
+			destroy_building "local" roman_municipium
+			destroy_building "local" roman_municipium_2
+			destroy_building "local" roman_colonia_latina
+			destroy_building "local" roman_colonia
+			destroy_building "local" roman_urbs_roma
+			remove_hidden_resource local roman_praefectura
+			remove_hidden_resource local roman_civitas
+			remove_hidden_resource local roman_municipium
+			remove_hidden_resource local roman_colonia_latina
+			remove_hidden_resource local roman_colonia
+		end_if
+		
+		;;; remove capital resource
+		remove_hidden_resource local capital
+		
+		;;; destroy all enacted law buildings
+		destroy_building "local" edict_triumph
+		remove_hidden_resource local triumph_available
+		remove_hidden_resource local triumph_built
+		destroy_building "local" edict_senate
+		destroy_building "local" edict_anticorruption
+		destroy_building "local" edict_culture
+		destroy_building "local" edict_martial_law
+		destroy_building "local" edict_recruitment
+		destroy_building "local" edict_training
+		destroy_building "local" edict_construction
+		destroy_building "local" edict_farming
+		destroy_building "local" edict_fishing
+		destroy_building "local" edict_mining
+		destroy_building "local" edict_taxation
+		destroy_building "local" edict_trade
+		destroy_building "local" edict_trade_fleet
+		remove_hidden_resource local colonists_recruited
+		remove_hidden_resource local colonists_recruitable
+		
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;; 9. Sack, enslavement and extermination culture scripts ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event CitySacked
+
+	if FactionType romans_julii
+		add_religion Roman local 5
+	end_if
+
+	if FactionType romans_brutii
+		add_religion Roman local 5
+	end_if
+
+	if FactionType romans_scipii
+		add_religion Roman local 5
+	end_if
+
+	if FactionType romans_senate
+		add_religion Roman local 5
+	end_if
+
+	if FactionType macedon
+		add_religion Greek local 5
+	end_if
+
+	if FactionType egypt
+		add_religion Greek local 5
+	end_if
+
+	if FactionType seleucid
+		add_religion Greek local 5
+	end_if
+
+	if FactionType carthage
+		add_religion Phoenician local 5
+	end_if
+
+	if FactionType parthia
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType pontus
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType gauls
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType germans
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType britons
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType armenia
+		add_religion Armenian local 5
+	end_if
+
+	if FactionType dacia
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType greek_cities
+		add_religion Greek local 5
+	end_if
+
+	if FactionType numidia
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType scythia
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType spain
+		add_religion Lusitanian local 5
+	end_if
+
+	if FactionType thrace
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType alemanni
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType burgundii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType franks
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType goths
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType huns
+		add_religion Hunnic local 5
+	end_if
+
+	if FactionType lombardi
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType ostrogoths
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType roxolani
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType sarmatians
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType saxons
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType slavs
+		add_religion Baltic local 5
+	end_if
+
+	if FactionType vandals
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType nabataea
+		add_religion Arab local 5
+	end_if
+
+	if FactionType acarnania
+		add_religion Greek local 5
+	end_if
+
+	if FactionType pergamon
+		add_religion Greek local 5
+	end_if
+
+	if FactionType libya
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType illyria
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType epirus
+		add_religion Greek local 5
+	end_if
+
+	if FactionType athens
+		add_religion Greek local 5
+	end_if
+
+	if FactionType bosporus
+		add_religion Greek local 5
+	end_if
+
+	if FactionType massalia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType syracuse
+		add_religion Greek local 5
+	end_if
+
+	if FactionType cyrene
+		add_religion Greek local 5
+	end_if
+
+	if FactionType celtiberia
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType galatia
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType saka
+		add_religion Saka local 5
+	end_if
+
+	if FactionType caledonia
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType persia
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType etruscans
+		add_religion Etruscan local 5
+	end_if
+
+	if FactionType brutii
+		add_religion Italic local 5
+	end_if
+
+	if FactionType lucani
+		add_religion Italic local 5
+	end_if
+
+	if FactionType mamertines
+		add_religion Italic local 5
+	end_if
+
+	if FactionType paeligni
+		add_religion Italic local 5
+	end_if
+
+	if FactionType picentes
+		add_religion Italic local 5
+	end_if
+
+	if FactionType sabines
+		add_religion Italic local 5
+	end_if
+
+	if FactionType samnites
+		add_religion Italic local 5
+	end_if
+
+	if FactionType umbri
+		add_religion Italic local 5
+	end_if
+
+	if FactionType volsci
+		add_religion Italic local 5
+	end_if
+
+	if FactionType akragas
+		add_religion Greek local 5
+	end_if
+
+	if FactionType italiotes
+		add_religion Greek local 5
+	end_if
+
+	if FactionType neapolis
+		add_religion Greek local 5
+	end_if
+
+	if FactionType taras
+		add_religion Greek local 5
+	end_if
+
+	if FactionType messapians
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType histri
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType veneti
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType insubres
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType leponti
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType taurini
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType ligures
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType raeti
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType corsi
+		add_religion Nuragic local 5
+	end_if
+
+	if FactionType iolei
+		add_religion Nuragic local 5
+	end_if
+
+	if FactionType achea
+		add_religion Greek local 5
+	end_if
+
+	if FactionType aetolia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType arcadia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType argos
+		add_religion Greek local 5
+	end_if
+
+	if FactionType boetia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType corinth
+		add_religion Greek local 5
+	end_if
+
+	if FactionType elis
+		add_religion Greek local 5
+	end_if
+
+	if FactionType messene
+		add_religion Greek local 5
+	end_if
+
+	if FactionType gortyn
+		add_religion Greek local 5
+	end_if
+
+	if FactionType knossos
+		add_religion Greek local 5
+	end_if
+
+	if FactionType kydonia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType melos
+		add_religion Greek local 5
+	end_if
+
+	if FactionType rhodes
+		add_religion Greek local 5
+	end_if
+
+	if FactionType thessaly
+		add_religion Greek local 5
+	end_if
+
+	if FactionType paeonia
+		add_religion Paeonian local 5
+	end_if
+
+	if FactionType bithynia
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType byzantion
+		add_religion Greek local 5
+	end_if
+
+	if FactionType triballi
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType tylis
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType ardiaei
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType daorsi
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType balari
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType dardania
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType delmatae
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType breuci
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType daesitiates
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType eravisci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType scordisci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType iazyges
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType anartes
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType apuli
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType biephi
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType buridenses
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType peucitans
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType daunians
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType bastarnae
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType bessi
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType caeni
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType krobyzi
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType atropatene
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType bactria
+		add_religion Greek local 5
+	end_if
+
+	if FactionType cappadocia
+		add_religion Anatolian local 5
+	end_if
+
+	if FactionType cyprus
+		add_religion Greek local 5
+	end_if
+
+	if FactionType albania
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType iberia
+		add_religion Caucasian local 5
+	end_if
+
+	if FactionType palmyra
+		add_religion Assyrian local 5
+	end_if
+
+	if FactionType paphlagonia
+		add_religion Anatolian local 5
+	end_if
+
+	if FactionType chorasmia
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType colchis
+		add_religion Greek local 5
+	end_if
+
+	if FactionType heraclea
+		add_religion Greek local 5
+	end_if
+
+	if FactionType sinope
+		add_religion Greek local 5
+	end_if
+
+	if FactionType brigantes
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType cantiaci
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType corieltauvi
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType demetae
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType dumnonii
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType belgae
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType catuvellauni
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType eblani
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType aedui
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType allobroges
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType bituriges
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType cadurci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType carnutes
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType cavari
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType cenomanni
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType helvetii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType lemovices
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType lexovii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType lingones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType mandubii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType namnetes
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType osismii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType pictones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType redones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType ruteni
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType santones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType segusiavi
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType senones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType sequani
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType turones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType unelli
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType veneti_gaul
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType vivisci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType vocontii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType nori
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType boii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType carni
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType vindelici
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType volcae
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType elusates
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType tarbelli
+		add_religion Aquitanian local 5
+	end_if
+
+	if FactionType anglii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType bructeri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType buri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType chamavi
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType chauci
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType cherusci
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType cimbri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType fosi
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType frisii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType harii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType helisii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType helveconae
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType hermunduri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType heruli
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType juti
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType marcomanni
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType nahanarvali
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType nemetes
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType quadi
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType rugii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType sugambri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType suiones
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType tencteri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType ubii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType vangiones
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType varini
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType aestii
+		add_religion Baltic local 5
+	end_if
+
+	if FactionType venedi
+		add_religion Baltic local 5
+	end_if
+
+	if FactionType atrebates
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType bellovaci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType eburones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType mediomatrici
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType morini
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType parisii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType remi
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType treverii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType nervii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType bastetani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType cessetani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType edetani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType ilercavones
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType ilergetes
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType oretani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType astures
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType cantabri
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType carpetani
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType celtici
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType gallaeci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType vaccaei
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType emporion
+		add_religion Greek local 5
+	end_if
+
+	if FactionType suessiones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType turdetani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType vascones
+		add_religion Aquitanian local 5
+	end_if
+
+	if FactionType vettones
+		add_religion Lusitanian local 5
+	end_if
+
+	if FactionType gaetuli
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType garamantes
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType massylii
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType mauri
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType nasamones
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType gerrha
+		add_religion Arab local 5
+	end_if
+
+	if FactionType hadhramaut
+		add_religion Arab local 5
+	end_if
+
+	if FactionType lihyan
+		add_religion Arab local 5
+	end_if
+
+	if FactionType mascat
+		add_religion Arab local 5
+	end_if
+
+	if FactionType minaea
+		add_religion Arab local 5
+	end_if
+
+	if FactionType saba
+		add_religion Arab local 5
+	end_if
+
+	if FactionType thamud
+		add_religion Arab local 5
+	end_if
+
+	if FactionType qataban
+		add_religion Arab local 5
+	end_if
+
+	if FactionType qedar
+		add_religion Arab local 5
+	end_if
+
+	if FactionType axum
+		add_religion Ethiopian local 5
+	end_if
+
+	if FactionType blemmyes
+		add_religion Nubian local 5
+	end_if
+
+	if FactionType kush
+		add_religion Nubian local 5
+	end_if
+
+	if FactionType india
+		add_religion Indian local 5
+	end_if
+
+	if FactionType chola
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType chera
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType pandya
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType anuradhapura
+		add_religion Indian local 5
+	end_if
+
+	if FactionType ay
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType athiyaman
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType kalinga
+		add_religion Indian local 5
+	end_if
+
+	if FactionType budini
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType dahae
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType massagetae
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType siraces
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType thyssagetae
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType agathyrsi
+		add_religion Tibetan local 5
+	end_if
+
+	if FactionType agyrion
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType ferghana
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType kashgar
+		add_religion Tocharian local 5
+	end_if
+
+	if FactionType aorsi
+		add_religion Tocharian local 5
+	end_if
+
+	if FactionType kucha
+		add_religion Tocharian local 5
+	end_if
+
+	if FactionType slave
+	end_if
+	
+end_monitor
+
+
+
+
+
+
+
+
+
+monitor_event EnslavePopulation
+
+	if FactionType romans_julii
+		add_religion Roman local 25
+	end_if
+
+	if FactionType romans_brutii
+		add_religion Roman local 25
+	end_if
+
+	if FactionType romans_scipii
+		add_religion Roman local 25
+	end_if
+
+	if FactionType romans_senate
+		add_religion Roman local 25
+	end_if
+
+	if FactionType macedon
+		add_religion Greek local 25
+	end_if
+
+	if FactionType egypt
+		add_religion Greek local 25
+	end_if
+
+	if FactionType seleucid
+		add_religion Greek local 25
+	end_if
+
+	if FactionType carthage
+		add_religion Phoenician local 25
+	end_if
+
+	if FactionType parthia
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType pontus
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType gauls
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType germans
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType britons
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType armenia
+		add_religion Armenian local 25
+	end_if
+
+	if FactionType dacia
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType greek_cities
+		add_religion Greek local 25
+	end_if
+
+	if FactionType numidia
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType scythia
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType spain
+		add_religion Lusitanian local 25
+	end_if
+
+	if FactionType thrace
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType alemanni
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType burgundii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType franks
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType goths
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType huns
+		add_religion Hunnic local 25
+	end_if
+
+	if FactionType lombardi
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType ostrogoths
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType roxolani
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType sarmatians
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType saxons
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType slavs
+		add_religion Baltic local 25
+	end_if
+
+	if FactionType vandals
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType nabataea
+		add_religion Arab local 25
+	end_if
+
+	if FactionType acarnania
+		add_religion Greek local 25
+	end_if
+
+	if FactionType pergamon
+		add_religion Greek local 25
+	end_if
+
+	if FactionType libya
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType illyria
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType epirus
+		add_religion Greek local 25
+	end_if
+
+	if FactionType athens
+		add_religion Greek local 25
+	end_if
+
+	if FactionType bosporus
+		add_religion Greek local 25
+	end_if
+
+	if FactionType massalia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType syracuse
+		add_religion Greek local 25
+	end_if
+
+	if FactionType cyrene
+		add_religion Greek local 25
+	end_if
+
+	if FactionType celtiberia
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType galatia
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType saka
+		add_religion Saka local 25
+	end_if
+
+	if FactionType caledonia
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType persia
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType etruscans
+		add_religion Etruscan local 25
+	end_if
+
+	if FactionType brutii
+		add_religion Italic local 25
+	end_if
+
+	if FactionType lucani
+		add_religion Italic local 25
+	end_if
+
+	if FactionType mamertines
+		add_religion Italic local 25
+	end_if
+
+	if FactionType paeligni
+		add_religion Italic local 25
+	end_if
+
+	if FactionType picentes
+		add_religion Italic local 25
+	end_if
+
+	if FactionType sabines
+		add_religion Italic local 25
+	end_if
+
+	if FactionType samnites
+		add_religion Italic local 25
+	end_if
+
+	if FactionType umbri
+		add_religion Italic local 25
+	end_if
+
+	if FactionType volsci
+		add_religion Italic local 25
+	end_if
+
+	if FactionType akragas
+		add_religion Greek local 25
+	end_if
+
+	if FactionType italiotes
+		add_religion Greek local 25
+	end_if
+
+	if FactionType neapolis
+		add_religion Greek local 25
+	end_if
+
+	if FactionType taras
+		add_religion Greek local 25
+	end_if
+
+	if FactionType messapians
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType histri
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType veneti
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType insubres
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType leponti
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType taurini
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType ligures
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType raeti
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType corsi
+		add_religion Nuragic local 25
+	end_if
+
+	if FactionType iolei
+		add_religion Nuragic local 25
+	end_if
+
+	if FactionType achea
+		add_religion Greek local 25
+	end_if
+
+	if FactionType aetolia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType arcadia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType argos
+		add_religion Greek local 25
+	end_if
+
+	if FactionType boetia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType corinth
+		add_religion Greek local 25
+	end_if
+
+	if FactionType elis
+		add_religion Greek local 25
+	end_if
+
+	if FactionType messene
+		add_religion Greek local 25
+	end_if
+
+	if FactionType gortyn
+		add_religion Greek local 25
+	end_if
+
+	if FactionType knossos
+		add_religion Greek local 25
+	end_if
+
+	if FactionType kydonia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType melos
+		add_religion Greek local 25
+	end_if
+
+	if FactionType rhodes
+		add_religion Greek local 25
+	end_if
+
+	if FactionType thessaly
+		add_religion Greek local 25
+	end_if
+
+	if FactionType paeonia
+		add_religion Paeonian local 25
+	end_if
+
+	if FactionType bithynia
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType byzantion
+		add_religion Greek local 25
+	end_if
+
+	if FactionType triballi
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType tylis
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType ardiaei
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType daorsi
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType balari
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType dardania
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType delmatae
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType breuci
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType daesitiates
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType eravisci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType scordisci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType iazyges
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType anartes
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType apuli
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType biephi
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType buridenses
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType peucitans
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType daunians
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType bastarnae
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType bessi
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType caeni
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType krobyzi
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType atropatene
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType bactria
+		add_religion Greek local 25
+	end_if
+
+	if FactionType cappadocia
+		add_religion Anatolian local 25
+	end_if
+
+	if FactionType cyprus
+		add_religion Greek local 25
+	end_if
+
+	if FactionType albania
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType iberia
+		add_religion Caucasian local 25
+	end_if
+
+	if FactionType palmyra
+		add_religion Assyrian local 25
+	end_if
+
+	if FactionType paphlagonia
+		add_religion Anatolian local 25
+	end_if
+
+	if FactionType chorasmia
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType colchis
+		add_religion Greek local 25
+	end_if
+
+	if FactionType heraclea
+		add_religion Greek local 25
+	end_if
+
+	if FactionType sinope
+		add_religion Greek local 25
+	end_if
+
+	if FactionType brigantes
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType cantiaci
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType corieltauvi
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType demetae
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType dumnonii
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType belgae
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType catuvellauni
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType eblani
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType aedui
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType allobroges
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType bituriges
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType cadurci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType carnutes
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType cavari
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType cenomanni
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType helvetii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType lemovices
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType lexovii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType lingones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType mandubii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType namnetes
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType osismii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType pictones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType redones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType ruteni
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType santones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType segusiavi
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType senones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType sequani
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType turones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType unelli
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType veneti_gaul
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType vivisci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType vocontii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType nori
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType boii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType carni
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType vindelici
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType volcae
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType elusates
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType tarbelli
+		add_religion Aquitanian local 25
+	end_if
+
+	if FactionType anglii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType bructeri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType buri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType chamavi
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType chauci
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType cherusci
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType cimbri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType fosi
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType frisii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType harii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType helisii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType helveconae
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType hermunduri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType heruli
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType juti
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType marcomanni
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType nahanarvali
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType nemetes
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType quadi
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType rugii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType sugambri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType suiones
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType tencteri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType ubii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType vangiones
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType varini
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType aestii
+		add_religion Baltic local 25
+	end_if
+
+	if FactionType venedi
+		add_religion Baltic local 25
+	end_if
+
+	if FactionType atrebates
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType bellovaci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType eburones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType mediomatrici
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType morini
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType parisii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType remi
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType treverii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType nervii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType bastetani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType cessetani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType edetani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType ilercavones
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType ilergetes
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType oretani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType astures
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType cantabri
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType carpetani
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType celtici
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType gallaeci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType vaccaei
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType emporion
+		add_religion Greek local 25
+	end_if
+
+	if FactionType suessiones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType turdetani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType vascones
+		add_religion Aquitanian local 25
+	end_if
+
+	if FactionType vettones
+		add_religion Lusitanian local 25
+	end_if
+
+	if FactionType gaetuli
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType garamantes
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType massylii
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType mauri
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType nasamones
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType gerrha
+		add_religion Arab local 25
+	end_if
+
+	if FactionType hadhramaut
+		add_religion Arab local 25
+	end_if
+
+	if FactionType lihyan
+		add_religion Arab local 25
+	end_if
+
+	if FactionType mascat
+		add_religion Arab local 25
+	end_if
+
+	if FactionType minaea
+		add_religion Arab local 25
+	end_if
+
+	if FactionType saba
+		add_religion Arab local 25
+	end_if
+
+	if FactionType thamud
+		add_religion Arab local 25
+	end_if
+
+	if FactionType qataban
+		add_religion Arab local 25
+	end_if
+
+	if FactionType qedar
+		add_religion Arab local 25
+	end_if
+
+	if FactionType axum
+		add_religion Ethiopian local 25
+	end_if
+
+	if FactionType blemmyes
+		add_religion Nubian local 25
+	end_if
+
+	if FactionType kush
+		add_religion Nubian local 25
+	end_if
+
+	if FactionType india
+		add_religion Indian local 25
+	end_if
+
+	if FactionType chola
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType chera
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType pandya
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType anuradhapura
+		add_religion Indian local 25
+	end_if
+
+	if FactionType ay
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType athiyaman
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType kalinga
+		add_religion Indian local 25
+	end_if
+
+	if FactionType budini
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType dahae
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType massagetae
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType siraces
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType thyssagetae
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType agathyrsi
+		add_religion Tibetan local 25
+	end_if
+
+	if FactionType agyrion
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType ferghana
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType kashgar
+		add_religion Tocharian local 25
+	end_if
+
+	if FactionType aorsi
+		add_religion Tocharian local 25
+	end_if
+
+	if FactionType kucha
+		add_religion Tocharian local 25
+	end_if
+
+	if FactionType slave
+	end_if
+	
+end_monitor
+
+
+
+
+
+monitor_event ExterminatePopulation
+
+	if FactionType romans_julii
+		add_religion Roman local 50
+	end_if
+
+	if FactionType romans_brutii
+		add_religion Roman local 50
+	end_if
+
+	if FactionType romans_scipii
+		add_religion Roman local 50
+	end_if
+
+	if FactionType romans_senate
+		add_religion Roman local 50
+	end_if
+
+	if FactionType macedon
+		add_religion Greek local 50
+	end_if
+
+	if FactionType egypt
+		add_religion Greek local 50
+	end_if
+
+	if FactionType seleucid
+		add_religion Greek local 50
+	end_if
+
+	if FactionType carthage
+		add_religion Phoenician local 50
+	end_if
+
+	if FactionType parthia
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType pontus
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType gauls
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType germans
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType britons
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType armenia
+		add_religion Armenian local 50
+	end_if
+
+	if FactionType dacia
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType greek_cities
+		add_religion Greek local 50
+	end_if
+
+	if FactionType numidia
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType scythia
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType spain
+		add_religion Lusitanian local 50
+	end_if
+
+	if FactionType thrace
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType alemanni
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType burgundii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType franks
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType goths
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType huns
+		add_religion Hunnic local 50
+	end_if
+
+	if FactionType lombardi
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType ostrogoths
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType roxolani
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType sarmatians
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType saxons
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType slavs
+		add_religion Baltic local 50
+	end_if
+
+	if FactionType vandals
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType nabataea
+		add_religion Arab local 50
+	end_if
+
+	if FactionType acarnania
+		add_religion Greek local 50
+	end_if
+
+	if FactionType pergamon
+		add_religion Greek local 50
+	end_if
+
+	if FactionType libya
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType illyria
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType epirus
+		add_religion Greek local 50
+	end_if
+
+	if FactionType athens
+		add_religion Greek local 50
+	end_if
+
+	if FactionType bosporus
+		add_religion Greek local 50
+	end_if
+
+	if FactionType massalia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType syracuse
+		add_religion Greek local 50
+	end_if
+
+	if FactionType cyrene
+		add_religion Greek local 50
+	end_if
+
+	if FactionType celtiberia
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType galatia
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType saka
+		add_religion Saka local 50
+	end_if
+
+	if FactionType caledonia
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType persia
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType etruscans
+		add_religion Etruscan local 50
+	end_if
+
+	if FactionType brutii
+		add_religion Italic local 50
+	end_if
+
+	if FactionType lucani
+		add_religion Italic local 50
+	end_if
+
+	if FactionType mamertines
+		add_religion Italic local 50
+	end_if
+
+	if FactionType paeligni
+		add_religion Italic local 50
+	end_if
+
+	if FactionType picentes
+		add_religion Italic local 50
+	end_if
+
+	if FactionType sabines
+		add_religion Italic local 50
+	end_if
+
+	if FactionType samnites
+		add_religion Italic local 50
+	end_if
+
+	if FactionType umbri
+		add_religion Italic local 50
+	end_if
+
+	if FactionType volsci
+		add_religion Italic local 50
+	end_if
+
+	if FactionType akragas
+		add_religion Greek local 50
+	end_if
+
+	if FactionType italiotes
+		add_religion Greek local 50
+	end_if
+
+	if FactionType neapolis
+		add_religion Greek local 50
+	end_if
+
+	if FactionType taras
+		add_religion Greek local 50
+	end_if
+
+	if FactionType messapians
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType histri
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType veneti
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType insubres
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType leponti
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType taurini
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType ligures
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType raeti
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType corsi
+		add_religion Nuragic local 50
+	end_if
+
+	if FactionType iolei
+		add_religion Nuragic local 50
+	end_if
+
+	if FactionType achea
+		add_religion Greek local 50
+	end_if
+
+	if FactionType aetolia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType arcadia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType argos
+		add_religion Greek local 50
+	end_if
+
+	if FactionType boetia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType corinth
+		add_religion Greek local 50
+	end_if
+
+	if FactionType elis
+		add_religion Greek local 50
+	end_if
+
+	if FactionType messene
+		add_religion Greek local 50
+	end_if
+
+	if FactionType gortyn
+		add_religion Greek local 50
+	end_if
+
+	if FactionType knossos
+		add_religion Greek local 50
+	end_if
+
+	if FactionType kydonia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType melos
+		add_religion Greek local 50
+	end_if
+
+	if FactionType rhodes
+		add_religion Greek local 50
+	end_if
+
+	if FactionType thessaly
+		add_religion Greek local 50
+	end_if
+
+	if FactionType paeonia
+		add_religion Paeonian local 50
+	end_if
+
+	if FactionType bithynia
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType byzantion
+		add_religion Greek local 50
+	end_if
+
+	if FactionType triballi
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType tylis
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType ardiaei
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType daorsi
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType balari
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType dardania
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType delmatae
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType breuci
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType daesitiates
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType eravisci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType scordisci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType iazyges
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType anartes
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType apuli
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType biephi
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType buridenses
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType peucitans
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType daunians
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType bastarnae
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType bessi
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType caeni
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType krobyzi
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType atropatene
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType bactria
+		add_religion Greek local 50
+	end_if
+
+	if FactionType cappadocia
+		add_religion Anatolian local 50
+	end_if
+
+	if FactionType cyprus
+		add_religion Greek local 50
+	end_if
+
+	if FactionType albania
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType iberia
+		add_religion Caucasian local 50
+	end_if
+
+	if FactionType palmyra
+		add_religion Assyrian local 50
+	end_if
+
+	if FactionType paphlagonia
+		add_religion Anatolian local 50
+	end_if
+
+	if FactionType chorasmia
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType colchis
+		add_religion Greek local 50
+	end_if
+
+	if FactionType heraclea
+		add_religion Greek local 50
+	end_if
+
+	if FactionType sinope
+		add_religion Greek local 50
+	end_if
+
+	if FactionType brigantes
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType cantiaci
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType corieltauvi
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType demetae
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType dumnonii
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType belgae
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType catuvellauni
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType eblani
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType aedui
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType allobroges
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType bituriges
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType cadurci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType carnutes
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType cavari
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType cenomanni
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType helvetii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType lemovices
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType lexovii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType lingones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType mandubii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType namnetes
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType osismii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType pictones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType redones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType ruteni
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType santones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType segusiavi
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType senones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType sequani
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType turones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType unelli
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType veneti_gaul
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType vivisci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType vocontii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType nori
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType boii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType carni
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType vindelici
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType volcae
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType elusates
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType tarbelli
+		add_religion Aquitanian local 50
+	end_if
+
+	if FactionType anglii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType bructeri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType buri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType chamavi
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType chauci
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType cherusci
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType cimbri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType fosi
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType frisii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType harii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType helisii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType helveconae
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType hermunduri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType heruli
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType juti
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType marcomanni
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType nahanarvali
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType nemetes
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType quadi
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType rugii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType sugambri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType suiones
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType tencteri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType ubii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType vangiones
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType varini
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType aestii
+		add_religion Baltic local 50
+	end_if
+
+	if FactionType venedi
+		add_religion Baltic local 50
+	end_if
+
+	if FactionType atrebates
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType bellovaci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType eburones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType mediomatrici
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType morini
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType parisii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType remi
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType treverii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType nervii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType bastetani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType cessetani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType edetani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType ilercavones
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType ilergetes
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType oretani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType astures
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType cantabri
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType carpetani
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType celtici
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType gallaeci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType vaccaei
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType emporion
+		add_religion Greek local 50
+	end_if
+
+	if FactionType suessiones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType turdetani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType vascones
+		add_religion Aquitanian local 50
+	end_if
+
+	if FactionType vettones
+		add_religion Lusitanian local 50
+	end_if
+
+	if FactionType gaetuli
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType garamantes
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType massylii
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType mauri
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType nasamones
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType gerrha
+		add_religion Arab local 50
+	end_if
+
+	if FactionType hadhramaut
+		add_religion Arab local 50
+	end_if
+
+	if FactionType lihyan
+		add_religion Arab local 50
+	end_if
+
+	if FactionType mascat
+		add_religion Arab local 50
+	end_if
+
+	if FactionType minaea
+		add_religion Arab local 50
+	end_if
+
+	if FactionType saba
+		add_religion Arab local 50
+	end_if
+
+	if FactionType thamud
+		add_religion Arab local 50
+	end_if
+
+	if FactionType qataban
+		add_religion Arab local 50
+	end_if
+
+	if FactionType qedar
+		add_religion Arab local 50
+	end_if
+
+	if FactionType axum
+		add_religion Ethiopian local 50
+	end_if
+
+	if FactionType blemmyes
+		add_religion Nubian local 50
+	end_if
+
+	if FactionType kush
+		add_religion Nubian local 50
+	end_if
+
+	if FactionType india
+		add_religion Indian local 50
+	end_if
+
+	if FactionType chola
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType chera
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType pandya
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType anuradhapura
+		add_religion Indian local 50
+	end_if
+
+	if FactionType ay
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType athiyaman
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType kalinga
+		add_religion Indian local 50
+	end_if
+
+	if FactionType budini
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType dahae
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType massagetae
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType siraces
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType thyssagetae
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType agathyrsi
+		add_religion Tibetan local 50
+	end_if
+
+	if FactionType agyrion
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType ferghana
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType kashgar
+		add_religion Tocharian local 50
+	end_if
+
+	if FactionType aorsi
+		add_religion Tocharian local 50
+	end_if
+
+	if FactionType kucha
+		add_religion Tocharian local 50
+	end_if
+
+	if FactionType slave
+	end_if
+	
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;; 10. EDICT SCRIPTS ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Counters
+declare_counter anticorruption_edict_turns
+declare_counter culture_edict_turns
+declare_counter martial_law_edict_turns
+declare_counter recruitment_edict_turns
+declare_counter training_edict_turns
+declare_counter construction_edict_turns
+declare_counter farming_edict_turns
+declare_counter fishing_edict_turns
+declare_counter mining_edict_turns
+declare_counter taxation_edict_turns
+declare_counter trade_edict_turns
+declare_counter trade_fleet_edict_turns
+declare_counter triumph_edict_turns
+declare_counter senate_edict_turns
+
+
+monitor_event SettlementTurnStart TrueCondition
+
+	;;;;; SPECIAL EDICTS
+	
+	;; Triumph edict
+	if SettlementBuildingExists edict_triumph
+		retrieve_counter triumph_edict_turns_city settlement triumph_edict_turns
+		
+		inc_counter triumph_edict_turns 1
+		
+		if I_CompareCounter triumph_edict_turns >= 3
+			destroy_building "local" edict_triumph
+			remove_hidden_resource local triumph_built
+			remove_hidden_resource local triumph_available
+			set_counter triumph_edict_turns 0
+		end_if
+		
+		store_counter triumph_edict_turns settlement triumph_edict_turns_city
+	end_if
+	
+	;; Senate edict
+	if SettlementBuildingExists edict_senate
+		retrieve_counter senate_edict_turns_city settlement senate_edict_turns
+		
+		inc_counter senate_edict_turns 1
+		
+		if I_CompareCounter senate_edict_turns >= 5
+			senate_mission_help_player senate_gratitude
+			destroy_building "local" edict_senate
+			set_counter senate_edict_turns 0
+		end_if
+		
+		store_counter senate_edict_turns settlement senate_edict_turns_city
+	end_if
+	
+
+
+	;;;;; TWO TURN EDICTS
+	
+	;; Martial law edict
+	if SettlementBuildingExists edict_martial_law
+		retrieve_counter martial_law_edict_turns_city settlement martial_law_edict_turns
+		
+		inc_counter martial_law_edict_turns 1
+		
+		if I_CompareCounter martial_law_edict_turns >= 3
+			destroy_building "local" edict_martial_law
+			set_counter martial_law_edict_turns 0
+		end_if
+		
+		store_counter martial_law_edict_turns settlement martial_law_edict_turns_city
+	end_if
+	
+	;; Recruitment edict
+	if SettlementBuildingExists edict_recruitment
+		retrieve_counter recruitment_edict_turns_city settlement recruitment_edict_turns
+		
+		inc_counter recruitment_edict_turns 1
+		
+		if I_CompareCounter recruitment_edict_turns >= 3
+			destroy_building "local" edict_recruitment
+			set_counter recruitment_edict_turns 0
+		end_if
+		
+		store_counter recruitment_edict_turns settlement recruitment_edict_turns_city
+	end_if
+	
+	;; Training edict
+	if SettlementBuildingExists edict_training
+		retrieve_counter training_edict_turns_city settlement training_edict_turns
+		
+		inc_counter training_edict_turns 1
+		
+		if I_CompareCounter training_edict_turns >= 3
+			destroy_building "local" edict_training
+			set_counter training_edict_turns 0
+		end_if
+		
+		store_counter training_edict_turns settlement training_edict_turns_city
+	end_if
+	
+	
+	
+	
+	
+	;;;;; FOUR TURN EDICTS
+	
+	;; Anti-corruption edict
+	if SettlementBuildingExists edict_anticorruption
+		retrieve_counter anticorruption_edict_turns_city settlement anticorruption_edict_turns
+		
+		inc_counter anticorruption_edict_turns 1
+		
+		if I_CompareCounter anticorruption_edict_turns >= 5
+			destroy_building "local" edict_anticorruption
+			set_counter anticorruption_edict_turns 0
+		end_if
+		
+		store_counter anticorruption_edict_turns settlement anticorruption_edict_turns_city
+	end_if
+	
+	;; Culture edict
+	if SettlementBuildingExists edict_culture
+		retrieve_counter culture_edict_turns_city settlement culture_edict_turns
+		
+		inc_counter culture_edict_turns 1
+		
+		if I_CompareCounter culture_edict_turns >= 5
+			destroy_building "local" edict_culture
+			set_counter culture_edict_turns 0
+		end_if
+		
+		store_counter culture_edict_turns settlement culture_edict_turns_city
+	end_if
+	
+	;; Construction edict
+	if SettlementBuildingExists edict_construction
+		retrieve_counter construction_edict_turns_city settlement construction_edict_turns
+		
+		inc_counter construction_edict_turns 1
+		
+		if I_CompareCounter construction_edict_turns >= 5
+			destroy_building "local" edict_construction
+			set_counter construction_edict_turns 0
+		end_if
+		
+		store_counter construction_edict_turns settlement construction_edict_turns_city
+	end_if
+	
+	;; Farming edict
+	if SettlementBuildingExists edict_farming
+		retrieve_counter farming_edict_turns_city settlement farming_edict_turns
+		
+		inc_counter farming_edict_turns 1
+		
+		if I_CompareCounter farming_edict_turns >= 5
+			destroy_building "local" edict_farming
+			set_counter farming_edict_turns 0
+		end_if
+		
+		store_counter farming_edict_turns settlement farming_edict_turns_city
+	end_if
+	
+	;; Fishing edict
+	if SettlementBuildingExists edict_fishing
+		retrieve_counter fishing_edict_turns_city settlement fishing_edict_turns
+		
+		inc_counter fishing_edict_turns 1
+		
+		if I_CompareCounter fishing_edict_turns >= 5
+			destroy_building "local" edict_fishing
+			set_counter fishing_edict_turns 0
+		end_if
+		
+		store_counter fishing_edict_turns settlement fishing_edict_turns_city
+	end_if
+	
+	;; Mining edict
+	if SettlementBuildingExists edict_mining
+		retrieve_counter mining_edict_turns_city settlement mining_edict_turns
+		
+		inc_counter mining_edict_turns 1
+		
+		if I_CompareCounter mining_edict_turns >= 5
+			destroy_building "local" edict_mining
+			set_counter mining_edict_turns 0
+		end_if
+		
+		store_counter mining_edict_turns settlement mining_edict_turns_city
+	end_if
+	
+	;; Taxation edict
+	if SettlementBuildingExists edict_taxation
+		retrieve_counter taxation_edict_turns_city settlement taxation_edict_turns
+		
+		inc_counter taxation_edict_turns 1
+		
+		if I_CompareCounter taxation_edict_turns >= 5
+			destroy_building "local" edict_taxation
+			set_counter taxation_edict_turns 0
+		end_if
+		
+		store_counter taxation_edict_turns settlement taxation_edict_turns_city
+	end_if
+	
+	;; Land Trade edict
+	if SettlementBuildingExists edict_trade
+		retrieve_counter trade_edict_turns_city settlement trade_edict_turns
+		
+		inc_counter trade_edict_turns 1
+		
+		if I_CompareCounter trade_edict_turns >= 5
+			destroy_building "local" edict_trade
+			set_counter trade_edict_turns 0
+		end_if
+		
+		store_counter trade_edict_turns settlement trade_edict_turns_city
+	end_if
+	
+	;; Sea Trade edict
+	if SettlementBuildingExists edict_trade_fleet
+		retrieve_counter trade_fleet_edict_turns_city settlement trade_fleet_edict_turns
+		
+		inc_counter trade_fleet_edict_turns 1
+		
+		if I_CompareCounter trade_fleet_edict_turns >= 5
+			destroy_building "local" edict_trade_fleet
+			set_counter trade_fleet_edict_turns 0
+		end_if
+		
+		store_counter trade_fleet_edict_turns settlement trade_fleet_edict_turns_city
+	end_if
+	
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;11. TRIUMPH, SENATE SCRIPTS ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;; TRIUMPH STUFF
+
+;;;; Give triumph hidden resource if triumph has been built
+monitor_event SettlementTurnStart TrueCondition
+	if SettlementBuildingExists = edict_triumph
+	&& not HasResource triumph_built
+		senate_mission_help_player throw_games
+		add_hidden_resource local triumph_built
+	end_if
+end_monitor
+
+;;;; Give triumph availability if wonder captured (by general)
+monitor_event GeneralCaptureWonder FactionIsLocal
+	for_each settlement in faction
+		if HasResource capital
+		&& not HasResource triumph_available
+		&& not HasResource triumph_built
+		&& not SettlementBuildingExists = edict_triumph
+			add_hidden_resource local triumph_available
+		end_if
+	end_for
+end_monitor
+
+;;;; Give triumph availability if Pontifex office acquired
+monitor_event TakeOffice FactionIsLocal HasOffice PontifexMaximus
+	for_each settlement in faction
+		if HasResource capital
+		&& not HasResource triumph_available
+		&& not HasResource triumph_built
+		&& not SettlementBuildingExists = edict_triumph
+			add_hidden_resource local triumph_available
+		end_if	
+	end_for
+end_monitor
+
+;;;; Give triumph availability if faction destroyed (by general)
+monitor_event LeaderDestroyedFaction FactionIsLocal
+	for_each settlement in faction
+		if HasResource capital
+		&& not HasResource triumph_available
+		&& not HasResource triumph_built
+		&& not SettlementBuildingExists = edict_triumph
+			add_hidden_resource local triumph_available
+		end_if	
+	end_for
+end_monitor
+
+;;;; Give triumph availability if battle won heroicly (by general)
+monitor_event PostBattle FactionIsLocal WonBattle
+
+	;; clear victory against the odds
+	if BattleSuccess >= clear
+	&& BattleOdds > 2
+		
+		for_each settlement in faction
+			if HasResource capital
+			&& not HasResource triumph_available
+			&& not HasResource triumph_built
+			&& not SettlementBuildingExists = edict_triumph
+				add_hidden_resource local triumph_available
+			end_if	
+		end_for
+		
+	end_if
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;; 99. Dagovax plague script ;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;; This has been modified for MV to ignore settlements with healing temples
+;;;; Search "Mundum vincere additions"
 
 ;;;;*************************************************************************************************
 ;;;;		Plague Spawner	 ~ (Script Generated using RTW.CampaignTools)
@@ -1778,6 +5052,13 @@ monitor_event FactionTurnEnd FactionType slave
 
 			; Only add plague if current settlement does not already have one
 			if not SettlementHasPlague
+				;;	MUNDUM VINCERE ADDITIONS
+				&& not SettlementBuildingExists = temple_of_healing_shrine
+				&& not SettlementBuildingExists = temple_of_healing_temple
+				&& not SettlementBuildingExists = temple_of_healing_large_temple
+				&& not SettlementBuildingExists = temple_of_healing_awesome_temple
+				&& not SettlementBuildingExists = temple_of_healing_pantheon
+				;; MUNDUM VINCERE ADDITIONS END
 				if I_CompareCounter plague_can_spawn == 1
 					or I_CompareCounter trigger_global_plague == 1
 
@@ -9294,21 +12575,13 @@ end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;9. Shoebopp AI money script;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 while I_TurnNumber < 9999
     suspend_unscripted_advice true
 end_while
 
-end_script
-end_monitor
-
+end_script;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;RELATIONS SETUP END;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;3. COLONIAL RECRUITMENT;;;;;;;
@@ -9337,6 +12610,25 @@ end_monitor
 ;;monitor_event RecruitmentItemClicked RecruitmentItemClicked greek colonist
 ;;	remove_hidden_resource local colonists_recruitable	
 ;;end_monitor
+
+;;detect when a colonist is trained, swap populations
+monitor_event UnitTrained UnitType greek colonist
+	
+	console_command destroy_unit local_settlement "greek colonist" 1
+	console_command add_population local 300
+	add_religion greek local 3
+	
+	remove_hidden_resource local colonists_recruitable
+	add_hidden_resource local colonists_recruited
+	
+	for_each settlement in faction
+		if HasResource capital
+			console_command add_population local -300
+			break
+		end_if
+	end_for
+
+end_monitor
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -9394,6 +12686,7 @@ monitor_event SettlementTurnStart TrueCondition
 		;;;;;;;;;; Also check and delete if owner is not roman
 	
 		if SettlementBuildingExists = roman_civitas
+		
 			if not I_SettlementOwner local = romans_julii
 				&& not I_SettlementOwner local = romans_brutii
 				&& not I_SettlementOwner local = romans_scipii
@@ -9447,6 +12740,7 @@ monitor_event SettlementTurnStart TrueCondition
 		;;;;; Checker for libera building
 		
 		if SettlementBuildingExists = roman_civitas_libera
+		
 			if not I_SettlementOwner local = romans_julii
 				&& not I_SettlementOwner local = romans_brutii
 				&& not I_SettlementOwner local = romans_scipii
@@ -9500,6 +12794,7 @@ monitor_event SettlementTurnStart TrueCondition
 		;;;;; Checker for foederata building
 		
 		if SettlementBuildingExists = roman_civitas_foederata
+		
 			if not I_SettlementOwner local = romans_julii
 				&& not I_SettlementOwner local = romans_brutii
 				&& not I_SettlementOwner local = romans_scipii
@@ -9555,6 +12850,7 @@ monitor_event SettlementTurnStart TrueCondition
 		;;;;; Checker for prefecture building
 		
 		if SettlementBuildingExists = roman_praefectura
+		
 			if not I_SettlementOwner local = romans_julii
 				&& not I_SettlementOwner local = romans_brutii
 				&& not I_SettlementOwner local = romans_scipii
@@ -9616,6 +12912,7 @@ monitor_event SettlementTurnStart TrueCondition
 		;;;;; Checker for municipia building
 		
 		if SettlementBuildingExists = roman_municipium	
+		
 			if not I_SettlementOwner local = romans_julii
 				&& not I_SettlementOwner local = romans_brutii
 				&& not I_SettlementOwner local = romans_scipii
@@ -9670,7 +12967,11 @@ monitor_event SettlementTurnStart TrueCondition
 		end_if
 		
 		
+		
+		;;;;; Checker for municipia building 2
+		
 		if SettlementBuildingExists = roman_municipium_2 
+		
 			if not I_SettlementOwner local = romans_julii
 				&& not I_SettlementOwner local = romans_brutii
 				&& not I_SettlementOwner local = romans_scipii
@@ -9729,6 +13030,7 @@ monitor_event SettlementTurnStart TrueCondition
 		;;;;; Checker for colonia latina building
 		
 		if SettlementBuildingExists = roman_colonia_latina
+		
 			if not I_SettlementOwner local = romans_julii
 				&& not I_SettlementOwner local = romans_brutii
 				&& not I_SettlementOwner local = romans_scipii
@@ -9790,6 +13092,7 @@ monitor_event SettlementTurnStart TrueCondition
 		;;;;; Checker for colonia romana building
 		
 		if SettlementBuildingExists = roman_colonia
+		
 			if not I_SettlementOwner local = romans_julii
 				&& not I_SettlementOwner local = romans_brutii
 				&& not I_SettlementOwner local = romans_scipii
@@ -9846,221 +13149,727 @@ monitor_event SettlementTurnStart TrueCondition
 			end_if
 		end_if
 		
-end_monitor
+;;;end_monitor
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;5b. GREEK GOVT CHECKERS;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-monitor_event SettlementTurnStart TrueCondition
 
-;;;;; Checker for greek phrourion
+
+
+
+
+
+
+
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		;;;;;;5b. GENERIC GOVT CHECKERS;;;;;
+		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 		
-		if SettlementBuildingExists = greek_phrourion
-			if not I_SettlementOwnerCulture local = greek
-				destroy_building "local" greek_phrourion
-				if HasResource greek_phrourion
-					remove_hidden_resource local greek_phrourion
+		;;;;; Checker for military occupation
+		
+		if SettlementBuildingExists = military_occupation		
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
 				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_military_occupation
 			end_if
 			
-			if HasResource greek_katoikia
-				if SettlementBuildingExists = greek_katoikia
-					destroy_building "local" greek_katoikia
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
 				end_if
-				remove_hidden_resource local greek_katoikia
-				add_hidden_resource local greek_phrourion
-			end_if
-			
-			if HasResource greek_klerouchia
-				if SettlementBuildingExists = greek_klerouchia
-					destroy_building "local" greek_klerouchia
-				end_if
-				remove_hidden_resource local greek_klerouchia
+				remove_hidden_resource local gov_early_colony
 				remove_hidden_resource local colonists_recruitable
-				remove_hidden_resource local colonists_recruited
-				add_hidden_resource local greek_phrourion
+				add_hidden_resource local gov_military_occupation
 			end_if
 			
-			if HasResource greek_polis
-				if SettlementBuildingExists = greek_polis
-					destroy_building "local" greek_polis
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
 				end_if
-				remove_hidden_resource local greek_polis
-				add_hidden_resource local greek_phrourion
-			end_if
-			
-			if not HasResource greek_phrourion
-				add_hidden_resource local greek_phrourion
-			end_if
-		end_if
-		
-;;;;; Checker for greek katoikia
-		
-		if SettlementBuildingExists = greek_katoikia
-			if not I_SettlementOwnerCulture local = greek
-				destroy_building "local" greek_katoikia
-				if HasResource greek_katoikia
-					remove_hidden_resource local greek_katoikia
-				end_if
-			end_if
-			
-			if HasResource greek_phrourion
-				if SettlementBuildingExists = greek_phrourion
-					destroy_building "local" greek_phrourion
-				end_if
-				remove_hidden_resource local greek_phrourion
-				add_hidden_resource local greek_katoikia
-			end_if
-			
-			if HasResource greek_klerouchia
-				if SettlementBuildingExists = greek_klerouchia
-					destroy_building "local" greek_klerouchia
-				end_if
-				remove_hidden_resource local greek_klerouchia
+				remove_hidden_resource local gov_full_colony
 				remove_hidden_resource local colonists_recruitable
-				remove_hidden_resource local colonists_recruited
-				add_hidden_resource local greek_katoikia
+				add_hidden_resource local gov_military_occupation
 			end_if
 			
-			if HasResource greek_polis
-				if SettlementBuildingExists = greek_polis
-					destroy_building "local" greek_polis
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
 				end_if
-				remove_hidden_resource local greek_polis
-				add_hidden_resource local greek_katoikia
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_military_occupation
 			end_if
 			
-			if not HasResource greek_katoikia
-				add_hidden_resource local greek_katoikia
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_military_occupation
+			end_if
+			
+			if not HasResource gov_military_occupation
+				add_hidden_resource local gov_military_occupation
 			end_if
 		end_if
 		
-;;;;; Checker for greek klerouchia
 		
-		if SettlementBuildingExists = greek_klerouchia
-			if not I_SettlementOwnerCulture local = greek
-				destroy_building "local" greek_klerouchia
-				if HasResource greek_klerouchia
-					remove_hidden_resource local greek_klerouchia
-					remove_hidden_resource local colonists_recruitable
-					remove_hidden_resource local colonists_recruited
-				end_if
-			end_if
-			
-			if HasResource greek_phrourion
-				if SettlementBuildingExists = greek_phrourion
-					destroy_building "local" greek_phrourion
-				end_if
-				remove_hidden_resource local greek_phrourion
-				add_hidden_resource local greek_klerouchia
-				add_hidden_resource local colonists_recruitable
-			end_if
-			
-			if HasResource greek_katoikia
-				if SettlementBuildingExists = greek_katoikia
-					destroy_building "local" greek_katoikia
-				end_if
-				remove_hidden_resource local greek_katoikia
-				add_hidden_resource local greek_klerouchia
-				add_hidden_resource local colonists_recruitable
-			end_if
-			
-			if HasResource greek_polis
-				if SettlementBuildingExists = greek_polis
-					destroy_building "local" greek_polis
-				end_if
-				remove_hidden_resource local greek_polis
-				add_hidden_resource local greek_klerouchia
-				add_hidden_resource local colonists_recruitable
-			end_if
-			
-			if not HasResource greek_klerouchia
-				add_hidden_resource local greek_klerouchia
-				add_hidden_resource local colonists_recruitable
-			end_if
-		end_if
 		
-;;;;; Checker for greek polis
+		;;;;; Checker for military administration
 		
-		if SettlementBuildingExists = greek_polis
-			if not I_SettlementOwnerCulture local = greek
-				destroy_building "local" greek_polis
-				if HasResource greek_polis
-					remove_hidden_resource local greek_polis
+		if SettlementBuildingExists = military_administration		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
 				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_military_administration
 			end_if
 			
-			if HasResource greek_phrourion
-				if SettlementBuildingExists = greek_phrourion
-					destroy_building "local" greek_phrourion
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
 				end_if
-				remove_hidden_resource local greek_phrourion
-				add_hidden_resource local greek_polis
-			end_if
-			
-			if HasResource greek_katoikia
-				if SettlementBuildingExists = greek_katoikia
-					destroy_building "local" greek_katoikia
-				end_if
-				remove_hidden_resource local greek_katoikia
-				add_hidden_resource local greek_polis
-			end_if
-			
-			if HasResource greek_klerouchia
-				if SettlementBuildingExists = greek_klerouchia
-					destroy_building "local" greek_klerouchia
-				end_if
-				remove_hidden_resource local greek_klerouchia
+				remove_hidden_resource local gov_early_colony
 				remove_hidden_resource local colonists_recruitable
-				remove_hidden_resource local colonists_recruited
-				add_hidden_resource local greek_polis
+				add_hidden_resource local gov_military_administration
 			end_if
 			
-			if not HasResource greek_polis
-				add_hidden_resource local greek_polis
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_military_administration
+			end_if
+			
+			if not HasResource gov_military_administration
+				add_hidden_resource local gov_military_administration
 			end_if
 		end_if
 		
-end_monitor
-
-
-
-;;;;; Automatically delete every government building when a city is captured (inspired by RIS)
-monitor_event GeneralCaptureSettlement
-
-		;;; destroy all greek government buildings
-		destroy_building "local" greek_phrourion
-		destroy_building "local" greek_katoikia
-		destroy_building "local" greek_klerouchia
-		destroy_building "local" greek_polis
-		remove_hidden_resource local greek_phrourion
-		remove_hidden_resource local greek_katoikia
-		remove_hidden_resource local greek_klerouchia
-		remove_hidden_resource local colonists_recruitable
-		remove_hidden_resource local colonists_recruited
-		remove_hidden_resource local greek_polis
 		
-		;;; destroy all roman government buildings if non-roman
-		if not FactionCultureType roman
-			destroy_building "local" roman_praefectura
-			destroy_building "local" roman_civitas
-			destroy_building "local" roman_civitas_libera
-			destroy_building "local" roman_civitas_foederata
-			destroy_building "local" roman_municipium
-			destroy_building "local" roman_municipium_2
-			destroy_building "local" roman_colonia_latina
-			destroy_building "local" roman_colonia
-			destroy_building "local" roman_urbs_roma
-			remove_hidden_resource local roman_praefectura
-			remove_hidden_resource local roman_civitas
-			remove_hidden_resource local roman_municipium
-			remove_hidden_resource local roman_colonia_latina
-			remove_hidden_resource local roman_colonia
+		
+		;;;;; Checker for early colony
+		
+		if SettlementBuildingExists = early_colony		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if not HasResource gov_early_colony
+				add_hidden_resource local gov_early_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
 		end_if
 		
-		;;; remove capital resource
-		remove_hidden_resource local capital
+		
+		
+		;;;;; Checker for full colony
+		
+		if SettlementBuildingExists = full_colony		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+			
+			if not HasResource gov_full_colony
+				add_hidden_resource local gov_full_colony
+				add_hidden_resource local colonists_recruitable
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for integrated state
+		
+		if SettlementBuildingExists = integrated_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_integrated_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+			
+			if not HasResource gov_integrated_state
+				add_hidden_resource local gov_integrated_state
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for core state
+		
+		if SettlementBuildingExists = core_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_core_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_core_state
+			end_if
+			
+			if not HasResource gov_core_state
+				add_hidden_resource local gov_core_state
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for free state
+		
+		if SettlementBuildingExists = free_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_free_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_free_state
+			end_if
+			
+			if not HasResource gov_free_state
+				add_hidden_resource local gov_free_state
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for allied state
+		
+		if SettlementBuildingExists = allied_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_allied_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if HasResource gov_tributary_state
+				if SettlementBuildingExists = tributary_state
+					destroy_building "local" tributary_state
+				end_if
+				remove_hidden_resource local gov_tributary_state
+				add_hidden_resource local gov_allied_state
+			end_if
+			
+			if not HasResource gov_allied_state
+				add_hidden_resource local gov_allied_state
+			end_if
+		end_if
+		
+		
+		
+		;;;;; Checker for tributary state
+		
+		if SettlementBuildingExists = tributary_state		
+		
+			if HasResource gov_military_occupation
+				if SettlementBuildingExists = military_occupation
+					destroy_building "local" military_occupation
+				end_if
+				remove_hidden_resource local gov_military_occupation
+				add_hidden_resource local gov_tributary_state
+			end_if
+		
+			if HasResource gov_military_administration
+				if SettlementBuildingExists = military_administration
+					destroy_building "local" military_administration
+				end_if
+				remove_hidden_resource local gov_military_administration
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_early_colony
+				if SettlementBuildingExists = early_colony
+					destroy_building "local" early_colony
+				end_if
+				remove_hidden_resource local gov_early_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_full_colony
+				if SettlementBuildingExists = full_colony
+					destroy_building "local" full_colony
+				end_if
+				remove_hidden_resource local gov_full_colony
+				remove_hidden_resource local colonists_recruitable
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_integrated_state
+				if SettlementBuildingExists = integrated_state
+					destroy_building "local" integrated_state
+				end_if
+				remove_hidden_resource local gov_integrated_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_core_state
+				if SettlementBuildingExists = core_state
+					destroy_building "local" core_state
+				end_if
+				remove_hidden_resource local gov_core_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_free_state
+				if SettlementBuildingExists = free_state
+					destroy_building "local" free_state
+				end_if
+				remove_hidden_resource local gov_free_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if HasResource gov_allied_state
+				if SettlementBuildingExists = allied_state
+					destroy_building "local" allied_state
+				end_if
+				remove_hidden_resource local gov_allied_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+			
+			if not HasResource gov_tributary_state
+				add_hidden_resource local gov_tributary_state
+			end_if
+		end_if
 		
 end_monitor
 
@@ -10123,8 +13932,3491 @@ end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;; 8. Dagovax plague script ;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;; 8. GOVERNMENT BUILDING DESTRUCTION ;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;; Automatically delete every government building when a city is captured (inspired by RIS)
+monitor_event GeneralCaptureSettlement
+
+		;;; destroy all generic government buildings
+		destroy_building "local" military_occupation
+		destroy_building "local" military_administration
+		destroy_building "local" early_colony
+		destroy_building "local" full_colony
+		destroy_building "local" integrated_state
+		destroy_building "local" core_state
+		destroy_building "local" free_state
+		destroy_building "local" allied_state
+		destroy_building "local" tributary_state
+		remove_hidden_resource local gov_military_occupation
+		remove_hidden_resource local gov_military_administration
+		remove_hidden_resource local gov_early_colony
+		remove_hidden_resource local gov_full_colony
+		remove_hidden_resource local gov_integrated_state
+		remove_hidden_resource local gov_core_state
+		remove_hidden_resource local gov_free_state
+		remove_hidden_resource local gov_allied_state
+		remove_hidden_resource local gov_tributary_state
+		
+		
+		;;; destroy all roman government buildings if non-roman
+		if not FactionCultureType roman
+			destroy_building "local" roman_praefectura
+			destroy_building "local" roman_civitas
+			destroy_building "local" roman_civitas_libera
+			destroy_building "local" roman_civitas_foederata
+			destroy_building "local" roman_municipium
+			destroy_building "local" roman_municipium_2
+			destroy_building "local" roman_colonia_latina
+			destroy_building "local" roman_colonia
+			destroy_building "local" roman_urbs_roma
+			remove_hidden_resource local roman_praefectura
+			remove_hidden_resource local roman_civitas
+			remove_hidden_resource local roman_municipium
+			remove_hidden_resource local roman_colonia_latina
+			remove_hidden_resource local roman_colonia
+		end_if
+		
+		;;; remove capital resource
+		remove_hidden_resource local capital
+		
+		;;; destroy all enacted law buildings
+		destroy_building "local" edict_triumph
+		remove_hidden_resource local triumph_available
+		remove_hidden_resource local triumph_built
+		destroy_building "local" edict_senate
+		destroy_building "local" edict_anticorruption
+		destroy_building "local" edict_culture
+		destroy_building "local" edict_martial_law
+		destroy_building "local" edict_recruitment
+		destroy_building "local" edict_training
+		destroy_building "local" edict_construction
+		destroy_building "local" edict_farming
+		destroy_building "local" edict_fishing
+		destroy_building "local" edict_mining
+		destroy_building "local" edict_taxation
+		destroy_building "local" edict_trade
+		destroy_building "local" edict_trade_fleet
+		remove_hidden_resource local colonists_recruited
+		remove_hidden_resource local colonists_recruitable
+		
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;; 9. Sack, enslavement and extermination culture scripts ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event CitySacked
+
+	if FactionType romans_julii
+		add_religion Roman local 5
+	end_if
+
+	if FactionType romans_brutii
+		add_religion Roman local 5
+	end_if
+
+	if FactionType romans_scipii
+		add_religion Roman local 5
+	end_if
+
+	if FactionType romans_senate
+		add_religion Roman local 5
+	end_if
+
+	if FactionType macedon
+		add_religion Greek local 5
+	end_if
+
+	if FactionType egypt
+		add_religion Greek local 5
+	end_if
+
+	if FactionType seleucid
+		add_religion Greek local 5
+	end_if
+
+	if FactionType carthage
+		add_religion Phoenician local 5
+	end_if
+
+	if FactionType parthia
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType pontus
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType gauls
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType germans
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType britons
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType armenia
+		add_religion Armenian local 5
+	end_if
+
+	if FactionType dacia
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType greek_cities
+		add_religion Greek local 5
+	end_if
+
+	if FactionType numidia
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType scythia
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType spain
+		add_religion Lusitanian local 5
+	end_if
+
+	if FactionType thrace
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType alemanni
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType burgundii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType franks
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType goths
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType huns
+		add_religion Hunnic local 5
+	end_if
+
+	if FactionType lombardi
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType ostrogoths
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType roxolani
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType sarmatians
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType saxons
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType slavs
+		add_religion Baltic local 5
+	end_if
+
+	if FactionType vandals
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType nabataea
+		add_religion Arab local 5
+	end_if
+
+	if FactionType acarnania
+		add_religion Greek local 5
+	end_if
+
+	if FactionType pergamon
+		add_religion Greek local 5
+	end_if
+
+	if FactionType libya
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType illyria
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType epirus
+		add_religion Greek local 5
+	end_if
+
+	if FactionType athens
+		add_religion Greek local 5
+	end_if
+
+	if FactionType bosporus
+		add_religion Greek local 5
+	end_if
+
+	if FactionType massalia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType syracuse
+		add_religion Greek local 5
+	end_if
+
+	if FactionType cyrene
+		add_religion Greek local 5
+	end_if
+
+	if FactionType celtiberia
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType galatia
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType saka
+		add_religion Saka local 5
+	end_if
+
+	if FactionType caledonia
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType persia
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType etruscans
+		add_religion Etruscan local 5
+	end_if
+
+	if FactionType brutii
+		add_religion Italic local 5
+	end_if
+
+	if FactionType lucani
+		add_religion Italic local 5
+	end_if
+
+	if FactionType mamertines
+		add_religion Italic local 5
+	end_if
+
+	if FactionType paeligni
+		add_religion Italic local 5
+	end_if
+
+	if FactionType picentes
+		add_religion Italic local 5
+	end_if
+
+	if FactionType sabines
+		add_religion Italic local 5
+	end_if
+
+	if FactionType samnites
+		add_religion Italic local 5
+	end_if
+
+	if FactionType umbri
+		add_religion Italic local 5
+	end_if
+
+	if FactionType volsci
+		add_religion Italic local 5
+	end_if
+
+	if FactionType akragas
+		add_religion Greek local 5
+	end_if
+
+	if FactionType italiotes
+		add_religion Greek local 5
+	end_if
+
+	if FactionType neapolis
+		add_religion Greek local 5
+	end_if
+
+	if FactionType taras
+		add_religion Greek local 5
+	end_if
+
+	if FactionType messapians
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType histri
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType veneti
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType insubres
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType leponti
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType taurini
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType ligures
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType raeti
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType corsi
+		add_religion Nuragic local 5
+	end_if
+
+	if FactionType iolei
+		add_religion Nuragic local 5
+	end_if
+
+	if FactionType achea
+		add_religion Greek local 5
+	end_if
+
+	if FactionType aetolia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType arcadia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType argos
+		add_religion Greek local 5
+	end_if
+
+	if FactionType boetia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType corinth
+		add_religion Greek local 5
+	end_if
+
+	if FactionType elis
+		add_religion Greek local 5
+	end_if
+
+	if FactionType messene
+		add_religion Greek local 5
+	end_if
+
+	if FactionType gortyn
+		add_religion Greek local 5
+	end_if
+
+	if FactionType knossos
+		add_religion Greek local 5
+	end_if
+
+	if FactionType kydonia
+		add_religion Greek local 5
+	end_if
+
+	if FactionType melos
+		add_religion Greek local 5
+	end_if
+
+	if FactionType rhodes
+		add_religion Greek local 5
+	end_if
+
+	if FactionType thessaly
+		add_religion Greek local 5
+	end_if
+
+	if FactionType paeonia
+		add_religion Paeonian local 5
+	end_if
+
+	if FactionType bithynia
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType byzantion
+		add_religion Greek local 5
+	end_if
+
+	if FactionType triballi
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType tylis
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType ardiaei
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType daorsi
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType balari
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType dardania
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType delmatae
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType breuci
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType daesitiates
+		add_religion Illyrian local 5
+	end_if
+
+	if FactionType eravisci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType scordisci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType iazyges
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType anartes
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType apuli
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType biephi
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType buridenses
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType peucitans
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType daunians
+		add_religion Dacian local 5
+	end_if
+
+	if FactionType bastarnae
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType bessi
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType caeni
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType krobyzi
+		add_religion Thracian local 5
+	end_if
+
+	if FactionType atropatene
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType bactria
+		add_religion Greek local 5
+	end_if
+
+	if FactionType cappadocia
+		add_religion Anatolian local 5
+	end_if
+
+	if FactionType cyprus
+		add_religion Greek local 5
+	end_if
+
+	if FactionType albania
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType iberia
+		add_religion Caucasian local 5
+	end_if
+
+	if FactionType palmyra
+		add_religion Assyrian local 5
+	end_if
+
+	if FactionType paphlagonia
+		add_religion Anatolian local 5
+	end_if
+
+	if FactionType chorasmia
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType colchis
+		add_religion Greek local 5
+	end_if
+
+	if FactionType heraclea
+		add_religion Greek local 5
+	end_if
+
+	if FactionType sinope
+		add_religion Greek local 5
+	end_if
+
+	if FactionType brigantes
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType cantiaci
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType corieltauvi
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType demetae
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType dumnonii
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType belgae
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType catuvellauni
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType eblani
+		add_religion Brittonic local 5
+	end_if
+
+	if FactionType aedui
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType allobroges
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType bituriges
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType cadurci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType carnutes
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType cavari
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType cenomanni
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType helvetii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType lemovices
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType lexovii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType lingones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType mandubii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType namnetes
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType osismii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType pictones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType redones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType ruteni
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType santones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType segusiavi
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType senones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType sequani
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType turones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType unelli
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType veneti_gaul
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType vivisci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType vocontii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType nori
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType boii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType carni
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType vindelici
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType volcae
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType elusates
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType tarbelli
+		add_religion Aquitanian local 5
+	end_if
+
+	if FactionType anglii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType bructeri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType buri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType chamavi
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType chauci
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType cherusci
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType cimbri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType fosi
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType frisii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType harii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType helisii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType helveconae
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType hermunduri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType heruli
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType juti
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType marcomanni
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType nahanarvali
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType nemetes
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType quadi
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType rugii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType sugambri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType suiones
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType tencteri
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType ubii
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType vangiones
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType varini
+		add_religion Germanic local 5
+	end_if
+
+	if FactionType aestii
+		add_religion Baltic local 5
+	end_if
+
+	if FactionType venedi
+		add_religion Baltic local 5
+	end_if
+
+	if FactionType atrebates
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType bellovaci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType eburones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType mediomatrici
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType morini
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType parisii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType remi
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType treverii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType nervii
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType bastetani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType cessetani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType edetani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType ilercavones
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType ilergetes
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType oretani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType astures
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType cantabri
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType carpetani
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType celtici
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType gallaeci
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType vaccaei
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType emporion
+		add_religion Greek local 5
+	end_if
+
+	if FactionType suessiones
+		add_religion Celtic local 5
+	end_if
+
+	if FactionType turdetani
+		add_religion Iberian local 5
+	end_if
+
+	if FactionType vascones
+		add_religion Aquitanian local 5
+	end_if
+
+	if FactionType vettones
+		add_religion Lusitanian local 5
+	end_if
+
+	if FactionType gaetuli
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType garamantes
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType massylii
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType mauri
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType nasamones
+		add_religion Numidian local 5
+	end_if
+
+	if FactionType gerrha
+		add_religion Arab local 5
+	end_if
+
+	if FactionType hadhramaut
+		add_religion Arab local 5
+	end_if
+
+	if FactionType lihyan
+		add_religion Arab local 5
+	end_if
+
+	if FactionType mascat
+		add_religion Arab local 5
+	end_if
+
+	if FactionType minaea
+		add_religion Arab local 5
+	end_if
+
+	if FactionType saba
+		add_religion Arab local 5
+	end_if
+
+	if FactionType thamud
+		add_religion Arab local 5
+	end_if
+
+	if FactionType qataban
+		add_religion Arab local 5
+	end_if
+
+	if FactionType qedar
+		add_religion Arab local 5
+	end_if
+
+	if FactionType axum
+		add_religion Ethiopian local 5
+	end_if
+
+	if FactionType blemmyes
+		add_religion Nubian local 5
+	end_if
+
+	if FactionType kush
+		add_religion Nubian local 5
+	end_if
+
+	if FactionType india
+		add_religion Indian local 5
+	end_if
+
+	if FactionType chola
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType chera
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType pandya
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType anuradhapura
+		add_religion Indian local 5
+	end_if
+
+	if FactionType ay
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType athiyaman
+		add_religion Dravidian local 5
+	end_if
+
+	if FactionType kalinga
+		add_religion Indian local 5
+	end_if
+
+	if FactionType budini
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType dahae
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType massagetae
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType siraces
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType thyssagetae
+		add_religion Scythian local 5
+	end_if
+
+	if FactionType agathyrsi
+		add_religion Tibetan local 5
+	end_if
+
+	if FactionType agyrion
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType ferghana
+		add_religion Iranian local 5
+	end_if
+
+	if FactionType kashgar
+		add_religion Tocharian local 5
+	end_if
+
+	if FactionType aorsi
+		add_religion Tocharian local 5
+	end_if
+
+	if FactionType kucha
+		add_religion Tocharian local 5
+	end_if
+
+	if FactionType slave
+	end_if
+	
+end_monitor
+
+
+
+
+
+
+
+
+
+monitor_event EnslavePopulation
+
+	if FactionType romans_julii
+		add_religion Roman local 25
+	end_if
+
+	if FactionType romans_brutii
+		add_religion Roman local 25
+	end_if
+
+	if FactionType romans_scipii
+		add_religion Roman local 25
+	end_if
+
+	if FactionType romans_senate
+		add_religion Roman local 25
+	end_if
+
+	if FactionType macedon
+		add_religion Greek local 25
+	end_if
+
+	if FactionType egypt
+		add_religion Greek local 25
+	end_if
+
+	if FactionType seleucid
+		add_religion Greek local 25
+	end_if
+
+	if FactionType carthage
+		add_religion Phoenician local 25
+	end_if
+
+	if FactionType parthia
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType pontus
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType gauls
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType germans
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType britons
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType armenia
+		add_religion Armenian local 25
+	end_if
+
+	if FactionType dacia
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType greek_cities
+		add_religion Greek local 25
+	end_if
+
+	if FactionType numidia
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType scythia
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType spain
+		add_religion Lusitanian local 25
+	end_if
+
+	if FactionType thrace
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType alemanni
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType burgundii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType franks
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType goths
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType huns
+		add_religion Hunnic local 25
+	end_if
+
+	if FactionType lombardi
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType ostrogoths
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType roxolani
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType sarmatians
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType saxons
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType slavs
+		add_religion Baltic local 25
+	end_if
+
+	if FactionType vandals
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType nabataea
+		add_religion Arab local 25
+	end_if
+
+	if FactionType acarnania
+		add_religion Greek local 25
+	end_if
+
+	if FactionType pergamon
+		add_religion Greek local 25
+	end_if
+
+	if FactionType libya
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType illyria
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType epirus
+		add_religion Greek local 25
+	end_if
+
+	if FactionType athens
+		add_religion Greek local 25
+	end_if
+
+	if FactionType bosporus
+		add_religion Greek local 25
+	end_if
+
+	if FactionType massalia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType syracuse
+		add_religion Greek local 25
+	end_if
+
+	if FactionType cyrene
+		add_religion Greek local 25
+	end_if
+
+	if FactionType celtiberia
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType galatia
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType saka
+		add_religion Saka local 25
+	end_if
+
+	if FactionType caledonia
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType persia
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType etruscans
+		add_religion Etruscan local 25
+	end_if
+
+	if FactionType brutii
+		add_religion Italic local 25
+	end_if
+
+	if FactionType lucani
+		add_religion Italic local 25
+	end_if
+
+	if FactionType mamertines
+		add_religion Italic local 25
+	end_if
+
+	if FactionType paeligni
+		add_religion Italic local 25
+	end_if
+
+	if FactionType picentes
+		add_religion Italic local 25
+	end_if
+
+	if FactionType sabines
+		add_religion Italic local 25
+	end_if
+
+	if FactionType samnites
+		add_religion Italic local 25
+	end_if
+
+	if FactionType umbri
+		add_religion Italic local 25
+	end_if
+
+	if FactionType volsci
+		add_religion Italic local 25
+	end_if
+
+	if FactionType akragas
+		add_religion Greek local 25
+	end_if
+
+	if FactionType italiotes
+		add_religion Greek local 25
+	end_if
+
+	if FactionType neapolis
+		add_religion Greek local 25
+	end_if
+
+	if FactionType taras
+		add_religion Greek local 25
+	end_if
+
+	if FactionType messapians
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType histri
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType veneti
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType insubres
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType leponti
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType taurini
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType ligures
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType raeti
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType corsi
+		add_religion Nuragic local 25
+	end_if
+
+	if FactionType iolei
+		add_religion Nuragic local 25
+	end_if
+
+	if FactionType achea
+		add_religion Greek local 25
+	end_if
+
+	if FactionType aetolia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType arcadia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType argos
+		add_religion Greek local 25
+	end_if
+
+	if FactionType boetia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType corinth
+		add_religion Greek local 25
+	end_if
+
+	if FactionType elis
+		add_religion Greek local 25
+	end_if
+
+	if FactionType messene
+		add_religion Greek local 25
+	end_if
+
+	if FactionType gortyn
+		add_religion Greek local 25
+	end_if
+
+	if FactionType knossos
+		add_religion Greek local 25
+	end_if
+
+	if FactionType kydonia
+		add_religion Greek local 25
+	end_if
+
+	if FactionType melos
+		add_religion Greek local 25
+	end_if
+
+	if FactionType rhodes
+		add_religion Greek local 25
+	end_if
+
+	if FactionType thessaly
+		add_religion Greek local 25
+	end_if
+
+	if FactionType paeonia
+		add_religion Paeonian local 25
+	end_if
+
+	if FactionType bithynia
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType byzantion
+		add_religion Greek local 25
+	end_if
+
+	if FactionType triballi
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType tylis
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType ardiaei
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType daorsi
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType balari
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType dardania
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType delmatae
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType breuci
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType daesitiates
+		add_religion Illyrian local 25
+	end_if
+
+	if FactionType eravisci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType scordisci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType iazyges
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType anartes
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType apuli
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType biephi
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType buridenses
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType peucitans
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType daunians
+		add_religion Dacian local 25
+	end_if
+
+	if FactionType bastarnae
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType bessi
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType caeni
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType krobyzi
+		add_religion Thracian local 25
+	end_if
+
+	if FactionType atropatene
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType bactria
+		add_religion Greek local 25
+	end_if
+
+	if FactionType cappadocia
+		add_religion Anatolian local 25
+	end_if
+
+	if FactionType cyprus
+		add_religion Greek local 25
+	end_if
+
+	if FactionType albania
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType iberia
+		add_religion Caucasian local 25
+	end_if
+
+	if FactionType palmyra
+		add_religion Assyrian local 25
+	end_if
+
+	if FactionType paphlagonia
+		add_religion Anatolian local 25
+	end_if
+
+	if FactionType chorasmia
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType colchis
+		add_religion Greek local 25
+	end_if
+
+	if FactionType heraclea
+		add_religion Greek local 25
+	end_if
+
+	if FactionType sinope
+		add_religion Greek local 25
+	end_if
+
+	if FactionType brigantes
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType cantiaci
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType corieltauvi
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType demetae
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType dumnonii
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType belgae
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType catuvellauni
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType eblani
+		add_religion Brittonic local 25
+	end_if
+
+	if FactionType aedui
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType allobroges
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType bituriges
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType cadurci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType carnutes
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType cavari
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType cenomanni
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType helvetii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType lemovices
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType lexovii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType lingones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType mandubii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType namnetes
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType osismii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType pictones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType redones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType ruteni
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType santones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType segusiavi
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType senones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType sequani
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType turones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType unelli
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType veneti_gaul
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType vivisci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType vocontii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType nori
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType boii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType carni
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType vindelici
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType volcae
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType elusates
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType tarbelli
+		add_religion Aquitanian local 25
+	end_if
+
+	if FactionType anglii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType bructeri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType buri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType chamavi
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType chauci
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType cherusci
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType cimbri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType fosi
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType frisii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType harii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType helisii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType helveconae
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType hermunduri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType heruli
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType juti
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType marcomanni
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType nahanarvali
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType nemetes
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType quadi
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType rugii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType sugambri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType suiones
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType tencteri
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType ubii
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType vangiones
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType varini
+		add_religion Germanic local 25
+	end_if
+
+	if FactionType aestii
+		add_religion Baltic local 25
+	end_if
+
+	if FactionType venedi
+		add_religion Baltic local 25
+	end_if
+
+	if FactionType atrebates
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType bellovaci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType eburones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType mediomatrici
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType morini
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType parisii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType remi
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType treverii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType nervii
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType bastetani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType cessetani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType edetani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType ilercavones
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType ilergetes
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType oretani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType astures
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType cantabri
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType carpetani
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType celtici
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType gallaeci
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType vaccaei
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType emporion
+		add_religion Greek local 25
+	end_if
+
+	if FactionType suessiones
+		add_religion Celtic local 25
+	end_if
+
+	if FactionType turdetani
+		add_religion Iberian local 25
+	end_if
+
+	if FactionType vascones
+		add_religion Aquitanian local 25
+	end_if
+
+	if FactionType vettones
+		add_religion Lusitanian local 25
+	end_if
+
+	if FactionType gaetuli
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType garamantes
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType massylii
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType mauri
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType nasamones
+		add_religion Numidian local 25
+	end_if
+
+	if FactionType gerrha
+		add_religion Arab local 25
+	end_if
+
+	if FactionType hadhramaut
+		add_religion Arab local 25
+	end_if
+
+	if FactionType lihyan
+		add_religion Arab local 25
+	end_if
+
+	if FactionType mascat
+		add_religion Arab local 25
+	end_if
+
+	if FactionType minaea
+		add_religion Arab local 25
+	end_if
+
+	if FactionType saba
+		add_religion Arab local 25
+	end_if
+
+	if FactionType thamud
+		add_religion Arab local 25
+	end_if
+
+	if FactionType qataban
+		add_religion Arab local 25
+	end_if
+
+	if FactionType qedar
+		add_religion Arab local 25
+	end_if
+
+	if FactionType axum
+		add_religion Ethiopian local 25
+	end_if
+
+	if FactionType blemmyes
+		add_religion Nubian local 25
+	end_if
+
+	if FactionType kush
+		add_religion Nubian local 25
+	end_if
+
+	if FactionType india
+		add_religion Indian local 25
+	end_if
+
+	if FactionType chola
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType chera
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType pandya
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType anuradhapura
+		add_religion Indian local 25
+	end_if
+
+	if FactionType ay
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType athiyaman
+		add_religion Dravidian local 25
+	end_if
+
+	if FactionType kalinga
+		add_religion Indian local 25
+	end_if
+
+	if FactionType budini
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType dahae
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType massagetae
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType siraces
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType thyssagetae
+		add_religion Scythian local 25
+	end_if
+
+	if FactionType agathyrsi
+		add_religion Tibetan local 25
+	end_if
+
+	if FactionType agyrion
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType ferghana
+		add_religion Iranian local 25
+	end_if
+
+	if FactionType kashgar
+		add_religion Tocharian local 25
+	end_if
+
+	if FactionType aorsi
+		add_religion Tocharian local 25
+	end_if
+
+	if FactionType kucha
+		add_religion Tocharian local 25
+	end_if
+
+	if FactionType slave
+	end_if
+	
+end_monitor
+
+
+
+
+
+monitor_event ExterminatePopulation
+
+	if FactionType romans_julii
+		add_religion Roman local 50
+	end_if
+
+	if FactionType romans_brutii
+		add_religion Roman local 50
+	end_if
+
+	if FactionType romans_scipii
+		add_religion Roman local 50
+	end_if
+
+	if FactionType romans_senate
+		add_religion Roman local 50
+	end_if
+
+	if FactionType macedon
+		add_religion Greek local 50
+	end_if
+
+	if FactionType egypt
+		add_religion Greek local 50
+	end_if
+
+	if FactionType seleucid
+		add_religion Greek local 50
+	end_if
+
+	if FactionType carthage
+		add_religion Phoenician local 50
+	end_if
+
+	if FactionType parthia
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType pontus
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType gauls
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType germans
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType britons
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType armenia
+		add_religion Armenian local 50
+	end_if
+
+	if FactionType dacia
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType greek_cities
+		add_religion Greek local 50
+	end_if
+
+	if FactionType numidia
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType scythia
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType spain
+		add_religion Lusitanian local 50
+	end_if
+
+	if FactionType thrace
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType alemanni
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType burgundii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType franks
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType goths
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType huns
+		add_religion Hunnic local 50
+	end_if
+
+	if FactionType lombardi
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType ostrogoths
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType roxolani
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType sarmatians
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType saxons
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType slavs
+		add_religion Baltic local 50
+	end_if
+
+	if FactionType vandals
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType nabataea
+		add_religion Arab local 50
+	end_if
+
+	if FactionType acarnania
+		add_religion Greek local 50
+	end_if
+
+	if FactionType pergamon
+		add_religion Greek local 50
+	end_if
+
+	if FactionType libya
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType illyria
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType epirus
+		add_religion Greek local 50
+	end_if
+
+	if FactionType athens
+		add_religion Greek local 50
+	end_if
+
+	if FactionType bosporus
+		add_religion Greek local 50
+	end_if
+
+	if FactionType massalia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType syracuse
+		add_religion Greek local 50
+	end_if
+
+	if FactionType cyrene
+		add_religion Greek local 50
+	end_if
+
+	if FactionType celtiberia
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType galatia
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType saka
+		add_religion Saka local 50
+	end_if
+
+	if FactionType caledonia
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType persia
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType etruscans
+		add_religion Etruscan local 50
+	end_if
+
+	if FactionType brutii
+		add_religion Italic local 50
+	end_if
+
+	if FactionType lucani
+		add_religion Italic local 50
+	end_if
+
+	if FactionType mamertines
+		add_religion Italic local 50
+	end_if
+
+	if FactionType paeligni
+		add_religion Italic local 50
+	end_if
+
+	if FactionType picentes
+		add_religion Italic local 50
+	end_if
+
+	if FactionType sabines
+		add_religion Italic local 50
+	end_if
+
+	if FactionType samnites
+		add_religion Italic local 50
+	end_if
+
+	if FactionType umbri
+		add_religion Italic local 50
+	end_if
+
+	if FactionType volsci
+		add_religion Italic local 50
+	end_if
+
+	if FactionType akragas
+		add_religion Greek local 50
+	end_if
+
+	if FactionType italiotes
+		add_religion Greek local 50
+	end_if
+
+	if FactionType neapolis
+		add_religion Greek local 50
+	end_if
+
+	if FactionType taras
+		add_religion Greek local 50
+	end_if
+
+	if FactionType messapians
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType histri
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType veneti
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType insubres
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType leponti
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType taurini
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType ligures
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType raeti
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType corsi
+		add_religion Nuragic local 50
+	end_if
+
+	if FactionType iolei
+		add_religion Nuragic local 50
+	end_if
+
+	if FactionType achea
+		add_religion Greek local 50
+	end_if
+
+	if FactionType aetolia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType arcadia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType argos
+		add_religion Greek local 50
+	end_if
+
+	if FactionType boetia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType corinth
+		add_religion Greek local 50
+	end_if
+
+	if FactionType elis
+		add_religion Greek local 50
+	end_if
+
+	if FactionType messene
+		add_religion Greek local 50
+	end_if
+
+	if FactionType gortyn
+		add_religion Greek local 50
+	end_if
+
+	if FactionType knossos
+		add_religion Greek local 50
+	end_if
+
+	if FactionType kydonia
+		add_religion Greek local 50
+	end_if
+
+	if FactionType melos
+		add_religion Greek local 50
+	end_if
+
+	if FactionType rhodes
+		add_religion Greek local 50
+	end_if
+
+	if FactionType thessaly
+		add_religion Greek local 50
+	end_if
+
+	if FactionType paeonia
+		add_religion Paeonian local 50
+	end_if
+
+	if FactionType bithynia
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType byzantion
+		add_religion Greek local 50
+	end_if
+
+	if FactionType triballi
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType tylis
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType ardiaei
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType daorsi
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType balari
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType dardania
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType delmatae
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType breuci
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType daesitiates
+		add_religion Illyrian local 50
+	end_if
+
+	if FactionType eravisci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType scordisci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType iazyges
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType anartes
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType apuli
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType biephi
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType buridenses
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType peucitans
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType daunians
+		add_religion Dacian local 50
+	end_if
+
+	if FactionType bastarnae
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType bessi
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType caeni
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType krobyzi
+		add_religion Thracian local 50
+	end_if
+
+	if FactionType atropatene
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType bactria
+		add_religion Greek local 50
+	end_if
+
+	if FactionType cappadocia
+		add_religion Anatolian local 50
+	end_if
+
+	if FactionType cyprus
+		add_religion Greek local 50
+	end_if
+
+	if FactionType albania
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType iberia
+		add_religion Caucasian local 50
+	end_if
+
+	if FactionType palmyra
+		add_religion Assyrian local 50
+	end_if
+
+	if FactionType paphlagonia
+		add_religion Anatolian local 50
+	end_if
+
+	if FactionType chorasmia
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType colchis
+		add_religion Greek local 50
+	end_if
+
+	if FactionType heraclea
+		add_religion Greek local 50
+	end_if
+
+	if FactionType sinope
+		add_religion Greek local 50
+	end_if
+
+	if FactionType brigantes
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType cantiaci
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType corieltauvi
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType demetae
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType dumnonii
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType belgae
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType catuvellauni
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType eblani
+		add_religion Brittonic local 50
+	end_if
+
+	if FactionType aedui
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType allobroges
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType bituriges
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType cadurci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType carnutes
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType cavari
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType cenomanni
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType helvetii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType lemovices
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType lexovii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType lingones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType mandubii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType namnetes
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType osismii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType pictones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType redones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType ruteni
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType santones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType segusiavi
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType senones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType sequani
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType turones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType unelli
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType veneti_gaul
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType vivisci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType vocontii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType nori
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType boii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType carni
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType vindelici
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType volcae
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType elusates
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType tarbelli
+		add_religion Aquitanian local 50
+	end_if
+
+	if FactionType anglii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType bructeri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType buri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType chamavi
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType chauci
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType cherusci
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType cimbri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType fosi
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType frisii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType harii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType helisii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType helveconae
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType hermunduri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType heruli
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType juti
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType marcomanni
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType nahanarvali
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType nemetes
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType quadi
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType rugii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType sugambri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType suiones
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType tencteri
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType ubii
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType vangiones
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType varini
+		add_religion Germanic local 50
+	end_if
+
+	if FactionType aestii
+		add_religion Baltic local 50
+	end_if
+
+	if FactionType venedi
+		add_religion Baltic local 50
+	end_if
+
+	if FactionType atrebates
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType bellovaci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType eburones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType mediomatrici
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType morini
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType parisii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType remi
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType treverii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType nervii
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType bastetani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType cessetani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType edetani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType ilercavones
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType ilergetes
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType oretani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType astures
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType cantabri
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType carpetani
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType celtici
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType gallaeci
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType vaccaei
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType emporion
+		add_religion Greek local 50
+	end_if
+
+	if FactionType suessiones
+		add_religion Celtic local 50
+	end_if
+
+	if FactionType turdetani
+		add_religion Iberian local 50
+	end_if
+
+	if FactionType vascones
+		add_religion Aquitanian local 50
+	end_if
+
+	if FactionType vettones
+		add_religion Lusitanian local 50
+	end_if
+
+	if FactionType gaetuli
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType garamantes
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType massylii
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType mauri
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType nasamones
+		add_religion Numidian local 50
+	end_if
+
+	if FactionType gerrha
+		add_religion Arab local 50
+	end_if
+
+	if FactionType hadhramaut
+		add_religion Arab local 50
+	end_if
+
+	if FactionType lihyan
+		add_religion Arab local 50
+	end_if
+
+	if FactionType mascat
+		add_religion Arab local 50
+	end_if
+
+	if FactionType minaea
+		add_religion Arab local 50
+	end_if
+
+	if FactionType saba
+		add_religion Arab local 50
+	end_if
+
+	if FactionType thamud
+		add_religion Arab local 50
+	end_if
+
+	if FactionType qataban
+		add_religion Arab local 50
+	end_if
+
+	if FactionType qedar
+		add_religion Arab local 50
+	end_if
+
+	if FactionType axum
+		add_religion Ethiopian local 50
+	end_if
+
+	if FactionType blemmyes
+		add_religion Nubian local 50
+	end_if
+
+	if FactionType kush
+		add_religion Nubian local 50
+	end_if
+
+	if FactionType india
+		add_religion Indian local 50
+	end_if
+
+	if FactionType chola
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType chera
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType pandya
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType anuradhapura
+		add_religion Indian local 50
+	end_if
+
+	if FactionType ay
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType athiyaman
+		add_religion Dravidian local 50
+	end_if
+
+	if FactionType kalinga
+		add_religion Indian local 50
+	end_if
+
+	if FactionType budini
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType dahae
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType massagetae
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType siraces
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType thyssagetae
+		add_religion Scythian local 50
+	end_if
+
+	if FactionType agathyrsi
+		add_religion Tibetan local 50
+	end_if
+
+	if FactionType agyrion
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType ferghana
+		add_religion Iranian local 50
+	end_if
+
+	if FactionType kashgar
+		add_religion Tocharian local 50
+	end_if
+
+	if FactionType aorsi
+		add_religion Tocharian local 50
+	end_if
+
+	if FactionType kucha
+		add_religion Tocharian local 50
+	end_if
+
+	if FactionType slave
+	end_if
+	
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;; 10. EDICT SCRIPTS ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Counters
+declare_counter anticorruption_edict_turns
+declare_counter culture_edict_turns
+declare_counter martial_law_edict_turns
+declare_counter recruitment_edict_turns
+declare_counter training_edict_turns
+declare_counter construction_edict_turns
+declare_counter farming_edict_turns
+declare_counter fishing_edict_turns
+declare_counter mining_edict_turns
+declare_counter taxation_edict_turns
+declare_counter trade_edict_turns
+declare_counter trade_fleet_edict_turns
+declare_counter triumph_edict_turns
+declare_counter senate_edict_turns
+
+
+monitor_event SettlementTurnStart TrueCondition
+
+	;;;;; SPECIAL EDICTS
+	
+	;; Triumph edict
+	if SettlementBuildingExists edict_triumph
+		retrieve_counter triumph_edict_turns_city settlement triumph_edict_turns
+		
+		inc_counter triumph_edict_turns 1
+		
+		if I_CompareCounter triumph_edict_turns >= 3
+			destroy_building "local" edict_triumph
+			remove_hidden_resource local triumph_built
+			remove_hidden_resource local triumph_available
+			set_counter triumph_edict_turns 0
+		end_if
+		
+		store_counter triumph_edict_turns settlement triumph_edict_turns_city
+	end_if
+	
+	;; Senate edict
+	if SettlementBuildingExists edict_senate
+		retrieve_counter senate_edict_turns_city settlement senate_edict_turns
+		
+		inc_counter senate_edict_turns 1
+		
+		if I_CompareCounter senate_edict_turns >= 5
+			senate_mission_help_player senate_gratitude
+			destroy_building "local" edict_senate
+			set_counter senate_edict_turns 0
+		end_if
+		
+		store_counter senate_edict_turns settlement senate_edict_turns_city
+	end_if
+	
+
+
+	;;;;; TWO TURN EDICTS
+	
+	;; Martial law edict
+	if SettlementBuildingExists edict_martial_law
+		retrieve_counter martial_law_edict_turns_city settlement martial_law_edict_turns
+		
+		inc_counter martial_law_edict_turns 1
+		
+		if I_CompareCounter martial_law_edict_turns >= 3
+			destroy_building "local" edict_martial_law
+			set_counter martial_law_edict_turns 0
+		end_if
+		
+		store_counter martial_law_edict_turns settlement martial_law_edict_turns_city
+	end_if
+	
+	;; Recruitment edict
+	if SettlementBuildingExists edict_recruitment
+		retrieve_counter recruitment_edict_turns_city settlement recruitment_edict_turns
+		
+		inc_counter recruitment_edict_turns 1
+		
+		if I_CompareCounter recruitment_edict_turns >= 3
+			destroy_building "local" edict_recruitment
+			set_counter recruitment_edict_turns 0
+		end_if
+		
+		store_counter recruitment_edict_turns settlement recruitment_edict_turns_city
+	end_if
+	
+	;; Training edict
+	if SettlementBuildingExists edict_training
+		retrieve_counter training_edict_turns_city settlement training_edict_turns
+		
+		inc_counter training_edict_turns 1
+		
+		if I_CompareCounter training_edict_turns >= 3
+			destroy_building "local" edict_training
+			set_counter training_edict_turns 0
+		end_if
+		
+		store_counter training_edict_turns settlement training_edict_turns_city
+	end_if
+	
+	
+	
+	
+	
+	;;;;; FOUR TURN EDICTS
+	
+	;; Anti-corruption edict
+	if SettlementBuildingExists edict_anticorruption
+		retrieve_counter anticorruption_edict_turns_city settlement anticorruption_edict_turns
+		
+		inc_counter anticorruption_edict_turns 1
+		
+		if I_CompareCounter anticorruption_edict_turns >= 5
+			destroy_building "local" edict_anticorruption
+			set_counter anticorruption_edict_turns 0
+		end_if
+		
+		store_counter anticorruption_edict_turns settlement anticorruption_edict_turns_city
+	end_if
+	
+	;; Culture edict
+	if SettlementBuildingExists edict_culture
+		retrieve_counter culture_edict_turns_city settlement culture_edict_turns
+		
+		inc_counter culture_edict_turns 1
+		
+		if I_CompareCounter culture_edict_turns >= 5
+			destroy_building "local" edict_culture
+			set_counter culture_edict_turns 0
+		end_if
+		
+		store_counter culture_edict_turns settlement culture_edict_turns_city
+	end_if
+	
+	;; Construction edict
+	if SettlementBuildingExists edict_construction
+		retrieve_counter construction_edict_turns_city settlement construction_edict_turns
+		
+		inc_counter construction_edict_turns 1
+		
+		if I_CompareCounter construction_edict_turns >= 5
+			destroy_building "local" edict_construction
+			set_counter construction_edict_turns 0
+		end_if
+		
+		store_counter construction_edict_turns settlement construction_edict_turns_city
+	end_if
+	
+	;; Farming edict
+	if SettlementBuildingExists edict_farming
+		retrieve_counter farming_edict_turns_city settlement farming_edict_turns
+		
+		inc_counter farming_edict_turns 1
+		
+		if I_CompareCounter farming_edict_turns >= 5
+			destroy_building "local" edict_farming
+			set_counter farming_edict_turns 0
+		end_if
+		
+		store_counter farming_edict_turns settlement farming_edict_turns_city
+	end_if
+	
+	;; Fishing edict
+	if SettlementBuildingExists edict_fishing
+		retrieve_counter fishing_edict_turns_city settlement fishing_edict_turns
+		
+		inc_counter fishing_edict_turns 1
+		
+		if I_CompareCounter fishing_edict_turns >= 5
+			destroy_building "local" edict_fishing
+			set_counter fishing_edict_turns 0
+		end_if
+		
+		store_counter fishing_edict_turns settlement fishing_edict_turns_city
+	end_if
+	
+	;; Mining edict
+	if SettlementBuildingExists edict_mining
+		retrieve_counter mining_edict_turns_city settlement mining_edict_turns
+		
+		inc_counter mining_edict_turns 1
+		
+		if I_CompareCounter mining_edict_turns >= 5
+			destroy_building "local" edict_mining
+			set_counter mining_edict_turns 0
+		end_if
+		
+		store_counter mining_edict_turns settlement mining_edict_turns_city
+	end_if
+	
+	;; Taxation edict
+	if SettlementBuildingExists edict_taxation
+		retrieve_counter taxation_edict_turns_city settlement taxation_edict_turns
+		
+		inc_counter taxation_edict_turns 1
+		
+		if I_CompareCounter taxation_edict_turns >= 5
+			destroy_building "local" edict_taxation
+			set_counter taxation_edict_turns 0
+		end_if
+		
+		store_counter taxation_edict_turns settlement taxation_edict_turns_city
+	end_if
+	
+	;; Land Trade edict
+	if SettlementBuildingExists edict_trade
+		retrieve_counter trade_edict_turns_city settlement trade_edict_turns
+		
+		inc_counter trade_edict_turns 1
+		
+		if I_CompareCounter trade_edict_turns >= 5
+			destroy_building "local" edict_trade
+			set_counter trade_edict_turns 0
+		end_if
+		
+		store_counter trade_edict_turns settlement trade_edict_turns_city
+	end_if
+	
+	;; Sea Trade edict
+	if SettlementBuildingExists edict_trade_fleet
+		retrieve_counter trade_fleet_edict_turns_city settlement trade_fleet_edict_turns
+		
+		inc_counter trade_fleet_edict_turns 1
+		
+		if I_CompareCounter trade_fleet_edict_turns >= 5
+			destroy_building "local" edict_trade_fleet
+			set_counter trade_fleet_edict_turns 0
+		end_if
+		
+		store_counter trade_fleet_edict_turns settlement trade_fleet_edict_turns_city
+	end_if
+	
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;11. TRIUMPH, SENATE SCRIPTS ;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;; TRIUMPH STUFF
+
+;;;; Give triumph hidden resource if triumph has been built
+monitor_event SettlementTurnStart TrueCondition
+	if SettlementBuildingExists = edict_triumph
+	&& not HasResource triumph_built
+		senate_mission_help_player throw_games
+		add_hidden_resource local triumph_built
+	end_if
+end_monitor
+
+;;;; Give triumph availability if wonder captured (by general)
+monitor_event GeneralCaptureWonder FactionIsLocal
+	for_each settlement in faction
+		if HasResource capital
+		&& not HasResource triumph_available
+		&& not HasResource triumph_built
+		&& not SettlementBuildingExists = edict_triumph
+			add_hidden_resource local triumph_available
+		end_if
+	end_for
+end_monitor
+
+;;;; Give triumph availability if Pontifex office acquired
+monitor_event TakeOffice FactionIsLocal HasOffice PontifexMaximus
+	for_each settlement in faction
+		if HasResource capital
+		&& not HasResource triumph_available
+		&& not HasResource triumph_built
+		&& not SettlementBuildingExists = edict_triumph
+			add_hidden_resource local triumph_available
+		end_if	
+	end_for
+end_monitor
+
+;;;; Give triumph availability if faction destroyed (by general)
+monitor_event LeaderDestroyedFaction FactionIsLocal
+	for_each settlement in faction
+		if HasResource capital
+		&& not HasResource triumph_available
+		&& not HasResource triumph_built
+		&& not SettlementBuildingExists = edict_triumph
+			add_hidden_resource local triumph_available
+		end_if	
+	end_for
+end_monitor
+
+;;;; Give triumph availability if battle won heroicly (by general)
+monitor_event PostBattle FactionIsLocal WonBattle
+
+	;; clear victory against the odds
+	if BattleSuccess >= clear
+	&& BattleOdds > 2
+		
+		for_each settlement in faction
+			if HasResource capital
+			&& not HasResource triumph_available
+			&& not HasResource triumph_built
+			&& not SettlementBuildingExists = edict_triumph
+				add_hidden_resource local triumph_available
+			end_if	
+		end_for
+		
+	end_if
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;; 99. Dagovax plague script ;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;; This has been modified for MV to ignore settlements with healing temples
+;;;; Search "Mundum vincere additions"
 
 ;;;;*************************************************************************************************
 ;;;;		Plague Spawner	 ~ (Script Generated using RTW.CampaignTools)
@@ -10173,6 +17465,7 @@ set_counter global_plague_denominator 6
 
 ; attrition settings
 set_counter enable_attrition 1
+
 
 
 ;##############################################
@@ -10270,6 +17563,13 @@ monitor_event FactionTurnEnd FactionType slave
 
 			; Only add plague if current settlement does not already have one
 			if not SettlementHasPlague
+				;;	MUNDUM VINCERE ADDITIONS
+				&& not SettlementBuildingExists = temple_of_healing_shrine
+				&& not SettlementBuildingExists = temple_of_healing_temple
+				&& not SettlementBuildingExists = temple_of_healing_large_temple
+				&& not SettlementBuildingExists = temple_of_healing_awesome_temple
+				&& not SettlementBuildingExists = temple_of_healing_pantheon
+				;; MUNDUM VINCERE ADDITIONS END
 				if I_CompareCounter plague_can_spawn == 1
 					or I_CompareCounter trigger_global_plague == 1
 
@@ -17785,56 +25085,6 @@ end_monitor
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;9. Shoebopp AI money script;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;monitor_event NewTurnStart
-;;	for_each faction in world
-;;		if not FactionIsLocal
-;;			and not FactionType slave
-;;			declare_counter num_units
-;;			set_counter num_units 0
-;;			for_each unit in faction
-;;				inc_counter num_units 1
-;;			end_for
-;;			declare_counter num_regions
-;;			set_counter num_regions 0
-;;			for_each settlement in faction
-;;				inc_counter num_regions 1
-;;			end_for
-;;			declare_counter units_per_region
-;;			set_counter units_per_region 0
-;;			if I_CompareCounter num_regions > 0
-;;				counter_operation units_per_region = num_units / num_regions
-;;			end_if	 
-;;			if I_CompareCounter units_per_region <= 12
-;;				holding_while Treasury < 20000
-;;					console_command add_money local, 20000
-;;				end_while
-;;				holding_while Treasury > 40000
-;;					console_command add_money local, -20000
-;;				end_while
-;;			end_if	
-;;			if I_CompareCounter units_per_region > 12
-;;				holding_while Treasury < 0
-;;					console_command add_money local, 20000
-;;				end_while
-;;				holding_while Treasury > 20000
-;;					console_command add_money local, -20000
-;;				end_while
-;;			end_if
-;;			for_each settlement in faction
-;;				console_command add_money local, 300
-;;			end_for
-;;		end_if
-;;	end_for
-;;end_monitor
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 while I_TurnNumber < 9999
     suspend_unscripted_advice true

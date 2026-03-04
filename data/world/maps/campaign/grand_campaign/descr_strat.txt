@@ -105,14 +105,8 @@ playable
 	galatia
 	saka
 	caledonia
-	; Generic factions made playable
-	saxons
-	anuradhapura
-	ardiaei
 	bactria
-	boii
-	etruscans
-	saba
+	; Generic factions made playable
 end
 unlockable
 end
@@ -131,6 +125,12 @@ nonplayable
 	chola
 	boetia
 	greek_cities        ; andros
+	saxons
+	anuradhapura
+	ardiaei
+	boii
+	etruscans
+	saba
 	antiochea_taocene
 	psyllia
 	persis
@@ -413,7 +413,7 @@ settlement
 	region Etruria
 
 	year_founded 0
-	population 3100
+	population 3000
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -447,7 +447,7 @@ settlement
 	region Corfinium_R
 
 	year_founded 0
-	population 950
+	population 995
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -481,7 +481,7 @@ settlement
 	region Volaterrae_R
 
 	year_founded 0
-	population 400
+	population 605
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -584,6 +584,10 @@ settlement
 	building
 	{
 		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -729,7 +733,7 @@ unit		roman city militia			exp 0 armour 0 weapon_lvl 0
 
 ;	Ariminum
 character	Sextus JuliusCaesar, named character, age 26, , x 152, y 257
-traits isJuliaGens 1 , GoodCommander 1 , GoodAdministrator 1
+traits isJuliaGens 1 , GoodCommander 2 , GoodAdministrator 2
 army
 unit		roman generals guard cavalry early	exp 0 armour 0 weapon_lvl 0
 unit		roman city militia			exp 0 armour 0 weapon_lvl 0
@@ -798,7 +802,7 @@ relative 	Sextus JuliusCaesar, 	Servia,		Vopiscus JuliusCaesar,	end
 
 faction	romans_brutii, balanced_stalin
 superfaction romans_senate
-denari	135
+denari	100
 settlement
 {
 	level large_town
@@ -871,14 +875,13 @@ settlement
 		type hinterland_farms farms
 	}
 }
-
 settlement
 {
 	level town
 	region Potentia_R
 
 	year_founded 0
-	population 600
+	population 570
 	plan_set default_set
 	faction_creator romans_brutii
 	building
@@ -894,14 +897,13 @@ settlement
 		type defenses wooden_pallisade
 	}
 }
-
 settlement
 {
 	level town
 	region Cosentia_R
 
 	year_founded 0
-	population 350
+	population 340
 	plan_set default_set
 	faction_creator romans_brutii
 	building
@@ -917,7 +919,6 @@ settlement
 		type defenses wooden_pallisade
 	}
 }
-
 settlement
 {
 	level town
@@ -927,10 +928,9 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator romans_brutii
-;;;;;;;;;Garrison;;;;;;;;;
 	building
 	{
-		type hinterland_roman_civitas roman_civitas_foederata
+		type hinterland_roman_colonia_latina roman_colonia_latina
 	}
 	building
 	{
@@ -951,7 +951,6 @@ settlement
 	population 310
 	plan_set default_set
 	faction_creator romans_brutii
-;;;;;;;;;Garrison;;;;;;;;;
 	building
 	{
 		type hinterland_roman_civitas roman_civitas_foederata
@@ -975,7 +974,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator romans_brutii
-;;;;;;;;;Garrison;;;;;;;;;
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -995,7 +993,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator romans_brutii
-;;;;;;;;;Garrison;;;;;;;;;
 	building
 	{
 		type hinterland_roman_civitas roman_civitas
@@ -1146,14 +1143,14 @@ relative 	Marcus JuniusBrutus,		Atia,			Mamerca JuniusBrutus,	end
 
 faction	romans_scipii, bureaucrat_napoleon
 superfaction romans_senate
-denari	165
+denari	100
 settlement
 {
 	level large_town
 	region Campania
 
 	year_founded 0
-	population 4800
+	population 4410
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -1187,7 +1184,7 @@ settlement
 	region Bruttium
 
 	year_founded 0
-	population 2300
+	population 2200
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -1221,7 +1218,7 @@ settlement
 	region Rhegium_R
 
 	year_founded 0
-	population 3000
+	population 2730
 	plan_set default_set
 	faction_creator romans_scipii
 	building
@@ -6517,7 +6514,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Seleucia
-character	SeleucusB Seleucides, named character, heir, age 18, , x 380, y 184
+character	SeleucusB Seleucides, named character, heir, age 18, , x 379, y 189
 traits Aesthetic 2 , GoodAdministrator 4 , Intelligent 3 , Embezzler 1, NaturalMilitarySkill 4 , Warlord 4 , GoodInfantryGeneral 2 , GoodCommander 5
 ancillaries exotic_slave, biographer
 army
@@ -6623,10 +6620,10 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$d/a2 Made-up Characters ----------
 ;	Sardis
-character	Lysias Assandrides, named character, age 25, , x 371, y 299 
+character	Lysias Assandrides, named character, age 25, , x 262, y 221 
 traits GoodCommander 5, GoodAdministrator 2
 army
-unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early	exp 4 armour 0 weapon_lvl 0
 unit		greek cavalry					exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -6634,7 +6631,7 @@ unit		greek peltast					exp 1 armour 0 weapon_lvl 0
 
 ;--------- 4$d/b Generals ----------
 ;	Maroneia
-character	Adaeus Mydides, named character, age 53, , x 344, y 326
+character	Adaeus Mydides, named character, age 53, , x 242, y 242
 traits GoodAdministrator 3, Intelligent 2
 ancillaries poet
 army
@@ -6645,7 +6642,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	outside Maroneia
-character	Pylaemenes Mydides, named character, age 24, , x 345, y 327
+character	Pylaemenes Mydides, named character, age 24, , x 242, y 243
 traits GoodCommander 5, GoodAdministrator 3, Warlord 4 , NaturalMilitarySkill 3
 army
 unit		greek general's guard cavalry early	exp 1 armour 0 weapon_lvl 0
@@ -6683,16 +6680,16 @@ unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$d/e Agents ----------
-;	outside Antioch
-character	Attalus, diplomat, age 20, , x 453, y 278
+;	Antioch
+character	Attalus, diplomat, age 20, , x 322, y 210
 traits GoodDiplomat 5
 
-;	outside Antiochia Margiana
-character	Deimachus, diplomat, age 22, , x 700, y 339
+;	Seleucia
+character	Deimachus, diplomat, age 22, , x 379, y 189
 traits GoodDiplomat 4
 
-;	outside Seleucia
-character	Philip, spy, age 20, , x 536, y 255
+;	Seleucia
+character	Philip, spy, age 20, , x 379, y 189
 traits GoodSpy 3
 
 ;--------- 4$d/f Family Info ----------
