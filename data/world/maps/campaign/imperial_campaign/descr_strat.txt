@@ -66,6 +66,7 @@
 
 ;------------------- 1$ Playable Factions --------------------
 campaign		imperial_campaign
+options bi
 ;;---unused options
 ;;options +defeat_movie_bi_style
 ;;options bi
@@ -357,8 +358,8 @@ trigger_status camillan_reforms, true
 trigger_status antigonid_reforms, true
 rebelling_characters_active
 night_battles_enabled
-brigand_spawn_value 750
-pirate_spawn_value 64
+brigand_spawn_value 800
+pirate_spawn_value 82
 ;;---unused settings
 ;gladiator_uprising_disabled
 ;show_date_as_turns_remaining
@@ -8055,7 +8056,7 @@ relative 	Titus ManliusTorquatus, 	Gaia,		TitusB ManliusTorquatus,	Aulus Manlius
 relative 	TitusB ManliusTorquatus, 	Leontia,		Plautilla ManliusTorquatus,	TitusC ManliusTorquatus,	end
 
 faction	romans_senate, comfortable_napoleon
-denari	500
+denari	400
 settlement
 {
 	level city
@@ -22418,7 +22419,7 @@ settlement
 	region Kelin_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator celtiberia
 	building
@@ -46100,7 +46101,7 @@ unit		greek medium cavalry		exp 8 armour 2 weapon_lvl 3
 unit		greek medium cavalry		exp 8 armour 2 weapon_lvl 3
 unit		greek hoplite		exp 7 armour 2 weapon_lvl 3
 unit		taoceneian irregulars		exp 9 armour 2 weapon_lvl 2
-unit		taoceneian irregulars		exp 0 armour 0 weapon_lvl 0
+unit		taoceneian irregulars		exp 2 armour 0 weapon_lvl 0
 unit		taoceneian irregulars		exp 0 armour 0 weapon_lvl 0
 unit		taoceneian irregulars		exp 0 armour 0 weapon_lvl 0
 unit		taoceneian irregulars		exp 0 armour 0 weapon_lvl 0
@@ -46142,7 +46143,7 @@ denari	-3000
 
 faction	thessaly, greek_passive
 dead_until_resurrected
-denari	-2300
+denari	-2400
 
 faction	akragas, greek_passive
 dead_until_resurrected
@@ -46162,7 +46163,7 @@ denari	-1000
 
 faction	sabines, greek_passive
 dead_until_resurrected
-denari	400
+denari	200
 
 faction	samnites, greek_passive
 dead_until_resurrected
@@ -46186,7 +46187,7 @@ denari	-2000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced_smith
-denari	-39999999999
+denari	-49999999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;

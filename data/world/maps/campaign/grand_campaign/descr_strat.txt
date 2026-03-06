@@ -2323,7 +2323,6 @@ settlement
 	population 160
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
@@ -2397,7 +2396,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -2419,7 +2417,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
@@ -2447,7 +2444,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
@@ -2498,7 +2494,6 @@ settlement
 	population 450
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
@@ -2525,7 +2520,6 @@ settlement
 	population 450
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
@@ -2552,7 +2546,6 @@ settlement
 	population 350
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
@@ -2580,7 +2573,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
@@ -2605,10 +2597,9 @@ settlement
 	region Prosopites_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -2629,10 +2620,9 @@ settlement
 	region Moeris_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -2654,10 +2644,9 @@ settlement
 	region Ancyronpolites_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	egyptian nubian spearmen		exp 0 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -2732,7 +2721,6 @@ settlement
 	population 350
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
@@ -2758,7 +2746,6 @@ settlement
 	population 350
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
@@ -2784,7 +2771,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
@@ -2810,7 +2796,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit	greek hoplite militia		exp 0 armour 0 weapon_lvl 0
 	building
@@ -2833,10 +2818,9 @@ settlement
 	region Syene_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
@@ -2860,10 +2844,9 @@ settlement
 	region MyosHormos_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
@@ -2887,10 +2870,9 @@ settlement
 	region BereniceTroglodytica_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
@@ -2914,10 +2896,9 @@ settlement
 	region Lycopolites_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
@@ -2941,10 +2922,9 @@ settlement
 	region Oasis_Magna_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
@@ -2969,10 +2949,9 @@ settlement
 	region Oasis_Parva_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nubian spearmen			exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
@@ -2994,10 +2973,9 @@ settlement
 	region Pachoras_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nubian spearmen		exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
@@ -3020,10 +2998,9 @@ settlement
 	region BerenicePanchrysos_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nubian spearmen		exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
@@ -3044,10 +3021,9 @@ settlement
 	region ArsinoeClysma_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nubian spearmen		exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nile infantry			exp 2 armour 0 weapon_lvl 0
@@ -3068,10 +3044,9 @@ settlement
 	region Heroopolites_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		egyptian nubian spearmen		exp 2 armour 0 weapon_lvl 0
 	unit		egyptian nubian spearmen		exp 2 armour 0 weapon_lvl 0
@@ -3339,7 +3314,7 @@ settlement
 	region Cnidus_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -3458,160 +3433,7 @@ unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$c/b Generals ----------
 ;--------- 4$c/c Captains ----------
-;------ Levant -------
-;	Byblos
-character	Neferet, general, age 20, , x 318, y 190
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 
-;	ArsinoeClysma
-character	Neferet, general, age 20, , x 302, y 154
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Damascus
-character	Neferet, general, age 20, , x 324, y 186
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Cypsela
-character	Neferet, general, age 20, , x 249, y 242
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Gaza
-character	Neferet, general, age 20, , x 312, y 167
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Rhinokolura
-character	Neferet, general, age 20, , x 436, y 217
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Ioppe
-character	Neferet, general, age 20, , x 444, y 228
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Paneas
-character	Neferet, general, age 20, , x 452, y 242
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Philadelphia
-character	Neferet, general, age 20, , x 323, y 173
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Ptolemais
-character	Neferet, general, age 20, , x 315, y 179
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Tripolis
-character	Neferet, general, age 20, , x 452, y 258
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Tyre
-character	Neferet, general, age 20, , x 448, y 243
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;------ Anatolia -------
-;	Coracesium
-character	Neferet, general, age 20, , x 411, y 279
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Erythrae
-character	Neferet, general, age 20, , x 251, y 218
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Cnidus
-character	Neferet, general, age 20, , x 260, y 205
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Limyra
-character	Neferet, general, age 20, , x 394, y 275
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Perge
-character	Neferet, general, age 20, , x 281, y 210
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Side
-character	Neferet, general, age 20, , x 287, y 209
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;------ Greece / Aegean -------
-;	Ainos
-character	Neferet, general, age 20, , x 350, y 324
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;	Itanos
-character	Neferet, general, age 20, , x 357, y 257
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Mytilene
-character	Neferet, general, age 20, , x 251, y 226
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Samos
-character	Neferet, general, age 20, , x 254, y 214
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-;------ Libya -------
-;	Siwa
-character	Neferet, general, age 20, , x 251, y 143
-army
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Hibis
-character	Neferet, general, age 20, , x 290, y 116
-army
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Zeszes
-character	Neferet, general, age 20, , x 391, y 181
-army
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-
-;------ Misc -------
-;	Ptolemais Theron
-character	Neferet, general, age 20, , x 343, y 73
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
-
-;	Berenice Panchrysos
-character	Neferet, general, age 20, , x 323, y 92
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast					exp 0 armour 0 weapon_lvl 0
 
 ;--------- 4$c/d Admirals ----------
 ;	Itanos Harbor
@@ -3900,7 +3722,6 @@ settlement
 	population 1100
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -3928,7 +3749,6 @@ settlement
 	population 1200
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -3956,7 +3776,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 1
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -3982,7 +3801,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 1
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -4008,7 +3826,6 @@ settlement
 	population 750
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -4034,7 +3851,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4062,7 +3878,6 @@ settlement
 	population 310
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4087,7 +3902,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4109,10 +3923,9 @@ settlement
 	region ApameaZeugma_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 0
 	building
@@ -4133,7 +3946,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4158,7 +3970,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 4 armour 0 weapon_lvl 0
 	building
@@ -4179,7 +3990,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4204,7 +4014,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4226,10 +4035,9 @@ settlement
 	region Ganibatum_R
 
 	year_founded 0
-	population 400
+	population 350
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4250,7 +4058,6 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4271,7 +4078,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4292,7 +4098,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4313,7 +4118,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 0
 	building
@@ -4331,10 +4135,9 @@ settlement
 	region Erana_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 4 armour 0 weapon_lvl 0
 	building
@@ -4355,7 +4158,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4380,7 +4182,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4405,7 +4206,6 @@ settlement
 	population 350
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4426,7 +4226,6 @@ settlement
 	population 230
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -4444,10 +4243,9 @@ settlement
 	region Rhabaine_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
@@ -4468,7 +4266,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
@@ -4489,7 +4286,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4515,7 +4311,6 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4542,7 +4337,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4569,7 +4363,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4593,7 +4386,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4613,10 +4405,9 @@ settlement
 	region Šīsḫimhunna_R
 
 	year_founded 0
-	population 200
+	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
@@ -4638,7 +4429,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4664,7 +4454,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4691,7 +4480,6 @@ settlement
 	population 450
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4719,7 +4507,6 @@ settlement
 	population 1000
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4747,7 +4534,6 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4775,7 +4561,6 @@ settlement
 	population 450
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4803,7 +4588,6 @@ settlement
 	population 1000
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4833,7 +4617,6 @@ settlement
 	population 900
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4860,7 +4643,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4887,7 +4669,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4915,7 +4696,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -4942,7 +4722,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5016,7 +4795,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5043,7 +4821,6 @@ settlement
 	population 1000
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5070,7 +4847,6 @@ settlement
 	population 1030
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5098,7 +4874,6 @@ settlement
 	population 1500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5126,7 +4901,6 @@ settlement
 	population 1200
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5153,7 +4927,6 @@ settlement
 	population 1000
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5181,7 +4954,6 @@ settlement
 	population 750
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5210,7 +4982,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5238,7 +5009,6 @@ settlement
 	population 1200
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5267,7 +5037,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5297,7 +5066,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5326,7 +5094,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
@@ -5348,7 +5115,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5377,7 +5143,6 @@ settlement
 	population 1700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5408,7 +5173,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5430,7 +5194,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5452,7 +5215,6 @@ settlement
 	population 800
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5475,7 +5237,6 @@ settlement
 	population 800
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5498,7 +5259,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5521,7 +5281,6 @@ settlement
 	population 800
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5544,7 +5303,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5567,7 +5325,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5589,7 +5346,6 @@ settlement
 	population 2000
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5618,7 +5374,6 @@ settlement
 	population 1000
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5646,7 +5401,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5668,7 +5422,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5690,7 +5443,6 @@ settlement
 	population 1500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5720,7 +5472,6 @@ settlement
 	population 1100
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -5747,7 +5498,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5769,7 +5519,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
@@ -5792,7 +5541,6 @@ settlement
 	population 1150
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -5820,7 +5568,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5843,7 +5590,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5865,7 +5611,6 @@ settlement
 	population 800
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5887,7 +5632,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5909,7 +5653,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5931,7 +5674,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -5953,7 +5695,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 	building
@@ -5975,7 +5716,6 @@ settlement
 	population 1400
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -6003,7 +5743,6 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -6025,7 +5764,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
@@ -6047,7 +5785,6 @@ settlement
 	population 1000
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -6075,7 +5812,6 @@ settlement
 	population 1200
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -6103,7 +5839,6 @@ settlement
 	population 2340
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -6131,7 +5866,6 @@ settlement
 	population 1000
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -6159,7 +5893,6 @@ settlement
 	population 1000
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -6187,7 +5920,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -6215,7 +5947,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -6241,7 +5972,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -6268,7 +5998,6 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -6290,7 +6019,6 @@ settlement
 	population 450
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 3 armour 0 weapon_lvl 0
 	building
@@ -6312,7 +6040,6 @@ settlement
 	population 700
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	building
@@ -6338,7 +6065,6 @@ settlement
 	population 800
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
@@ -6365,7 +6091,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
@@ -6392,7 +6117,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 2 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -6419,7 +6143,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
@@ -6447,7 +6170,6 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
@@ -6474,7 +6196,6 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator seleucid
-;;;;;;;;;Garrison;;;;;;;;;
 	garrisoned_army
 	unit		greek hoplite militia			exp 1 armour 0 weapon_lvl 0
 	building
