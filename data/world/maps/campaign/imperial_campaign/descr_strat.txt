@@ -8600,7 +8600,7 @@ settlement
 	region Kos_R
 
 	year_founded 0
-	population 310
+	population 300
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
@@ -8651,6 +8651,9 @@ ancillaries shieldbearer
 army
 unit		greek general's guard cavalry early		exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
 unit		greek heavy cavalry					exp 1 armour 0 weapon_lvl 0
@@ -8673,6 +8676,8 @@ traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 2
 ancillaries treasurer
 army
 unit		greek general's guard cavalry early		exp 1 armour 0 weapon_lvl 0
+unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
+unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
 unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
 unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
 unit		greek light lancer					exp 0 armour 0 weapon_lvl 0
