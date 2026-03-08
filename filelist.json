@@ -12272,6 +12272,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/characters\/textures\/carthaginian_cavalry_libya.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/characters\/textures\/carthaginian_cavalry_merc.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -17665,7 +17669,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 1614601083
+		"checksum": 4254626080
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -17693,19 +17697,23 @@
 	},
 	{
 		"filename": "data\/descr_campaigns.txt",
-		"checksum": 2958821516
+		"checksum": 1792126613
 	},
 	{
-		"filename": "data\/descr_campaigns_backup.txt",
+		"filename": "data\/descr_campaigns_temp.txt",
 		"checksum": 2958821516
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 3942657562
+		"checksum": 3462892997
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
 		"checksum": 2038959678
+	},
+	{
+		"filename": "data\/descr_event_images.txt",
+		"checksum": 1335575619
 	},
 	{
 		"filename": "data\/descr_faction_groups.txt",
@@ -17725,7 +17733,7 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 385975281
+		"checksum": 3166224409
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
@@ -17777,7 +17785,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 172229898
+		"checksum": 3749523566
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17793,7 +17801,7 @@
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
-		"checksum": 2781960477
+		"checksum": 1975842212
 	},
 	{
 		"filename": "data\/descr_standards.txt",
@@ -17856,6 +17864,10 @@
 		"checksum": 3372372446
 	},
 	{
+		"filename": "data\/enhanced_tweaks\/rivers_of_blood_rome_edition.json",
+		"checksum": 2076314614
+	},
+	{
 		"filename": "data\/export_descr_buildings.txt",
 		"checksum": 2121723194
 	},
@@ -17869,7 +17881,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 1107862156
+		"checksum": 2974570642
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -17878,6 +17890,14 @@
 	{
 		"filename": "data\/feral_descr_ai_personality.txt",
 		"checksum": 3171064557
+	},
+	{
+		"filename": "data\/feral_textures\/additional_grunge_anim.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/feral_textures\/additional_grunge_anim_n.tga.dds",
+		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/fmv\/atvi_spinning_logo_640x480.webm",
@@ -31516,6 +31536,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/models_unit\/textures\/grunge.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/models_unit\/textures\/indian_chariot.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -31845,11 +31869,11 @@
 	},
 	{
 		"filename": "data\/sounds\/events.dat",
-		"checksum": 699575183
+		"checksum": 3119008884
 	},
 	{
 		"filename": "data\/sounds\/events.idx",
-		"checksum": 2454830579
+		"checksum": 3526115065
 	},
 	{
 		"filename": "data\/sounds\/interface.dat.feral",
@@ -57368,22 +57392,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/unit_info\/_unused\/_old\/assassin_info.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/unit_info\/_unused\/_old\/hellenic_royal_hypaspists_info_ao.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/unit_info\/_unused\/greek_colonist_info_old.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/unit_info\/_unused\/iberian_medium_infantry_info.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/unit_info\/acarnania\/assassin_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -71844,6 +71852,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/libya\/carthaginian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/libya\/carthaginian_medium_cavalry_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -86148,34 +86160,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/units\/_unused\/#generic_thracian.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/units\/_unused\/#greek_bastarnae.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/units\/_unused\/#greek_colonist_old.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/units\/_unused\/#iberian_medium_infantry.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/units\/_unused\/#warband_falx_thracian.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/units\/_unused\/_old\/assassin.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/units\/_unused\/_old\/hellenic_royal_hypaspists_ao.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/units\/acarnania\/#generic_rebel_general.tga",
 		"checksum": "Blacklisted"
 	},
@@ -99704,6 +99688,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/libya\/#carthaginian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/libya\/#carthaginian_medium_cavalry.tga",
 		"checksum": "Blacklisted"
 	},
@@ -112961,7 +112949,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_strat.txt",
-		"checksum": 107202286
+		"checksum": 442412931
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/grand_campaign\/descr_terrain.txt",
@@ -113045,7 +113033,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 356792045
+		"checksum": 409255149
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_events.txt",
@@ -113057,7 +113045,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2984095936
+		"checksum": 971978405
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
