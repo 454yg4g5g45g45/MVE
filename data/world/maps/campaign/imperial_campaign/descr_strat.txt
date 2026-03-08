@@ -7055,7 +7055,7 @@ settlement
 	region Ilva_R
 
 	year_founded 0
-	population 300
+	population 400
 	plan_set default_set
 	faction_creator romans_julii
 	building
@@ -8578,7 +8578,7 @@ settlement
 	region Skyros_R
 
 	year_founded 0
-	population 300
+	population 400
 	plan_set default_set
 	faction_creator macedon
 	garrisoned_army
@@ -8783,7 +8783,7 @@ relative 	Ameinias Iolaides, 	Caleope Antigonides,	end
 
 ;-------------- 4$c - Ptolemaic Egypt ---------------
 faction	egypt, religious_caesar
-denari	2200
+denari	2000
 ;--------- 4$c.a - Lower Egypt ----------
 settlement
 {
@@ -8875,7 +8875,7 @@ settlement
 	region Pelusium_R
 
 	year_founded 0
-	population 2500
+	population 2200
 	plan_set default_set
 	faction_creator egypt
 	building
