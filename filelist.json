@@ -17776,10 +17776,6 @@
 		"checksum": 903235873
 	},
 	{
-		"filename": "data\/descr_senate.txt",
-		"checksum": 1106994444
-	},
-	{
 		"filename": "data\/descr_settlement_plan.txt",
 		"checksum": 2156111818
 	},
@@ -17805,7 +17801,7 @@
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
-		"checksum": 3419360738
+		"checksum": 2858282040
 	},
 	{
 		"filename": "data\/descr_standards.txt",
@@ -112888,8 +112884,8 @@
 		"checksum": 2715582006
 	},
 	{
-		"filename": "data\/world\/maps\/base\/map.rwm",
-		"checksum": 602169923
+		"filename": "data\/world\/maps\/base\/gude-2026-03-08.log",
+		"checksum": 751890393
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -113053,7 +113049,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 1928452806
+		"checksum": 3361744806
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script_backup.txt",
@@ -113069,7 +113065,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2919207867
+		"checksum": 2370368773
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
