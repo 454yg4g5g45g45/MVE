@@ -20217,7 +20217,7 @@ settlement
 	region Tricca_R
 
 	year_founded 0
-	population 1400
+	population 1300
 	plan_set default_set
 	faction_creator thessaly
 	building
@@ -20736,7 +20736,7 @@ unit		naval biremes					exp 6 armour 2 weapon_lvl 3
 unit		naval biremes					exp 2 armour 3 weapon_lvl 3
 unit		naval biremes					exp 9 armour 3 weapon_lvl 3
 unit		naval biremes					exp 4 armour 2 weapon_lvl 3
-unit		naval biremes					exp 4 armour 1 weapon_lvl 3
+unit		naval biremes					exp 5 armour 1 weapon_lvl 3
 unit		naval biremes					exp 5 armour 1 weapon_lvl 2
 
 ;	outside Passaron
@@ -20765,9 +20765,9 @@ unit		greek levy pikemen				exp 8 armour 1 weapon_lvl 3
 unit		greek levy pikemen				exp 8 armour 3 weapon_lvl 3
 unit		greek levy pikemen				exp 9 armour 1 weapon_lvl 3
 unit		merc samnite					exp 9 armour 1 weapon_lvl 2
-unit		merc samnite					exp 7 armour 2 weapon_lvl 2
+unit		merc samnite					exp 7 armour 3 weapon_lvl 2
 unit		greek elephant african			exp 3 armour 1 weapon_lvl 1
-unit		greek archer					exp 9 armour 1 weapon_lvl 3
+unit		greek archer					exp 9 armour 2 weapon_lvl 3
 
 ;	Tricca
 character	Democritus Scopaides, named character, age 41, , x 310, y 307 
@@ -23712,7 +23712,7 @@ settlement
 	region Bagiennium_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator ligures
 	building
@@ -40423,7 +40423,7 @@ settlement
 	region Madhyamika_R
 
 	year_founded 0
-	population 1400
+	population 1000
 	plan_set default_set
 	faction_creator india
 	building
@@ -40441,7 +40441,7 @@ settlement
 	region Dashapura_R
 
 	year_founded 0
-	population 1400
+	population 1100
 	plan_set default_set
 	faction_creator india
 	building
@@ -46186,8 +46186,8 @@ denari	-2000
 ;------------------------- 4$& Slave Faction --------------------------
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	slave, balanced_smith
-denari	-49999999999
+faction	slave, balanced_rebel
+denari	-99999999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
@@ -50366,7 +50366,7 @@ settlement
 	region Cufra_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator nasamones
 	building
@@ -51765,14 +51765,14 @@ settlement
 
 ;--------- North Africa ----------
 ;	Magura
-character	sub_faction numidia, Akbar, general, age 20, , x 43, y 187
+character	Akbar, general, age 20, , x 43, y 187
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Tamdoult
-character	sub_faction numidia, Akbar, general, age 20, , x 19, y 175
+character	Akbar, general, age 20, , x 19, y 175
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51781,7 +51781,7 @@ unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;--------- Saharan Africa ----------
 ;	Abalessa
-character	sub_faction numidia, Akbar, general, age 20, , x 153, y 104
+character	Akbar, general, age 20, , x 153, y 104
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51789,7 +51789,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Buata
-character	sub_faction numidia, Akbar, general, age 20, , x 206, y 129
+character	Akbar, general, age 20, , x 206, y 129
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51797,7 +51797,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Byntha
-character	sub_faction numidia, Akbar, general, age 20, , x 62, y 100
+character	Akbar, general, age 20, , x 62, y 100
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51805,7 +51805,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Cufra
-character	sub_faction numidia, Akbar, general, age 20, , x 339, y 129
+character	Akbar, general, age 20, , x 339, y 129
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51813,7 +51813,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Cuphe
-character	sub_faction numidia, Akbar, general, age 20, , x 31, y 42
+character	Akbar, general, age 20, , x 31, y 42
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51821,14 +51821,14 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Geva
-character	sub_faction numidia, Akbar, general, age 20, , x 237, y 61
+character	Akbar, general, age 20, , x 237, y 61
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Gira Metropolis
-character	sub_faction numidia, Akbar, general, age 20, , x 187, y 40
+character	Akbar, general, age 20, , x 187, y 40
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51836,7 +51836,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Ischeri
-character	sub_faction numidia, Akbar, general, age 20, , x 266, y 26
+character	Akbar, general, age 20, , x 266, y 26
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51844,7 +51844,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Lynxama
-character	sub_faction numidia, Akbar, general, age 20, , x 315, y 70
+character	Akbar, general, age 20, , x 315, y 70
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51852,7 +51852,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Malachath
-character	sub_faction numidia, Akbar, general, age 20, , x 6, y 54
+character	Akbar, general, age 20, , x 6, y 54
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51860,14 +51860,14 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Nigira Metropolis
-character	sub_faction numidia, Akbar, general, age 20, , x 73, y 36
+character	Akbar, general, age 20, , x 73, y 36
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Tagama
-character	sub_faction numidia, Akbar, general, age 20, , x 104, y 31
+character	Akbar, general, age 20, , x 104, y 31
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51875,7 +51875,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Thabudis
-character	sub_faction numidia, Akbar, general, age 20, , x 100, y 158
+character	Akbar, general, age 20, , x 100, y 158
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51883,7 +51883,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Thamondocana
-character	sub_faction numidia, Akbar, general, age 20, , x 21, y 26
+character	Akbar, general, age 20, , x 21, y 26
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51891,7 +51891,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;	Vellegia
-character	sub_faction numidia, Akbar, general, age 20, , x 101, y 39
+character	Akbar, general, age 20, , x 101, y 39
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -51900,7 +51900,7 @@ unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 ;--------- Anatolia ----------
 ;	Anemourion
-character	sub_faction greek_cities, Iollas, general, age 20, , x 420, y 274
+character	Iollas, general, age 20, , x 420, y 274
 army
 unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -51908,7 +51908,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Cibyra
-character	sub_faction greek_cities, Iollas, general, age 20, , x 387, y 283
+character	Iollas, general, age 20, , x 387, y 283
 army
 unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -51916,7 +51916,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Dasteira
-character	sub_faction thrace, Ziepyrus, general, age 20, , x 465, y 330
+character	Ziepyrus, general, age 20, , x 465, y 330
 army
 unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -51924,7 +51924,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Isaura
-character	sub_faction greek_cities, Iollas, general, age 20, , x 413, y 287
+character	Iollas, general, age 20, , x 413, y 287
 army
 unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -51932,7 +51932,7 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;	Sinoria
-character	sub_faction thrace, Ziepyrus, general, age 20, , x 482, y 333
+character	Ziepyrus, general, age 20, , x 482, y 333
 army
 unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
@@ -51941,7 +51941,7 @@ unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
 ;--------- Arabia ----------
 ;	Inapha
-character	sub_faction parthia, Xshathrita, general, age 20, , x 574, y 161
+character	Xshathrita, general, age 20, , x 574, y 161
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
@@ -51949,7 +51949,7 @@ unit		merc bedouin				exp 0 armour 0 weapon_lvl 0
 unit		merc bedouin archers		exp 0 armour 0 weapon_lvl 0
 
 ;	Ubar
-character	sub_faction parthia, Xshathrita, general, age 20, , x 656, y 103
+character	Xshathrita, general, age 20, , x 656, y 103
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
@@ -51958,13 +51958,13 @@ unit		merc bedouin archers		exp 0 armour 0 weapon_lvl 0
 
 ;--------- West Central Asia ----------
 ;	Asiani Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 763, y 445
+character	Phillipos, general, age 20, , x 763, y 445
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Artoarta
-character	sub_faction parthia, Caspar, general, age 20, , x 774, y 270
+character	Caspar, general, age 20, , x 774, y 270
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -51972,7 +51972,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Auzacia
-character	sub_faction parthia, Caspar, general, age 20, , x 774, y 421
+character	Caspar, general, age 20, , x 774, y 421
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -51980,7 +51980,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Issedon Serica
-character	sub_faction parthia, Caspar, general, age 20, , x 835, y 432
+character	Caspar, general, age 20, , x 835, y 432
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -51988,7 +51988,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Marouka
-character	sub_faction parthia, Caspar, general, age 20, , x 769, y 360
+character	Caspar, general, age 20, , x 769, y 360
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -51996,7 +51996,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Nur
-character	sub_faction parthia, Caspar, general, age 20, , x 725, y 379
+character	Caspar, general, age 20, , x 725, y 379
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52004,7 +52004,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Suyab
-character	sub_faction parthia, Caspar, general, age 20, , x 806, y 427
+character	Caspar, general, age 20, , x 806, y 427
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52012,13 +52012,13 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Tektosaka Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 779, y 417
+character	Phillipos, general, age 20, , x 779, y 417
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Varakhsha
-character	sub_faction parthia, Caspar, general, age 20, , x 709, y 368
+character	Caspar, general, age 20, , x 709, y 368
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52027,7 +52027,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;--------- East Central Asia ----------
 ;	Anxi / Yumen
-character	sub_faction parthia, Caspar, general, age 20, , x 1007, y 449
+character	Caspar, general, age 20, , x 1007, y 449
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52035,13 +52035,13 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Ashina Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 944, y 508
+character	Phillipos, general, age 20, , x 944, y 508
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Astana
-character	sub_faction parthia, Caspar, general, age 20, , x 938, y 463
+character	Caspar, general, age 20, , x 938, y 463
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52049,13 +52049,13 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Asvin Kome / Wusun Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 997, y 457
+character	Phillipos, general, age 20, , x 997, y 457
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Cumuda
-character	sub_faction parthia, Caspar, general, age 20, , x 968, y 472
+character	Caspar, general, age 20, , x 968, y 472
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52063,7 +52063,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Daxata / Dunhuang
-character	sub_faction parthia, Caspar, general, age 20, , x 993, y 443
+character	Caspar, general, age 20, , x 993, y 443
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52073,7 +52073,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Guqung
-character	sub_faction parthia, Caspar, general, age 20, , x 933, y 477
+character	Caspar, general, age 20, , x 933, y 477
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52081,19 +52081,19 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Hujie Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 867, y 508
+character	Phillipos, general, age 20, , x 867, y 508
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Hunyu Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 1005, y 579
+character	Phillipos, general, age 20, , x 1005, y 579
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Jumi
-character	sub_faction parthia, Caspar, general, age 20, , x 902, y 472
+character	Caspar, general, age 20, , x 902, y 472
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52101,13 +52101,13 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Jushi Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 982, y 481
+character	Phillipos, general, age 20, , x 982, y 481
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Pulei
-character	sub_faction parthia, Caspar, general, age 20, , x 968, y 482
+character	Caspar, general, age 20, , x 968, y 482
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52115,25 +52115,25 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Qushe Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 908, y 552
+character	Phillipos, general, age 20, , x 908, y 552
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Samoyed Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 946, y 592
+character	Phillipos, general, age 20, , x 946, y 592
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Tegreg Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 932, y 561
+character	Phillipos, general, age 20, , x 932, y 561
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Throana / Yarkhoto
-character	sub_faction parthia, Caspar, general, age 20, , x 932, y 462
+character	Caspar, general, age 20, , x 932, y 462
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52141,13 +52141,13 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Tuyuhun Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 1010, y 400
+character	Phillipos, general, age 20, , x 1010, y 400
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Urabo
-character	sub_faction parthia, Caspar, general, age 20, , x 917, y 467
+character	Caspar, general, age 20, , x 917, y 467
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52155,7 +52155,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Usu
-character	sub_faction parthia, Caspar, general, age 20, , x 888, y 470
+character	Caspar, general, age 20, , x 888, y 470
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52163,20 +52163,20 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Xinli Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 906, y 521
+character	Phillipos, general, age 20, , x 906, y 521
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Yuezhi Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 995, y 428
+character	Phillipos, general, age 20, , x 995, y 428
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;--------- Tarim Basin ----------
 ;	Abragana
-character	sub_faction parthia, Caspar, general, age 20, , x 881, y 389
+character	Caspar, general, age 20, , x 881, y 389
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52184,7 +52184,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Arsi
-character	sub_faction parthia, Caspar, general, age 20, , x 913, y 446
+character	Caspar, general, age 20, , x 913, y 446
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52192,7 +52192,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Asmiraea
-character	sub_faction parthia, Caspar, general, age 20, , x 910, y 439
+character	Caspar, general, age 20, , x 910, y 439
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52200,7 +52200,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Chaurana
-character	sub_faction parthia, Caspar, general, age 20, , x 868, y 369
+character	Caspar, general, age 20, , x 868, y 369
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52208,7 +52208,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Komner
-character	sub_faction parthia, Caspar, general, age 20, , x 883, y 370
+character	Caspar, general, age 20, , x 883, y 370
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52216,7 +52216,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Qudrej
-character	sub_faction parthia, Caspar, general, age 20, , x 912, y 434
+character	Caspar, general, age 20, , x 912, y 434
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52225,7 +52225,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;--------- Britannia ----------
 ;	Alauna
-character	sub_faction britons, Brigomaglos, general, age 20, , x 82, y 517
+character	Brigomaglos, general, age 20, , x 82, y 517
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52233,7 +52233,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Boderium
-character	sub_faction britons, Brigomaglos, general, age 20, , x 65, y 528
+character	Brigomaglos, general, age 20, , x 65, y 528
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52241,7 +52241,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Calleva
-character	sub_faction britons, Brigomaglos, general, age 20, , x 89, y 455
+character	Brigomaglos, general, age 20, , x 89, y 455
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52249,7 +52249,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Camulodunum
-character	sub_faction britons, Brigomaglos, general, age 20, , x 107, y 463
+character	Brigomaglos, general, age 20, , x 107, y 463
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52257,7 +52257,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Corinion
-character	sub_faction britons, Brigomaglos, general, age 20, , x 80, y 461
+character	Brigomaglos, general, age 20, , x 80, y 461
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52265,7 +52265,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Cornoviorum
-character	sub_faction britons, Brigomaglos, general, age 20, , x 76, y 475
+character	Brigomaglos, general, age 20, , x 76, y 475
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52273,7 +52273,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Deva
-character	sub_faction britons, Brigomaglos, general, age 20, , x 73, y 483
+character	Brigomaglos, general, age 20, , x 73, y 483
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52281,7 +52281,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Devana
-character	sub_faction britons, Brigomaglos, general, age 20, , x 79, y 545
+character	Brigomaglos, general, age 20, , x 79, y 545
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52289,7 +52289,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Durotrigorum
-character	sub_faction britons, Brigomaglos, general, age 20, , x 77, y 447
+character	Brigomaglos, general, age 20, , x 77, y 447
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52297,7 +52297,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Dumna
-character	sub_faction britons, Brigomaglos, general, age 20, , x 42, y 563
+character	Brigomaglos, general, age 20, , x 42, y 563
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52305,7 +52305,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Eburacum
-character	sub_faction britons, Brigomaglos, general, age 20, , x 90, y 494
+character	Brigomaglos, general, age 20, , x 90, y 494
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52313,7 +52313,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Hebudum
-character	sub_faction britons, Brigomaglos, general, age 20, , x 40, y 550
+character	Brigomaglos, general, age 20, , x 40, y 550
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52321,7 +52321,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Luguvalium
-character	sub_faction britons, Brigomaglos, general, age 20, , x 72, y 508
+character	Brigomaglos, general, age 20, , x 72, y 508
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52329,7 +52329,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Loucovium
-character	sub_faction britons, Brigomaglos, general, age 20, , x 64, y 510
+character	Brigomaglos, general, age 20, , x 64, y 510
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52337,7 +52337,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Mona
-character	sub_faction britons, Brigomaglos, general, age 20, , x 59, y 483
+character	Brigomaglos, general, age 20, , x 59, y 483
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52345,14 +52345,14 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Monaoeda
-character	sub_faction britons, Brigomaglos, general, age 20, , x 57, y 497
+character	Brigomaglos, general, age 20, , x 57, y 497
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Orrea
-character	sub_faction britons, Brigomaglos, general, age 20, , x 73, y 535
+character	Brigomaglos, general, age 20, , x 73, y 535
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52360,7 +52360,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Ratostabius
-character	sub_faction britons, Brigomaglos, general, age 20, , x 70, y 458
+character	Brigomaglos, general, age 20, , x 70, y 458
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52368,7 +52368,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Rauatonium
-character	sub_faction britons, Brigomaglos, general, age 20, , x 48, y 516
+character	Brigomaglos, general, age 20, , x 48, y 516
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52376,7 +52376,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Salinae Cornovia
-character	sub_faction britons, Brigomaglos, general, age 20, , x 80, y 469
+character	Brigomaglos, general, age 20, , x 80, y 469
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52384,7 +52384,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Seguntium
-character	sub_faction britons, Brigomaglos, general, age 20, , x 61, y 481
+character	Brigomaglos, general, age 20, , x 61, y 481
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52392,7 +52392,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Sorviodunum
-character	sub_faction britons, Brigomaglos, general, age 20, , x 83, y 452
+character	Brigomaglos, general, age 20, , x 83, y 452
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52400,7 +52400,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Tarvodubron
-character	sub_faction britons, Brigomaglos, general, age 20, , x 66, y 568
+character	Brigomaglos, general, age 20, , x 66, y 568
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52408,7 +52408,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Venta Icenorum
-character	sub_faction britons, Brigomaglos, general, age 20, , x 111, y 475
+character	Brigomaglos, general, age 20, , x 111, y 475
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52418,7 +52418,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 ;--------- Caucasus ----------
 ;--------- Caucasian Steppe ----------
 ;	Axaraba
-character	sub_faction scythia, Phillipos, general, age 20, , x 504, y 385
+character	Phillipos, general, age 20, , x 504, y 385
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52426,13 +52426,13 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east horse archer			exp 0 armour 0 weapon_lvl 0
 
 ;	Isondae Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 549, y 376
+character	Phillipos, general, age 20, , x 549, y 376
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Palaia Achaia
-character	sub_faction scythia, Phillipos, general, age 20, , x 468, y 381
+character	Phillipos, general, age 20, , x 468, y 381
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -52440,20 +52440,20 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east horse archer			exp 0 armour 0 weapon_lvl 0
 
 ;	Sapothreni Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 537, y 431
+character	Phillipos, general, age 20, , x 537, y 431
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	 Surani Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 514, y 397
+character	Phillipos, general, age 20, , x 514, y 397
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;--------- Dacia ----------
 ;	Arcidava
-character	sub_faction gauls, Erbin, general, age 20, , x 302, y 377
+character	Erbin, general, age 20, , x 302, y 377
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52461,7 +52461,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Carsidava
-character	sub_faction gauls, Erbin, general, age 20, , x 347, y 423
+character	Erbin, general, age 20, , x 347, y 423
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52469,7 +52469,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Drobeta
-character	sub_faction gauls, Erbin, general, age 20, , x 314, y 373
+character	Erbin, general, age 20, , x 314, y 373
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52477,7 +52477,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Helis
-character	sub_faction gauls, Erbin, general, age 20, , x 352, y 363
+character	Erbin, general, age 20, , x 352, y 363
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52485,7 +52485,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Malva
-character	sub_faction gauls, Erbin, general, age 20, , x 330, y 367
+character	Erbin, general, age 20, , x 330, y 367
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52493,7 +52493,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Napoca
-character	sub_faction gauls, Erbin, general, age 20, , x 319, y 400
+character	Erbin, general, age 20, , x 319, y 400
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52501,7 +52501,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Obulensiopolis
-character	sub_faction gauls, Erbin, general, age 20, , x 342, y 356
+character	Erbin, general, age 20, , x 342, y 356
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52509,7 +52509,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Petridava
-character	sub_faction gauls, Erbin, general, age 20, , x 345, y 430
+character	Erbin, general, age 20, , x 345, y 430
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52517,7 +52517,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Porolissum
-character	sub_faction gauls, Erbin, general, age 20, , x 315, y 406
+character	Erbin, general, age 20, , x 315, y 406
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52525,7 +52525,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Vibantavarium
-character	sub_faction gauls, Erbin, general, age 20, , x 361, y 424
+character	Erbin, general, age 20, , x 361, y 424
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52533,7 +52533,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Zargidava
-character	sub_faction gauls, Erbin, general, age 20, , x 352, y 404
+character	Erbin, general, age 20, , x 352, y 404
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52541,7 +52541,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Ziridava
-character	sub_faction gauls, Erbin, general, age 20, , x 295, y 391
+character	Erbin, general, age 20, , x 295, y 391
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52550,7 +52550,7 @@ unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;--------- Scythian Dacia ----------
 ;	Eractum
-character	sub_faction scythia, Phillipos, general, age 20, , x 369, y 413
+character	Phillipos, general, age 20, , x 369, y 413
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
@@ -52559,7 +52559,7 @@ unit		barb horse archers slave	exp 0 armour 0 weapon_lvl 0
 
 ;--------- Gaul ----------
 ;	Corsiolitum
-character	sub_faction gauls, Erbin, general, age 20, , x 79, y 414
+character	Erbin, general, age 20, , x 79, y 414
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52567,7 +52567,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Glanum
-character	sub_faction gauls, Erbin, general, age 20, , x 146, y 352
+character	Erbin, general, age 20, , x 146, y 352
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52575,7 +52575,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Andecavium
-character	sub_faction gauls, Erbin, general, age 20, , x 95, y 401
+character	Erbin, general, age 20, , x 95, y 401
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52583,7 +52583,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Noviodunum
-character	sub_faction gauls, Erbin, general, age 20, , x 101, y 416
+character	Erbin, general, age 20, , x 101, y 416
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52591,7 +52591,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Octodurus
-character	sub_faction gauls, Erbin, general, age 20, , x 166, y 383
+character	Erbin, general, age 20, , x 166, y 383
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52599,7 +52599,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Samarobriva
-character	sub_faction gauls, Erbin, general, age 20, , x 121, y 434
+character	Erbin, general, age 20, , x 121, y 434
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52607,7 +52607,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Verodunum
-character	sub_faction gauls, Erbin, general, age 20, , x 138, y 416
+character	Erbin, general, age 20, , x 138, y 416
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52615,7 +52615,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Viromanduorum
-character	sub_faction gauls, Erbin, general, age 20, , x 129, y 435
+character	Erbin, general, age 20, , x 129, y 435
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52624,7 +52624,7 @@ unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;--------- Western Germania ----------
 ;	Ascalingium / Cheruscium
-character	sub_faction germans, Gunderic, general, age 20, , x 186, y 480
+character	Gunderic, general, age 20, , x 186, y 480
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52632,7 +52632,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Avionium
-character	sub_faction germans, Gunderic, general, age 20, , x 190, y 500
+character	Gunderic, general, age 20, , x 190, y 500
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52640,7 +52640,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Canduum
-character	sub_faction germans, Gunderic, general, age 20, , x 199, y 453
+character	Gunderic, general, age 20, , x 199, y 453
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52648,7 +52648,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Coenoenum
-character	sub_faction germans, Gunderic, general, age 20, , x 207, y 499
+character	Gunderic, general, age 20, , x 207, y 499
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52656,7 +52656,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Marionis
-character	sub_faction germans, Gunderic, general, age 20, , x 197, y 495
+character	Gunderic, general, age 20, , x 197, y 495
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52664,7 +52664,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Siatutanda
-character	sub_faction germans, Gunderic, general, age 20, , x 167, y 473
+character	Gunderic, general, age 20, , x 167, y 473
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52673,7 +52673,7 @@ unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;--------- Eastern Germania ----------
 ;	Ascaucalis
-character	sub_faction germans, Gunderic, general, age 20, , x 264, y 481
+character	Gunderic, general, age 20, , x 264, y 481
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52681,7 +52681,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Bulanium
-character	sub_faction scythia, Phillipos, general, age 20, , x 322, y 459
+character	Phillipos, general, age 20, , x 322, y 459
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
@@ -52689,7 +52689,7 @@ unit		barb cavalry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers slave	exp 0 armour 0 weapon_lvl 0
 
 ;	Galindium
-character	sub_faction germans, Gunderic, general, age 20, , x 297, y 495
+character	Gunderic, general, age 20, , x 297, y 495
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52697,7 +52697,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
 
 ;	Gepidium
-character	sub_faction scythia, Phillipos, general, age 20, , x 282, y 516
+character	Phillipos, general, age 20, , x 282, y 516
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52705,7 +52705,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
 
 ;	Viritium
-character	sub_faction germans, Gunderic, general, age 20, , x 245, y 486
+character	Gunderic, general, age 20, , x 245, y 486
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -52715,7 +52715,7 @@ unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 ;--------- Greece ----------
 ;--------- Hibernia ----------
 ;	Dunum
-character	sub_faction britons, Brigomaglos, general, age 20, , x 29, y 473
+character	Brigomaglos, general, age 20, , x 29, y 473
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52723,7 +52723,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Hibernis
-character	sub_faction britons, Brigomaglos, general, age 20, , x 22, y 468
+character	Brigomaglos, general, age 20, , x 22, y 468
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52731,7 +52731,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Laberus
-character	sub_faction britons, Brigomaglos, general, age 20, , x 33, y 481
+character	Brigomaglos, general, age 20, , x 33, y 481
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52739,7 +52739,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Macolicum
-character	sub_faction britons, Brigomaglos, general, age 20, , x 19, y 476
+character	Brigomaglos, general, age 20, , x 19, y 476
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52747,7 +52747,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Magnata
-character	sub_faction britons, Brigomaglos, general, age 20, , x 27, y 503
+character	Brigomaglos, general, age 20, , x 27, y 503
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52755,7 +52755,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Manapia
-character	sub_faction britons, Brigomaglos, general, age 20, , x 38, y 470
+character	Brigomaglos, general, age 20, , x 38, y 470
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52763,7 +52763,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Regia
-character	sub_faction britons, Brigomaglos, general, age 20, , x 39, y 501
+character	Brigomaglos, general, age 20, , x 39, y 501
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52771,7 +52771,7 @@ unit		barb druids slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Rhaeba
-character	sub_faction britons, Brigomaglos, general, age 20, , x 25, y 491
+character	Brigomaglos, general, age 20, , x 25, y 491
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52780,7 +52780,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;--------- Iberia ----------
 ;	Barkeno
-character	sub_faction spain, Berriotxoa, general, age 20, , x 121, y 321
+character	Berriotxoa, general, age 20, , x 121, y 321
 army
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
@@ -52788,7 +52788,7 @@ unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast			exp 0 armour 0 weapon_lvl 0
 
 ;	Brachile
-character	sub_faction gauls, Erbin, general, age 20, , x 119, y 334
+character	Erbin, general, age 20, , x 119, y 334
 army
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
@@ -52796,7 +52796,7 @@ unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast			exp 0 armour 0 weapon_lvl 0
 
 ;	Conimbriga
-character	sub_faction spain, Berriotxoa, general, age 20, , x 20, y 306
+character	Berriotxoa, general, age 20, , x 20, y 306
 army
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
@@ -52804,7 +52804,7 @@ unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast			exp 0 armour 0 weapon_lvl 0
 
 ;	Iulipa
-character	sub_faction spain, Berriotxoa, general, age 20, , x 47, y 286
+character	Berriotxoa, general, age 20, , x 47, y 286
 army
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
@@ -52812,7 +52812,7 @@ unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast			exp 0 armour 0 weapon_lvl 0
 
 ;	Olisipo
-character	sub_faction spain, Berriotxoa, general, age 20, , x 13, y 288
+character	Berriotxoa, general, age 20, , x 13, y 288
 army
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
@@ -52820,7 +52820,7 @@ unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast			exp 0 armour 0 weapon_lvl 0
 
 ;	Saiti
-character	sub_faction spain, Berriotxoa, general, age 20, , x 96, y 290
+character	Berriotxoa, general, age 20, , x 96, y 290
 army
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
@@ -52828,7 +52828,7 @@ unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast			exp 0 armour 0 weapon_lvl 0
 
 ;	Virovesca
-character	sub_faction spain, Berriotxoa, general, age 20, , x 69, y 335
+character	Berriotxoa, general, age 20, , x 69, y 335
 army
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
 unit		carthaginian infantry			exp 0 armour 0 weapon_lvl 0
@@ -52837,7 +52837,7 @@ unit		carthaginian peltast			exp 0 armour 0 weapon_lvl 0
 
 ;--------- Illyria ----------
 ;	Arduba
-character	sub_faction gauls, Erbin, general, age 20, , x 269, y 362
+character	Erbin, general, age 20, , x 269, y 362
 army
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52845,7 +52845,7 @@ unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Pirustaiopolis
-character	sub_faction gauls, Erbin, general, age 20, , x 285, y 348
+character	Erbin, general, age 20, , x 285, y 348
 army
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52853,7 +52853,7 @@ unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Raetinium
-character	sub_faction gauls, Erbin, general, age 20, , x 250, y 369
+character	Erbin, general, age 20, , x 250, y 369
 army
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -52862,7 +52862,7 @@ unit		greek heavy peltast				exp 0 armour 0 weapon_lvl 0
 
 ;--------- North India / Himalayas ----------
 ;	Aornus / Eshkashem
-character	sub_faction parthia, Caspar, general, age 20, , x 795, y 348
+character	Caspar, general, age 20, , x 795, y 348
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52870,7 +52870,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Baharak
-character	sub_faction parthia, Caspar, general, age 20, , x 782, y 347
+character	Caspar, general, age 20, , x 782, y 347
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52878,13 +52878,13 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Changtang Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 917, y 359
+character	Phillipos, general, age 20, , x 917, y 359
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Devanapatana
-character	sub_faction parthia, Caspar, general, age 20, , x 947, y 276
+character	Caspar, general, age 20, , x 947, y 276
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52892,7 +52892,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Devaprastha
-character	sub_faction parthia, Caspar, general, age 20, , x 968, y 271
+character	Caspar, general, age 20, , x 968, y 271
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52900,7 +52900,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Dronanagari
-character	sub_faction parthia, Caspar, general, age 20, , x 869, y 286
+character	Caspar, general, age 20, , x 869, y 286
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52908,7 +52908,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Ghatotkachapura
-character	sub_faction parthia, Caspar, general, age 20, , x 855, y 306
+character	Caspar, general, age 20, , x 855, y 306
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52916,7 +52916,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Jumla
-character	sub_faction parthia, Caspar, general, age 20, , x 911, y 285
+character	Caspar, general, age 20, , x 911, y 285
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52924,19 +52924,19 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Kadam Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 994, y 364
+character	Phillipos, general, age 20, , x 994, y 364
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Kagyu Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 953, y 327
+character	Phillipos, general, age 20, , x 953, y 327
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Kapilavastu
-character	sub_faction parthia, Caspar, general, age 20, , x 925, y 269
+character	Caspar, general, age 20, , x 925, y 269
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52944,7 +52944,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Karvirpur
-character	sub_faction parthia, Caspar, general, age 20, , x 886, y 286
+character	Caspar, general, age 20, , x 886, y 286
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52952,7 +52952,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Kinnara
-character	sub_faction parthia, Caspar, general, age 20, , x 867, y 300
+character	Caspar, general, age 20, , x 867, y 300
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52960,7 +52960,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Kunindapura
-character	sub_faction parthia, Caspar, general, age 20, , x 892, y 283
+character	Caspar, general, age 20, , x 892, y 283
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52968,7 +52968,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Kurupura
-character	sub_faction parthia, Caspar, general, age 20, , x 841, y 302
+character	Caspar, general, age 20, , x 841, y 302
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52976,7 +52976,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Lomasa
-character	sub_faction parthia, Caspar, general, age 20, , x 858, y 294
+character	Caspar, general, age 20, , x 858, y 294
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52984,7 +52984,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Nepalakaksha
-character	sub_faction parthia, Caspar, general, age 20, , x 899, y 274
+character	Caspar, general, age 20, , x 899, y 274
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -52992,7 +52992,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Rajapura
-character	sub_faction parthia, Caspar, general, age 20, , x 825, y 312
+character	Caspar, general, age 20, , x 825, y 312
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53000,7 +53000,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Rampurva
-character	sub_faction parthia, Caspar, general, age 20, , x 938, y 268
+character	Caspar, general, age 20, , x 938, y 268
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53008,7 +53008,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Sargin
-character	sub_faction parthia, Caspar, general, age 20, , x 818, y 342
+character	Caspar, general, age 20, , x 818, y 342
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53016,7 +53016,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Singhapura
-character	sub_faction parthia, Caspar, general, age 20, , x 795, y 337
+character	Caspar, general, age 20, , x 795, y 337
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53024,7 +53024,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Srinagara
-character	sub_faction parthia, Caspar, general, age 20, , x 827, y 321
+character	Caspar, general, age 20, , x 827, y 321
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53032,7 +53032,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Tharupura
-character	sub_faction parthia, Caspar, general, age 20, , x 918, y 272
+character	Caspar, general, age 20, , x 918, y 272
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53040,7 +53040,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Turris Lapida
-character	sub_faction parthia, Caspar, general, age 20, , x 821, y 366
+character	Caspar, general, age 20, , x 821, y 366
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -53048,7 +53048,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Purupura
-character	sub_faction parthia, Caspar, general, age 20, , x 847, y 302
+character	Caspar, general, age 20, , x 847, y 302
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53057,7 +53057,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;--------- India ----------
 ;	Arkaadu
-character	sub_faction parthia, Caspar, general, age 20, , x 928, y 103
+character	Caspar, general, age 20, , x 928, y 103
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53065,7 +53065,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Davakapura
-character	sub_faction parthia, Caspar, general, age 20, , x 1009, y 260
+character	Caspar, general, age 20, , x 1009, y 260
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53073,7 +53073,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Badnurpura
-character	sub_faction parthia, Caspar, general, age 20, , x 890, y 195
+character	Caspar, general, age 20, , x 890, y 195
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53081,7 +53081,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Bardaotis
-character	sub_faction parthia, Caspar, general, age 20, , x 913, y 229
+character	Caspar, general, age 20, , x 913, y 229
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53089,7 +53089,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Bilaspura
-character	sub_faction parthia, Caspar, general, age 20, , x 932, y 207
+character	Caspar, general, age 20, , x 932, y 207
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53097,7 +53097,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Chutia
-character	sub_faction parthia, Caspar, general, age 20, , x 959, y 231
+character	Caspar, general, age 20, , x 959, y 231
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53105,7 +53105,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Dharphal
-character	sub_faction parthia, Caspar, general, age 20, , x 868, y 148
+character	Caspar, general, age 20, , x 868, y 148
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53113,7 +53113,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Drumkulya
-character	sub_faction parthia, Caspar, general, age 20, , x 830, y 218
+character	Caspar, general, age 20, , x 830, y 218
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53121,7 +53121,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Durjaya
-character	sub_faction parthia, Caspar, general, age 20, , x 1013, y 276
+character	Caspar, general, age 20, , x 1013, y 276
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53129,7 +53129,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Ezhimala
-character	sub_faction parthia, Caspar, general, age 20, , x 889, y 84
+character	Caspar, general, age 20, , x 889, y 84
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53137,7 +53137,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Gamaliba
-character	sub_faction parthia, Caspar, general, age 20, , x 867, y 137
+character	Caspar, general, age 20, , x 867, y 137
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53145,7 +53145,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Hippokoura
-character	sub_faction parthia, Caspar, general, age 20, , x 869, y 130
+character	Caspar, general, age 20, , x 869, y 130
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53153,7 +53153,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Indupur
-character	sub_faction parthia, Caspar, general, age 20, , x 910, y 177
+character	Caspar, general, age 20, , x 910, y 177
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53161,7 +53161,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Junnar
-character	sub_faction parthia, Caspar, general, age 20, , x 858, y 155
+character	Caspar, general, age 20, , x 858, y 155
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53169,7 +53169,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Kalligeris
-character	sub_faction parthia, Caspar, general, age 20, , x 895, y 101
+character	Caspar, general, age 20, , x 895, y 101
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53177,7 +53177,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Kanchi
-character	sub_faction parthia, Caspar, general, age 20, , x 933, y 104
+character	Caspar, general, age 20, , x 933, y 104
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53185,7 +53185,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Katriyal
-character	sub_faction parthia, Caspar, general, age 20, , x 882, y 135
+character	Caspar, general, age 20, , x 882, y 135
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53193,7 +53193,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Kerauge
-character	sub_faction parthia, Caspar, general, age 20, , x 919, y 127
+character	Caspar, general, age 20, , x 919, y 127
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53201,7 +53201,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Monyul
-character	sub_faction parthia, Caspar, general, age 20, , x 991, y 271
+character	Caspar, general, age 20, , x 991, y 271
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53209,7 +53209,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Navashikh
-character	sub_faction parthia, Caspar, general, age 20, , x 855, y 165
+character	Caspar, general, age 20, , x 855, y 165
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53217,7 +53217,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Olochoira
-character	sub_faction parthia, Caspar, general, age 20, , x 882, y 96
+character	Caspar, general, age 20, , x 882, y 96
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53225,7 +53225,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Pauni
-character	sub_faction parthia, Caspar, general, age 20, , x 916, y 173
+character	Caspar, general, age 20, , x 916, y 173
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53233,7 +53233,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Pentapolis
-character	sub_faction parthia, Caspar, general, age 20, , x 1017, y 242
+character	Caspar, general, age 20, , x 1017, y 242
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53241,7 +53241,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Pikendaka
-character	sub_faction parthia, Caspar, general, age 20, , x 909, y 111
+character	Caspar, general, age 20, , x 909, y 111
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53249,7 +53249,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Poloour
-character	sub_faction parthia, Caspar, general, age 20, , x 923, y 110
+character	Caspar, general, age 20, , x 923, y 110
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53257,7 +53257,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Pragjyotishpura
-character	sub_faction parthia, Caspar, general, age 20, , x 1018, y 284
+character	Caspar, general, age 20, , x 1018, y 284
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53265,7 +53265,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Pushkara
-character	sub_faction parthia, Caspar, general, age 20, , x 843, y 232
+character	Caspar, general, age 20, , x 843, y 232
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53273,7 +53273,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Salariga
-character	sub_faction parthia, Caspar, general, age 20, , x 1017, y 253
+character	Caspar, general, age 20, , x 1017, y 253
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53281,7 +53281,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Sanakanikapura
-character	sub_faction parthia, Caspar, general, age 20, , x 870, y 218
+character	Caspar, general, age 20, , x 870, y 218
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53289,7 +53289,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Savarapura
-character	sub_faction parthia, Caspar, general, age 20, , x 952, y 206
+character	Caspar, general, age 20, , x 952, y 206
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53297,7 +53297,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Sripura
-character	sub_faction parthia, Caspar, general, age 20, , x 935, y 199
+character	Caspar, general, age 20, , x 935, y 199
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53305,7 +53305,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Sonnalage
-character	sub_faction parthia, Caspar, general, age 20, , x 883, y 143
+character	Caspar, general, age 20, , x 883, y 143
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53313,7 +53313,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Suktimati
-character	sub_faction parthia, Caspar, general, age 20, , x 906, y 239
+character	Caspar, general, age 20, , x 906, y 239
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53321,7 +53321,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Tagara
-character	sub_faction parthia, Caspar, general, age 20, , x 883, y 152
+character	Caspar, general, age 20, , x 883, y 152
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53329,7 +53329,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Tisapatinga
-character	sub_faction parthia, Caspar, general, age 20, , x 938, y 208
+character	Caspar, general, age 20, , x 938, y 208
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53337,7 +53337,7 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;	Vadgaon
-character	sub_faction parthia, Caspar, general, age 20, , x 873, y 122
+character	Caspar, general, age 20, , x 873, y 122
 army
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
 unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -53345,9 +53345,10 @@ unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 
 ;--------- Italy ----------
+
 ;--------- Nubia, Kush, and Ethiopia ----------
 ;	Aualites
-character	sub_faction numidia, Akbar, general, age 20, , x 559, y 13
+character	Akbar, general, age 20, , x 559, y 13
 army
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
@@ -53355,7 +53356,7 @@ unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Malao
-character	sub_faction numidia, Akbar, general, age 20, , x 580, y 5
+character	Akbar, general, age 20, , x 580, y 5
 army
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
@@ -53363,7 +53364,7 @@ unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Dioscorida
-character	sub_faction numidia, Akbar, general, age 20, , x 670, y 44
+character	Akbar, general, age 20, , x 670, y 44
 army
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
@@ -53371,7 +53372,7 @@ unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Mondou
-character	sub_faction numidia, Akbar, general, age 20, , x 601, y 14
+character	Akbar, general, age 20, , x 601, y 14
 army
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
@@ -53379,7 +53380,7 @@ unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Mosyllum
-character	sub_faction numidia, Akbar, general, age 20, , x 616, y 20
+character	Akbar, general, age 20, , x 616, y 20
 army
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
@@ -53387,7 +53388,7 @@ unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Opone
-character	sub_faction numidia, Akbar, general, age 20, , x 646, y 16
+character	Akbar, general, age 20, , x 646, y 16
 army
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
@@ -53396,7 +53397,7 @@ unit		egyptian archer					exp 0 armour 0 weapon_lvl 0
 
 ;--------- Pannonia ----------
 ;	Poetovium
-character	sub_faction gauls, Erbin, general, age 20, , x 248, y 392
+character	Erbin, general, age 20, , x 248, y 392
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53404,7 +53405,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Sopianis
-character	sub_faction gauls, Erbin, general, age 20, , x 271, y 388
+character	Erbin, general, age 20, , x 271, y 388
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53413,7 +53414,7 @@ unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;--------- Persia ----------
 ;	Cuni
-character	sub_faction parthia, Caspar, general, age 20, , x 752, y 238
+character	Caspar, general, age 20, , x 752, y 238
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -53422,7 +53423,7 @@ unit		east horse archer			exp 0 armour 0 weapon_lvl 0
 
 ;--------- Scandinavia, Finland and Baltic ----------
 ;	Arochium
-character	sub_faction germans, Gunderic, general, age 20, , x 144, y 601
+character	Gunderic, general, age 20, , x 144, y 601
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53430,7 +53431,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Augandzium
-character	sub_faction germans, Gunderic, general, age 20, , x 168, y 563
+character	Gunderic, general, age 20, , x 168, y 563
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53438,7 +53439,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Careotaeum
-character	sub_faction scythia, Phillipos, general, age 20, , x 293, y 551
+character	Phillipos, general, age 20, , x 293, y 551
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53446,7 +53447,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Chaedinium
-character	sub_faction germans, Gunderic, general, age 20, , x 193, y 610
+character	Gunderic, general, age 20, , x 193, y 610
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53454,7 +53455,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Daucionum
-character	sub_faction germans, Gunderic, general, age 20, , x 235, y 536
+character	Gunderic, general, age 20, , x 235, y 536
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53462,7 +53463,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Duna Urbs
-character	sub_faction germans, Adalmun, general, age 20, , x 313, y 552
+character	Adalmun, general, age 20, , x 313, y 552
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53470,7 +53471,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Chalium
-character	sub_faction germans, Gunderic, general, age 20, , x 179, y 522
+character	Gunderic, general, age 20, , x 179, y 522
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53478,7 +53479,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Favonium
-character	sub_faction germans, Gunderic, general, age 20, , x 243, y 543
+character	Gunderic, general, age 20, , x 243, y 543
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53487,7 +53488,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Finnaithaeum
-character	sub_faction germans, Gunderic, general, age 20, , x 222, y 550
+character	Gunderic, general, age 20, , x 222, y 550
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53495,7 +53496,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Finnium
-character	sub_faction germans, Gunderic, general, age 20, , x 291, y 610
+character	Gunderic, general, age 20, , x 291, y 610
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53503,14 +53504,14 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Firaesum
-character	sub_faction germans, Gunderic, general, age 20, , x 261, y 552
+character	Gunderic, general, age 20, , x 261, y 552
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Firrium
-character	sub_faction germans, Gunderic, general, age 20, , x 313, y 593
+character	Gunderic, general, age 20, , x 313, y 593
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53518,7 +53519,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Fundusium
-character	sub_faction germans, Gunderic, general, age 20, , x 172, y 529
+character	Gunderic, general, age 20, , x 172, y 529
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53526,7 +53527,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Hillevionum
-character	sub_faction germans, Gunderic, general, age 20, , x 216, y 526
+character	Gunderic, general, age 20, , x 216, y 526
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53534,7 +53535,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Levonium
-character	sub_faction germans, Gunderic, general, age 20, , x 217, y 587
+character	Gunderic, general, age 20, , x 217, y 587
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53542,14 +53543,14 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Osium
-character	sub_faction germans, Gunderic, general, age 20, , x 296, y 572
+character	Gunderic, general, age 20, , x 296, y 572
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Ranium
-character	sub_faction germans, Gunderic, general, age 20, , x 197, y 581
+character	Gunderic, general, age 20, , x 197, y 581
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53557,7 +53558,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Suardonium
-character	sub_faction germans, Gunderic, general, age 20, , x 194, y 516
+character	Gunderic, general, age 20, , x 194, y 516
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53565,7 +53566,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Teutonium
-character	sub_faction germans, Gunderic, general, age 20, , x 195, y 535
+character	Gunderic, general, age 20, , x 195, y 535
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53573,7 +53574,7 @@ unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;	Tiuri
-character	sub_faction germans, Gunderic, general, age 20, , x 356, y 621
+character	Gunderic, general, age 20, , x 356, y 621
 army
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave			exp 0 armour 0 weapon_lvl 0
@@ -53582,110 +53583,110 @@ unit		barb archer slave			exp 0 armour 0 weapon_lvl 0
 
 ;---------- Eastern Steppes ----------
 ;	Alani Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 693, y 504
+character	Phillipos, general, age 20, , x 693, y 504
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Arggipaei Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 669, y 545
+character	Phillipos, general, age 20, , x 669, y 545
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Arimaspi Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 677, y 582
+character	Phillipos, general, age 20, , x 677, y 582
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Aspisi Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 755, y 495
+character	Phillipos, general, age 20, , x 755, y 495
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Dingling Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 913, y 613
+character	Phillipos, general, age 20, , x 913, y 613
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Gekun Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 862, y 572
+character	Phillipos, general, age 20, , x 862, y 572
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Iastae Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 747, y 527
+character	Phillipos, general, age 20, , x 747, y 527
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Jiankun Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 795, y 490
+character	Phillipos, general, age 20, , x 795, y 490
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Kyrgyz Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 846, y 589
+character	Phillipos, general, age 20, , x 846, y 589
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Magyar Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 729, y 556
+character	Phillipos, general, age 20, , x 729, y 556
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Materi Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 785, y 533
+character	Phillipos, general, age 20, , x 785, y 533
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;	Modocae Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 632, y 522
+character	Phillipos, general, age 20, , x 632, y 522
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 0
 
 ;---------- Western Steppes ----------
 ;	Agathyrsi Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 490, y 563
+character	Phillipos, general, age 20, , x 490, y 563
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Androphagi Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 507, y 514
+character	Phillipos, general, age 20, , x 507, y 514
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Arimphaei Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 520, y 600
+character	Phillipos, general, age 20, , x 520, y 600
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Borusci Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 531, y 539
+character	Phillipos, general, age 20, , x 531, y 539
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Boudini Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 485, y 504
+character	Phillipos, general, age 20, , x 485, y 504
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Carbonium
-character	sub_faction scythia, Phillipos, general, age 20, , x 404, y 614
+character	Phillipos, general, age 20, , x 404, y 614
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -53693,55 +53694,55 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers slave		exp 0 armour 0 weapon_lvl 0
 
 ;	Chaenides Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 536, y 560
+character	Phillipos, general, age 20, , x 536, y 560
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Gevini Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 436, y 542
+character	Phillipos, general, age 20, , x 436, y 542
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Hippopodes Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 374, y 584
+character	Phillipos, general, age 20, , x 374, y 584
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Iyrkae Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 551, y 523
+character	Phillipos, general, age 20, , x 551, y 523
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Melanchlaeni Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 462, y 527
+character	Phillipos, general, age 20, , x 462, y 527
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Nasci Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 408, y 561
+character	Phillipos, general, age 20, , x 408, y 561
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Ossi Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 349, y 569
+character	Phillipos, general, age 20, , x 349, y 569
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Phtheirophagi Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 598, y 510
+character	Phillipos, general, age 20, , x 598, y 510
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Salium
-character	sub_faction scythia, Phillipos, general, age 20, , x 445, y 604
+character	Phillipos, general, age 20, , x 445, y 604
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -53749,13 +53750,13 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers slave		exp 0 armour 0 weapon_lvl 0
 
 ;	Savari Kome
-character	sub_faction scythia, Phillipos, general, age 20, , x 387, y 525
+character	Phillipos, general, age 20, , x 387, y 525
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Stavanium
-character	sub_faction scythia, Phillipos, general, age 20, , x 421, y 517
+character	Phillipos, general, age 20, , x 421, y 517
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -53763,7 +53764,7 @@ unit		barb archer slave				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers slave		exp 0 armour 0 weapon_lvl 0
 
 ;	Veltaeum
-character	sub_faction scythia, Phillipos, general, age 20, , x 355, y 533
+character	Phillipos, general, age 20, , x 355, y 533
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
@@ -53772,7 +53773,7 @@ unit		barb horse archers slave		exp 0 armour 0 weapon_lvl 0
 
 ;--------- Syria / Phoenicia ----------
 ;	Arados
-character	sub_faction parthia, Xanthos, general, age 20, , x 450, y 262
+character	Xanthos, general, age 20, , x 450, y 262
 army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -53784,7 +53785,7 @@ unit		east archer					exp 0 armour 0 weapon_lvl 0
 ;--------- Thrace ----------
 
 ;	Serdica
-character	sub_faction gauls, Erbin, general, age 20, , x 321, y 347
+character	Erbin, general, age 20, , x 321, y 347
 army
 unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia		exp 0 armour 0 weapon_lvl 0
@@ -53795,7 +53796,7 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 ;--------- TERRA INCOGNITAS ----------
 
-character	sub_faction greek_cities, Artemas, general, age 20, , x 38, y 618
+character	Artemas, general, age 20, , x 38, y 618
 army
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
@@ -53813,7 +53814,7 @@ unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 
-character	sub_faction greek_cities, Artemas, general, age 20, , x 353, y 6
+character	Artemas, general, age 20, , x 353, y 6
 army
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
@@ -53830,7 +53831,7 @@ unit		rebel amazon chariots				exp 3 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 0
 
-character	sub_faction greek_cities, Artemas, general, age 20, , x 591, y 606
+character	Artemas, general, age 20, , x 591, y 606
 army
 unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 0
 unit		rebel amazon chariots				exp 5 armour 0 weapon_lvl 1

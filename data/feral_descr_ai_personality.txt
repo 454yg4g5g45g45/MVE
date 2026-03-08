@@ -377,6 +377,11 @@ building_priority Balanced
 military_priority smith
 diplomatic_priority default
 
+personality balanced_rebel
+building_priority Sailor
+military_priority henry
+diplomatic_priority dormant
+
 personality balanced_smith_crazy
 building_priority Balanced
 military_priority smith

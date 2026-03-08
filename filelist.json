@@ -17669,7 +17669,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 4254626080
+		"checksum": 1798344924
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -17700,16 +17700,20 @@
 		"checksum": 1792126613
 	},
 	{
+		"filename": "data\/descr_campaigns_backup.txt",
+		"checksum": 2958821516
+	},
+	{
 		"filename": "data\/descr_campaigns_temp.txt",
 		"checksum": 2958821516
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 3462892997
+		"checksum": 4045655149
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
-		"checksum": 2038959678
+		"checksum": 3919670301
 	},
 	{
 		"filename": "data\/descr_event_images.txt",
@@ -17761,7 +17765,7 @@
 	},
 	{
 		"filename": "data\/descr_quick_battle_locations.txt",
-		"checksum": 61743374
+		"checksum": 3894040255
 	},
 	{
 		"filename": "data\/descr_quotes_lookup.txt",
@@ -17785,7 +17789,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 3749523566
+		"checksum": 733684283
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17801,7 +17805,7 @@
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
-		"checksum": 1975842212
+		"checksum": 3419360738
 	},
 	{
 		"filename": "data\/descr_standards.txt",
@@ -17821,19 +17825,19 @@
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/#kirsi_campaign_map_movement_range_color.json",
-		"checksum": 966378518
+		"checksum": 1401648257
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/#kirsi_campaign_map_trees.json",
-		"checksum": 1768347916
+		"checksum": 4177043040
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/#kirsi_campaign_sea_v2.json",
-		"checksum": 269144788
+		"checksum": 3602899379
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/#kirsi_misc_campaign_settings.json",
-		"checksum": 3535188666
+		"checksum": 2203525728
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/ebc.json",
@@ -17841,35 +17845,35 @@
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/ecc.json",
-		"checksum": 4091654693
+		"checksum": 1599367599
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/enhancedtweaks_01.json",
-		"checksum": 1732669151
+		"checksum": 3522203731
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/kirsi_campaign_camera.json",
-		"checksum": 88261023
+		"checksum": 3474080123
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/kirsi_campaign_map_lighting.json",
-		"checksum": 2519166025
+		"checksum": 2911037914
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/kirsi_campaign_sea.json",
-		"checksum": 2760045179
+		"checksum": 904585104
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/lanjane_campaign_map_movement_range_color.json",
-		"checksum": 3372372446
+		"checksum": 709664581
 	},
 	{
 		"filename": "data\/enhanced_tweaks\/rivers_of_blood_rome_edition.json",
-		"checksum": 2076314614
+		"checksum": 2504472326
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 2121723194
+		"checksum": 2498338278
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -17881,7 +17885,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 2974570642
+		"checksum": 130989739
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -17889,7 +17893,7 @@
 	},
 	{
 		"filename": "data\/feral_descr_ai_personality.txt",
-		"checksum": 3171064557
+		"checksum": 3044818195
 	},
 	{
 		"filename": "data\/feral_textures\/additional_grunge_anim.tga.dds",
@@ -31685,95 +31689,95 @@
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_end_music.txt",
-		"checksum": 3683405491
+		"checksum": 2566823802
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_music_statemachine.txt",
-		"checksum": 3495373571
+		"checksum": 2442099822
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_notifications.txt",
-		"checksum": 39183828
+		"checksum": 1049346766
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_building.txt",
-		"checksum": 3771603275
+		"checksum": 1255379932
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_character_action.txt",
-		"checksum": 2918187152
+		"checksum": 3011352208
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_character_vocal.txt",
-		"checksum": 1882572379
+		"checksum": 2995151099
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_diplomacy_comment.txt",
-		"checksum": 4107993541
+		"checksum": 1158047583
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_generic_unit_anims.txt",
-		"checksum": 2012011510
+		"checksum": 3709628580
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_loading_music.txt",
-		"checksum": 2655700891
+		"checksum": 535454880
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_message_events.txt",
-		"checksum": 4251232048
+		"checksum": 4073256495
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_prebattle_speech.txt",
-		"checksum": 717392731
+		"checksum": 1902865523
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_static_music.txt",
-		"checksum": 1070287413
+		"checksum": 2647821806
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_anims.txt",
-		"checksum": 2864718304
+		"checksum": 917348770
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_celebrate.txt",
-		"checksum": 2593400593
+		"checksum": 4132068926
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_charge.txt",
-		"checksum": 3457333582
+		"checksum": 616675418
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_collide.txt",
-		"checksum": 923873876
+		"checksum": 3387561679
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_confirm.txt",
-		"checksum": 2344548001
+		"checksum": 3506924690
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_confirm_single.txt",
-		"checksum": 4128829116
+		"checksum": 3206082153
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_fighting.txt",
-		"checksum": 3703448903
+		"checksum": 1881035326
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_march.txt",
-		"checksum": 368918457
+		"checksum": 2973026651
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_retreating.txt",
-		"checksum": 2417293170
+		"checksum": 2916314370
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_routing.txt",
-		"checksum": 1529932448
+		"checksum": 4164886620
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_taunting.txt",
-		"checksum": 2301115011
+		"checksum": 2860018456
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_voice.txt",
@@ -31781,15 +31785,15 @@
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_warcry.txt",
-		"checksum": 3418077802
+		"checksum": 3337327473
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_war_horns.txt",
-		"checksum": 1291653775
+		"checksum": 779199479
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_weapon_hit.txt",
-		"checksum": 3472461572
+		"checksum": 190400755
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/nonroman\/descr_generic_elements.txt",
@@ -31817,63 +31821,63 @@
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_ai_unit_voices.txt",
-		"checksum": 3984537250
+		"checksum": 1032657468
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_barbarian_general_unit_voices.txt",
-		"checksum": 171674378
+		"checksum": 3392061911
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_barbarian_unit_voices.txt",
-		"checksum": 4014706322
+		"checksum": 800523690
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_eastern_general_unit_voices.txt",
-		"checksum": 3946016767
+		"checksum": 4009248799
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_eastern_unit_voices.txt",
-		"checksum": 1894002088
+		"checksum": 2013918723
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_female_unit_voices.txt",
-		"checksum": 509845448
+		"checksum": 3160141391
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_greek_general_unit_voices.txt",
-		"checksum": 1908128965
+		"checksum": 4189891637
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_greek_unit_voices.txt",
-		"checksum": 1710570031
+		"checksum": 3268051656
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_roman_general_unit_voices.txt",
-		"checksum": 682335224
+		"checksum": 1246298365
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_roman_unit_voices.txt",
-		"checksum": 3420739259
+		"checksum": 4149235970
 	},
 	{
 		"filename": "data\/sounds\/descrs\/descr_bank_sounds.txt",
-		"checksum": 3789622211
+		"checksum": 3629043723
 	},
 	{
 		"filename": "data\/sounds\/descrs\/descr_enum_sounds.txt",
-		"checksum": 11373488
+		"checksum": 2855763042
 	},
 	{
 		"filename": "data\/sounds\/descrs\/descr_misc_sounds.txt",
-		"checksum": 386648571
+		"checksum": 375621876
 	},
 	{
 		"filename": "data\/sounds\/events.dat",
-		"checksum": 3119008884
+		"checksum": 699575183
 	},
 	{
 		"filename": "data\/sounds\/events.idx",
-		"checksum": 3526115065
+		"checksum": 2454830579
 	},
 	{
 		"filename": "data\/sounds\/interface.dat.feral",
@@ -42144,6 +42148,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/captain banners\/captain_card_gauls.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/captain banners\/captain_card_gauls_rebel.tga",
 		"checksum": "Blacklisted"
 	},
@@ -42333,6 +42341,14 @@
 	},
 	{
 		"filename": "data\/ui\/captain banners\/captain_portrait_galatia.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_portrait_gauls.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_portrait_gauls_rebel.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -112853,7 +112869,7 @@
 	},
 	{
 		"filename": "data\/ui_scaling_system_sprite_sheets.txt",
-		"checksum": 3571391043
+		"checksum": 65018510
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_disasters.txt",
@@ -113033,7 +113049,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 409255149
+		"checksum": 1928452806
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script_backup.txt",
+		"checksum": 3361744806
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_events.txt",
@@ -113045,7 +113065,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 971978405
+		"checksum": 422158018
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
