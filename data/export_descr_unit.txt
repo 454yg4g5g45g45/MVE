@@ -12171,7 +12171,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 288, 119, 40, 60, 320
-ownership        slave, huns
+ownership        huns, slave
 
 
 type             hunnic archers
@@ -12199,7 +12199,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 693, 180, 80, 120, 770
-ownership        slave, huns
+ownership        huns, slave
 
 
 type             hunnic warlords
@@ -12227,7 +12227,7 @@ stat_charge_dist 50
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1503, 160, 140, 210, 1370
-ownership        slave, huns
+ownership        huns, slave
 
 
 type             cavalry alemanni
