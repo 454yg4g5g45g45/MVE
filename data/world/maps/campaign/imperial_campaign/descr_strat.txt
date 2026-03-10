@@ -41228,7 +41228,7 @@ settlement
 	region Naustathmos_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator india
 	building
@@ -41282,7 +41282,7 @@ settlement
 	region Sindomana_R
 
 	year_founded 0
-	population 1500
+	population 500
 	plan_set default_set
 	faction_creator india
 	building
@@ -46192,7 +46192,7 @@ denari	-2000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced_rebel
-denari	-1999999999
+denari	-599999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
@@ -46261,7 +46261,7 @@ settlement
 	region Pundranagara_R
 
 	year_founded 0
-	population 310
+	population 305
 	plan_set default_set
 	faction_creator india
 	garrisoned_army

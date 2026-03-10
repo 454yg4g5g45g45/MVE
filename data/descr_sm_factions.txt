@@ -4140,8 +4140,8 @@
 
 			"family tree":
 			{
-				"background":	  [  96,  17,  15,  ],
-				"font":			[  255, 255, 255, ],
+				"background":	  [  55, 111, 73,  ],
+				"font":			[  38, 74,  27, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -4289,8 +4289,8 @@
 
 			"family tree":
 			{
-				"background":	  [  0,   0,   0,   ],
-				"font":			[  255, 255, 255, ],
+				"background":	  [  95,  77,  110,   ],
+				"font":			[  229, 225, 192, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -4363,8 +4363,8 @@
 
 			"family tree":
 			{
-				"background":	  [  96,  17,  15,  ],
-				"font":			[  255, 255, 255, ],
+				"background":	  [  76,  73,  107,  ],
+				"font":			[  135, 155, 133, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -4511,8 +4511,8 @@
 
 			"family tree":
 			{
-				"background":	  [  96,  17,  15,  ],
-				"font":			[  255, 255, 255, ],
+				"background":	  [  83,  141, 213,  ],
+				"font":			[  173, 0,   0, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -4585,8 +4585,8 @@
 
 			"family tree":
 			{
-				"background":	  [  96,  17,  15,  ],
-				"font":			[  255, 255, 255, ],
+				"background":	  [  173, 0,   0,  ],
+				"font":			[  202, 202, 0, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -4659,8 +4659,8 @@
 
 			"family tree":
 			{
-				"background":	  [  96,  17,  15,  ],
-				"font":			[  255, 255, 255, ],
+				"background":	  [  186, 113, 72,  ],
+				"font":			[  106, 82,  27, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -4733,8 +4733,8 @@
 
 			"family tree":
 			{
-				"background":	  [  0,   0,   0,   ],
-				"font":			[  255, 255, 255, ],
+				"background":	  [  106, 82,  27,   ],
+				"font":			[  30,  32,  7, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -19714,7 +19714,7 @@
 	"slave":
 	{
 		;;name and description
-		"string":	  "SLAVE",
+		"string":      "SLAVE",
 		"description": "SLAVE_DESCR",
 
 		;;culture and (default?) character ethnicity
@@ -19727,8 +19727,8 @@
 		;;namelists
 		"namelists":
 		{
-			"men":	  "slave_men",
-			"women":	"slave_women",
+			"men":      "slave_men",
+			"women":    "slave_women",
 			"surnames": "blank_surnames",
 		},
 
@@ -19738,15 +19738,15 @@
 			"loading screen icon": "data/ui/faction_icons/slave.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":	   20,
+			"standard index":       20,
 			"rebel standard index": 20,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
-			"logo index":	   20,
+			"logo index":       20,
 			"rebel logo index": 20,
 
 			;;flag models to be used on the strat map when a settlement is unoccupied
-			"strat symbol model":	   "data/models_strat/symbol_slaves.CAS",
+			"strat symbol model":       "data/models_strat/symbol_slaves.CAS",
 			"strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
 		},
 
@@ -19758,8 +19758,8 @@
 
 			"family tree":
 			{
-				"background":	  [  0,   0,   0,   ],
-				"font":			[  255, 255, 255, ],
+				"background":      [  0,   0,   0,   ],
+				"font":            [  255, 255, 255, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -19785,3 +19785,4 @@
 		"allow reproduction": true, ;;was false
 	},
 ],
+
