@@ -12258,36 +12258,6 @@ stat_cost        1, 279, 134, 40, 50, 310
 ownership        alemanni, lombardi, burgundii
 
 
-type             night raiders alemanni
-dictionary       night_raiders_alemanni      ; Night Raiders
-category         infantry
-class            light
-voice_type       Heavy_1
-voice_indexes    0 1 2
-soldier          night_raiders, 40, 0, 1.1
-attributes       sea_faring, hide_improved_forest, hide_long_grass, hardy, can_swim, warcry, frighten_foot
-formation        1.2, 1.2, 2.4, 2.4, 4, square
-stat_health      1, 0
-stat_pri         10, 6, no, 0, 0, melee, simple, piercing, axe, 25 ,1
-stat_pri_attr    ap
-stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
-stat_sec_attr    no
-stat_pri_armour  2, 4, 3, flesh, wood
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, -2, 3, 2
-stat_mental      11, impetuous, untrained
-stat_charge_dist 40
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 342, 126, 40, 60, 380
-ownership        alemanni, lombardi, burgundii
-ethnicity alemanni, Germania_Superior, don't_allow_mixed, don't_allow_regional, don't_allow_custom
-ethnicity lombardi, Germania_Superior, don't_allow_mixed, don't_allow_regional, don't_allow_custom
-ethnicity burgundii, Germania_Superior, don't_allow_mixed, don't_allow_regional, don't_allow_custom
-tattoo_color black
-
-
 type             celtic kerns
 dictionary       celtic_kerns      ; Kerns
 category         infantry
@@ -22710,33 +22680,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 873, 229, 100, 150, 970
 ownership        franks
-
-type             cavalry alemanni
-dictionary       cavalry_alemanni      ; Barbarian Cavalry
-category         cavalry
-class            light
-voice_type       Medium_1
-voice_indexes    0 1 2
-soldier          barbarian_cavalry, 60, 0, 1
-mount            medium horse
-mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, hardy, can_swim, power_charge
-formation        1.5, 4, 3, 6, 4, square
-stat_health      1, 0
-stat_pri         7, 7, no, 0, 0, melee, blade, piercing, spear, 25 ,1
-stat_pri_attr    no
-stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
-stat_sec_attr    no
-stat_pri_armour  2, 5, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      0, -2, -4, 2
-stat_mental      5, impetuous, untrained
-stat_charge_dist 40
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 279, 134, 40, 50, 310
-ownership        slave, alemanni, lombardi, burgundii
  
 type             noble cavalry alemanni
 dictionary       noble_cavalry_alemanni      ; Barbarian Noble Cavalry
@@ -22892,7 +22835,7 @@ stat_charge_dist 30
 stat_fire_delay  18
 stat_food        60, 300
 stat_cost        1, 315, 105, 40, 60, 350
-ownership        slave, boii
+ownership        boii
 
 type             francisca heerban
 dictionary       francisca_heerban      ; Francisca Heerbann
@@ -22972,7 +22915,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 342, 105, 40, 60, 380
-ownership        slave, alemanni, lombardi, burgundii
+ownership        alemanni, lombardi, burgundii
 
 type             gallowglass
 dictionary       gallowglass      ; Gallowglasses
@@ -22998,7 +22941,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 124, 50, 80, 500
-ownership        slave, boii
+ownership        boii
 
 type             saxon keels
 dictionary       saxon_keels      ; Saxon Keel
@@ -23024,7 +22967,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 342, 115, 40, 60, 380
-ownership        slave, saxons
+ownership        saxons
 
 type             axe heerbann
 dictionary       axe_heerbann      ; Axe Heerbann
@@ -23050,7 +22993,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 459, 124, 60, 80, 510
-ownership        slave, franks
+ownership        franks
 
 type             chosen axemen alemanni
 dictionary       chosen_axemen_alemanni      ; Chosen Axemen
@@ -23076,7 +23019,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 134, 50, 80, 500
-ownership        slave, alemanni, lombardi, burgundii, saxons
+ownership        alemanni, lombardi, burgundii, saxons
 
 type             greek colonist
 dictionary       greek_colonist      ; Import Colonists
@@ -23153,7 +23096,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 301, 115, 40, 60, 350
-ownership        slave, boii
+ownership        boii
 
 type             levy spearman saxon
 dictionary       levy_spearman_saxon      ; Levy Spearmen
@@ -23178,7 +23121,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 333, 115, 40, 60, 370
-ownership        slave, saxons
+ownership        saxons
 
 type             levy spearman frank
 dictionary       levy_spearman_frank      ; Levy Spearmen
@@ -23203,7 +23146,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 333, 115, 40, 60, 370
-ownership        slave, franks
+ownership        franks
 
 type             spear warband alemanni
 dictionary       spear_warband_alemanni      ; Spear Warband
@@ -23228,7 +23171,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 315, 115, 40, 60, 350
-ownership        slave, alemanni, lombardi, burgundii
+ownership        alemanni, lombardi, burgundii
 
 type             western peasant celt
 dictionary       western_peasant_celt      ; Barbarian Peasants
@@ -23253,7 +23196,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 72, 28, 20, 30, 80
-ownership        slave, boii
+ownership        boii
 
 type             western peasant saxon
 dictionary       western_peasant_saxon      ; Barbarian Peasants
@@ -23278,7 +23221,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 72, 28, 20, 30, 80
-ownership        slave, saxons
+ownership        saxons
 
 type             western peasant frank
 dictionary       western_peasant_frank      ; Barbarian Peasants
@@ -23303,7 +23246,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 72, 28, 20, 30, 80
-ownership        slave, franks
+ownership        franks
 
 type             western peasant alemanni
 dictionary       western_peasant_alemanni      ; Barbarian Peasants
@@ -23328,7 +23271,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 72, 28, 20, 30, 80
-ownership        slave, alemanni, lombardi, burgundii
+ownership        alemanni, lombardi, burgundii
 
 type             burgundian heavy spearmen 1
 dictionary       burgundian_heavy_spearman_1
