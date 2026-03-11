@@ -515,6 +515,12 @@ rebels_texture		models/textures/standard_slave.tga
 routing_texture		models/textures/standard_routing.tga
 ally_texture		models/textures/standard_slave.tga
 
+faction			    lesser_armenia	    ;; Unfinished
+standard_texture	models/textures/standard_slave.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_slave.tga
+
 faction				gedrosia	;; Unfinished
 standard_texture	models/textures/standard_slave.tga
 rebels_texture		models/textures/standard_slave.tga
@@ -1374,10 +1380,10 @@ routing_texture		models/textures/standard_routing.tga
 ally_texture		models/textures/standard_teion.tga
 
 faction				antiochea_taocene
-standard_texture	models/textures/standard_greek_rebels.tga
-rebels_texture		models/textures/standard_greek_rebels.tga
+standard_texture	models/textures/standard_slave.tga
+rebels_texture		models/textures/standard_slave.tga
 routing_texture		models/textures/standard_routing.tga
-ally_texture		models/textures/standard_slave_ally.tga
+ally_texture		models/textures/standard_slave.tga
 
 faction				messene
 standard_texture	models/textures/standard_messene.tga

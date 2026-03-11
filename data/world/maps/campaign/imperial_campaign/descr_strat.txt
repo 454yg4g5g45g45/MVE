@@ -51953,14 +51953,6 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
-;	Dasteira
-character	Ziepyrus, general, age 20, , x 465, y 330
-army
-unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek peltast					exp 0 armour 0 weapon_lvl 0
-
 ;	Isaura
 character	Iollas, general, age 20, , x 413, y 287
 army
