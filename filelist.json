@@ -17785,7 +17785,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 2043588485
+		"checksum": 1510103724
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17801,7 +17801,7 @@
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
-		"checksum": 2780014492
+		"checksum": 1961548444
 	},
 	{
 		"filename": "data\/descr_standards.txt",
@@ -31700,212 +31700,96 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_advice.txt",
-		"checksum": 1742924241
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_ambient.txt",
-		"checksum": 2787963196
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_anims.txt",
-		"checksum": 3533628569
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_fall.txt",
-		"checksum": 1171423360
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_footstep_run.txt",
-		"checksum": 2494426428
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_footstep_walk.txt",
-		"checksum": 1398646164
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_idle.txt",
-		"checksum": 2160564894
-	},
-	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_end_music.txt",
-		"checksum": 2566823802
+		"checksum": 3683405491
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_music_statemachine.txt",
-		"checksum": 2442099822
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_music_transition.txt",
-		"checksum": 2753887196
+		"checksum": 3495373571
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_notifications.txt",
-		"checksum": 1049346766
+		"checksum": 39183828
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_building.txt",
-		"checksum": 1255379932
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_campaign_end.txt",
-		"checksum": 3948494869
+		"checksum": 3771603275
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_character_action.txt",
-		"checksum": 3011352208
+		"checksum": 2918187152
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_character_vocal.txt",
-		"checksum": 2995151099
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_cursor_click.txt",
-		"checksum": 2910085983
+		"checksum": 1882572379
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_diplomacy_comment.txt",
-		"checksum": 1158047583
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_disasters.txt",
-		"checksum": 2332214429
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_engine_alight.txt",
-		"checksum": 2273970772
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_engine_ambient.txt",
-		"checksum": 713077686
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_engine_move.txt",
-		"checksum": 2355119763
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_fall.txt",
-		"checksum": 3076019829
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_foot_step.txt",
-		"checksum": 1411182165
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_foot_step_run.txt",
-		"checksum": 825714237
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_gate.txt",
-		"checksum": 3906883811
+		"checksum": 4107993541
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_generic_unit_anims.txt",
-		"checksum": 3709628580
+		"checksum": 2012011510
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_loading_music.txt",
-		"checksum": 535454880
+		"checksum": 2655700891
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_message_events.txt",
-		"checksum": 4073256495
+		"checksum": 4251232048
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_prebattle_speech.txt",
-		"checksum": 1902865523
+		"checksum": 717392731
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_static_music.txt",
-		"checksum": 2647821806
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_stratmap_object.txt",
-		"checksum": 3303325782
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_stratmap_terrain.txt",
-		"checksum": 1156043153
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_terrain_ambient.txt",
-		"checksum": 2247873314
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_ambient.txt",
-		"checksum": 662474977
+		"checksum": 1070287413
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_anims.txt",
-		"checksum": 917348770
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_berserk.txt",
-		"checksum": 3229154338
+		"checksum": 2864718304
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_celebrate.txt",
-		"checksum": 4132068926
+		"checksum": 2593400593
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_charge.txt",
-		"checksum": 616675418
+		"checksum": 3457333582
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_collide.txt",
-		"checksum": 3387561679
+		"checksum": 923873876
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_confirm.txt",
-		"checksum": 3506924690
+		"checksum": 2344548001
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_confirm_single.txt",
-		"checksum": 3206082153
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_druid_chant.txt",
-		"checksum": 784659382
+		"checksum": 4128829116
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_fighting.txt",
-		"checksum": 1881035326
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_idle.txt",
-		"checksum": 3980786369
+		"checksum": 3703448903
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_march.txt",
-		"checksum": 2973026651
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_missile_attack.txt",
-		"checksum": 1518906175
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_reform.txt",
-		"checksum": 2798222167
+		"checksum": 368918457
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_retreating.txt",
-		"checksum": 2916314370
+		"checksum": 2417293170
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_routing.txt",
-		"checksum": 4164886620
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_run.txt",
-		"checksum": 3189195148
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_screeching_women.txt",
-		"checksum": 204561153
+		"checksum": 1529932448
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_taunting.txt",
-		"checksum": 2860018456
+		"checksum": 2301115011
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_voice.txt",
@@ -31913,95 +31797,19 @@
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_warcry.txt",
-		"checksum": 3337327473
+		"checksum": 3418077802
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_war_horns.txt",
-		"checksum": 779199479
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_water.txt",
-		"checksum": 2345871390
+		"checksum": 1291653775
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_weapon_hit.txt",
-		"checksum": 190400755
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_weather.txt",
-		"checksum": 1802065020
+		"checksum": 3472461572
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/nonroman\/descr_generic_elements.txt",
 		"checksum": 523755099
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_aiding_allies.txt",
-		"checksum": 4156941579
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_battle_context.txt",
-		"checksum": 3883194514
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_battle_odds.txt",
-		"checksum": 2081281842
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_battle_terrain.txt",
-		"checksum": 899498630
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_battle_type.txt",
-		"checksum": 1659108571
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_enemy_allies.txt",
-		"checksum": 2288725966
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_generic_elements.txt",
-		"checksum": 3716702978
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_main_enemy.txt",
-		"checksum": 1558936076
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_omens.txt",
-		"checksum": 789966460
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_oneliners.txt",
-		"checksum": 3152167443
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_our_allies.txt",
-		"checksum": 3374250827
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_previous_record.txt",
-		"checksum": 3020695460
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_reinforcements.txt",
-		"checksum": 2985330457
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_trait_closers.txt",
-		"checksum": 731080441
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_trait_comments.txt",
-		"checksum": 4054552729
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_trait_openers.txt",
-		"checksum": 3770897155
-	},
-	{
-		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_troop_comparison.txt",
-		"checksum": 3097847430
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_anims\/descr_soundbank_arabic_unit_anims.txt",
@@ -32025,63 +31833,63 @@
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_ai_unit_voices.txt",
-		"checksum": 1032657468
+		"checksum": 3984537250
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_barbarian_general_unit_voices.txt",
-		"checksum": 3392061911
+		"checksum": 171674378
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_barbarian_unit_voices.txt",
-		"checksum": 800523690
+		"checksum": 4014706322
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_eastern_general_unit_voices.txt",
-		"checksum": 4009248799
+		"checksum": 3946016767
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_eastern_unit_voices.txt",
-		"checksum": 2013918723
+		"checksum": 1894002088
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_female_unit_voices.txt",
-		"checksum": 3160141391
+		"checksum": 509845448
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_greek_general_unit_voices.txt",
-		"checksum": 4189891637
+		"checksum": 1908128965
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_greek_unit_voices.txt",
-		"checksum": 3268051656
+		"checksum": 1710570031
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_roman_general_unit_voices.txt",
-		"checksum": 1246298365
+		"checksum": 682335224
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_voices\/descr_roman_unit_voices.txt",
-		"checksum": 4149235970
+		"checksum": 3420739259
 	},
 	{
 		"filename": "data\/sounds\/descrs\/descr_bank_sounds.txt",
-		"checksum": 3629043723
+		"checksum": 3789622211
 	},
 	{
 		"filename": "data\/sounds\/descrs\/descr_enum_sounds.txt",
-		"checksum": 2855763042
+		"checksum": 11373488
 	},
 	{
 		"filename": "data\/sounds\/descrs\/descr_misc_sounds.txt",
-		"checksum": 375621876
+		"checksum": 386648571
 	},
 	{
 		"filename": "data\/sounds\/events.dat",
-		"checksum": 1976079684
+		"checksum": 699575183
 	},
 	{
 		"filename": "data\/sounds\/events.idx",
-		"checksum": 3221167811
+		"checksum": 2454830579
 	},
 	{
 		"filename": "data\/sounds\/interface.dat.feral",
