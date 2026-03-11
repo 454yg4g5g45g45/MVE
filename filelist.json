@@ -17669,7 +17669,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 2162941679
+		"checksum": 746850700
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -17681,7 +17681,7 @@
 	},
 	{
 		"filename": "data\/descr_banners.txt",
-		"checksum": 2875391633
+		"checksum": 2531492580
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
@@ -17689,7 +17689,7 @@
 	},
 	{
 		"filename": "data\/descr_building_battle.txt",
-		"checksum": 949544216
+		"checksum": 3565048411
 	},
 	{
 		"filename": "data\/descr_building_battle\/dbb_barbarian_invasion.txt",
@@ -17709,7 +17709,7 @@
 	},
 	{
 		"filename": "data\/descr_character.txt",
-		"checksum": 4045655149
+		"checksum": 382128363
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
@@ -17733,7 +17733,7 @@
 	},
 	{
 		"filename": "data\/descr_lbc_db.txt",
-		"checksum": 644844221
+		"checksum": 1215135524
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
@@ -17757,7 +17757,7 @@
 	},
 	{
 		"filename": "data\/descr_offmap_models.txt",
-		"checksum": 4148687881
+		"checksum": 2871961934
 	},
 	{
 		"filename": "data\/descr_projectile_new.txt",
@@ -17781,11 +17781,11 @@
 	},
 	{
 		"filename": "data\/descr_sm_faction_logos.txt",
-		"checksum": 2513592505
+		"checksum": 1470103881
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 2953901922
+		"checksum": 2043588485
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17801,7 +17801,7 @@
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
-		"checksum": 2858282040
+		"checksum": 2780014492
 	},
 	{
 		"filename": "data\/descr_standards.txt",
@@ -17881,7 +17881,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 219848581
+		"checksum": 3640341042
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -17889,7 +17889,7 @@
 	},
 	{
 		"filename": "data\/feral_descr_ai_personality.txt",
-		"checksum": 3044818195
+		"checksum": 4272072350
 	},
 	{
 		"filename": "data\/feral_textures\/additional_grunge_anim.tga.dds",
@@ -20681,6 +20681,22 @@
 	},
 	{
 		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_leponti_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_lesser_armenia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_lesser_armenia_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_lesser_armenia_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_lesser_armenia_select.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -31684,12 +31700,44 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_advice.txt",
+		"checksum": 1742924241
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_ambient.txt",
+		"checksum": 2787963196
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_anims.txt",
+		"checksum": 3533628569
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_fall.txt",
+		"checksum": 1171423360
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_footstep_run.txt",
+		"checksum": 2494426428
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_footstep_walk.txt",
+		"checksum": 1398646164
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_animal_idle.txt",
+		"checksum": 2160564894
+	},
+	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_end_music.txt",
 		"checksum": 2566823802
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_music_statemachine.txt",
 		"checksum": 2442099822
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_music_transition.txt",
+		"checksum": 2753887196
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_battle_notifications.txt",
@@ -31700,6 +31748,10 @@
 		"checksum": 1255379932
 	},
 	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_campaign_end.txt",
+		"checksum": 3948494869
+	},
+	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_character_action.txt",
 		"checksum": 3011352208
 	},
@@ -31708,8 +31760,44 @@
 		"checksum": 2995151099
 	},
 	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_cursor_click.txt",
+		"checksum": 2910085983
+	},
+	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_diplomacy_comment.txt",
 		"checksum": 1158047583
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_disasters.txt",
+		"checksum": 2332214429
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_engine_alight.txt",
+		"checksum": 2273970772
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_engine_ambient.txt",
+		"checksum": 713077686
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_engine_move.txt",
+		"checksum": 2355119763
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_fall.txt",
+		"checksum": 3076019829
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_foot_step.txt",
+		"checksum": 1411182165
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_foot_step_run.txt",
+		"checksum": 825714237
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_gate.txt",
+		"checksum": 3906883811
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_generic_unit_anims.txt",
@@ -31732,8 +31820,28 @@
 		"checksum": 2647821806
 	},
 	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_stratmap_object.txt",
+		"checksum": 3303325782
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_stratmap_terrain.txt",
+		"checksum": 1156043153
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_terrain_ambient.txt",
+		"checksum": 2247873314
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_ambient.txt",
+		"checksum": 662474977
+	},
+	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_anims.txt",
 		"checksum": 917348770
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_berserk.txt",
+		"checksum": 3229154338
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_celebrate.txt",
@@ -31756,12 +31864,28 @@
 		"checksum": 3206082153
 	},
 	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_druid_chant.txt",
+		"checksum": 784659382
+	},
+	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_fighting.txt",
 		"checksum": 1881035326
 	},
 	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_idle.txt",
+		"checksum": 3980786369
+	},
+	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_march.txt",
 		"checksum": 2973026651
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_missile_attack.txt",
+		"checksum": 1518906175
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_reform.txt",
+		"checksum": 2798222167
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_retreating.txt",
@@ -31770,6 +31894,14 @@
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_routing.txt",
 		"checksum": 4164886620
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_run.txt",
+		"checksum": 3189195148
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_screeching_women.txt",
+		"checksum": 204561153
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_unit_taunting.txt",
@@ -31788,12 +31920,88 @@
 		"checksum": 779199479
 	},
 	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_water.txt",
+		"checksum": 2345871390
+	},
+	{
 		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_weapon_hit.txt",
 		"checksum": 190400755
 	},
 	{
+		"filename": "data\/sounds\/descrs\/banks\/descr_soundbank_weather.txt",
+		"checksum": 1802065020
+	},
+	{
 		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/nonroman\/descr_generic_elements.txt",
 		"checksum": 523755099
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_aiding_allies.txt",
+		"checksum": 4156941579
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_battle_context.txt",
+		"checksum": 3883194514
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_battle_odds.txt",
+		"checksum": 2081281842
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_battle_terrain.txt",
+		"checksum": 899498630
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_battle_type.txt",
+		"checksum": 1659108571
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_enemy_allies.txt",
+		"checksum": 2288725966
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_generic_elements.txt",
+		"checksum": 3716702978
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_main_enemy.txt",
+		"checksum": 1558936076
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_omens.txt",
+		"checksum": 789966460
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_oneliners.txt",
+		"checksum": 3152167443
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_our_allies.txt",
+		"checksum": 3374250827
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_previous_record.txt",
+		"checksum": 3020695460
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_reinforcements.txt",
+		"checksum": 2985330457
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_trait_closers.txt",
+		"checksum": 731080441
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_trait_comments.txt",
+		"checksum": 4054552729
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_trait_openers.txt",
+		"checksum": 3770897155
+	},
+	{
+		"filename": "data\/sounds\/descrs\/banks\/prebattle_speeches\/roman\/descr_troop_comparison.txt",
+		"checksum": 3097847430
 	},
 	{
 		"filename": "data\/sounds\/descrs\/banks\/unit_anims\/descr_soundbank_arabic_unit_anims.txt",
@@ -31869,11 +32077,11 @@
 	},
 	{
 		"filename": "data\/sounds\/events.dat",
-		"checksum": 699575183
+		"checksum": 1976079684
 	},
 	{
 		"filename": "data\/sounds\/events.idx",
-		"checksum": 2454830579
+		"checksum": 3221167811
 	},
 	{
 		"filename": "data\/sounds\/interface.dat.feral",
@@ -39309,7 +39517,7 @@
 	},
 	{
 		"filename": "data\/text\/campaign_descriptions.txt",
-		"checksum": 1901300044
+		"checksum": 3886116806
 	},
 	{
 		"filename": "data\/text\/climates.txt",
@@ -39345,7 +39553,7 @@
 	},
 	{
 		"filename": "data\/text\/expanded_bi.txt",
-		"checksum": 3895851719
+		"checksum": 1875562238
 	},
 	{
 		"filename": "data\/text\/export_ancillaries.txt",
@@ -45393,6 +45601,10 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/leponti.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/faction_icons\/lesser_armenia.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -71785,6 +71997,70 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/leponti\/tribal_slingers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/east_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/east_generals_cavalry_early_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/east_generals_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/east_heavy_cataphract_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/east_heavy_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/east_horse_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/east_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/east_onager_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/east_peasant_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/merchant_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/naval_bireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/naval_quinquireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/naval_trireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/lesser_armenia\/spy_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -99620,6 +99896,70 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#east_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#east_generals_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#east_generals_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#east_heavy_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#east_heavy_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#east_horse_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#east_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#east_onager.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#east_peasant.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#naval_bireme.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#naval_quinquireme.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/#naval_trireme.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/assassin.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/diplomat.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/merchant.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/lesser_armenia\/spy.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/lexovii\/#barb_chieftain_cavalry_early_gaul.tga",
 		"checksum": "Blacklisted"
 	},
@@ -112857,7 +113197,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 3609566687
+		"checksum": 492333803
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
@@ -113041,11 +113381,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_mercenaries.txt",
-		"checksum": 4114119232
+		"checksum": 1337408979
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2665195728
+		"checksum": 920199764
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
