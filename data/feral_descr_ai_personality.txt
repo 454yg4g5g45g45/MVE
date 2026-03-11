@@ -359,7 +359,7 @@ aggresiveness 75				;;this hardly changes anything
 diplomatic_priority assertive
 aggresiveness 50				;;this hardly changes anything
 
-diplomatic_priority passive
+diplomatic_priority very_passive
 aggresiveness 25				;;still hardly changes anything
 
 diplomatic_priority very_passive
@@ -537,7 +537,7 @@ diplomatic_priority default
 personality british_passive
 building_priority Trader
 military_priority henry
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality celtic
 building_priority Religious
@@ -547,7 +547,7 @@ diplomatic_priority default
 personality celtic_passive
 building_priority Religious
 military_priority smith
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality dacian
 building_priority Balanced
@@ -557,7 +557,7 @@ diplomatic_priority default
 personality dacian_passive
 building_priority Balanced
 military_priority stalin
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality desert
 building_priority Balanced
@@ -567,7 +567,7 @@ diplomatic_priority default
 personality desert_passive
 building_priority Balanced
 military_priority henry
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality eastern
 building_priority Fortified
@@ -582,7 +582,7 @@ diplomatic_priority very_passive
 personality eastern_passive
 building_priority Fortified
 military_priority henry
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality germanic
 building_priority Balanced
@@ -592,7 +592,7 @@ diplomatic_priority default
 personality germanic_passive
 building_priority Balanced
 military_priority mao
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality greek
 building_priority Balanced
@@ -602,7 +602,7 @@ diplomatic_priority default
 personality greek_passive
 building_priority Balanced
 military_priority smith
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality greek_assertive
 building_priority Balanced
@@ -617,7 +617,7 @@ diplomatic_priority default
 personality iberian_passive
 building_priority Fortified
 military_priority mao
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality nomad
 building_priority Balanced
@@ -627,7 +627,7 @@ diplomatic_priority default
 personality nomad_passive
 building_priority Balanced
 military_priority genghis
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 ;;unique
 
@@ -639,28 +639,28 @@ diplomatic_priority default
 personality athens_passive
 building_priority Sailor
 military_priority smith
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 ;;unused
 
 personality comfortable_napoleon_established
 building_priority Comfortable
 military_priority napoleon
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality balanced_henry_established
 building_priority Balanced
 military_priority henry
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality balanced_stalin_established
 building_priority Balanced
 military_priority stalin
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 personality religious_caesar_established
 building_priority Religious
 military_priority caesar
-diplomatic_priority passive
+diplomatic_priority very_passive
 
 ;;additions end

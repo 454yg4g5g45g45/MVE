@@ -7127,7 +7127,7 @@ ComanaPontica_R
 Dasteira_R
 	legion: Pontica
 	Dasteira
-	pontus
+	lesser_armenia
 	Cappadocians
 	179 148 108
 	pontus
@@ -8070,7 +8070,7 @@ Ptoua_R
 Satala_R
 	legion: Armeniaca
 	Satala
-	armenia
+	lesser_armenia
 	Cappadocians
 	59 51 160
 	armenia_r

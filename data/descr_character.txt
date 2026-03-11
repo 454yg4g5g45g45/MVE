@@ -145,6 +145,12 @@ strat_model		sm_eastern_general
 battle_model	east_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			lesser_armenia
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			dacia
 dictionary		2
 strat_model		sm_barb_general
@@ -1728,6 +1734,13 @@ battle_model	celt_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			lesser_armenia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		sm_eastern_lesser_general
@@ -3541,6 +3554,11 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+faction			lesser_armenia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 faction			dacia
 dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
@@ -4876,6 +4894,11 @@ strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
 faction			armenia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			lesser_armenia
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
@@ -6217,6 +6240,11 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
+faction			lesser_armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
 faction			dacia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -7547,6 +7575,11 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		merchant
 
+faction			lesser_armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
 faction			dacia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -8865,6 +8898,11 @@ strat_card		data/ui/barbarian/agents/temp_admiral.tga
 strat_model		briton_admiral
 
 faction			armenia
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		armenia_admiral
+
+faction			lesser_armenia
 dictionary		2
 strat_card		data/ui/eastern/agents/temp_admiral.tga
 strat_model		armenia_admiral

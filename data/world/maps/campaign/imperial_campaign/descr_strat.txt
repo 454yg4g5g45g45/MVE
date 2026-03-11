@@ -132,6 +132,7 @@ nonplayable
 	anuradhapura
 	ardiaei
 	antiochea_taocene
+	lesser_armenia
 	psyllia
 	persis
 	nervii
@@ -19073,7 +19074,7 @@ relative 	Obodas,		Aglaurus,		Massinissa,		end
 
 ;	Sparta (not Acarnania)
 faction	acarnania, greek_passive
-denari	2200
+denari	2000
 settlement
 {
 	level city
@@ -46118,6 +46119,77 @@ character_record		Synges of Epardus, 	male, command 0, influence 5, management 3
 
 relative 	Adamanthaleus of Epardus, 	Arxa,		Herakles of Epardus,	    Synges of Epardus,	end
 
+
+faction	lesser_armenia, eastern_passive
+denari	378
+settlement
+{
+	level town
+	region Satala_R
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Dasteira_R
+
+	year_founded 0
+	population 810
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+;	Sinoria
+character	Toros Kananatsi, named character, leader, age 39, , x 482, y 333
+traits GoodCommander 2, GoodAdministrator 4, GoodTrader 2, GoodInfantryGeneral 2
+army
+unit		east generals cavalry early		exp 4 armour 1 weapon_lvl 1
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east archer					exp 0 armour 0 weapon_lvl 1
+
+;	Dasteira
+character	Razmig Kananatsi, named character, heir, age 16, , x 465, y 430
+traits GoodCommander 3, GoodAdministrator 4, GoodTrader 2, Intelligent 1, Austere 1, GoodDefender 2
+army
+unit		east generals cavalry early		exp 5 armour 1 weapon_lvl 1
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
+unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
+unit		east archer					exp 0 armour 0 weapon_lvl 1
+
+character_record		Maiandria, 	female, command 0, influence 0, management 0, subterfuge 0, age 39, alive, never_a_leader
+character_record		Circe, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
+character_record		Tudhaliya Kananatsi, 	male, command 9, influence 9, management 9, subterfuge 0, age 15, alive, never_a_leader
+
+relative 	Toros Kananatsi, 	Maiandria,		Razmig Kananatsi,	Tudhaliya Kananatsi,		end
+relative 	Razmig Kananatsi, 	Circe,	end
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;                 NEW FACTIONS END                 ;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -46192,7 +46264,7 @@ denari	-2000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced_rebel
-denari	-599999999
+denari	-999999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
@@ -47530,26 +47602,6 @@ settlement
 settlement
 {
 	level town
-	region Dasteira_R
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator pontus
-	building
-	{
-		type core_building governors_house
-		creator paphlagonia
-	}
-	building
-	{
-		type defenses wooden_pallisade
-		creator paphlagonia
-	}
-}
-settlement
-{
-	level town
 	region Isaura_R
 
 	year_founded 0
@@ -47567,25 +47619,6 @@ settlement
 		creator cappadocia
 	}
 }
-settlement
-{
-	level town
-	region Satala_R
-
-	year_founded 0
-	population 1300
-	plan_set default_set
-	faction_creator armenia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
 ;-------------- ?$. Arabia ---------------
 settlement
 {
@@ -51936,14 +51969,6 @@ unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
 unit		greek peltast					exp 0 armour 0 weapon_lvl 0
 
-;	Sinoria
-character	Ziepyrus, general, age 20, , x 482, y 333
-army
-unit		greek hoplite					exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia			exp 0 armour 0 weapon_lvl 0
-unit		greek peltast					exp 0 armour 0 weapon_lvl 0
-
 ;--------- Arabia ----------
 ;	Inapha
 character	Xshathrita, general, age 20, , x 574, y 161
@@ -54266,11 +54291,12 @@ core_attitudes	kucha,			600		slave
 core_attitudes	kashgar,		600		slave
 core_attitudes	ferghana,		600		slave
 core_attitudes	teion,			600		slave
+core_attitudes	lesser_armenia,	600		slave
 core_attitudes	troezen,		600		slave
 core_attitudes	persis,			600		slave
 core_attitudes	gedrosia,		600		slave
 core_attitudes	psyllia,		600		slave
-core_attitudes	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, persis, gedrosia, ferghana
+core_attitudes	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, lesser_armenia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, persis, gedrosia, ferghana
 
 ;-------------- #$b Faction Relations ---------------
 
@@ -54545,6 +54571,7 @@ faction_relationships	corinth,		600		slave
 faction_relationships	corsi,			600		slave
 faction_relationships	italiotes,		600		slave
 faction_relationships	cyprus,			600		slave
+faction_relationships	lesser_armenia,	600		slave
 faction_relationships	cyrene,			600		slave
 faction_relationships	daesitiates,	600		slave
 faction_relationships	dahae,			600		slave
@@ -54689,7 +54716,7 @@ faction_relationships	troezen,		600		slave
 faction_relationships	persis,			600		slave
 faction_relationships	gedrosia,		600		slave
 faction_relationships	psyllia,		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, persis, gedrosia, ferghana
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, egypt, seleucid, carthage, parthia, lesser_armenia, gauls, germans, britons, greek_cities, macedon, pontus, armenia, dacia, numidia, scythia, spain, thrace, saxons, ardiaei, athens, antiochea_taocene, bactria, boii, bosporus, caledonia, celtiberia, colchis, epirus, galatia, kush, marcomanni, massagetae, massalia, nabataea, nervii, pergamon, saba, syracuse, tylis, veneti, anuradhapura, chola, alemanni, burgundii, franks, goths, huns, lombardi, ostrogoths, roxolani, sarmatians, slavs, vandals, persia, acarnania, achea, aedui, aestii, aetolia, agathyrsi, agyrion, akragas, albania, allobroges, anartes, anglii, aorsi, apuli, arcadia, argos, etruscans, astures, atrebates, atropatene, axum, balari, bastarnae, bastetani, belgae, bellovaci, bithynia, bituriges, blemmyes, boetia, breuci, brigantes, bructeri, brutii, budini, buri, byzantion, cadurci, cantabri, cantiaci, cappadocia, carni, carnutes, carpetani, catuvellauni, cavari, celtici, cenomanni, cessetani, chamavi, chauci, chera, cherusci, chorasmia, cimbri, corieltauvi, corinth, corsi, italiotes, cyprus, cyrene, daesitiates, dahae, daorsi, dardania, daunians, delmatae, demetae, dumnonii, eblani, eburones, edetani, elis, elusates, emporion, eravisci, fosi, frisii, gaetuli, gallaeci, garamantes, psyllia, gerrha, gortyn, hadhramaut, harii, helisii, helveconae, helvetii, heraclea, hermunduri, heruli, histri, iazyges, iberia, ilercavones, ilergetes, illyria, india, insubres, iolei, juti, knossos, kydonia, lemovices, leponti, lexovii, libya, ligures, lihyan, lingones, lucani, mamertines, mandubii, mascat, massylii, mauri, mediomatrici, melos, messapians, messene, minaea, morini, nahanarvali, namnetes, nasamones, neapolis, nemetes, nori, oretani, osismii, paeligni, paeonia, palmyra, pandya, paphlagonia, parisii, peucitans, picentes, pictones, qataban, qedar, quadi, raeti, redones, remi, rhodes, rugii, ruteni, sabines, saka, samnites, santones, scordisci, segusiavi, senones, sequani, sinope, siraces, suessiones, sugambri, suiones, taras, tarbelli, taurini, tencteri, thessaly, thyssagetae, treverii, triballi, turdetani, turones, ubii, umbri, unelli, vaccaei, vangiones, varini, vascones, venedi, veneti_gaul, vettones, vindelici, vivisci, vocontii, volcae, volsci, bessi, caeni, krobyzi, biephi, buridenses, thamud, ay, athiyaman, kalinga, kucha, kashgar, teion, troezen, persis, gedrosia, ferghana
 
 ;-------------- #$c Faction Aggression ---------------
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -336,13 +336,14 @@ texture_variants
 		kucha			##standard_kucha.tga
 		ferghana		##standard_ferghana.tga
 		daesitiates		##standard_daesitiates.tga
+		slave			##standard_slave.tga
 		troezen			##standard_troezen.tga
 		persis			##standard_slave.tga
 		psyllia			##standard_slave.tga
+		lesser_armenia	##standard_slave.tga
 		teion			##standard_slave.tga
 		gedrosia		##standard_slave.tga
 		antiochea_taocene		##standard_slave.tga
-		slave			##standard_slave.tga
 	}
 
 	##cren.tga

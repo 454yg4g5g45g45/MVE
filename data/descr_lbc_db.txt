@@ -1034,6 +1034,10 @@ faction psyllia
 model eastern_male_peasant		40
 model east_female_peasant   	60
 
+faction lesser_armenia
+model eastern_male_peasant		40
+model east_female_peasant   	60
+
 faction slave
 model roman_peasant				40
 model roman_female_peasant		60
