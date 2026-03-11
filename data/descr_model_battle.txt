@@ -28343,7 +28343,7 @@ male
 body Default
 angry_face no
 medieval_features no
-tired VeryTired
+tired No
 aged 0.00
 pbr_texture data/characters/textures/generic_pbr.tga
 texture data/characters/textures/burgundian_heavy_spearmen_1_slave.tga

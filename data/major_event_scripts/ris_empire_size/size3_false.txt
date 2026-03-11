@@ -7,8 +7,8 @@ script
 		inc_counter city_count 1
 	end_for
 	
-	if I_CompareCounter city_count < 5
-	|| I_CompareCounter city_count > 8
+	if I_CompareCounter city_count < 6
+	|| I_CompareCounter city_count > 9
 		return true
 	end_if
 	
