@@ -1,0 +1,523 @@
+	"teion":
+	{
+		;;name and description
+		"string":      "TEION",
+		"description": "TEION_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "greek",
+		"ethnicity": "arabic",
+
+		;;tags for faction groups
+		"tags": [ "fgroup_leadership_temple", "fgroup_love_temple", "fgroup_victory_temple", ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "greek_men",
+			"women":    "greek_women",
+			"surnames": "greek_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/teion.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       23,
+			"rebel standard index": 23,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       297,
+			"rebel logo index": 23,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_greek_rebel.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_greek_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  48, 74, 60, ],
+			"secondary": [  161, 135, 93,  ],
+			;;tertiary   237, 217, 200
+			;;tertiary (units)   235, 216, 199
+
+			"family tree":
+			{
+				"background":      [  0,   0,   0,   ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/greek_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/greek_outro.wmv",
+			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
+		},
+
+		"available in custom battles": false, ;; MAKE FALSE
+		"prefer naval invasions": false,
+		"default religion": "anatolian",
+		"default battle ai personality": "default_personality",
+
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+	"troezen":
+	{
+		;;name and description
+		"string":      "TROEZEN",
+		"description": "TROEZEN_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "greek",
+		"ethnicity": "mediterranean",
+
+		;;tags for faction groups
+		"tags": [ "fgroup_leadership_temple", "fgroup_love_temple", "fgroup_victory_temple", ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "troezen_men",
+			"women":    "greek_women",
+			"surnames": "troezen_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/troezen.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       20,
+			"rebel standard index": 23,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       298,
+			"rebel logo index": 23,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_slaves.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_greek_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  61, 126, 100, ],
+			"secondary": [  153, 112, 39,  ],
+			;"tertiary":  [  39, 62, 97,  ],
+
+
+			"family tree":
+			{
+				"background":      [  61, 126, 100, ],
+				"font":            [ 153, 112, 39, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/greek_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/greek_outro.wmv",
+			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
+		},
+
+		"available in custom battles": false,
+		"prefer naval invasions": false,
+		"default religion": "greek",
+		"default battle ai personality": "default_personality",
+
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true, ;;was false
+	},
+
+	"persis":
+	{
+		;;name and description
+		"string":      "PERSIS",
+		"description": "PERSIS_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "eastern",
+		"ethnicity": "arabic",
+
+		;;tags for faction groups
+		"tags": [ ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "parthia_men",
+			"women":    "parthia_women",
+			"surnames": "parthia_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/persis.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       25,
+			"rebel standard index": 25,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       299,
+			"rebel logo index": 25,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_eastern_rebel.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_eastern_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  177, 58, 69,  ],
+			"secondary": [  149, 114, 133, ],
+
+			"family tree":
+			{
+				"background":      [  177, 58, 69,   ],
+				"font":            [  149, 114, 133, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/eastern_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/eastern_outro.wmv",
+			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
+		},
+
+		"available in custom battles": false,
+		"prefer naval invasions": false,
+		"default religion": "iranian",
+		"default battle ai personality": "default_personality",
+
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+	"gedrosia":
+	{
+		;;name and description
+		"string":      "GEDROSIA",
+		"description": "GEDROSIA_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "eastern",
+		"ethnicity": "arabic",
+
+		;;tags for faction groups
+		"tags": [ ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "parthia_men",
+			"women":    "parthia_women",
+			"surnames": "parthia_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/gedrosia.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       25,
+			"rebel standard index": 25,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       300,
+			"rebel logo index": 25,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_eastern_rebel.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_eastern_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  12, 6, 61,  ],
+			"secondary": [  255, 230, 0, ],
+
+			"family tree":
+			{
+				"background":      [  12, 6, 61,   ],
+				"font":            [  255, 230, 0, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/eastern_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/eastern_outro.wmv",
+			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
+		},
+
+		"available in custom battles": false,
+		"prefer naval invasions": false,
+		"default religion": "iranian",
+		"default battle ai personality": "default_personality",
+
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+
+	"antiochea_taocene":
+	{
+		;;name and description
+		"string":      "ANTIOCHEA_TAOCENE",
+		"description": "ANTIOCHEA_TAOCENE_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "greek",
+		"ethnicity": "arabic",
+
+		;;tags for faction groups
+		"tags": [ ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "antiochea_taocene_men",
+			"women":    "parthia_women",
+			"surnames": "antiochea_taocene_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/antiochea_taocene.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       25,
+			"rebel standard index": 25,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       301,
+			"rebel logo index": 25,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_greek_rebel.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_greek_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  55, 82, 68,  ],
+			"secondary": [  157, 139, 158, ],
+
+			"family tree":
+			{
+				"background":      [  55, 82, 68,   ],
+				"font":            [  157, 139, 158, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/greek_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/greek_outro.wmv",
+			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
+		},
+
+		"available in custom battles": false,
+		"prefer naval invasions": false,
+		"default religion": "greek",
+		"default battle ai personality": "default_personality",
+
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+	"psyllia":
+	{
+		;;name and description
+		"string":      "PSYLLIA",
+		"description": "PSYLLIA_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "numidian",
+		"ethnicity": "berber",
+
+		;;tags for faction groups
+		"tags": [ "fgroup_farming_temple", ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "psyllia_men",
+			"women":    "psyllia_women",
+			"surnames": "psyllia_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/psyllia.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       22,
+			"rebel standard index": 22,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       302,
+			"rebel logo index": 22,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_carthage_rebel.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_carthage_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  101, 121, 22, ],
+			"secondary": [  188, 82, 47,  ],
+			;;tertiary   22, 179, 218
+
+			"family tree":
+			{
+				"background":      [  0,   0,   0,   ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/numidia_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/carthage_outro.wmv",
+			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
+		},
+
+		"available in custom battles": false,
+		"prefer naval invasions": false,
+		"default religion": "numidian",
+		"default battle ai personality": "default_personality",
+
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+	"lesser_armenia":
+	{
+		;;name and description
+		"string":      "LESSER_ARMENIA",
+		"description": "LESSER_ARMENIA_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "caucasian",
+		"ethnicity": "arabic",
+
+		;;tags for faction groups
+		"tags": [ "fgroup_fun_temple", "fgroup_leadership_temple", ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "armenia_men",
+			"women":    "armenia_women",
+			"surnames": "armenia_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/lesser_armenia.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       23,
+			"rebel standard index": 23,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       303,
+			"rebel logo index": 23,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_slaves.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_eastern_rebel.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  39, 192, 227,  ],
+			"secondary": [  51, 54, 64, ],
+
+			"family tree":
+			{
+				"background":      [  39, 192, 227,  ],
+				"font":            [  51, 54, 64, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/armenia_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/eastern_outro.wmv",
+			"defeat": "data/fmv/lose/armenia_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default religion": "armenian",
+		"default battle ai personality": "default_personality",
+
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
