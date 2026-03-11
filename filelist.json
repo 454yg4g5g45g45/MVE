@@ -17737,7 +17737,7 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 3166224409
+		"checksum": 335737081
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
@@ -17765,7 +17765,7 @@
 	},
 	{
 		"filename": "data\/descr_quick_battle_locations.txt",
-		"checksum": 3894040255
+		"checksum": 61743374
 	},
 	{
 		"filename": "data\/descr_quotes_lookup.txt",
@@ -17785,7 +17785,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 1510103724
+		"checksum": 4025327293
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17890,14 +17890,6 @@
 	{
 		"filename": "data\/feral_descr_ai_personality.txt",
 		"checksum": 4272072350
-	},
-	{
-		"filename": "data\/feral_textures\/additional_grunge_anim.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/feral_textures\/additional_grunge_anim_n.tga.dds",
-		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/fmv\/atvi_spinning_logo_640x480.webm",
@@ -18132,6 +18124,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/major_event_scripts\/_unused\/polybian_reforms_trigger_old.txt",
+		"checksum": 3594610219
+	},
+	{
 		"filename": "data\/major_event_scripts\/antigonid_reforms_trigger.txt",
 		"checksum": 2990881189
 	},
@@ -18157,7 +18153,7 @@
 	},
 	{
 		"filename": "data\/major_event_scripts\/polybian_reforms_trigger.txt",
-		"checksum": 3594610219
+		"checksum": 3540720413
 	},
 	{
 		"filename": "data\/major_event_scripts\/polybian_reforms_trigger_rise.txt",
@@ -18181,27 +18177,27 @@
 	},
 	{
 		"filename": "data\/major_event_scripts\/ris_empire_size\/size2_false.txt",
-		"checksum": 2373280575
+		"checksum": 1000613885
 	},
 	{
 		"filename": "data\/major_event_scripts\/ris_empire_size\/size2_true.txt",
-		"checksum": 3274720744
+		"checksum": 2278856878
 	},
 	{
 		"filename": "data\/major_event_scripts\/ris_empire_size\/size3_false.txt",
-		"checksum": 3465805326
+		"checksum": 3587507224
 	},
 	{
 		"filename": "data\/major_event_scripts\/ris_empire_size\/size3_true.txt",
-		"checksum": 3242762611
+		"checksum": 3055246788
 	},
 	{
 		"filename": "data\/major_event_scripts\/ris_empire_size\/size4_false.txt",
-		"checksum": 309278248
+		"checksum": 917632898
 	},
 	{
 		"filename": "data\/major_event_scripts\/ris_empire_size\/size4_true.txt",
-		"checksum": 731867828
+		"checksum": 692694897
 	},
 	{
 		"filename": "data\/major_event_scripts\/ris_empire_size\/size5_false.txt",
@@ -31928,16 +31924,8 @@
 		"checksum": 953093814
 	},
 	{
-		"filename": "data\/string_overrides\/campaign_descriptions_en.strings",
-		"checksum": 1541989888
-	},
-	{
 		"filename": "data\/string_overrides\/en.strings",
 		"checksum": 945286824
-	},
-	{
-		"filename": "data\/string_overrides\/expanded_bi_en.strings",
-		"checksum": 2227635839
 	},
 	{
 		"filename": "data\/terrain\/aerial_map\/bases\/forts\/fort_barb_underlay.tga",
@@ -46061,58 +46049,6 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/zhangzhung.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/#generic_construction.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/#generic_plugin1.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/#generic_unit_card.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/bribed_portrait.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/generic_ancillary.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/generic_building.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/generic_city.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/generic_constructed_building.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/generic_fort.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/generic_preconstructed_building.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/generic_unit_card.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/generic_unit_info.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/generic\/placement_message.tga",
 		"checksum": "Blacklisted"
 	},
 	{

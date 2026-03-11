@@ -453,80 +453,80 @@
         "allow reproduction": true,
     },
 
-    "egypt":
-    {
-        ;;name and description
-        "string":      "EGYPT",
-        "description": "EGYPT_DESCR",
+	"egypt":
+	{
+		;;name and description
+		"string":      "EGYPT",
+		"description": "EGYPT_DESCR",
 
-        ;;culture and (default?) character ethnicity
-        "culture":   "greek",
-        "ethnicity": "egyptian",
+		;;culture and (default?) character ethnicity
+		"culture":   "greek",
+		"ethnicity": "egyptian",
 
-        ;;tags for faction groups
-        ;;"tags": [ "fgroup_fertility_temple", "fgroup_fun_temple", "fgroup_justice_temple", "fgroup_law_temple", "fgroup_healing_temple", ],
-        "tags": [ "fgroup_farming_temple", "fgroup_governors_temple", "fgroup_hunting_temple", "fgroup_violence_temple", ],
+		;;tags for faction groups
+		;;"tags": [ "fgroup_fertility_temple", "fgroup_fun_temple", "fgroup_justice_temple", "fgroup_law_temple", "fgroup_healing_temple", ],
+		"tags": [ "fgroup_farming_temple", "fgroup_governors_temple", "fgroup_hunting_temple", "fgroup_violence_temple", ],
 
-        ;;namelists
-        "namelists":
-        {
-            "men":      "egypt_men",
-            "women":    "egypt_women",
-            "surnames": "egypt_surnames",
-        },
+		;;namelists
+		"namelists":
+		{
+			"men":      "egypt_men",
+			"women":    "egypt_women",
+			"surnames": "egypt_surnames",
+		},
 
-        "logos":
-        {
-            ;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
-            "loading screen icon": "data/ui/faction_icons/egypt.tga",
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/egypt.tga",
 
-            ;;standard index as declared in descr_standards (4 per page)
-            "standard index":       5,
-            "rebel standard index": 24,
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       5,
+			"rebel standard index": 24,
 
-            ;;logo index as declared in descr_sm_faction_logos (1 per page)
-            "logo index":       5,
-            "rebel logo index": 24,
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       5,
+			"rebel logo index": 24,
 
-            ;;flag models to be used on the strat map when a settlement is unoccupied
-            "strat symbol model":       "data/models_strat/symbol_egypt.CAS",
-            "strat rebel symbol model": "data/models_strat/symbol_egypt_rebel.CAS",
-        },
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_egypt.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_egypt_rebel.CAS",
+		},
 
-        ;;faction colours (some base game factions may have hardcoded overrides)
-        "colours":
-        {
-            "primary":   [  255, 255, 140, ],
-            "secondary": [  0,   0,   0,   ],
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  255, 255, 140, ],
+			"secondary": [  0,   0,   0,   ],
 
-            "family tree":
-            {
-                "background":      [  255, 255, 140,  ],
-                "font":            [  0, 0, 0, ],
+			"family tree":
+			{
+				"background":      [  154, 117, 57,  ],
+				"font":            [  255, 255, 255, ],
 
-                "selected line":   [  255, 255, 255, ],
-                "unselected line": [  200, 187, 187, ],
-            },
-        },
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
 
-        "movies":
-        {
-            ;;movie to play when starting a campaign
-            "intro": "data/fmv/intros/egyptian_intro_1080p.wmv",
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/egyptian_intro_1080p.wmv",
 
-            ;;movie to play when this faction wins or is defeated, respectively
-            "victory": "data/fmv/victory/egyptian_outro.wmv",
-            "defeat": "data/fmv/lose/egyptians_eliminated.wmv",
-        },
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/egyptian_outro.wmv",
+			"defeat": "data/fmv/lose/egyptians_eliminated.wmv",
+		},
 
-        "available in custom battles": true,
-        "prefer naval invasions": false,
-        "default religion": "greek",
-        "default battle ai personality": "default_personality",
-
-        ;;allow this faction to have a functioning family tree
-        "allow reproduction": true,
-    },
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default religion": "greek",
+		"default battle ai personality": "default_personality",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
 
     "seleucid":
     {
@@ -19785,77 +19785,77 @@
 ;;;;;;;;;;;;;;;;;;;   23$ SLAVE   ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-    "slave":
-    {
-        ;;name and description
-        "string":      "SLAVE",
-        "description": "SLAVE_DESCR",
+	"slave":
+	{
+		;;name and description
+		"string":      "SLAVE",
+		"description": "SLAVE_DESCR",
 
-        ;;culture and (default?) character ethnicity
-        "culture":   "roman",
-        "ethnicity": "mediterranean",
+		;;culture and (default?) character ethnicity
+		"culture":   "roman",
+		"ethnicity": "mediterranean",
 
-        ;;tags for faction groups
-        "tags": [ ],
+		;;tags for faction groups
+		"tags": [ ],
 
-        ;;namelists
-        "namelists":
-        {
-            "men":      "slave_men",
-            "women":    "slave_women",
-            "surnames": "blank_surnames",
-        },
+		;;namelists
+		"namelists":
+		{
+			"men":      "slave_men",
+			"women":    "slave_women",
+			"surnames": "blank_surnames",
+		},
 
-        "logos":
-        {
-            ;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
-            "loading screen icon": "data/ui/faction_icons/slave.tga",
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/slave.tga",
 
-            ;;standard index as declared in descr_standards (4 per page)
-            "standard index":       20,
-            "rebel standard index": 20,
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       23,
+			"rebel standard index": 20,
 
-            ;;logo index as declared in descr_sm_faction_logos (1 per page)
-            "logo index":       20,
-            "rebel logo index": 20,
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       20,
+			"rebel logo index": 20,
 
-            ;;flag models to be used on the strat map when a settlement is unoccupied
-            "strat symbol model":       "data/models_strat/symbol_slaves.CAS",
-            "strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
-        },
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_slaves.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
+		},
 
-        ;;faction colours (some base game factions may have hardcoded overrides)
-        "colours":
-        {
-            "primary":   [  155, 145, 120, ],
-            "secondary": [  90,  75,  40,  ],
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  155, 145, 120, ],
+			"secondary": [  90,  75,  40,  ],
 
-            "family tree":
-            {
-                "background":      [  0,   0,   0,   ],
-                "font":            [  255, 255, 255, ],
+			"family tree":
+			{
+				"background":      [  0,   0,   0,   ],
+				"font":            [  255, 255, 255, ],
 
-                "selected line":   [  255, 255, 255, ],
-                "unselected line": [  200, 187, 187, ],
-            },
-        },
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
 
-        "movies":
-        {
-            ;;movie to play when starting a campaign
-            "intro": "data/fmv/intros/julii_intro_1080p.wmv",
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/julii_intro_1080p.wmv",
 
-            ;;movie to play when this faction wins or is defeated, respectively
-            "victory": "data/fmv/victory/barbarian_outro.wmv",
-            "defeat": "data/fmv/lose/rebels_eliminated.wmv",
-        },
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/barbarian_outro.wmv",
+			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
+		},
 
-        "available in custom battles": true,
-        "prefer naval invasions": false,
-        "default religion": "celtic",
-        "default battle ai personality": "default_personality",
-
-        ;;allow this faction to have a functioning family tree
-        "allow reproduction": false, ;;was false
-    },
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default religion": "celtic",
+		"default battle ai personality": "default_personality",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true, ;;was false
+	},
 ],
