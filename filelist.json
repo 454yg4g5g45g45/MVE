@@ -17669,7 +17669,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 746850700
+		"checksum": 2852263430
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -17685,7 +17685,7 @@
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
-		"checksum": 3012305036
+		"checksum": 4009064481
 	},
 	{
 		"filename": "data\/descr_building_battle.txt",
@@ -17781,11 +17781,11 @@
 	},
 	{
 		"filename": "data\/descr_sm_faction_logos.txt",
-		"checksum": 1470103881
+		"checksum": 60598597
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 4025327293
+		"checksum": 1366850527
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17801,7 +17801,7 @@
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
-		"checksum": 1961548444
+		"checksum": 1285672779
 	},
 	{
 		"filename": "data\/descr_standards.txt",
@@ -39349,7 +39349,7 @@
 	},
 	{
 		"filename": "data\/text\/expanded_bi.txt",
-		"checksum": 1875562238
+		"checksum": 2200364088
 	},
 	{
 		"filename": "data\/text\/export_ancillaries.txt",
@@ -43729,6 +43729,30 @@
 	},
 	{
 		"filename": "data\/ui\/custom_portraits\/alexander\/portrait_young.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/custom_portraits\/kush_king\/card_dead.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/custom_portraits\/kush_king\/card_old.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/custom_portraits\/kush_king\/card_young.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/custom_portraits\/kush_king\/portrait_dead.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/custom_portraits\/kush_king\/portrait_old.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/custom_portraits\/kush_king\/portrait_young.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -55892,6 +55916,18 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/pips\/_unused\/pip_religion_thracian_old.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/_unused\/pip_religion_thracian_old_negative.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/_unused\/pip_religion_thracian_old_positive.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/pips\/pip_religion_anatolian.tga",
 		"checksum": "Blacklisted"
 	},
@@ -55949,6 +55985,18 @@
 	},
 	{
 		"filename": "data\/ui\/pips\/pip_religion_assyrian_positive.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_belgic.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_belgic_negative.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_belgic_positive.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -56165,6 +56213,18 @@
 	},
 	{
 		"filename": "data\/ui\/pips\/pip_religion_judaean_positive.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_libyan.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_libyan_negative.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/pips\/pip_religion_libyan_positive.tga",
 		"checksum": "Blacklisted"
 	},
 	{
