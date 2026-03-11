@@ -1301,4 +1301,74 @@
 		;;should this religion be hidden at zero presense and influence
 		"hide at zero": true,
 	},
+	"libyan":
+	{
+		;;the name of the trait to be used to identify members of this religion
+		;;will be auto-generated if not defined
+		"trait": "IsLibyan",
+		
+		;;UI icons to use for this
+		"unrest icon": "data/ui/pips/pip_religion_libyan_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_libyan.tga",
+		
+		;;info button button used for the settlement overview panel
+		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
+		
+		;;localised name for this religion
+		"name": "LIBYAN_LABEL",
+		
+		;;tooltips for when a religion is creating unrest
+		"unrest tooltip": "LIBYAN_UNREST",
+		
+		;;what group is this religion a part of
+		"group": "numidian",
+		
+		;;how much extra or less unrest and order should this religion create
+		"unrest multipliers":
+		{
+			;;how much unrest should we create against religions in the same group as us
+			"heretics": 0,
+			
+			;;how much unrest should we create against religions in other groups
+			"heathens": 0.25,
+		},
+		
+		;;should this religion be hidden at zero presense and influence
+		"hide at zero": true,
+	},
+	"belgic":
+	{
+		;;the name of the trait to be used to identify members of this religion
+		;;will be auto-generated if not defined
+		"trait": "IsBelgic",
+		
+		;;UI icons to use for this
+		"unrest icon": "data/ui/pips/pip_religion_belgic_negative.tga",
+		"religion icon":  "data/ui/pips/pip_religion_belgic.tga",
+		
+		;;info button button used for the settlement overview panel
+		"info button": "data/ui/buttons/settlementdetailschristianity.tga",
+		
+		;;localised name for this religion
+		"name": "BELGIC_LABEL",
+		
+		;;tooltips for when a religion is creating unrest
+		"unrest tooltip": "BELGIC_UNREST",
+		
+		;;what group is this religion a part of
+		"group": "celtic",
+		
+		;;how much extra or less unrest and order should this religion create
+		"unrest multipliers":
+		{
+			;;how much unrest should we create against religions in the same group as us
+			"heretics": 0,
+			
+			;;how much unrest should we create against religions in other groups
+			"heathens": 0.25,
+		},
+		
+		;;should this religion be hidden at zero presense and influence
+		"hide at zero": true,
+	},
 ],
