@@ -1273,8 +1273,8 @@ category			peasant_revolt
 chance				0					
 description			Libyans
 unit				egyptian peasant
-unit				egyptian peltast
-unit				egyptian peltast
+unit				east archer
+unit				east infantry
 unit				egyptian peltast
 unit				egyptian archer
 unit				egyptian archer

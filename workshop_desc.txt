@@ -28,6 +28,10 @@
 [b]Windows 10/11 Settings[/b]  
 • [b]Daylight Savings Time: DISABLED[/b]
 
+Make sure ANYTIME you fight rebels, AUTO-RESOLVE ONLY!!!!
+
+^Will be fixed later.
+
 [b]Rome Remastered Preferences[/b]  
 Inside your preferences file, ensure the following is set:  
 • [b]BATTERY_SAVER:FALSE[/b]
@@ -98,12 +102,12 @@ These are the long‑term campaigns planned for the project. With base 1610 prov
 All are Non‑Focused non-Era Campaigns will very likely require my [b]engine p@tch*r GUI[/b].
 
 [b]• Imperial Campaign (Current)[/b]  
-Ahistorical / Historical / Vanilla  
+Ahistorical / Historical / Vanilla / Mythic / Mythological / Extended Canvas / Fantasy  
 • ~4,004+ Provinces  
 • Map Range: Hibernia → Tibet 
 
 [b]• Grand Campaign (Next)[/b]  
-Ahistorical / Historical / Vanilla / Some Mythic / Some Fantasy  
+Ahistorical / Historical / Vanilla / Mythic / Mythological / Extended Canvas / Fantasy   
 • ~8,780+ Provinces  (1582 prov GC Dropping very soon)
 • Map Range: Hibernia → Korea  
 • Expands the world eastward and deepens cultural diversity  
