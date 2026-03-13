@@ -104,7 +104,6 @@ playable
 	galatia
 	saka
 	; Generic factions made playable
-	persia
 end
 unlockable
 end
@@ -115,6 +114,7 @@ nonplayable
 	; DO NOT MAKE ALL OF THESE FACTIONS PLAYABLE!
 	; ONLY MAKE THE ONES YOU WANT TO PLAY PLAYABLE! TOO MANY MAY CAUSE ISSUES WITH THE UI!
 	alemanni			; chatti
+	persia
 	caledonia
 	bactria
 	tylis
@@ -22943,14 +22943,14 @@ relative 	Saulius, 	Dita,		Idanthyrsus,	end
 
 
 faction	caledonia, religious_smith
-denari	3750
+denari	3250
 settlement
 {
 	level large_town
 	region Decantarum_R
 
 	year_founded 0
-	population 2000
+	population 1300
 	plan_set default_set
 	faction_creator caledonia
 	building
@@ -22976,7 +22976,7 @@ settlement
 	region Tuesis_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator caledonia
 	building
@@ -23040,14 +23040,14 @@ denari	-33000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	brutii, greek_passive
-denari	330
+denari	310
 settlement
 {
 	level town
 	region Cosentia_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator brutii
 	building
@@ -29681,7 +29681,7 @@ settlement
 	region Cercinitis_R
 
 	year_founded 0
-	population 900
+	population 600
 	plan_set default_set
 	faction_creator heraclea
 	building
@@ -35966,7 +35966,7 @@ character_record		Leukon Ilercavoni, 	male, command 0, influence 0, management 0
 relative 	Lucco Ilercavoni, 	Iseulta,		Leukon Ilercavoni,	end
 
 faction	ilergetes, iberian_passive
-denari	1000
+denari	600
 settlement
 {
 	level town
@@ -46248,7 +46248,7 @@ denari	200
 
 faction	umbri, greek_passive
 dead_until_resurrected
-denari	200
+denari	100
 
 faction	volsci, greek_passive
 dead_until_resurrected
@@ -46263,8 +46263,8 @@ denari	-2000
 ;------------------------- 4$& Slave Faction --------------------------
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	slave, balanced_rebel
-denari	-1999999999
+faction	slave, balanced rebel
+denari	-9999999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
@@ -46279,7 +46279,7 @@ settlement
 	region Artoarta_R
 
 	year_founded 0
-	population 400
+	population 300
 	plan_set default_set
 	faction_creator india
 	building
@@ -46333,7 +46333,7 @@ settlement
 	region Pundranagara_R
 
 	year_founded 0
-	population 305
+	population 302
 	plan_set default_set
 	faction_creator india
 	building
@@ -49922,7 +49922,7 @@ settlement
 	region Dharphal_R
 
 	year_founded 0
-	population 1000
+	population 600
 	plan_set default_set
 	faction_creator india
 	building
@@ -49940,7 +49940,7 @@ settlement
 	region Ezhimala_R
 
 	year_founded 0
-	population 1200
+	population 900
 	plan_set default_set
 	faction_creator chera
 	building
