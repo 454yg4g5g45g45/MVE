@@ -13575,34 +13575,6 @@ model slave, Mediterranean data/characters/BI_steppe_archers_slave_Mediterranean
 no_variation model Mediterranean data/characters/BI_steppe_archers_roxolani_Mediterranean_no_variation
 no_variation model slave, Mediterranean data/characters/BI_steppe_archers_slave_Mediterranean_no_variation
 
-
-type steppe_spearmen
-skeleton	fs_spearman
-male
-body Default
-angry_face no
-medieval_features no
-tired No
-aged 0.00
-pbr_texture data/characters/textures/BI_steppe_spearmen_huns_pbr.tga
-texture data/characters/textures/BI_steppe_spearmen_huns.tga
-texture slave, data/characters/textures/BI_steppe_spearmen_slave.tga
-model African data/characters/BI_steppe_spearmen_slave_African
-no_variation model African data/characters/BI_steppe_spearmen_slave_African_no_variation
-model Arabic data/characters/BI_steppe_spearmen_slave_Arabic
-no_variation model Arabic data/characters/BI_steppe_spearmen_slave_Arabic_no_variation
-model Caucasian data/characters/BI_steppe_spearmen_slave_Caucasian
-no_variation model Caucasian data/characters/BI_steppe_spearmen_slave_Caucasian_no_variation
-model EastAsian data/characters/BI_steppe_spearmen_slave_EastAsian
-no_variation model EastAsian data/characters/BI_steppe_spearmen_slave_EastAsian_no_variation
-model Egyptian data/characters/BI_steppe_spearmen_slave_Egyptian
-no_variation model Egyptian data/characters/BI_steppe_spearmen_slave_Egyptian_no_variation
-model Indian data/characters/BI_steppe_spearmen_slave_Indian
-no_variation model Indian data/characters/BI_steppe_spearmen_slave_Indian_no_variation
-model Mediterranean data/characters/BI_steppe_spearmen_slave_Mediterranean
-no_variation model Mediterranean data/characters/BI_steppe_spearmen_slave_Mediterranean_no_variation
-
-
 type steppe_swordsmen
 skeleton	fs_swordsman
 male
@@ -13614,7 +13586,8 @@ tired Tired
 tired slave, No
 aged 0.00
 pbr_texture data/characters/textures/BI_steppe_swordsmen_huns_pbr.tga
-texture data/characters/textures/BI_steppe_swordsmen_huns.tga
+texture data/characters/textures/BI_steppe_swordsmen_slave.tga
+texture huns, data/characters/textures/BI_steppe_swordsmen_huns.tga
 texture slave, data/characters/textures/BI_steppe_swordsmen_slave.tga
 model African data/characters/BI_steppe_swordsmen_huns_African
 model slave, African data/characters/BI_steppe_swordsmen_slave_African

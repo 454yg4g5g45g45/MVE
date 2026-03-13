@@ -9762,6 +9762,7 @@ building taverns
 
 building temple_of_religion
 {
+	tag temple
 	icon religion
 	levels temple_of_religion_shrine temple_of_religion_temple temple_of_religion_large_temple temple_of_religion_awesome_temple temple_of_religion_pantheon temple_of_religion_holy_site temple_of_religion_capital
 	{
