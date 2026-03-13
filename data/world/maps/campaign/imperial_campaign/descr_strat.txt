@@ -46279,7 +46279,7 @@ settlement
 	region Artoarta_R
 
 	year_founded 0
-	population 300
+	population 400
 	plan_set default_set
 	faction_creator india
 	building
@@ -46333,9 +46333,11 @@ settlement
 	region Pundranagara_R
 
 	year_founded 0
-	population 302
+	population 310
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46354,6 +46356,9 @@ settlement
 	population 330
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46372,6 +46377,9 @@ settlement
 	population 440
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46390,6 +46398,9 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46408,6 +46419,9 @@ settlement
 	population 503
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46426,6 +46440,8 @@ settlement
 	population 450
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46444,6 +46460,9 @@ settlement
 	population 350
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46462,6 +46481,8 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46480,6 +46501,8 @@ settlement
 	population 350
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46498,6 +46521,8 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46516,6 +46541,8 @@ settlement
 	population 401
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46570,6 +46597,8 @@ settlement
 	population 500
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46624,6 +46653,8 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46642,6 +46673,8 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46660,6 +46693,16 @@ settlement
 	population 303
 	plan_set default_set
 	faction_creator axum
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	greek peltast		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46678,6 +46721,9 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46696,6 +46742,9 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46714,6 +46763,23 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator axum
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46750,6 +46816,12 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46769,6 +46841,10 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46788,6 +46864,8 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46807,6 +46885,11 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46826,6 +46909,10 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46845,6 +46932,25 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator axum
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east archer		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46864,6 +46970,9 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 1 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46883,6 +46992,8 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 3 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46902,6 +47013,16 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator axum
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east archer		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46920,6 +47041,10 @@ settlement
 	population 380
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46938,6 +47063,23 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator gerrha
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east archer		exp 0 armour 0 weapon_lvl 0
+	unit	east archer		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46956,6 +47098,16 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator gerrha
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46974,6 +47126,17 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator gerrha
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -46992,6 +47155,14 @@ settlement
 	population 300
 	plan_set default_set
 	faction_creator india
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -51493,7 +51664,7 @@ settlement
 	region SavariKome_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator slavs
 	building
