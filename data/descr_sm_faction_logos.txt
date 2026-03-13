@@ -307,4 +307,6 @@ icon	ui/faction_icons/gedrosia.tga			; 300
 icon	ui/faction_icons/antiochea_taocene.tga  ; 301
 icon	ui/faction_icons/psyllia.tga			; 302
 icon	ui/faction_icons/lesser_armenia.tga		; 303
-icon	ui/faction_icons/slave.tga				; 204	(UNUSED)
+icon	ui/faction_icons/slave.tga				; 304	(UNUSED)
+icon	ui/faction_icons/slave.tga				; 305	(UNUSED)
+icon	ui/faction_icons/slave.tga				; 306	(UNUSED)
