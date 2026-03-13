@@ -41,7 +41,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -81,7 +81,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -121,7 +121,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -161,7 +161,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -201,7 +201,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -241,7 +241,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -281,7 +281,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -321,7 +321,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -361,7 +361,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -401,7 +401,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -441,7 +441,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -481,7 +481,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -521,7 +521,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -561,7 +561,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -601,7 +601,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -641,7 +641,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -681,7 +681,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -721,7 +721,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -761,7 +761,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -801,7 +801,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -841,7 +841,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -881,7 +881,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -921,7 +921,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -961,7 +961,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1001,7 +1001,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1041,7 +1041,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1081,7 +1081,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1121,7 +1121,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1161,7 +1161,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1201,7 +1201,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1241,7 +1241,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1279,7 +1279,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1317,7 +1317,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1355,7 +1355,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1393,7 +1393,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1434,7 +1434,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1474,7 +1474,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1514,7 +1514,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1554,7 +1554,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1594,7 +1594,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1634,7 +1634,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1674,7 +1674,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1714,7 +1714,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1754,7 +1754,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1794,7 +1794,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1834,7 +1834,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1874,7 +1874,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1914,7 +1914,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1954,7 +1954,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -1994,7 +1994,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2034,7 +2034,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2074,7 +2074,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2114,7 +2114,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2154,7 +2154,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2194,7 +2194,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2232,7 +2232,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2270,7 +2270,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2310,7 +2310,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2350,7 +2350,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2390,7 +2390,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2430,7 +2430,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2468,7 +2468,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2506,7 +2506,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2546,7 +2546,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2586,7 +2586,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2627,7 +2627,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2668,7 +2668,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2708,7 +2708,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2748,7 +2748,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2788,7 +2788,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2828,7 +2828,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2868,7 +2868,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2908,7 +2908,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2948,7 +2948,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -2988,7 +2988,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3032,7 +3032,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3075,7 +3075,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3115,7 +3115,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3156,7 +3156,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3200,7 +3200,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3242,7 +3242,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3284,7 +3284,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3326,7 +3326,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3366,7 +3366,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3405,7 +3405,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3445,7 +3445,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3486,7 +3486,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3526,7 +3526,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3564,7 +3564,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3604,7 +3604,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3646,7 +3646,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3689,7 +3689,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3730,7 +3730,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3773,7 +3773,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3815,7 +3815,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3856,7 +3856,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3899,7 +3899,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3940,7 +3940,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -3987,7 +3987,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4028,7 +4028,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4069,7 +4069,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4110,7 +4110,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4153,7 +4153,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4195,7 +4195,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4236,7 +4236,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4279,7 +4279,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4326,7 +4326,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4369,7 +4369,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4410,7 +4410,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4452,7 +4452,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4495,7 +4495,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4538,7 +4538,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4579,7 +4579,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4620,7 +4620,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4662,7 +4662,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4708,7 +4708,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4752,7 +4752,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4793,7 +4793,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4835,7 +4835,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4876,7 +4876,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4921,7 +4921,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -4962,7 +4962,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5004,7 +5004,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5046,7 +5046,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5087,7 +5087,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5130,7 +5130,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5179,7 +5179,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5220,7 +5220,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5261,7 +5261,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5302,7 +5302,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5343,7 +5343,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5384,7 +5384,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5425,7 +5425,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5467,7 +5467,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5508,7 +5508,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5551,7 +5551,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5593,7 +5593,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5634,7 +5634,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5675,7 +5675,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5717,7 +5717,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5758,7 +5758,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5799,7 +5799,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5840,7 +5840,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5881,7 +5881,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5922,7 +5922,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -5964,7 +5964,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6005,7 +6005,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6046,7 +6046,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6089,7 +6089,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6130,7 +6130,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6171,7 +6171,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6213,7 +6213,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6255,7 +6255,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6298,7 +6298,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6344,7 +6344,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6387,7 +6387,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6430,7 +6430,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6471,7 +6471,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6512,7 +6512,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6553,7 +6553,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6594,7 +6594,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6635,7 +6635,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6676,7 +6676,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6718,7 +6718,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6760,7 +6760,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6801,7 +6801,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6848,7 +6848,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6889,7 +6889,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6931,7 +6931,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -6972,7 +6972,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7014,7 +7014,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7057,7 +7057,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7107,7 +7107,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7148,7 +7148,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7191,7 +7191,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7231,7 +7231,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7271,7 +7271,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7311,7 +7311,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7351,7 +7351,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7389,7 +7389,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7427,7 +7427,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7465,7 +7465,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7503,7 +7503,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7541,7 +7541,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7579,7 +7579,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7617,7 +7617,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7655,7 +7655,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7693,7 +7693,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7731,7 +7731,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7769,7 +7769,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7807,7 +7807,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7845,7 +7845,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7883,7 +7883,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7921,7 +7921,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7959,7 +7959,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -7997,7 +7997,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8035,7 +8035,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8073,7 +8073,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8111,7 +8111,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8149,7 +8149,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8187,7 +8187,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8225,7 +8225,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8263,7 +8263,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8301,7 +8301,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8339,7 +8339,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8377,7 +8377,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8415,7 +8415,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8453,7 +8453,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8491,7 +8491,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8529,7 +8529,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8567,7 +8567,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8605,7 +8605,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8643,7 +8643,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8683,7 +8683,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8723,7 +8723,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8763,7 +8763,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8803,7 +8803,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8843,7 +8843,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8885,7 +8885,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8927,7 +8927,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -8969,7 +8969,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9011,7 +9011,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9053,7 +9053,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9095,7 +9095,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9137,7 +9137,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9179,7 +9179,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9221,7 +9221,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9263,7 +9263,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9305,7 +9305,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9348,7 +9348,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9391,7 +9391,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9433,7 +9433,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9475,7 +9475,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9517,7 +9517,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9559,7 +9559,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9601,7 +9601,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9643,7 +9643,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9685,7 +9685,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9727,7 +9727,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9771,7 +9771,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9814,7 +9814,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9856,7 +9856,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9899,7 +9899,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9943,7 +9943,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -9987,7 +9987,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10031,7 +10031,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10075,7 +10075,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10117,7 +10117,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10158,7 +10158,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10200,7 +10200,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10242,7 +10242,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10284,7 +10284,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10324,7 +10324,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10366,7 +10366,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10410,7 +10410,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10452,7 +10452,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10494,7 +10494,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":
@@ -10536,7 +10536,7 @@
 
 			;;which cultures is this for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;if any are defined, the unit must be one of these units
 			"unit IDs":

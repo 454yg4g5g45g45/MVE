@@ -42,7 +42,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offering protectorate",
@@ -166,7 +166,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "avoid eradication",
@@ -294,7 +294,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offering alliance",
@@ -418,7 +418,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offering ceasefire",
@@ -546,7 +546,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "nullify alliance",
@@ -670,7 +670,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offer trade",
@@ -794,7 +794,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offer access",
@@ -918,7 +918,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offer attack",
@@ -1042,7 +1042,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "making threat",
@@ -1166,7 +1166,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offer bribe",
@@ -1290,7 +1290,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offer gift",
@@ -1418,7 +1418,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offer info",
@@ -1542,7 +1542,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "accept gift",
@@ -1670,7 +1670,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "accept bribe",
@@ -1794,7 +1794,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "acknowledge acceptance",
@@ -1918,7 +1918,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "acknowledge rejection",
@@ -2042,7 +2042,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "acknowledge declaration",
@@ -2166,7 +2166,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "reject not interested",
@@ -2290,7 +2290,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "reject too many counters",
@@ -2414,7 +2414,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "reject bribe",
@@ -2538,7 +2538,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline protectorate",
@@ -2662,7 +2662,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline alliance",
@@ -2786,7 +2786,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline ceasefire",
@@ -2910,7 +2910,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline nullify",
@@ -3034,7 +3034,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline access",
@@ -3158,7 +3158,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline region",
@@ -3282,7 +3282,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline attack",
@@ -3406,7 +3406,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline threat",
@@ -3530,7 +3530,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline gift",
@@ -3654,7 +3654,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline offer",
@@ -3778,7 +3778,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline demand",
@@ -3902,7 +3902,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline yearly payment",
@@ -4026,7 +4026,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline payment too high",
@@ -4150,7 +4150,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline payment too low",
@@ -4274,7 +4274,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "dishonest region offer",
@@ -4398,7 +4398,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "dishonest access offer",
@@ -4522,7 +4522,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "dishonest access demand",
@@ -4646,7 +4646,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "dishonest attack offer",
@@ -4770,7 +4770,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "dishonest attack threat",
@@ -4894,7 +4894,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "dishonest tribute offer",
@@ -5018,7 +5018,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "accept proposition",
@@ -5142,7 +5142,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "accept counter",
@@ -5266,7 +5266,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "accept declaration",
@@ -5390,7 +5390,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "counter offer",
@@ -5514,7 +5514,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "counter demand",
@@ -5638,7 +5638,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "counter info",
@@ -5762,7 +5762,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "counter proposition",
@@ -5886,7 +5886,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "counter bribe",
@@ -6010,7 +6010,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "recipient welcome neutral",
@@ -6041,7 +6041,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "recipient welcome allied",
@@ -6258,7 +6258,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "recipient welcome at war",
@@ -6382,7 +6382,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "finished",
@@ -6506,7 +6506,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "unsure of intentions",
@@ -6634,7 +6634,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "decline protector",
@@ -6758,7 +6758,7 @@
 
 			;;voice cultures this is valid for
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
 
 			;;the comment this is for
 			"comment": "offer settle debt",
