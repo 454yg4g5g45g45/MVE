@@ -4776,8 +4776,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 170, 40, 60, 360
-ownership        kush, slave
-ethnicity egypt, Nile_Delta
+ownership        kush
+ethnicity kush, Nile_Delta
  
  
 type             egyptian infantry
@@ -4804,8 +4804,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 200, 40, 60, 370
-ownership        kush, slave
-ethnicity egypt, Nile_Delta, don't_allow_regional
+ownership        kush
+ethnicity kush, Nile_Delta, don't_allow_regional
 rebalance_statblock
 soldier          egyptian_infantry, 40, 0, 1
 attributes       sea_faring, hide_forest, can_sap
@@ -4851,7 +4851,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 600, 330, 60, 90, 600
 ownership        kush
-ethnicity egypt, Nile_Delta, don't_allow_regional
+ethnicity kush, Nile_Delta, don't_allow_regional
 rebalance_statblock
 soldier          egyptian_elite_guards_new, 40, 0, 1
 attributes       sea_faring, hide_forest, can_sap, hardy
@@ -4898,7 +4898,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 110, 50, 70, 420
 ownership        kush, cyrene
-ethnicity egypt, Nile_Delta, don't_allow_regional
+ethnicity kush, Nile_Delta, don't_allow_regional
 ethnicity cyrene, Cyrenaica, don't_allow_regional
  
  
@@ -4956,8 +4956,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 570, 190, 60, 90, 570
-ownership        kush, slave
-ethnicity egypt, Nile_Delta
+ownership        kush
+ethnicity kush, Nile_Delta
  
  
 type             egyptian bedouin
@@ -5065,8 +5065,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 650, 330, 70, 100, 650
-ownership        kush, slave
-ethnicity egypt, Nile_Delta
+ownership        kush
+ethnicity kush, Nile_Delta
 rebalance_statblock
 soldier          egyptian_chariot_archer, 27, 9, 1
 mount            egyptian chariot reduced hitbox
@@ -5173,8 +5173,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 990, 130, 100, 150, 990
-ownership        kush, slave
-ethnicity egypt, Nile_Delta
+ownership        kush
+ethnicity kush, Nile_Delta
 rebalance_statblock
 soldier          egyptian_chariot_archer, 12, 6, 0.8
 mount            egyptian chariot reduced hitbox
@@ -5222,8 +5222,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 830, 80, 90, 130, 830
-ownership        kush, slave
-ethnicity egypt, Nile_Delta
+ownership        kush
+ethnicity kush, Nile_Delta
  
  
 type             greek peasant
@@ -10343,33 +10343,7 @@ ethnicity macedon, Media
 ;	Each descr_battle.txt file should contain the, "named character" attribute e.g.
 ;
 ;	character	Alexander, named character, general, age 23, , x 197, y 51 
-										   
-type             alexander
-dictionary       alexander
-category         cavalry
-class            heavy
-voice_type       Heavy_1
-soldier          ALEX_alexander, 60, 0, 1
-mount            generals horse
-mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, hardy ; general_unit, general_unit_upgrade "marian_reforms"
-formation        1.5, 4, 3, 6, 3, square
-stat_health      2, 0
-stat_pri         10, 9, no, 0, 0, melee, blade, piercing, spear, 25 ,1
-stat_pri_attr    no
-stat_sec         12, 5, no, 0, 0, melee, simple, piercing, sword, 25 ,1
-stat_sec_attr    no
-stat_pri_armour  11, 6, 0, metal
-stat_sec_armour  0, 1, flesh
-stat_heat        2
-stat_ground      0, 0, -6, 0
-stat_mental      10, disciplined, highly_trained
-stat_charge_dist 40
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        1, 1460, 530, 150, 220, 1460
-ownership        slave
-
+									
 
 type             barbarian archer warband
 dictionary       barbarian_archer_warband     ; Barbarian Archers
