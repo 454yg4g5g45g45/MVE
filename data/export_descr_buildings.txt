@@ -5037,8 +5037,6 @@ building hinterland_edict_culture
 				religious_belief assyrian 2 requires assyrian_faction_built
 				;;;;religious_belief mesopotamian 2 requires culture_area_mesopotamian
 				;;;;religious_belief judaean 2 requires culture_area_judaean
-				religious_belief libyan 2 requires libyan_faction_built
-				religious_belief belgic 2 requires belgic_faction_built
 				
 				;;debuff
 				taxable_income_bonus bonus -10
