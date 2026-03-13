@@ -53355,6 +53355,7 @@ character	sub_faction parthia, Caspar, general, age 20, , x 873, y 122
 army
 unit		east infantry					exp 0 armour 0 weapon_lvl 0
 unit		east infantry					exp 0 armour 0 weapon_lvl 0
+unit		east infantry					exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 unit		east archer						exp 0 armour 0 weapon_lvl 0
 

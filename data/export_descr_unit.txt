@@ -4687,7 +4687,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 680, 330, 70, 110, 680
 ownership        kush, slave
-ethnicity egypt, Nile_Delta
+ethnicity kush, Nile_Delta
 rebalance_statblock
 soldier          egyptian_archer_elite_new, 40, 0, 1
 attributes       sea_faring, hide_forest, can_sap, hardy
@@ -21250,32 +21250,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 399, 177, 50, 70, 401
 ownership        seleucid
-
-type             spartan royal archer
-dictionary       spartan_royal_archer      ; Spartan Royal Archers
-category         infantry
-class            missile
-voice_type       Light_1
-voice_indexes    0 1 2
-soldier          spartan_royal_archer, 60, 0, 0.8
-attributes       sea_faring, hide_forest, can_sap, no_custom
-formation        1.6, 2, 3.2, 4, 3, square
-stat_health      2, 0
-stat_pri         19, 6, arrow, 180, 40, missile, archery, piercing, none, 25 ,1
-stat_pri_attr    no
-stat_sec         7, 6, no, 0, 0, melee, simple, piercing, knife, 25 ,1
-stat_sec_attr    no
-stat_pri_armour  9, 8, 5, metal
-stat_sec_armour  1, 0, leather
-stat_heat        4
-stat_ground      5, 0, 3, 0
-stat_mental      11, disciplined, highly_trained
-stat_charge_dist 50
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        2, 740, 590, 120, 300, 702
-ownership        acarnania
-ethnicity acarnania, Laconia
 
 type             spartan vanguards
 dictionary       spartan_vanguards      ; Spartan Vanguards

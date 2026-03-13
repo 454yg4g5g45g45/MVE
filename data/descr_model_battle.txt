@@ -21254,34 +21254,6 @@ model Mediterranean data/characters/seleucid/syro_hurrian_spearmen
 no_variation model Mediterranean data/characters/seleucid/syro_hurrian_spearmen
 
 
-;;;;;;;;;; Spartan Royal Archer
-
-type spartan_royal_archer
-skeleton			fs_semi_fast_archer, fs_semi_fast_dagger
-male
-body Default
-angry_face no
-medieval_features no
-tired VeryTired
-aged 0.00
-pbr_texture data/characters/textures/generic_pbr.tga
-texture data/characters/textures/spartan_royal_archer_sparta.tga
-texture acarnania, data/characters/textures/spartan_royal_archer_sparta.tga
-model African data/characters/spartan_royal_archer
-no_variation model African data/characters/spartan_royal_archer
-model Arabic data/characters/spartan_royal_archer
-no_variation model Arabic data/characters/spartan_royal_archer
-model Caucasian data/characters/spartan_royal_archer
-no_variation model Caucasian data/characters/spartan_royal_archer
-model EastAsian data/characters/spartan_royal_archer
-no_variation model EastAsian data/characters/spartan_royal_archer
-model Egyptian data/characters/spartan_royal_archer
-no_variation model Egyptian data/characters/spartan_royal_archer
-model Indian data/characters/spartan_royal_archer
-no_variation model Indian data/characters/spartan_royal_archer
-model Mediterranean data/characters/spartan_royal_archer
-no_variation model Mediterranean data/characters/spartan_royal_archer
-
 ;;;;;;;;;; Spartan Vanguards
 
 type spartan_vanguards
