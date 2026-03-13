@@ -19042,7 +19042,7 @@ building greco_persian_palatial_estates
 	{
 	}
 }
-building temple_of_one_god
+building temple_of_one_god_p01
 {
 	tag temple
 	icon religion
