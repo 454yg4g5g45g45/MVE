@@ -23213,7 +23213,7 @@ stat_charge_dist 60
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 730, 218, 110, 120, 740
-ownership        burgundii
+ownership        burgundii, slave
 
 type             carthaginian medium spearmen 00
 dictionary       carthaginian_medium_spearmen_00

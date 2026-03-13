@@ -19854,7 +19854,6 @@
 
 		"available in custom battles": true,
 		"prefer naval invasions": false,
-		"default religion": "celtic",
 		"default battle ai personality": "default_personality",
 	
 		;;allow this faction to have a functioning family tree
