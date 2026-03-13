@@ -17785,7 +17785,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 1386012550
+		"checksum": 778667084
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17801,7 +17801,7 @@
 	},
 	{
 		"filename": "data\/descr_sounds.txt",
-		"checksum": 2069753518
+		"checksum": 2781960477
 	},
 	{
 		"filename": "data\/descr_standards.txt",
@@ -31881,11 +31881,11 @@
 	},
 	{
 		"filename": "data\/sounds\/events.dat",
-		"checksum": 1051825441
+		"checksum": 699575183
 	},
 	{
 		"filename": "data\/sounds\/events.idx",
-		"checksum": 3308794050
+		"checksum": 2454830579
 	},
 	{
 		"filename": "data\/sounds\/interface.dat.feral",
@@ -110608,12 +110608,16 @@
 		"checksum": 3360875219
 	},
 	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/6_turns_per_year_script.txt",
+		"checksum": 3267479921
+	},
+	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/_city_rename_script.txt",
 		"checksum": 806261969
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 3361744806
+		"checksum": 4135168773
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script_backup.txt",
@@ -110629,7 +110633,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 3502237218
+		"checksum": 2234725951
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -110637,7 +110641,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
-		"checksum": 950424979
+		"checksum": 368842946
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description.txt",
@@ -111050,10 +111054,6 @@
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/plague_spawner_script_validator.txt",
 		"checksum": 3702321726
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/scripts\/6_turns_per_year_script.txt",
-		"checksum": 3267479921
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/scripts\/ai_money_control.txt",

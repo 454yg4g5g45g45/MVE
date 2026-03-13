@@ -46264,7 +46264,7 @@ denari	-2000
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	slave, balanced rebel
-denari	-9999999999
+denari	-199999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
@@ -54831,6 +54831,6 @@ mission_queue romans_scipii
 
 ;------------------- #$ Campaign Script --------------------
 script
-campaign_script.txt
+6_turns_per_year_script.txt
 ;4_turns_per_year_script.txt
 ;tutorial.txt, once_only
