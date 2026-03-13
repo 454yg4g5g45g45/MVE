@@ -17669,7 +17669,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 3959454236
+		"checksum": 1299562134
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -17713,7 +17713,7 @@
 	},
 	{
 		"filename": "data\/descr_cultures.txt",
-		"checksum": 3677664129
+		"checksum": 719824808
 	},
 	{
 		"filename": "data\/descr_event_images.txt",
@@ -17737,7 +17737,7 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 991576097
+		"checksum": 2780082643
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
@@ -17865,7 +17865,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 2030612264
+		"checksum": 453066205
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -17877,7 +17877,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 45432450
+		"checksum": 1395427795
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -64060,6 +64060,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/dacia\/barb_infantry_dacia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/dacia\/barb_infantry_dacian_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -64084,7 +64088,35 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/dacia\/barbarian_archer_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/dacia\/barbarian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/dacia\/barbarian_chosen_swordsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/dacia\/barbarian_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/dacia\/barbarian_naked_fanatics_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/dacia\/barbarian_peasants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/dacia\/barbarian_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/dacia\/barbarian_warlord_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -65061,6 +65093,54 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/egypt\/greek_scythed_chariots_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_chariots_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_elephants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_female_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_general_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_javelin_men_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_levy_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_light_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_longbowmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_medium_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_mercenaries_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_slingers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/egypt\/indian_spearmen_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -66872,7 +66952,39 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/gauls\/barbarian_archer_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/gauls\/barbarian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/gauls\/barbarian_chosen_swordsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/gauls\/barbarian_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/gauls\/barbarian_legionary_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/gauls\/barbarian_naked_fanatics_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/gauls\/barbarian_peasants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/gauls\/barbarian_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/gauls\/barbarian_warlord_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -67016,6 +67128,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/germans\/barb_infantry_german_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/germans\/barb_noble_cavalry_german_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -67048,7 +67164,31 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/germans\/barbarian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/germans\/barbarian_chosen_swordsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/germans\/barbarian_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/germans\/barbarian_naked_fanatics_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/germans\/barbarian_peasants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/germans\/barbarian_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/germans\/barbarian_warlord_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -67528,6 +67668,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/greek_cities\/hoplites_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/greek_cities\/javelin_skirmishers_2_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/greek_cities\/merchant_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -67545,6 +67693,10 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/greek_cities\/rhodian_slingers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/greek_cities\/royal_squadron_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -71568,7 +71720,23 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/merc\/allied_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/merc\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/barbarian_archer_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/barbarian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/barbarian_warband_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -71576,7 +71744,31 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/merc\/companion_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/dahae_mounted_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/east_slinger_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/merc\/foederati_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/greek_mercenary_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/hoplites_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/immortals_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -71957,6 +72149,34 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/merc\/naval_trireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/persian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/persian_scythed_chariots_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/phrygian_mercenaries_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/rhodian_slingers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/syrian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/thessalian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/merc\/tribal_slingers_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -73796,6 +74016,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/parthia\/barcanian_horsemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/darius_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/parthia\/diplomat_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -73872,11 +74100,43 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/parthia\/east_slingers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/parthia\/east_sparabara_archer_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/unit_info\/parthia\/elite_persian_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/greek_mercenary_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/heavy_bactrian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/hyrcanian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/immortals_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/kardakes_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/mardian_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/memnon_of_rhodes_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -73904,11 +74164,35 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/parthia\/persian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/persian_peltast_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/persian_scythed_chariots_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/parthia\/persian_swordsmen_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/parthia\/rhodian_slingers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/scythian_mounted_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/parthia\/spy_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/parthia\/syrian_cavalry_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -77632,6 +77916,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/scythia\/barb_chieftain_cavalry_scythian_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/scythia\/barb_horse_archers_scythian_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -77668,7 +77956,35 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/scythia\/barbarian_archer_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/scythia\/barbarian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/scythia\/barbarian_chosen_swordsmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/scythia\/barbarian_horse_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/scythia\/barbarian_naked_fanatics_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/scythia\/barbarian_peasants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/scythia\/barbarian_warband_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/scythia\/barbarian_warlord_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -78392,11 +78708,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/slave\/allied_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/slave\/amazon_chariots_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/unit_info\/slave\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/auxiliary_thracian_cavalry_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -78453,6 +78777,22 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/slave\/barb_rebel_general_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/barbarian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/barbarian_naked_fanatics_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/barbarian_peasants_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/barbarian_warband_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -78529,6 +78869,14 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/slave\/coastal_levies_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/cretan_archers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/dahae_mounted_archers_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -78684,6 +79032,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/slave\/greek_mercenary_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/slave\/greek_peasant_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -78705,6 +79057,10 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/slave\/hillmen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/hoplites_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -78740,11 +79096,27 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/slave\/hyrcanian_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/slave\/italian_spearmen_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/slave\/javelin_skirmishers_2_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/javelin_skirmishers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/slave\/judean_zealots_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/kardakes_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -78941,6 +79313,14 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/slave\/peasant_vandal_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/persian_infantry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/slave\/persian_peltast_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -90876,6 +91256,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/dacia\/#barb_infantry_dacia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/dacia\/#barb_infantry_dacian.tga",
 		"checksum": "Blacklisted"
 	},
@@ -90900,11 +91284,39 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/dacia\/#barbarian_archer_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/dacia\/#barbarian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/dacia\/#barbarian_chosen_swordsmen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/units\/dacia\/#barbarian_fierce_warriors.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/dacia\/#barbarian_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/dacia\/#barbarian_naked_fanatics.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/dacia\/#barbarian_peasants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/dacia\/#barbarian_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/dacia\/#barbarian_warlord.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -91809,6 +92221,54 @@
 	},
 	{
 		"filename": "data\/ui\/units\/egypt\/#greek_scythed_chariots.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_chariots.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_elephants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_female_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_general.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_javelin_men.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_levy_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_light_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_longbowmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_medium_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_mercenaries.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_slingers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/egypt\/#indian_spearmen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -93612,6 +94072,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/gauls\/#barb_chieftain_cavalry_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gauls\/#barb_chieftain_cavalry_early_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/gauls\/#barb_chieftain_cavalry_early_gaul.tga",
 		"checksum": "Blacklisted"
 	},
@@ -93664,7 +94132,39 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/gauls\/#barbarian_archer_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gauls\/#barbarian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gauls\/#barbarian_chosen_swordsmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gauls\/#barbarian_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/gauls\/#barbarian_legionary.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gauls\/#barbarian_naked_fanatics.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gauls\/#barbarian_peasants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gauls\/#barbarian_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/gauls\/#barbarian_warlord.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -93844,6 +94344,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/germans\/#barb_chieftain_cavalry_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/germans\/#barb_chieftain_cavalry_early_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/germans\/#barb_chieftain_cavalry_early_german.tga",
 		"checksum": "Blacklisted"
 	},
@@ -93861,6 +94369,10 @@
 	},
 	{
 		"filename": "data\/ui\/units\/germans\/#barb_infantry_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/germans\/#barb_infantry_german.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -93896,11 +94408,35 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/germans\/#barbarian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/germans\/#barbarian_chosen_swordsmen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/units\/germans\/#barbarian_fierce_warriors.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/germans\/#barbarian_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/germans\/#barbarian_naked_fanatics.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/germans\/#barbarian_peasants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/germans\/#barbarian_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/germans\/#barbarian_warlord.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -94416,6 +94952,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/greek_cities\/#hoplites.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/greek_cities\/#javelin_skirmishers_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/greek_cities\/#naval_bireme.tga",
 		"checksum": "Blacklisted"
 	},
@@ -94453,6 +94997,10 @@
 	},
 	{
 		"filename": "data\/ui\/units\/greek_cities\/#rhodian_slingers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/greek_cities\/#royal_squadron.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -98856,7 +99404,23 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/mercs\/#allied_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/mercs\/#barb_horse_archers_scythian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#barbarian_archer_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#barbarian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#barbarian_warband.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -98868,7 +99432,19 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/mercs\/#companion_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#dahae_mounted_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/mercs\/#east_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#east_slinger.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -98897,6 +99473,18 @@
 	},
 	{
 		"filename": "data\/ui\/units\/mercs\/#greek_hoplite_commander.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#greek_mercenary_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#hoplites.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#immortals.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -99280,7 +99868,35 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/mercs\/#persian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#persian_scythed_chariots.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#phrygian_mercenaries.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#rhodian_slingers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/mercs\/#roman_carriage_ballistae.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#syrian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#thessalian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/mercs\/#tribal_slingers.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -101284,6 +101900,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/parthia\/#barcanian_horsemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#darius.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/parthia\/#east_archer.tga",
 		"checksum": "Blacklisted"
 	},
@@ -101356,11 +101980,43 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/parthia\/#east_slingers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/parthia\/#east_sparabara_archer.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/units\/parthia\/#elite_persian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#greek_mercenary_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#heavy_bactrian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#hyrcanian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#immortals.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#kardakes.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#mardian_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#memnon_of_rhodes.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -101384,7 +102040,31 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/parthia\/#persian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#persian_peltast.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#persian_scythed_chariots.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/parthia\/#persian_swordsmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#rhodian_slingers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#scythian_mounted_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/parthia\/#syrian_cavalry.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -105508,6 +106188,14 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/scythia\/#barb_chieftain_cavalry_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/scythia\/#barb_chieftain_cavalry_early_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/scythia\/#barb_chieftain_cavalry_early_scythian.tga",
 		"checksum": "Blacklisted"
 	},
@@ -105548,11 +106236,39 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/scythia\/#barbarian_archer_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/scythia\/#barbarian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/scythia\/#barbarian_chosen_swordsmen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/ui\/units\/scythia\/#barbarian_fierce_warriors.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/scythia\/#barbarian_horse_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/scythia\/#barbarian_naked_fanatics.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/scythia\/#barbarian_peasants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/scythia\/#barbarian_warband.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/scythia\/#barbarian_warlord.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -106172,7 +106888,15 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/slave\/#allied_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/slave\/#amazon_chariots.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#auxiliary_thracian_cavalry.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -106229,6 +106953,22 @@
 	},
 	{
 		"filename": "data\/ui\/units\/slave\/#barb_rebel_general.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#barbarian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#barbarian_naked_fanatics.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#barbarian_peasants.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#barbarian_warband.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -106313,6 +107053,14 @@
 	},
 	{
 		"filename": "data\/ui\/units\/slave\/#coastal_levies.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#cretan_archers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#dahae_mounted_archers.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -106468,6 +107216,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/slave\/#greek_mercenary_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/slave\/#greek_peasant.tga",
 		"checksum": "Blacklisted"
 	},
@@ -106489,6 +107241,10 @@
 	},
 	{
 		"filename": "data\/ui\/units\/slave\/#hillmen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#hoplites.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -106528,11 +107284,23 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/slave\/#hyrcanian_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/slave\/#italian_spearmen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units\/slave\/#javelin_skirmishers_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/units\/slave\/#judean_zealots.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#kardakes.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -106741,6 +107509,14 @@
 	},
 	{
 		"filename": "data\/ui\/units\/slave\/#peasant_vandal.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#persian_infantry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#persian_peltast.tga",
 		"checksum": "Blacklisted"
 	},
 	{
