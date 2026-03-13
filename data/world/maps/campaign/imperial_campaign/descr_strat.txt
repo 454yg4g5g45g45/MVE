@@ -46263,7 +46263,7 @@ denari	-2000
 ;------------------------- 4$& Slave Faction --------------------------
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	slave, balanced rebel
+faction	slave, balanced_rebel
 denari	-199999999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -54831,6 +54831,6 @@ mission_queue romans_scipii
 
 ;------------------- #$ Campaign Script --------------------
 script
-6_turns_per_year_script.txt
+campaign_script.txt
 ;4_turns_per_year_script.txt
 ;tutorial.txt, once_only
