@@ -5618,7 +5618,7 @@ building barracks
 				taxable_income_bonus bonus 3
 				taxable_income_bonus bonus 3
 				taxable_income_bonus bonus -10 requires factions { slave, }
-				taxable_income_bonus bonus -47 requires factions { slave, }
+				taxable_income_bonus bonus -48 requires factions { slave, }
 				taxable_income_bonus bonus -512 requires factions { slave, }
 				trade_base_income_bonus bonus -5 requires factions { slave, }
 

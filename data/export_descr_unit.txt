@@ -21541,7 +21541,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 657, 168, 80, 110, 730
-ownership        sarmatians, roxolani, goths, ostrogoths
+ownership        sarmatians, roxolani, goths, ostrogoths, slave
 
 type             sarmatian virgin cavalry
 dictionary       sarmatian_virgin_cavalry      ; Sarmatian Virgin Cavalry
@@ -22118,7 +22118,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 163, 50, 70, 450
-ownership        goths, ostrogoths
+ownership        goths, ostrogoths, slave
 
 type             steppe spearmen vandal
 dictionary       steppe_spearmen_vandal      ; Steppe Spearmen
