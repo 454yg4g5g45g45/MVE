@@ -269,6 +269,7 @@ type							horse_medium
 skeleton						fs_medium_horse
 male
 pbr_texture						data/animals/textures/mount_horse_pbr.tga
+texture						    data/animals/textures/mount_horse_base_rebels.tga
 texture	Default,				data/animals/textures/mount_horse_base_default.tga	; Used for Mercs
 texture	romans_julii,			data/animals/textures/mount_horse_base_julii.tga
 texture	armenia,				data/animals/textures/mount_horse_base_armenia.tga
