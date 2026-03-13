@@ -84,7 +84,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -105,7 +105,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -128,7 +128,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -151,7 +151,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -200,7 +200,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -223,7 +223,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -246,7 +246,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -269,7 +269,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -292,7 +292,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -315,7 +315,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -338,7 +338,7 @@
 			"character types":
 				[ "admiral", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -412,7 +412,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -435,7 +435,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -458,7 +458,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -481,7 +481,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -504,7 +504,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -527,7 +527,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -551,7 +551,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -574,7 +574,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -597,7 +597,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -620,7 +620,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -643,7 +643,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -666,7 +666,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -689,7 +689,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -713,7 +713,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -736,7 +736,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -760,7 +760,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -783,7 +783,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -807,7 +807,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -830,7 +830,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -852,7 +852,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -875,7 +875,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -898,7 +898,7 @@
 			"character types":
 				[ "army_captain", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -920,7 +920,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -944,7 +944,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -967,7 +967,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -990,7 +990,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1015,7 +1015,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1038,7 +1038,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1060,7 +1060,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1083,7 +1083,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1106,7 +1106,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1129,7 +1129,7 @@
 			"character types":
 				[ "assassin", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1152,7 +1152,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1176,7 +1176,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1199,7 +1199,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1222,7 +1222,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1245,7 +1245,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1267,7 +1267,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1289,7 +1289,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1311,7 +1311,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1334,7 +1334,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1357,7 +1357,7 @@
 			"character types":
 				[ "diplomat", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1383,7 +1383,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1406,7 +1406,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1429,7 +1429,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1452,7 +1452,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1475,7 +1475,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1498,7 +1498,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1519,7 +1519,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1543,7 +1543,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1566,7 +1566,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1587,7 +1587,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1610,7 +1610,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1633,7 +1633,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1656,7 +1656,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1679,7 +1679,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1702,7 +1702,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1726,7 +1726,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1749,7 +1749,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1773,7 +1773,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1796,7 +1796,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1820,7 +1820,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1843,7 +1843,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1865,7 +1865,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1888,7 +1888,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1911,7 +1911,7 @@
 			"character types":
 				[ "family", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1933,7 +1933,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1956,7 +1956,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -1979,7 +1979,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -2002,7 +2002,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -2025,7 +2025,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -2048,7 +2048,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -2071,7 +2071,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -2094,7 +2094,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -2117,7 +2117,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -2140,7 +2140,7 @@
 			"character types":
 				[ "spy", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -8170,7 +8170,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -8266,7 +8266,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -8362,7 +8362,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -8458,7 +8458,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -8554,7 +8554,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -8650,7 +8650,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -8746,7 +8746,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -8838,7 +8838,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -8930,7 +8930,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -9026,7 +9026,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -9122,7 +9122,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -9226,7 +9226,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[
@@ -9314,7 +9314,7 @@
 			"character types":
 				[ "merchant", ],
 			"cultures":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			"sounds":
 			[

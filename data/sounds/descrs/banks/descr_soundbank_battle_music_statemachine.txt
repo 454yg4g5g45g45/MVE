@@ -84,7 +84,7 @@
 
 			;;the factions that the player can be fighting against
 			"enemy factions":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			;;the id of this state
 			"ID": "tension",
@@ -449,7 +449,7 @@
 
 			;;the factions that the player can be fighting against
 			"enemy factions":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			;;the id of this state
 			"ID": "mobilise",
@@ -684,7 +684,7 @@
 
 			;;the factions that the player can be fighting against
 			"enemy factions":
-				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", ],
+				[ "all", "-barbarian", "-baltic", "-brittonic", "-dacian", "-germanic", "-iberian", "-illyrian", "-nomad", "-nuragic", "-roman", "-greek", "-thracian", "-paeonian", "-etruscan", "-slave", ],
 
 			;;the id of this state
 			"ID": "battle",
