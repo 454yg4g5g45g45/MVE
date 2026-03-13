@@ -4833,6 +4833,586 @@ building hinterland_greek_polis
 }
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;EDICT BUILDINGS;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+building hinterland_edict_triumph
+{
+	classification core
+	tag edict_factionwide
+	icon government
+	levels edict_triumph
+	{
+		edict_triumph requires roman_edict_conditions and no_other_edict_factionwide and hidden_resource triumph_available
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				happiness_bonus bonus 2
+				law_bonus bonus 2
+				recruits_morale_bonus bonus 2
+				religious_belief roman 2
+				
+				dummy Capability_EdictTriumph bonus 1
+			}
+			faction_capability
+			{
+				happiness_bonus bonus 1
+				law_bonus bonus 1
+				recruits_morale_bonus bonus 1
+				religious_belief roman 1
+			}
+			construction  1 
+			cost  2500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_senate
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_senate
+	{
+		edict_senate requires roman_edict_conditions and no_other_edict and capital
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				dummy Capability_EdictSenate bonus 1
+				
+				;;debuff
+				taxable_income_bonus bonus -10
+				law_bonus bonus -1
+			}
+			construction  1 
+			cost  1250 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_anticorruption
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_anticorruption
+	{
+		edict_anticorruption requires edict_conditions and no_other_edict
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				law_bonus bonus 5
+				
+				;;debuff
+				taxable_income_bonus bonus -10
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_construction
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_construction
+	{
+		edict_construction requires edict_conditions and no_other_edict
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus	
+				construction_time_bonus_military bonus 25
+				construction_time_bonus_religious bonus 25
+				construction_time_bonus_defensive bonus 25
+				construction_time_bonus_other bonus 25
+				extra_construction_points bonus 1
+				
+				;;debuff
+				construction_cost_bonus_military bonus -10
+				construction_cost_bonus_religious bonus -10
+				construction_cost_bonus_defensive bonus -10
+				construction_cost_bonus_other bonus -10
+				population_health_bonus bonus -1
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_culture
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_culture
+	{
+		edict_culture requires edict_conditions and no_other_edict and not_faction_in_native_area
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player	;;doesnt matter, its always destroyed by the script
+
+			capability
+			{
+				;;bonus
+				;;;;;;;;;;;;;;;;;;;;   cultural promotion   ;;;;;;;;;;;;;;;;;;;;
+				religious_belief roman 2 requires roman_faction_built
+				religious_belief italic 2 requires italic_faction_built
+				religious_belief celtic 2 requires celtic_faction_built
+				religious_belief phoenician 2 requires carthage_faction_built
+				religious_belief greek 2 requires greek_faction_built
+				;;;;religious_belief egyptian 2 requires culture_area_egyptian
+				religious_belief iranian 2 requires iranian_faction_built
+				religious_belief scythian 2 requires scythian_faction_built
+				religious_belief anatolian 2 requires anatolian_faction_built
+				religious_belief arab 2 requires arab_faction_built
+				religious_belief baltic 2 requires baltic_faction_built
+				religious_belief brittonic 2 requires brittonic_faction_built
+				religious_belief caucasian 2 requires caucasian_faction_built
+				religious_belief dacian 2 requires dacian_faction_built
+				religious_belief dravidian 2 requires dravidian_faction_built
+				religious_belief nubian 2 requires nubian_faction_built
+				religious_belief etruscan 2 requires etruscan_faction_built
+				religious_belief germanic 2 requires germanic_faction_built
+				religious_belief iberian 2 requires iberian_faction_built
+				religious_belief illyrian 2 requires illyrian_faction_built
+				religious_belief indian 2 requires indian_faction_built
+				religious_belief numidian 2 requires numidian_faction_built
+				religious_belief nuragic 2 requires nuragic_faction_built
+				religious_belief paeonian 2 requires paeonian_faction_built
+				religious_belief thracian 2 requires thracian_faction_built
+				religious_belief tibetan 2 requires tibetan_faction_built
+				religious_belief tocharian 2 requires tocharian_faction_built
+				religious_belief aquitanian 2 requires aquitanian_faction_built
+				religious_belief armenian 2 requires armenian_faction_built
+				religious_belief lusitanian 2 requires lusitanian_faction_built
+				religious_belief ethiopian 2 requires ethiopian_faction_built
+				religious_belief hunnic 2 requires hunnic_faction_built
+				religious_belief saka 2 requires saka_faction_built
+				religious_belief assyrian 2 requires assyrian_faction_built
+				;;;;religious_belief mesopotamian 2 requires culture_area_mesopotamian
+				;;;;religious_belief judaean 2 requires culture_area_judaean
+				religious_belief libyan 2 requires libyan_faction_built
+				religious_belief belgic 2 requires belgic_faction_built
+				
+				;;debuff
+				taxable_income_bonus bonus -10
+				happiness_bonus bonus -2
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_farming
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_farming
+	{
+		edict_farming requires edict_conditions and no_other_edict and building_present_min_level hinterland_farms farms
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				farming_level bonus 1 requires not resource grain
+				farming_level bonus 2 requires resource grain
+				
+				;;debuff
+				construction_time_bonus_military bonus -25
+				construction_time_bonus_religious bonus -25
+				construction_time_bonus_defensive bonus -25
+				construction_time_bonus_other bonus -25
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_fishing
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_fishing
+	{
+		edict_fishing requires edict_conditions and no_other_edict and building_present_min_level port_buildings port
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				population_health_bonus bonus 1 requires not resource salt
+				population_health_bonus bonus 2 requires resource salt
+				
+				;;debuff
+				taxable_income_bonus bonus -5
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_martial_law
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_martial_law
+	{
+		edict_martial_law requires edict_conditions and no_other_edict
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				law_bonus bonus 10
+				
+				;;debuff
+				taxable_income_bonus bonus -20
+				trade_base_income_bonus bonus -2
+				population_growth_bonus bonus -2
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_mining
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_mining
+	{
+		edict_mining requires edict_conditions and no_other_edict and building_present_min_level hinterland_mines mines
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				mine_resource 1 requires minable_quarry and not minable_low and not minable_medium and not minable_high
+				mine_resource 2 requires minable_low and not minable_medium and not minable_high
+				mine_resource 4 requires minable_medium and not minable_high
+				mine_resource 6 requires minable_high
+				
+				;;debuff
+				population_health_bonus bonus -2
+				law_bonus bonus -1
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_quarantine
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_quarantine
+	{
+		edict_quarantine requires edict_conditions and no_other_edict and plague
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus	
+				population_health_bonus bonus 2 requires plague
+				population_growth_bonus bonus 8 requires plague
+				
+				dummy Capability_FightsPlague bonus 1
+				
+				;;debuff
+				taxable_income_bonus bonus -25 requires plague
+				trade_base_income_bonus bonus -5 requires plague
+				construction_time_bonus_military bonus -25 requires plague
+				construction_time_bonus_religious bonus -25 requires plague
+				construction_time_bonus_defensive bonus -25 requires plague
+				construction_time_bonus_other bonus -25 requires plague
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_recruitment
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_recruitment
+	{
+		edict_recruitment requires edict_conditions and no_other_edict
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				extra_recruitment_points bonus 2
+				
+				;;debuff
+				taxable_income_bonus bonus -10
+				happiness_bonus bonus -2
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_taxation
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_taxation
+	{
+		edict_taxation requires edict_conditions and no_other_edict
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				taxable_income_bonus bonus 15 requires not minable_high
+				taxable_income_bonus bonus 25 requires minable_high
+				
+				;;debuff
+				population_growth_bonus bonus -2
+				happiness_bonus bonus -4
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_trade
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_trade
+	{
+		edict_trade requires edict_conditions and no_other_edict and building_present_min_level market trader
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				trade_level_bonus bonus 1
+				
+				;;debuff
+				taxable_income_bonus bonus -10
+				law_bonus bonus -2
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_trade_fleet
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_trade_fleet
+	{
+		edict_trade_fleet requires edict_conditions and no_other_edict and building_present_min_level port_buildings port
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				trade_fleet 2 requires not blockaded
+				
+				;;debuff
+				taxable_income_bonus bonus -10
+				law_bonus bonus -2
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+building hinterland_edict_training
+{
+	classification core
+	tag edict
+	icon government
+	levels edict_training
+	{
+		edict_training requires edict_conditions and no_other_edict
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not is_player
+
+			capability
+			{
+				;;bonus
+				recruits_exp_bonus bonus 2
+				recruits_morale_bonus bonus 1
+				
+				;;debuff
+				taxable_income_bonus bonus -10
+				happiness_bonus bonus -2
+			}
+			construction  1 
+			cost  500 
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;WALLS;;;;;;;;;;;;;;
