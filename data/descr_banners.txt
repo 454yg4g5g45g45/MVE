@@ -1314,10 +1314,10 @@ routing_texture		models/textures/standard_routing.tga
 ally_texture		models/textures/standard_byzantion.tga
 
 faction				troezen
-standard_texture	models/textures/standard_troezen.tga
-rebels_texture		models/textures/standard_greek_rebels.tga
+standard_texture	models/textures/standard_slave.tga
+rebels_texture		models/textures/standard_slave.tga
 routing_texture		models/textures/standard_routing.tga
-ally_texture		models/textures/standard_troezen.tga
+ally_texture		models/textures/standard_slave.tga
 
 faction				emporion
 standard_texture	models/textures/standard_emporion.tga
@@ -1374,10 +1374,10 @@ routing_texture		models/textures/standard_routing.tga
 ally_texture		models/textures/standard_sinope.tga
 
 faction				teion
-standard_texture	models/textures/standard_teion.tga
-rebels_texture		models/textures/standard_greek_rebels.tga
+standard_texture	models/textures/standard_slave.tga
+rebels_texture		models/textures/standard_slave.tga
 routing_texture		models/textures/standard_routing.tga
-ally_texture		models/textures/standard_teion.tga
+ally_texture		models/textures/standard_slave.tga
 
 faction				antiochea_taocene
 standard_texture	models/textures/standard_slave.tga

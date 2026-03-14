@@ -337,7 +337,7 @@ texture_variants
 		ferghana		##standard_ferghana.tga
 		daesitiates		##standard_daesitiates.tga
 		slave			##standard_slave.tga
-		troezen			##standard_troezen.tga
+		troezen			##standard_slave.tga
 		persis			##standard_slave.tga
 		psyllia			##standard_slave.tga
 		lesser_armenia	##standard_slave.tga
