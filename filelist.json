@@ -17685,7 +17685,7 @@
 	},
 	{
 		"filename": "data\/descr_banners.txt",
-		"checksum": 2531492580
+		"checksum": 2856185877
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
@@ -17693,7 +17693,7 @@
 	},
 	{
 		"filename": "data\/descr_building_battle.txt",
-		"checksum": 3565048411
+		"checksum": 3604385710
 	},
 	{
 		"filename": "data\/descr_building_battle\/dbb_barbarian_invasion.txt",
@@ -17789,7 +17789,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 421763687
+		"checksum": 2989847138
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -45953,6 +45953,10 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/romans_senate.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/faction_icons\/romans_united.tga",
 		"checksum": "Blacklisted"
 	},
 	{
