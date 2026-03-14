@@ -14392,7 +14392,6 @@ building temple_of_hunting
 
 
 				taxable_income_bonus bonus 7
-				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 3
 				weapon_missile bonus 3
@@ -14473,7 +14472,6 @@ building temple_of_hunting
 
 
 				taxable_income_bonus bonus 7
-				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 5
 				weapon_missile bonus 3
@@ -14554,7 +14552,6 @@ building temple_of_hunting
 
 
 				taxable_income_bonus bonus 7
-				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 5
 				weapon_missile bonus 3
@@ -17707,7 +17704,6 @@ building temple_of_victory
 				taxable_income_bonus bonus 7
 				recruit "warband woad briton"  1
 				recruit "warband hurler briton"  1
-				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 3
 				recruits_exp_bonus bonus 2
@@ -17790,7 +17786,6 @@ building temple_of_victory
 				taxable_income_bonus bonus 7
 				recruit "warband woad briton"  1
 				recruit "warband hurler briton"  1
-				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 4
 				recruits_exp_bonus bonus 3
@@ -17873,7 +17868,6 @@ building temple_of_victory
 				taxable_income_bonus bonus 7
 				recruit "warband woad briton"  1
 				recruit "warband hurler briton"  1
-				recruit "druids"  0
 				recruit "celtic berserker"  0
 				happiness_bonus bonus 5
 				recruits_exp_bonus 3
