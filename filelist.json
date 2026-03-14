@@ -14552,6 +14552,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/characters\/textures\/greek_levy_pikeman_slave.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/characters\/textures\/greek_light_lancer.tga.dds",
 		"checksum": "Blacklisted"
 	},
@@ -17737,7 +17741,7 @@
 	},
 	{
 		"filename": "data\/descr_model_battle.txt",
-		"checksum": 3411732046
+		"checksum": 3971417813
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
@@ -17785,7 +17789,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 2123952243
+		"checksum": 3756970371
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17869,7 +17873,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 2458202313
+		"checksum": 4259044523
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -17881,7 +17885,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 886910767
+		"checksum": 1104878
 	},
 	{
 		"filename": "data\/export_descr_vnvs_enums.txt",
@@ -79260,6 +79264,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/slave\/greek_levy_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/unit_info\/slave\/greek_medium_cavalry_info.tga",
 		"checksum": "Blacklisted"
 	},
@@ -107437,6 +107445,10 @@
 	},
 	{
 		"filename": "data\/ui\/units\/slave\/#greek_hoplite_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/slave\/#greek_levy_pikemen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
