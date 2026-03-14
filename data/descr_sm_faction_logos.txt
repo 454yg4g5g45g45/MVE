@@ -242,7 +242,7 @@ icon	ui/faction_icons/corsi.tga				; 235
 icon	ui/faction_icons/daunians.tga			; 236
 icon	ui/faction_icons/croton.tga				; 237
 icon	ui/faction_icons/felathri.tga			; 238
-icon	ui/faction_icons/romans_unified.tga		; 239
+icon	ui/faction_icons/romans_united.tga		; 239
 icon	ui/faction_icons/bactria.tga			; 240
 icon	ui/faction_icons/slave.tga				; 241	(UNUSED)
 icon	ui/faction_icons/chola.tga				; 242

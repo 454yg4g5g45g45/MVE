@@ -5738,7 +5738,6 @@ building barracks
 				recruit "syro hurrian spearmen"  0
 				recruit "syro hurrian swordsmen" 0
 				;; Carthage Greek Hoplites ;;
-				recruit "merc greek hoplites" 0
 				recruit "spartan medium aichmetai"  0
 
 				;;;;;;;;;;;;;;;;;;;;;   main units    ;;;;;;;;;;;;;;;;;;;;;;
@@ -5963,7 +5962,6 @@ building barracks
 				recruit "syro hurrian spearmen"  0
 				recruit "syro hurrian swordsmen" 0
 				;; Carthage Greek Hoplites ;;
-				recruit "merc greek hoplites" 0
 				recruit "spartan medium aichmetai"  0
 
 				
@@ -6246,7 +6244,6 @@ building barracks
 				recruit "syro hurrian spearmen"  0
 				recruit "syro hurrian swordsmen" 0
 				;; Carthage Greek Hoplites ;;
-				recruit "merc greek hoplites" 0
 				recruit "spartan medium aichmetai"  0
 				recruit "thorax swordsmen hellenic"  0
 
@@ -6544,7 +6541,6 @@ building barracks
 				recruit "syro hurrian spearmen"  0
 				recruit "syro hurrian swordsmen" 0
 				;; Carthage Greek Hoplites ;;
-				recruit "merc greek hoplites" 0
 				recruit "spartan medium aichmetai"  0
 				recruit "thorax swordsmen hellenic"  0
 				
@@ -9761,7 +9757,6 @@ building taverns
 
 building temple_of_religion
 {
-	tag temple
 	icon religion
 	levels temple_of_religion_shrine temple_of_religion_temple temple_of_religion_large_temple temple_of_religion_awesome_temple temple_of_religion_pantheon temple_of_religion_holy_site temple_of_religion_capital
 	{

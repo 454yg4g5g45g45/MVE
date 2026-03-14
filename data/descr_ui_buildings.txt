@@ -131,4 +131,11 @@ lookup_variants
 	temple_of_horse_2_large_temple large_temple
 	temple_of_horse_2_awesome_temple awesome_temple
 	temple_of_horse_2_pantheon pantheon
+	temple_of_religion_shrine shrine
+	temple_of_religion_temple temple
+	temple_of_religion_large_temple large_temple
+	temple_of_religion_awesome_temple awesome_temple
+	temple_of_religion_pantheon pantheon
+	temple_of_religion_holy_site pantheon
+	temple_of_religion_capital pantheon
 }
