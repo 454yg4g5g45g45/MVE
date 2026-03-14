@@ -17753,7 +17753,7 @@
 	},
 	{
 		"filename": "data\/descr_namelists.txt",
-		"checksum": 2445883026
+		"checksum": 730641402
 	},
 	{
 		"filename": "data\/descr_names_lookup.txt",
@@ -17785,11 +17785,11 @@
 	},
 	{
 		"filename": "data\/descr_sm_faction_logos.txt",
-		"checksum": 4126327587
+		"checksum": 1016455864
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 1535057142
+		"checksum": 421763687
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17817,7 +17817,7 @@
 	},
 	{
 		"filename": "data\/descr_ui_buildings.txt",
-		"checksum": 665438126
+		"checksum": 3315258373
 	},
 	{
 		"filename": "data\/descr_unit_variation.txt",
@@ -17873,7 +17873,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 213993026
+		"checksum": 715196368
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -18265,6 +18265,230 @@
 	},
 	{
 		"filename": "data\/menu\/overview.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_acarnania.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_acarnania_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_acarnania_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_acarnania_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_agyrion.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_agyrion_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_agyrion_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_agyrion_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_aleria.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_aleria_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_aleria_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_aleria_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_arcadia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_arcadia_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_arcadia_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_arcadia_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_budini.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_budini_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_budini_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_budini_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_catiaroi.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_catiaroi_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_catiaroi_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_catiaroi_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_felathri.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_felathri_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_felathri_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_felathri_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_frentani.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_frentani_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_frentani_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_frentani_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_ionia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_ionia_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_ionia_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_ionia_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_pylos.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_pylos_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_pylos_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_pylos_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_rhegion.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_rhegion_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_rhegion_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_rhegion_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_tarchuna.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_tarchuna_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_tarchuna_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_tarchuna_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_veii.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_veii_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_veii_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_veii_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_viesul.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_viesul_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_viesul_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/_unused\/symbol128_viesul_select.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -21724,6 +21948,22 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_romans_united.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_romans_united_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_romans_united_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_romans_united_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_roxolani.tga",
 		"checksum": "Blacklisted"
 	},
@@ -22697,14 +22937,6 @@
 	},
 	{
 		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_volsci_select.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/menu\/textures\/#arrow.tga.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/menu\/textures\/#arrow_distance.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -44724,18 +44956,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/faction_icons\/_unused\/acarnania.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/faction_icons\/_unused\/arcadia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/faction_icons\/_unused\/pylos.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/faction_icons\/acarnania.tga",
 		"checksum": "Blacklisted"
 	},
@@ -44877,10 +45097,6 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/bastarnae.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/faction_icons\/bastarnians.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -45270,10 +45486,6 @@
 	{
 		"filename": "data\/ui\/faction_icons\/greuthungi.tga",
 		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/faction_icons\/gude-2026-02-19.log",
-		"checksum": 2235660826
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/gutones.tga",
@@ -45680,10 +45892,6 @@
 		"checksum": "Blacklisted"
 	},
 	{
-		"filename": "data\/ui\/faction_icons\/picts.tga",
-		"checksum": "Blacklisted"
-	},
-	{
 		"filename": "data\/ui\/faction_icons\/pontus.tga",
 		"checksum": "Blacklisted"
 	},
@@ -45745,10 +45953,6 @@
 	},
 	{
 		"filename": "data\/ui\/faction_icons\/romans_senate.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/ui\/faction_icons\/romans_unified.tga",
 		"checksum": "Blacklisted"
 	},
 	{
