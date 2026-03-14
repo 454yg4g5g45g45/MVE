@@ -14015,7 +14015,7 @@
 			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
 		},
 
-		"available in custom battles": true,
+		"available in custom battles": false,
 		"prefer naval invasions": false,
 		"default religion": "germanic",
 		"default battle ai personality": "default_personality",
@@ -15598,7 +15598,7 @@
 			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
 		},
 
-		"available in custom battles": true,
+		"available in custom battles": false,
 		"prefer naval invasions": false,
 		"default religion": "celtic",
 		"default battle ai personality": "default_personality",
@@ -17799,7 +17799,7 @@
 			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
 		},
 
-		"available in custom battles": true,
+		"available in custom battles": false,
 		"prefer naval invasions": false,
 		"default religion": "arab",
 		"default battle ai personality": "default_personality",
@@ -18406,7 +18406,7 @@
 			"defeat": "data/fmv/lose/egyptians_eliminated.wmv",
 		},
 
-		"available in custom battles": true,
+		"available in custom battles": false,
 		"prefer naval invasions": true,
 		"default religion": "dravidian",
 		"default battle ai personality": "default_personality",
@@ -18631,7 +18631,7 @@
 			"defeat": "data/fmv/lose/egyptians_eliminated.wmv",
 		},
 
-		"available in custom battles": true,
+		"available in custom battles": false,
 		"prefer naval invasions": false,
 		"default religion": "indian",
 		"default battle ai personality": "default_personality",
@@ -19085,7 +19085,7 @@
 			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
 		},
 
-		"available in custom battles": true,
+		"available in custom battles": false,
 		"prefer naval invasions": false,
 		"default religion": "scythian",
 		"default battle ai personality": "default_personality",
@@ -19766,7 +19766,7 @@
 			"defeat": "data/fmv/lose/armenia_eliminated.wmv",
 		},
 
-		"available in custom battles": true,
+		"available in custom battles": false,
 		"prefer naval invasions": false,
 		"default religion": "armenian",
 		"default battle ai personality": "default_personality",
@@ -19848,7 +19848,7 @@
 			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
 		},
 
-		"available in custom battles": true,
+		"available in custom battles": false,
 		"prefer naval invasions": false,
 		"default religion": "celtic",
 		"default battle ai personality": "default_personality",
