@@ -5570,12 +5570,13 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 310, 150, 40, 50, 310
-ownership        macedon, seleucid, egypt, epirus, bactria
+ownership        macedon, seleucid, egypt, epirus, bactria, slave
 ethnicity macedon, Macedonia
 ethnicity seleucid, Syria
 ethnicity egypt, Nile_Delta
 ethnicity epirus, Epirus
 ethnicity bactria, Bactria
+ethnicity slave, Macedonia
 
  
 type             greek pikemen

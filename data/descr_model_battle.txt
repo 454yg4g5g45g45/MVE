@@ -6991,12 +6991,14 @@ tired Tired
 aged 0.00
 pbr_texture data/characters/textures/greek_levy_pikeman_pbr.tga
 pbr_texture seleucid, data/characters/textures/greek_levy_pikeman_seleucid_pbr.tga
-texture data/characters/textures/greek_levy_pikeman.tga
+texture data/characters/textures/greek_levy_pikeman_slave.tga
+texture macedon, data/characters/textures/greek_levy_pikeman.tga
 texture seleucid, data/characters/textures/greek_levy_pikeman_seleucid.tga
 texture egypt, data/characters/textures/greek_levy_pikeman_egypt.tga
 texture pontus, data/characters/textures/greek_levy_pikeman_pontus.tga
 texture epirus, data/characters/textures/greek_levy_pikeman_epirus.tga
 texture bactria, data/characters/textures/greek_levy_pikeman_bactria.tga
+texture slave, data/characters/textures/greek_levy_pikeman_slave.tga
 model African data/characters/greek_levy_pikeman_African
 model seleucid, African data/characters/greek_levy_pikeman_seleucid_African
 no_variation model African data/characters/greek_levy_pikeman_African_no_variation
