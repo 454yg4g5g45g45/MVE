@@ -17745,7 +17745,7 @@
 	},
 	{
 		"filename": "data\/descr_model_strat.txt",
-		"checksum": 3769873408
+		"checksum": 2520475608
 	},
 	{
 		"filename": "data\/descr_mount.txt",
@@ -17789,11 +17789,11 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 2989847138
+		"checksum": 2396421747
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
-		"checksum": 905393389
+		"checksum": 3216067500
 	},
 	{
 		"filename": "data\/descr_sm_major_events.txt",
@@ -111448,6 +111448,10 @@
 		"checksum": 2715582006
 	},
 	{
+		"filename": "data\/world\/maps\/base\/gude-2026-03-14.log",
+		"checksum": 1671165936
+	},
+	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
 		"checksum": "Blacklisted"
 	},
@@ -111609,7 +111613,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 3361744806
+		"checksum": 1756423258
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script_backup.txt",
