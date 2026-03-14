@@ -19815,7 +19815,7 @@
 			"rebel standard index": 20,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
-			"logo index":       70,
+			"logo index":       20,
 			"rebel logo index": 20,
 
 			;;flag models to be used on the strat map when a settlement is unoccupied
