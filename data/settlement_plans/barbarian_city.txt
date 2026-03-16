@@ -168,14 +168,14 @@ barbarian_city_collision,	0,	0,	0,	0
 ; SLOTS
 
 slot_plaza_barbarian_32x32m,	0,	0,	0,	16
-slot_112x64_market_barbarian,	74.81,	74.57,	-45,	16
-slot_112x64_religious_barbarian,	52.422,	-38.121,	-89,	16
+slot_112x64_market,	74.81,	74.57,	-45,	16
+slot_112x64_religious,	52.422,	-38.121,	-89,	16
 slot_160x128_core_building,	-204.38,	-211.41,	-45,	-0
-slot_112x64_barracks_barbarian,	-66.315,	-48.319,	178,	16
-slot_48x32_smith_barbarian,	-262.992,	-271.057,	-45,	0
-slot_48x32_equestrian_barbarian,	129.207,	-6.994,	85,	16
+slot_112x64_barracks,	-66.315,	-48.319,	178,	16
+slot_48x32_smith,	-262.992,	-271.057,	-45,	0
+slot_48x32_equestrian,	129.207,	-6.994,	85,	16
 slot_112x64_taverns,	-269.79,	-45.96,	-90,	0
-slot_112x64_missiles_barbarian,	30.39,	271.48,	-180,	0
+slot_112x64_missiles,	30.39,	271.48,	-180,	0
 
 
 

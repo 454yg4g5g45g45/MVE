@@ -256,14 +256,14 @@ gateway_slot_into_flat_town,	-512.00,	-64.00,	180.00,	0.00
 ; SLOTS
 
 
-slot_160x128_religious_barbarian,	193.38,	233.15,	0.00,	0.00
-slot_160x128_market_barbarian,	-264.53,	-28.78,	-180.00,	0.00
-slot_112x64_missiles_barbarian,	-374.34,	-151.90,	0.00,	0.00
-slot_256x96_equestrian_barbarian,	24.00,	-223.37,	90.00,	-0.00
+slot_160x128_religious,	193.38,	233.15,	0.00,	0.00
+slot_160x128_market,	-264.53,	-28.78,	-180.00,	0.00
+slot_112x64_missiles,	-374.34,	-151.90,	0.00,	0.00
+slot_256x96_equestrian,	24.00,	-223.37,	90.00,	-0.00
 slot_256x192_core_building,	194.83,	1.49,	-90.00,	-0.00
-slot_112x64_barracks_barbarian,	-205.47,	135.70,	-35.00,	0.00
-slot_112x64_academic_barbarian,	-344.94,	242.92,	-125.00,	0.00
-slot_48x32_smith_barbarian,	-207.30,	-230.28,	-90.00,	0.00
+slot_112x64_barracks,	-205.47,	135.70,	-35.00,	0.00
+slot_112x64_academic,	-344.94,	242.92,	-125.00,	0.00
+slot_48x32_smith,	-207.30,	-230.28,	-90.00,	0.00
 slot_plaza_barbarian_128x128m,	-22.86,	0.00,	-90.00,	0.00
 
 ; COLLISION

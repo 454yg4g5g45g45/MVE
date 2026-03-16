@@ -243,15 +243,15 @@ barbarian_large_city_collision, 0, 0, 0, 0
 
 ; SLOTS
 
-slot_112x64_barracks_barbarian,	-341.49,	-187.19,	-92.90,	-0.00
-slot_160x128_market_barbarian,	293.93,	-90.35,	-180.00,	0.00
-slot_160x128_religious_barbarian,	-186.24,	50.67,	0.00,	0.00
-slot_48x32_smith_barbarian,	-106.54,	-312.57,	90.00,	0.00
-slot_48x32_academic_barbarian,	117.64,	90.28,	-90.00,	0.00
+slot_112x64_barracks,	-341.49,	-187.19,	-92.90,	-0.00
+slot_160x128_market,	293.93,	-90.35,	-180.00,	0.00
+slot_160x128_religious,	-186.24,	50.67,	0.00,	0.00
+slot_48x32_smith,	-106.54,	-312.57,	90.00,	0.00
+slot_48x32_academic,	117.64,	90.28,	-90.00,	0.00
 slot_256x192_core_building,	-105.93,	229.65,	0.00,	-0.00
 slot_plaza_barbarian_128x128m,	-9.48,	20.23,	0.00,	0.00
-slot_112x64_missiles_barbarian,	340.92,	-235.46,	90.00,	0.00
-slot_112x64_equestrian_barbarian,	267.58,	274.11,	-90.00,	0.00
+slot_112x64_missiles,	340.92,	-235.46,	90.00,	0.00
+slot_112x64_equestrian,	267.58,	274.11,	-90.00,	0.00
 
 ; BUILDINGS
 BI_barn,	-281.79,	34.04,	-179.70,	0.00
