@@ -1808,7 +1808,7 @@ monitor_event CitySacked
 	end_if
 
 	if FactionType libya
-		add_religion Libyan local 5
+		add_religion Numidian local 5
 	end_if
 
 	if FactionType illyria
@@ -2540,7 +2540,7 @@ monitor_event CitySacked
 	end_if
 
 	if FactionType garamantes
-		add_religion Libyan local 5
+		add_religion Numidian local 5
 	end_if
 
 	if FactionType massylii
@@ -2552,7 +2552,7 @@ monitor_event CitySacked
 	end_if
 
 	if FactionType nasamones
-		add_religion Libyan local 5
+		add_religion Numidian local 5
 	end_if
 
 	if FactionType gerrha
@@ -2835,7 +2835,7 @@ monitor_event EnslavePopulation
 	end_if
 
 	if FactionType libya
-		add_religion Libyan local 25
+		add_religion Numidian local 25
 	end_if
 
 	if FactionType illyria
@@ -3567,7 +3567,7 @@ monitor_event EnslavePopulation
 	end_if
 
 	if FactionType garamantes
-		add_religion Libyan local 25
+		add_religion Numidian local 25
 	end_if
 
 	if FactionType massylii
@@ -3579,7 +3579,7 @@ monitor_event EnslavePopulation
 	end_if
 
 	if FactionType nasamones
-		add_religion Libyan local 25
+		add_religion Numidian local 25
 	end_if
 
 	if FactionType gerrha
@@ -3858,7 +3858,7 @@ monitor_event ExterminatePopulation
 	end_if
 
 	if FactionType libya
-		add_religion Libyan local 50
+		add_religion Numidian local 50
 	end_if
 
 	if FactionType illyria
@@ -4590,7 +4590,7 @@ monitor_event ExterminatePopulation
 	end_if
 
 	if FactionType garamantes
-		add_religion Libyan local 50
+		add_religion Numidian local 50
 	end_if
 
 	if FactionType massylii
@@ -4602,7 +4602,7 @@ monitor_event ExterminatePopulation
 	end_if
 
 	if FactionType nasamones
-		add_religion Libyan local 50
+		add_religion Numidian local 50
 	end_if
 
 	if FactionType gerrha
