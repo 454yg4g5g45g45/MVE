@@ -426,8 +426,8 @@
 
 			"family tree":
 			{
-				"background":      [  154, 32,  255, ],
-				"font":            [  255, 204, 63,  ],
+				"background":      [  52,  10,  53,  ],
+				"font":            [  255, 255, 255, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -501,8 +501,8 @@
 
 			"family tree":
 			{
-				"background":      [  255, 255, 140, ],
-				"font":            [  0,   0,   0,   ],
+				"background":      [  154, 117, 57,  ],
+				"font":            [  255, 255, 255, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -575,7 +575,7 @@
 
 			"family tree":
 			{
-				"background":      [  155, 128, 128, ],
+				"background":      [  85,  82,  80,  ],
 				"font":            [  255, 255, 255, ],
 
 				"selected line":   [  255, 255, 255, ],
@@ -3741,7 +3741,7 @@
 			"loading screen icon": "data/ui/faction_icons/persis.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       25,
+			"standard index":       20,
 			"rebel standard index": 25,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
@@ -3815,7 +3815,7 @@
 			"loading screen icon": "data/ui/faction_icons/gedrosia.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       25,
+			"standard index":       20,
 			"rebel standard index": 25,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
@@ -3891,7 +3891,7 @@
 			"loading screen icon": "data/ui/faction_icons/antiochea_taocene.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       25,
+			"standard index":       20,
 			"rebel standard index": 25,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
@@ -9713,7 +9713,7 @@
 			"loading screen icon": "data/ui/faction_icons/teion.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       23,
+			"standard index":       20,
 			"rebel standard index": 23,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
@@ -17003,7 +17003,7 @@
 			"loading screen icon": "data/ui/faction_icons/psyllia.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       22,
+			"standard index":       20,
 			"rebel standard index": 22,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
@@ -17024,8 +17024,8 @@
 
 			"family tree":
 			{
-				"background":      [  0,   0,   0,   ],
-				"font":            [  255, 255, 255, ],
+				"background":      [  101, 121, 22,   ],
+				"font":            [  188, 82, 47, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -17099,8 +17099,8 @@
 
 			"family tree":
 			{
-				"background":      [  0,   0,   0,   ],
-				"font":            [  255, 255, 255, ],
+				"background":      [  166, 122, 87,   ],
+				"font":            [  36,  65,  45, ],
 
 				"selected line":   [  255, 255, 255, ],
 				"unselected line": [  200, 187, 187, ],
@@ -19728,7 +19728,7 @@
 			"loading screen icon": "data/ui/faction_icons/lesser_armenia.tga",
 
 			;;standard index as declared in descr_standards (4 per page)
-			"standard index":       23,
+			"standard index":       20,
 			"rebel standard index": 23,
 
 			;;logo index as declared in descr_sm_faction_logos (1 per page)
