@@ -17673,7 +17673,7 @@
 	},
 	{
 		"filename": "data\/data_controlled_variables.json",
-		"checksum": 348086880
+		"checksum": 1761429983
 	},
 	{
 		"filename": "data\/descr_aerial_map_ground_types.txt",
@@ -17685,7 +17685,7 @@
 	},
 	{
 		"filename": "data\/descr_banners.txt",
-		"checksum": 2856185877
+		"checksum": 1726041069
 	},
 	{
 		"filename": "data\/descr_beliefs.txt",
@@ -17693,7 +17693,7 @@
 	},
 	{
 		"filename": "data\/descr_building_battle.txt",
-		"checksum": 3604385710
+		"checksum": 4256454720
 	},
 	{
 		"filename": "data\/descr_building_battle\/dbb_barbarian_invasion.txt",
@@ -17777,7 +17777,7 @@
 	},
 	{
 		"filename": "data\/descr_rebel_factions.txt",
-		"checksum": 3163217908
+		"checksum": 903235873
 	},
 	{
 		"filename": "data\/descr_settlement_plan.txt",
@@ -17785,11 +17785,11 @@
 	},
 	{
 		"filename": "data\/descr_sm_faction_logos.txt",
-		"checksum": 1016455864
+		"checksum": 2738494052
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 225846523
+		"checksum": 1063548302
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -17821,6 +17821,10 @@
 	},
 	{
 		"filename": "data\/descr_unit_variation.txt",
+		"checksum": 3516482803
+	},
+	{
+		"filename": "data\/descr_unit_variation_gc.txt",
 		"checksum": 524961634
 	},
 	{
@@ -17873,7 +17877,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 3305020392
+		"checksum": 1683264560
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -18064,6 +18068,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/loading_screen\/loading_screen_19.dds",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/loading_screen\/loading_screen_2.dds",
 		"checksum": "Blacklisted"
 	},
@@ -18093,34 +18101,6 @@
 	},
 	{
 		"filename": "data\/loading_screen\/loading_screen_9.dds",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/loading_screen\/symbols\/egypt.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/loading_screen\/symbols\/symbol128_armenia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/loading_screen\/symbols\/symbol128_carthage.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/loading_screen\/symbols\/symbol128_egypt.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/loading_screen\/symbols\/symbol128_numidia.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/loading_screen\/symbols\/symbol128_seleucid.tga",
-		"checksum": "Blacklisted"
-	},
-	{
-		"filename": "data\/loading_screen\/symbols\/symbol128_slave.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -31809,15 +31789,15 @@
 	},
 	{
 		"filename": "data\/settlement_plans\/barbarian_city.txt",
-		"checksum": 2622806892
+		"checksum": 7965381
 	},
 	{
 		"filename": "data\/settlement_plans\/barbarian_huge_city.txt",
-		"checksum": 2427260262
+		"checksum": 1873011924
 	},
 	{
 		"filename": "data\/settlement_plans\/barbarian_large_city.txt",
-		"checksum": 1361555676
+		"checksum": 540676396
 	},
 	{
 		"filename": "data\/settlement_plans\/barbarian_large_town.txt",
@@ -111452,6 +111432,10 @@
 		"checksum": 1671165936
 	},
 	{
+		"filename": "data\/world\/maps\/base\/map.rwm",
+		"checksum": 4056149319
+	},
+	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
 		"checksum": "Blacklisted"
 	},
@@ -111629,7 +111613,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 3547356916
+		"checksum": 2008727926
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
