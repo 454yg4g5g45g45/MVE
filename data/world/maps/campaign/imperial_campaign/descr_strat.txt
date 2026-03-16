@@ -14683,7 +14683,7 @@ settlement
 	region Malaca_R
 
 	year_founded 0
-	population 1500
+	population 1000
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -14701,7 +14701,7 @@ settlement
 	region Carteia_R
 
 	year_founded 0
-	population 1400
+	population 900
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -14795,7 +14795,7 @@ settlement
 	region Ossonoba_R
 
 	year_founded 0
-	population 1000
+	population 700
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -35966,7 +35966,7 @@ character_record		Leukon Ilercavoni, 	male, command 0, influence 0, management 0
 relative 	Lucco Ilercavoni, 	Iseulta,		Leukon Ilercavoni,	end
 
 faction	ilergetes, iberian_passive
-denari	600
+denari	500
 settlement
 {
 	level town
@@ -46244,7 +46244,7 @@ denari	200
 
 faction	samnites, greek_passive
 dead_until_resurrected
-denari	200
+denari	100
 
 faction	umbri, greek_passive
 dead_until_resurrected
@@ -46263,8 +46263,8 @@ denari	-2000
 ;------------------------- 4$& Slave Faction --------------------------
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	slave, balanced_rebel
-denari	-18889998
+faction	slave, balaned_rebel
+denari	-17899999
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;             SETTLEMENTS                ;;;;;
