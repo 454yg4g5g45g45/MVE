@@ -46121,7 +46121,7 @@ relative 	Adamanthaleus of Epardus, 	Arxa,		Herakles of Epardus,	    Synges of E
 
 
 faction	lesser_armenia, eastern_passive
-denari	378
+denari	370
 settlement
 {
 	level town
@@ -46147,7 +46147,7 @@ settlement
 	region Dasteira_R
 
 	year_founded 0
-	population 810
+	population 600
 	plan_set default_set
 	faction_creator pontus
 	building
@@ -46169,6 +46169,7 @@ character	Toros Kananatsi, named character, leader, age 39, , x 482, y 333
 traits GoodCommander 2, GoodAdministrator 4, GoodTrader 2, GoodInfantryGeneral 2
 army
 unit		east generals cavalry early		exp 4 armour 1 weapon_lvl 1
+unit		merc greek hoplites					exp 1 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 1
 
@@ -46178,7 +46179,7 @@ traits GoodCommander 3, GoodAdministrator 4, GoodTrader 2, Intelligent 1, Auster
 army
 unit		east generals cavalry early		exp 5 armour 1 weapon_lvl 1
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
+unit		merc greek hoplites					exp 1 armour 0 weapon_lvl 0
 unit		merc greek hoplites					exp 0 armour 0 weapon_lvl 0
 unit		east archer					exp 0 armour 0 weapon_lvl 1
 
@@ -46224,7 +46225,7 @@ denari	-2400
 
 faction	akragas, greek_passive
 dead_until_resurrected
-denari	50
+denari	40
 
 faction	italiotes, greek_passive
 dead_until_resurrected
@@ -46232,7 +46233,7 @@ denari	-1000
 
 faction	lucani, greek_passive
 dead_until_resurrected
-denari	-1100
+denari	-1200
 
 faction	paeligni, greek_passive
 dead_until_resurrected
@@ -46240,7 +46241,7 @@ denari	-1000
 
 faction	sabines, greek_passive
 dead_until_resurrected
-denari	200
+denari	100
 
 faction	samnites, greek_passive
 dead_until_resurrected
