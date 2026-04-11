@@ -6,6 +6,7 @@
 
 # Allow text & strings files
 !*.txt
+!*.tga
 !*.strings
 
 # Ignore known heavy Rome Remastered assets explicitly
